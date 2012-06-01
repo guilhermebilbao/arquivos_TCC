@@ -1,0 +1,54 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.53 }
+
+\bibitem[Autor 1995]{ref5}
+\abntrefinfo{Autor}{AUTOR}{1995a}
+{AUTOR, N. \emph{Título}: Subtítudo, que vem depois de dois pontos. São Paulo:
+  Editora, 1995.}
+
+\bibitem[Autor 1995]{ref3}
+\abntrefinfo{Autor}{AUTOR}{1995b}
+{AUTOR, N. Título do artigo.
+\emph{A Folha de S.~Paulo}, São Paulo, p. 11--23, 7 set. 1995.}
+
+\bibitem[Conceitos criados como exemplo 2003]{ref9}
+\abntrefinfo{Conceitos\ldots}{CONCEITOS\ldots}{2003}
+{CONCEITOS criados como exemplo.
+2003.
+Dispon{\'\i}vel em: $<$http://nomedodominio.com.br$>$. Acesso em: 8 mar. 1999.}
+
+\bibitem[Evans et al. 1987]{ref7}
+\abntrefinfo{Evans et al.}{EVANS et al.}{1987}
+{EVANS, X. Y.~Z. et al. \emph{Exemplo de citação no texto}. [S.l.: s.n.],
+  1987.}
+
+\bibitem[Miyoshi e Sanches 2006]{sanches}
+\abntrefinfo{Miyoshi e Sanches}{MIYOSHI; SANCHES}{2006}
+{MIYOSHI, E.~M.; SANCHES, C. \emph{Projetos de Sistemas de Rádio}. 3. ed. São
+  Paulo: Érica, 2006.}
+
+\bibitem[Nome do artigo 1995]{ref2}
+\abntrefinfo{Nome\ldots}{NOME\ldots}{1995}
+{NOME do artigo.
+\emph{A Folha de S.~Paulo}, São Paulo, p.~4, 2 abr. 1995.}
+
+\bibitem[Nome 1978]{ref6}
+\abntrefinfo{Nome}{NOME}{1978}
+{NOME, O. \emph{Algum nome}. [S.l.: s.n.], 1978. 101-114~p.}
+
+\bibitem[Silva 2003]{ref8}
+\abntrefinfo{Silva}{SILVA}{2003}
+{SILVA, X.~Y. \emph{T\'{\i}tulo de exemplo}.
+[S.l.], 2003. Dispon{\'\i}vel em: $<$http://nomedodominio.com.br$>$. Acesso em:
+  8 mar. 1999.}
+
+\bibitem[T\'{\i}tulo do Artigo 1987]{ref4}
+\abntrefinfo{T\'{\i}tulo\ldots}{T\'{I}TULO\ldots}{1987}
+{T\'{I}TULO do Artigo.
+\emph{Nome da revista}, Rio de Janeiro, n.~35, p. 51--60, jan. 1987.}
+
+\end{thebibliography}
