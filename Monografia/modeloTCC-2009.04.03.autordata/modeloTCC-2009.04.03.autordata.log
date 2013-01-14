@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  1 JUN 2012 09:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  20 DEC 2012 09:52
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -268,99 +268,110 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip57
 \dth@everypar=\toks24
 )
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+\c@r@tfl@t=\count103
+\rotFPtop=\skip58
+\rotFPbot=\skip59
+\rot@float@box=\box52
+\rot@mess@toks=\toks25
+)
 (./arquivos_para_alterar/a00-personalizar.sty
 Package: ./arquivos_para_alterar/a00-personalizar 
-\c@teorema=\count103
-\c@exemplo=\count104
-\c@observacao=\count105
-\c@definicao=\count106
+\c@teorema=\count104
+\c@exemplo=\count105
+\c@observacao=\count106
+\c@definicao=\count107
 )
 (./arquivos_para_alterar/a01-folhaderosto.sty
 Package: ./arquivos_para_alterar/a01-folhaderosto 
 )
-(./modeloTCC-2009.04.03.autordata.aux)
+(./modeloTCC-2009.04.03.autordata.aux
+
+LaTeX Warning: Label `nmt' multiply defined.
+
+)
 \openout1 = `modeloTCC-2009.04.03.autordata.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 55.
-
-(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 56.
+ (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \big@size=\dimen116
 
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
+\scratchcounter=\count108
 \scratchdimen=\dimen117
-\scratchbox=\box52
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count110
+\scratchbox=\box53
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count111
 \MPscratchDim=\dimen118
-\MPnumerator=\count111
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count112
+\everyMPtoPDFconversion=\toks27
 ) (./arquivos_para_alterar/a02-configurar.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 94
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 95
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 94
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 95
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 94
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 95
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 94
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 95
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 94.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 95.
 
-Underfull \hbox (badness 5217) in paragraph at lines 94--94
+Underfull \hbox (badness 5217) in paragraph at lines 95--95
 \OT1/ptm/m/n/12 como parte das ati-vi-da-des para obten[][]ao
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--94
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 \OT1/ptm/m/n/12 do t[]^^Ptulo de tecn[]ologo em sis-te-mas de
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 94--94
+Underfull \hbox (badness 7963) in paragraph at lines 95--95
 \OT1/ptm/m/n/12 telecomunica[][]oes do Ins-ti-tuto Fe-de-ral de
  []
 
@@ -371,9 +382,9 @@ Underfull \hbox (badness 7963) in paragraph at lines 94--94
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 129.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 129.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 130.
 
 (./arquivos_para_alterar/a04-dedicatoria.tex) [3
 
@@ -399,61 +410,169 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
  [7
 
 ]
-(./arquivos_para_alterar/a09-introducao.tex)
-(./arquivos_para_alterar/a10-desenvolvimento.tex [8
+(./arquivos_para_alterar/a09-introducao.tex
+Overfull \hbox (3.58344pt too wide) in paragraph at lines 5--8
+\OT1/ptm/m/n/12 baseando-se num cen[]ario real. Co-lo-car em pr[]atica os co-nh
+e-ci-men-tos ob-ti-dos das recomenda[][]oes,
+ []
+
+) (./arquivos_para_alterar/a10-desenvolvimento.tex [8
 
 
 ]
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
+<./figuras/nmt1_v2.pdf, id=31, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
 
-Overfull \hbox (7.86687pt too wide) in paragraph at lines 28--31
-[]\OT1/ptm/m/n/10.95 Essas on-das ele-tro-magn[]eticas caracterizam-se pe-los c
-am-pos el[]etrico e magn[]etico
+<use ./figuras/nmt1_v2.pdf> [9
+
+] [10 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>]
+Cap\'{\i }tulo 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 31.
+
+Overfull \hbox (6.93105pt too wide) in paragraph at lines 34--40
+\OT1/ptm/m/n/12 telecomunica[][]oes re-gu-lar-mente au-to-ri-za-dos e re-du-zir
+ pos-si-bi-li-da-des de da-nos f[]^^Psicos []a popula[][]ao.
  []
 
-[9
-
-] <./figuras/ondaeletromagnetica.jpg, id=34, 395.4775pt x 207.77625pt>
-File: ./figuras/ondaeletromagnetica.jpg Graphic file (type jpg)
-
-<use ./figuras/ondaeletromagnetica.jpg> [10 <./figuras/ondaeletromagnetica.jpg>
-]
-Cap\'{\i }tulo 2.
 [11
 
-] [12] [13] [14]) [15]
+]
 Cap\'{\i }tulo 3.
+<./figuras/google1.png, id=48, 1371.1225pt x 770.88pt>
+File: ./figuras/google1.png Graphic file (type png)
+
+<use ./figuras/google1.png> [12
+
+ <./figuras/google1.png (PNG copy)>]
+File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt1_v2.pdf> [13]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+
+Overfull \hbox (8.03235pt too wide) in paragraph at lines 186--188
+[]\OT1/ptm/m/n/12 Confome []e apre-sen-tado na norma, as cur-vas E(50,50) s[]ao
+ uti-li-za-das para cal-cu-lar as dist[]ancias
+ []
+
+[14] [15] [16] [17] [18] [19]
+<./figuras/e5050.jpg, id=78, 597.23125pt x 643.40375pt>
+File: ./figuras/e5050.jpg Graphic file (type jpg)
+
+<use ./figuras/e5050.jpg>
+Overfull \hbox (22.54153pt too wide) in paragraph at lines 352--353
+ [][] 
+ []
+
+<./figuras/e5010.jpg, id=79, 604.2575pt x 673.51625pt>
+File: ./figuras/e5010.jpg Graphic file (type jpg)
+
+<use ./figuras/e5010.jpg>
+Overfull \hbox (28.16255pt too wide) in paragraph at lines 359--360
+ [][] 
+ []
+
+[20] [21 <./figuras/e5050.jpg>] [22 <./figuras/e5010.jpg>]
+Cap\'{\i }tulo 4.
+File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
+<use ./figuras/nmt1_v2.pdf>
+<./figuras/nmt2_v2.pdf, id=89, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt2_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt2_v2.pdf>
+<./figuras/nmt3_v2.pdf, id=90, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt3_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt3_v2.pdf>
+<./figuras/nmt4_v2.pdf, id=91, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt4_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt4_v2.pdf>
+<./figuras/nmt5_v2.pdf, id=92, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt5_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt5_v2.pdf>
+<./figuras/nmt6_v2.pdf, id=93, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt6_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt6_v2.pdf>
+<./figuras/nmt7_v2.pdf, id=94, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt7_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt7_v2.pdf>
+<./figuras/nmt8_v2.pdf, id=95, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt8_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt8_v2.pdf>
+<./figuras/nmt9_v2.pdf, id=96, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt9_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt9_v2.pdf>
+<./figuras/nmt10_v2.pdf, id=97, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt10_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt10_v2.pdf>
+<./figuras/nmt11_v2.pdf, id=98, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt11_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt11_v2.pdf>
+<./figuras/nmt12_v2.pdf, id=99, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt12_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt12_v2.pdf>) [23
+
+] [24 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
+f, page is rotated 90 degrees>] [25 <./figuras/nmt4_v2.pdf, page is rotated 90 
+degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [26 <./figuras/nm
+t6_v2.pdf, page is rotated 90 degrees> <./figuras/nmt7_v2.pdf, page is rotated 
+90 degrees>] [27 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
+/nmt9_v2.pdf, page is rotated 90 degrees>]
+[28 <./figuras/nmt10_v2.pdf, page is rotated 90 degrees> <./figuras/nmt11_v2.pd
+f, page is rotated 90 degrees>] [29 <./figuras/nmt12_v2.pdf, page is rotated 90
+ degrees>]
+Cap\'{\i }tulo 5.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [16
+(./modeloTCC-2009.04.03.autordata.bbl [30
 
 ])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[17
+[31
 
-] (./modeloTCC-2009.04.03.autordata.aux) ) 
+] (./modeloTCC-2009.04.03.autordata.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2936 strings out of 495041
- 40977 string characters out of 1181898
- 93786 words of memory out of 3000000
- 5983 multiletter control sequences out of 15000+50000
- 32450 words of font info for 67 fonts, out of 3000000 for 9000
+ 3133 strings out of 495041
+ 44185 string characters out of 1181898
+ 144031 words of memory out of 3000000
+ 6154 multiletter control sequences out of 15000+50000
+ 51856 words of font info for 113 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 30i,8n,41p,425b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/d
-vips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive
-/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/ti
-mes/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (17 pages, 117392 bytes).
+ 35i,9n,41p,395b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/urw/symbol/usyr.pfb
+></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-t
+exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
+urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on modeloTCC-2009.04.03.autordata.pdf (31 pages, 1950898 bytes).
+
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 222 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
