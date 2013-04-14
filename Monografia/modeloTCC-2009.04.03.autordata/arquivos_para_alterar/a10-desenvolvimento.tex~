@@ -1,35 +1,74 @@
 
 
-
-\chapter{ PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF) } 
+\chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF)}
 
 O PBFM foi aprovado em 12 de novembro de 1998, através da Resolução nº67 (referencia), e nele constam os canais FM previstos para uso,
  em todo o território nacional.
+ aixa de radiodifusão sonora em freqüência modulada estende-se de 87,8 a 107,9 MHz, e é 
+dividida em 103 canais (os canais 198,199 e 200 são para uso exclusivo das estações de ROADCOM), cujas portadoras estão separadas de 200 kHz. Cada canal é identificado por sua frequência central,
+ que é a freqüência da portadora da estação de FM. A cada canal é atribuído um número de 198 a 300.
 
-\section{Canalização}
+\section{CANALIZAÇÃO}
 
-A faixa de radiodifusão sonora em freqüência modulada estende-se de 87,8 a 108 MHz, e é 
-dividida em 101 canais, cujas portadoras estão separadas de 200 kHz. Cada canal é identificado por sua freqüência central, que é a
- freqüência da portadora da estação de FM. A cada canal é atribuído um número de 200 a 300.%, conforme indicado na Tabela 1.
+A tabela de Canalização da Faixa de FM atual foi publicada na RESOLUÇÂO N°546, DE 1° DE SETEMBRO DE 2010, que altera o Regulamento Técnico para Emissoras de Rádiodifusão Sonora em Frequência
+Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da RESOLUÇÃO e apresenta a faixa de frequência para cada canal FM definido pelo Plano Básico. 
 
-Este projeto tem como objetivo criar uma documentação técnica que reuna todos os requisitos necessários para que uma emissora de rádio possa ser 
-homologada pela ANATEL (de acordo com a Resolução N° 67) e, assim, ser utilizada comercialmente.
-
-Para isto, estamos usando como base para um estudo em cenário real a cidade de São Pedro de Alcântara. Esta localidade foi escolhida para
-este projeto pois existe um canal, dentro do plano básico, que atualmente está livre para locação.
-O canal 218 está situado na frequência de 91,5 Mhz e classificado na classe C (classificação das emissoras).
-
-\begin{figure}[!htb]
+\def\tablename{Tabela}
+\begin{table}
+\vspace*{0.05cm}
 \centering
-\includegraphics[scale=.5]{./figuras/nmt1_v2.pdf}  
-\caption{Gráfico NMR usando o recurso da SIGANATEL (Radial 1)}
-\label{nmt}
-\end{figure}
 
- 
+\begin{tabular}{|c|c|c|c|c|c|} \hline
 
-\chapter{RESOLUÇÃO Nº 67, DE 12 DE NOVEMBRO DE 1998  }
+FREQUÊNCIA & CANAL & FREQUÊNCIA & CANAL & FREQUÊNCIA & CANAL\\
+ (MHz)&  & (MHz) &  & (MHz) &  \\ \hline
+87,5 & 198 & 94,5 & 233 & 101,5 & 268\\
+87,7 & 199 & 94,7 & 234 & 101,7 & 269\\
+87,9 & 200 & 94,9 & 235 & 101,9 & 270\\
+88,1 & 201 & 95,1 & 236 & 102,1 & 271\\
+88,3 & 202 & 95,3 & 237 & 102,3 & 272\\
+88,5 & 203 & 95,5 & 238 & 102,5 & 273\\
+88,7 & 204 & 95,7 & 239 & 102,7 & 274\\
+88,9 & 205 & 95,9 & 240 & 102,9 & 275\\
+89,1 & 206 & 96,1 & 241 & 103,1 & 276\\
+89,3 & 207 & 96,3 & 242 & 103,3 & 277\\
+89,5 & 208 & 96,5 & 243 & 103,5 & 278\\
+89,7 & 209 & 96,7 & 244 & 103,7 & 279\\
+89,9 & 210 & 96,9 & 245 & 103,9 & 280\\
+90,1 & 211 & 97,1 & 246 & 104,1 & 281\\
+90,3 & 212 & 97,3 & 247 & 104,3 & 282\\
+90,5 & 213 & 97,5 & 248 & 104,5 & 283\\
+90,7 & 214 & 97,7 & 249 & 104,7 & 284\\
+90,9 & 215 & 97,9 & 250 & 104,9 & 285\\
+91,1 & 216 & 98,1 & 251 & 105,1 & 286\\
+91,3 & 217 & 98,3 & 252 & 105,3 & 287\\
+91,5 & 218 & 98,5 & 253 & 105,5 & 288\\
+91,7 & 219 & 98,7 & 254 & 105,7 & 289\\
+91,9 & 220 & 98,9 & 255 & 105,9 & 290\\
+92,1 & 221 & 99,1 & 256 & 106,1 & 291\\
+92,3 & 222 & 99,3 & 257 & 106,3 & 292\\
+92,5 & 223 & 99,5 & 258 & 106,5 & 293\\
+92,7 & 224 & 99,7 & 259 & 106,7 & 294\\
+92,9 & 225 & 99,9 & 260 & 106,9 & 295\\
+93,1 & 226 & 100,1 & 261 & 107,1 & 296\\
+93,3 & 227 & 100,3 & 262 & 107,3 & 297\\
+93,5 & 228 & 100,5 & 263 & 107,5 & 298\\
+93,7 & 229 & 100,7 & 264 & 107,7 & 299\\
+93,9 & 230 & 100,9 & 265 & 107,9 & 300\\
+94,1 & 231 & 101,1 & 266 & & \\
+94,3 & 232 & 101,3 & 267 & & \\ \hline
 
+\end{tabular}
+\caption{Canalização da Faixa de FM}
+\label{tabelaCanalizacao}
+\end{table}
+
+
+%\section{PLANEJAMENTO}
+
+%\section{CONSIDERAÇÕES}
+
+\chapter{RESOLUÇÃO Nº 67, DE 12 DE NOVEMBRO DE 1998}
 
 A Resolução nº67 aprova o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequencia Modulada. 
 Tem por objetivo disciplinar a utilização da faixa de 87,8 a 108 MHz, no serviço de radiodifusão sonora em frequência modulada
@@ -38,18 +77,77 @@ Tem por objetivo disciplinar a utilização da faixa de 87,8 a 108 MHz, no serviço
  mínimos para os equipamentos utilizados em radiodifusão sonora em frequência modulada, afim de, além de atender o exposto anterior,
  racionalizar sua produção industrial.
 
-\chapter{ Conceitos Básicos}
+Este é o documento principal que será usado para a realização deste projeto, pois informa todas as especificações mínimas necessárias para que 
+uma emissora de rádio FM possa ser instalada e liberada para iniciar seus serviços. Um fator importante é ficar atento as novas resoluções 
+que atualizam este regulamento, para que o projeto possa atender as novas exigências.
 
-A seguir serão descritos parâmetros básicos muito utilizados nos cálculos, que fazem parte do estudo de viabilidade técnica de emissora. 
 
-\section{ Calculando a altura da antena transmissora}
+***Falar dos mais importantes itens existentes na norma e que serão usados no projeto.***
 
-Um projeto de via bilidade técnica de uma emissora de rádio pode iniciar com os cálculos usados para definir a altura da antena
- transmissora. 
-Para o efetivo início dos cálculos, o projetista já deve ter definido o ponto exato do local onde a antena será fixada 
-(geralmente um local de altitude mais elevada que a localidade destinada à cobertura do sinal de rádio). Através do Google Maps podemos
- verificar o ponto exato onde a antena será fixada (Figura ~\ref{google1}). A partir 
-desta coordenada inicial, vamos buscar os valores que serão usados para calcular a altura da antena.
+\section{RECOMENDAÇÕES}
+
+\subsection{Conceitos básicos}
+
+A seguir serão descritos parâmetros básicos muitos utilizados nos cálculos.
+
+\subsubsection{Nível médio do terreno}
+
+\subsubsection{Altura acima do nível médio do terreno}
+
+\subsubsection{Altura da antena transmissora}
+
+\subsubsection{Curvas E(L,T)}
+
+\section{PARÂMETROS NECESSÁRIOS PARA O CÁLCULO DE VIABILIDADE TÉCNICA}
+
+\subsection{Contorno Protegido}
+
+\subsection{Contornos Interferentes}
+
+\chapter{CANAL PROPOSTO}
+
+\section{CARACTERÍSTICAS BÁSICAS}
+
+\section{NÍVEL MÉDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
+
+\section{ENQUADRAMENTO NA CLASSE}
+
+\section{CONTORNO PROTEGIDO}
+
+\chapter{CÁLCULO DE VIABILIDADE}
+
+\section{SISTEMA IRRADIANTE}
+
+\subsection{Antena}
+
+\subsection{Guia de onda e conectores}
+
+\subsection{Transmissor}
+
+\subsection{Ajustes de equipamentos}
+
+\subsubsection{Potência efetiva irradiada máxima}
+
+\subsubsection{Potência efetiva irradiada por azimute}
+
+\subsubsection{Orientação da antena}
+
+
+\chapter{Projetando a Emissora Fm em São Pedro de Alcântara}
+
+Este projeto tem como objetivo criar uma documentação técnica, que reuna todos os requisitos necessários para que uma emissora de rádio possa ser 
+homologada pela ANATEL, (de acordo com a Resolução N° 67) e, assim, ser utilizada comercialmente.
+
+O que definiu o local de São Pedro de Alcântara como o escolhido para desenvolver este projeto da emissora FM foi, principalmente, o fator "cenário real", proporcionado
+pela disponibilidade do canal 238,na frequência de XXX Mhz e enquadrado na classe C (classificação das emissoras), atráves do plano básico administrado pela ANATEl. A idéia de desenvolver um projeto que poderia ser realmente implantado, foi uma 
+motivação a mais. Todos os cálculos, ítens e materiais, que foram definidos e documentados neste projeto, foram pensados e analisados com os cuidados de uma possível execução no
+ futuro.
+
+Outro ponto, é a relativa facilidade de acesso (São Pedro de Alcântara é um município vizinhho à São José), isto foi importante para verificação e definição do ponto onde ficaria o sistema emissor.
+Ao visitar o local, verificamos que já existia uma antena (moradores informaram que trata-se de uma antena de transmissão de TV analógica) em um terreno no centro do município.
+
+Constatando que existe espaço para uma construção de uma nova torre, partimos do princípio que o local, no centro do município, é o mais indicado para instalar nossa estrutura. Assim, definimos
+ o ponto de origem da emissora, exatamente nas coordenadas (informar latitude e longitude).
 
 \begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
@@ -61,8 +159,39 @@ desta coordenada inicial, vamos buscar os valores que serão usados para calcular
 \label{google1}
 \end{figure}
 
-\subsection{Nivel Médio da Radial e Nivel Médio do Terreno}
+Encontrado o ponto de partida, deu-se início aos cálculos, para definições dos equipamentos e materiais que vão compor a emissora FM.
 
+Nos próximos capítulos, todas os procedimentos, que são necessários para homologar uma emissora junto a ANATEL, serão apresentados, de uma forma pratica e direta.
+
+\section{ PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF) } 
+
+O PBFM foi aprovado em 12 de novembro de 1998, através da Resolução nº67 (referencia), e nele constam os canais FM previstos para uso,
+ em todo o território nacional.
+
+A faixa de radiodifusão sonora em freqüência modulada estende-se de 87,8 a 108 MHz, e é 
+dividida em 101 canais, cujas portadoras estão separadas de 200 kHz. Cada canal é identificado por sua freqüência central, que é a
+ freqüência da portadora da estação de FM. A cada canal é atribuído um número de 200 a 300.
+
+
+\subsection{RESOLUÇÃO Nº 67, DE 12 DE NOVEMBRO DE 1998  }
+
+A Resolução nº67 aprova o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequencia Modulada. 
+Tem por objetivo disciplinar a utilização da faixa de 87,8 a 108 MHz, no serviço de radiodifusão sonora em frequência modulada
+ e em serviços nela executados, para oferecer um serviço de boa qualidade, evitar interferências sobre outros serviços de
+ telecomunicações regularmente autorizados e reduzir possibilidades de danos físicos à população. Para isto, estabelece requisitos
+ mínimos para os equipamentos utilizados em radiodifusão sonora em frequência modulada, afim de, além de atender o exposto anterior,
+ racionalizar sua produção industrial.
+
+
+***Falar dos mais importantes itens existentes na norma e que serão usados no projeto.***
+
+
+
+\section{Nivel Médio da Radial e Nivel Médio do Terreno}
+ 
+
+O ponto previamente definido, como sendo o local onde a antena será fixada, será a origem das radias. Através delas vamos conseguir obter as altitudes do relevo ao redor da base da antena. 
+Esses valores servirão de base para definir todas as características do nosso sistema.
 A norma técnica exige que sejam traçadas ao menos 12 radias com espaçamento angular de 30º e com pelo menos 50 cotas, igualmente
  espaçadas. Para traçar estas radias, usei os mapas disponíveis no site só IBGE (citar fonte)(edição de 08-10-2007), na escala 1:50.000.
 As radiais foram traçadas a partir do ponto (coordenadas)(local da antena) e deve, obrigatóriamente, incluir a direção do norte
@@ -70,10 +199,12 @@ As radiais foram traçadas a partir do ponto (coordenadas)(local da antena) e dev
 
 Após os 12 raios traçados, calcula-se o nível médio radial (NMR) para cada uma delas. O NMR da radial é definido pela média aritimética
  de todas as cotas da radial, que, de acordo com a norma, devem ser compreendidas no trecho entre 3 e 15 quilômetros.
-Para obter esses valores das cotas, 50 valores correspondentes a alturas do terreno dentro da cada radial, existe uma ferramenta
- díponível no portal online da ANATEL, o SIGANATEL (citar fonte)
-Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar esta recurso basta apenas saber os pontos 
-inicial e final de cada radial (coordenadas) e o passo, em metros, desejado para a construção da curva.
+Para obter esses valores das cotas, no caso os 50 valores correspondentes a alturas do terreno dentro da cada radial, existe uma ferramenta
+ díponível no portal online da ANATEL, o SIGANATEL (citar fonte).
+
+Indicar como faz para usar a ferramenta online (cadastro, links, até chegar aos gráficos.)
+Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar esta recurso basta apenas inserir as coordenadas dos pontos 
+inicial e final de cada radial (3KM e 15KM) e o passo, em metros, desejado para a construção da curva (12/quantidade de passos)
 
 Como exemplo, apresento um dos gráficos ( Figura~\ref{nmt})que usei para este estudo, note que usei um passo de 240 metros para cada 
 medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial.
@@ -90,9 +221,9 @@ medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, r
 De posse dos resultados dos NMRs, podemos agora encontrar o nível medio do terreno (NMT), que é a média aritmética das 12 NMRs,
  tornando o terreno simbolicamente plano de altura conhecida. 
 
-Abaixo (Figura~\ref{TabelaNMT}),encontra-se uma tabela com todos os valores encontrados para cada
+Abaixo (Figura~\ref{tabelaNMT}),encontra-se uma tabela com todos os valores encontrados para cada
  coordenada traçada. Esta tabela indica as altidudes encontradas dos 50 pontos ao longo de cada radial, possibilitando obter a média 
-para encontrar o NMR (e consequentemente um NMT de 285,13 metros), como pode ser observado. 
+para encontrar o NMR (e consequentemente um NMT de 288,33 metros), como pode ser observado. 
 
 \def\tablename{Tabela}
 \begin{table}
@@ -158,30 +289,86 @@ Distancia.(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude
 14760 & 300 & 15 & 150 & 19 & 35 & 180 & 70 & 520 & 570 & 760 & 605 & 675 & 324,92\\
 15000 & 280 & 15 & 130 & 25 & 10 & 100 & 55 & 490 & 580 & 800 & 500 & 690 & 306,25\\\hline
 Soma & 7919 & 3673 & 8457 & 8310 & 12523 & 9843 & 7579 & 19740 & 25105 & 28980 & 20605 & 20266 & 14416,66\\\hline
-NMR(m) & 158,38 & 73,46 & 169,14 & 166,2 & 250,46 & 158,38 & 151,58 & 394,8 & 502,1 & 579,6 & 412,1 & 405,32 & 285,13\\ \hline
+NMR(m) & 158,38 & 73,46 & 169,14 & 166,2 & 250,46 & 158,38 & 196,86 & 394,8 & 502,1 & 579,6 & 412,1 & 405,32 & 288,33\\ \hline
 
 
 \end{tabular}
 \end{sideways}
-\label{TabelaNMT}
+\label{tabelaNMT}
 \end{table}
 
+%Os NMR's encontrados neste processo serão usados para obter todos os valores de intensidade de sinal para cada uma das radias.
 
-\subsection{Altura do nível médio do terreno }
 
-Para a utilização das curvas de intensidade de campo, que será posteriormente abordada com maiores detalhes, será necessário obter 
-a altura do nível médio do terreno (HNMT), que é definido através da Expressão: $$ HNMT = HBT + HT - NMT $$. Onde dizer o que cada um representa
 
+\section{Altura do nível médio do terreno }
+
+No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, devemos encontrar o valores de HNMT (Altura do nível médio do terreno) também para cada radial.
+Estes valores serão usados para definir os valores de intensidade do campo, que formarah o contorno protegido de 66dbu.
+Os valores de HNTM serão utilizado as Curvas de Intensidade de Campo, que será posteriormente abordada com maiores detalhes.
+
+O HNTM é definido pela expressão:
+
+$$ HNMT = HBT + (HT + CFSI) - NMT $$, onde:
+
+$HBT$ = Altura da base da torre (Altura do terreno onde será instalada a base da emissora);
+
+$HT$ = Altura da torre;
+
+$CFSI$ = Centro de Fase do Sistema Irradiante,(normalmente este valor já vem pré determinado e varia conforme o número de elementos);
+
+$NMT$ = Nível Médio do Terreno.
+
+Observando a tabela de "CLASSIFICAÇÃO DAS EMISSORAS EM FUNÇÃO DE SEUS REQUISITOS MÁXIMOS", presente na "RESOLUÇÃO N° 546, DE 1° DE SETEMBRO DE 2010", que altera o regulamento técnico original,
+vemos que a altura máxima da antena deve ser de 60 metros acima do nível médio da radial, ou nível médio do terreno. E a resolução ainda nos informa que "Poderão ser utilizadas alturas de antena
+ ou ERP superiores às especificadas nesta TABELA I, desde que não seja ultrapassada, em qualquer direção, a distância máxima ao contorno protegido."
+
+Levando este último parágrafo em consideração, vamos começar a definir a nossa HNTM.
+
+Utilizando o SIGANATEL, informando as coordenadas tal e tal, buscamos a altura do terreno da nossa base, que resultou em 285 metros acima do nível do mar, assim, já temos nosso primeiro parâmetro definido.
+(mostrar imagem do siganatel ou google maps)
+
+$$HBT = 285m$$
+
+Mais um fato curioso, e compreensível, é que o HBT tem um valor muito próximo do já encontrado NMT (288,33 metros), demostrando que o relevo, nas redondezas, tende à manter a mesma altura da
+nossa base. Porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radias. 
+
+Se analisarmos os valores de NMR apresentados na tabela tal, notaremos que a região voltada ao
+ Oeste (Sudoeste - Noroeste) da base emissora, apresenta níveis de altura do terreno maiores que a base, enquanto as outras regiões são todas mais baixas. Os obstáculos atrapalham na propagação do sinal,
+então teremos que fazer um esforço maior nos locais onde os terrenos são mais elevados que a antena, e, ao mesmo tempo, cuidar para que o contorno protegido seja respeitado.
+
+Embora a vida útil de uma torre de estrutura metálica (a mais utilizada) e a de um transmissor, sejam ambas de cerca de 20 anos, o transmissor apresenta, além de um custo de manutenção 
+muito superior ao da torre, alto gasto de energia elétrica, fazendo com que, normalmente, seja mais recomendável o aumento da altura da torre, em vez da potência do transmissor.
+
+*** Terminar as definições dizendo que os 2 elementos foram definidos num processo mais adiantado, viabilidade tambem***
+
+
+
+\section{ Determinação da intensidade do sinal }
+
+A Potência ERP (abreviação, em inglês, para Potência Efetivamente Irradiada) é a potencia final que o sistema irradiante da emissora está transmitindo. A combinação de especificações de alguns elementos
+que fazem parte da emissora de rádio resultam na Potência ERP. Segue sua definição:
+$$ERP = Pt * Gmax * Ef$$, onde:
+
+$Pt$ = potência nominal do transmissor;
  
+$Gmax$ = ganho máximo da antena;
 
-\section{COBERTURA }
+$Ef$ = eficiência do cabo (1/ perda (vezes)).
 
-\subsection{ DETERMINAÇÃO DA INTENSIDADE DE CAMPO DO SINAL }
+Todos estes valores normalmente já são apresentados nas especificações dos equipamentos e materiais que serão usados (transmissores, antenas e cabos coaxiais).
 
-\subsection{ CURVAS DE INTENSIDADE DE CAMPO }
+A norma define os valores máximos de potência irradiada para cada classe. Para a classe C, o valor da intensidade do sinal (ou Potência ERP) não pode ser maior que 0,3 kW, equivalente à
+ -5,2 dBk. 
+Só é permitido usar uma transmissão com uma potencia superior à especificada se não for ultrapassada, em qualquer direção, a distância máxima ao contorno protegido (contorno de 66 dBu),
+ que também ?e definido na tabela de Requisitos Máximos. Apenas para as emissoras de classe C poderá ser permitida a utilização de transmissor com potência nominal inferior a 50 W, conforme
+apresentado na norma.
 
-As curvas E(L,T) são gráficos que representam a intensidade de campo excedida em L\% das localidades e T\% do tempo, para este estudo
- vamos usar dois destes dipos de tabela.
+
+
+\subsection{ Curvas de intensidade de campo }
+
+As curvas E(L,T) são gráficos que representam a intensidade de campo excedida em L\% das localidades e T\% do tempo.
  
 Confome é apresentado na norma, as curvas E(50,50) são utilizadas para calcular as distâncias ao Contorno Protegido e às
  diferentes áreas de serviço; já as curvas E(50,10) são utilizadas para o cálculo dos sinais interferentes. 
@@ -192,14 +379,14 @@ As curvas E (50,50)  (Figura~\ref{e5050}) fornecem os valores de intensidade de 
  onda no espaço livre, que produz uma intensidade de campo não atenuada de 222 mV/m (aproximadamente 107 dBu) a 1 km. (citar a fonte)
 
 
-\subsection{ CÁLCULO DE INTENSIDADE DO SINAL IRRADIADO NA ANTENA TRANSMISSORA}
+\subsection{ Cálculos de intensidades de sinal irradiado}
 
 Conforme a determinação publicada na RESOLUÇÃO N° 546, DE 1º DE SETEMBRO DE 2010, que Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Freqüência Modulada,
  segue os cálculos:
 
 Para determinar a intensidade de campo de uma emissora a uma dada distância,utilizam-se as Tabelas ~\ref{e5050} e ~\ref{e5010} da seguinte forma:
 
-$a)$ selecionar a coluna correspondente à altura do centro geométrico da antena $h1$ sobre o NMR da Radial 1;
+$a)$ selecionar a coluna correspondente à altura do centro geométrico da antena $h1$ sobre o NMR da Radial 0;
 
 $$h1 = hbt - NMT + ha$$
 
@@ -213,14 +400,15 @@ $ha$ é a altura da antena acima do solo em m.
 
 $h1$ = 285m - 158,38 + 20m
 
-$h1$ = 146,62
+$h1$ = 146,62m
 
 %referencia: http://www.teleco.com.br/tutoriais/tutorialredeslte2/pagina_2.asp
 
 $b)$ selecionar a linha correspondente à distância de interesse;
 
-De acordo com a tabela, usei para este valor específico a linha de 150 metros pois considerei que o valor encontrado já estava próximo da curva.
- Caso o valor fique consideravelmente distante da curva deve-se aplicar a seguinte formula:
+ A tabela ~\ref{e5050} não mostra com precisão o valor de intensidade de campo. 
+Para os valores de $h1$ que não estiverem muito bem próximos a uma curva definida na Tabela,deve-se usar a seguinte fórmula 2 (*marcar fórmulas) para encontrar os valores de $E$ 
+para cada Radial:
 
  $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(µV / m)$$
 
@@ -236,32 +424,39 @@ $hinf$ é a altura nominal da antena em $m$, com valor imediatamente inferior a $
 
 $hsup$ é a altura nominal da antena em $m$, com valor imediatamente superior $h1$. 
 
+Apresentarei o cálculo utilizando a fórmula para encontrar o valor de intensidade do campo, para a Radial 0:
+
+ $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(µV / m)$$ 
+
+ $$E =  72dBµ + ( 77dBµ - 72dBµ )log( 146,62m / 75m )/log( 150m / 75m )$$ 
+
+ $$E =  72dBµ + ( 5dBµ )log( 1,955 )/log( 2 )$$ 
+
+ $$E =  72dBµ + ( 5dBµ ) + 2,9dBµ - 3dBµ $$ 
+
+ $$E =  72dBµ + ( 5dBµ ) + 2,9dBµ - 3dBµ $$ 
+
+ $$E =  76,9dBµ $$ 
+
 
 $c)$ a interseção de $a)$ com $b)$, contém o valor da intensidade de campo na distância desejada, em $dBµ$
 , para  uma $ERP$de $1 kW$;
 
-Usando a tabela E(50,50) encontramos o valor de $76 dBµ$, usando a curva de 150 m, e a distância de 7,5 KM no eixo das abscissas (conforme previsto para o contorno protegido da classe C). 
-
+Neste caso, como foi usada a fórmula 2, esta etapa ja foi concluída no item $b)$.
 
 $d)$ adiciona-se ao valor (em $dBµ$) obtido, o valor da $ERP$ na direção de interesse (em $dBk$); 
 este resultado é o valor da intensidade de campo, em $dBµ$, no ponto considerado. 
 
 Minha $ERP$ calculada ficou:
 
-Potencia transmissora = 0.025 Kw, de acordo com a potencia do transmissor TEC 113 (homologado)
-em $dBk = -16dBk$
+Após verificar várias maneiras de aumentar a potência do transmissor, de maneira que não desrespeite o contorno protegido de $66dBµ$, segue minhas deduções para a potência do transmissor:
 
-Ganho de potencia em relação ao dipolo meia onda da antena é definida na especificação da antena Plano terra bobinada 5/8 (verificar o nome) calculada no tamanho:
+ - Utilizando 4 antenas dipolo na torre de transmissão, podemos usar um transmissor de 150W (0,150 KW). Isso foi possível pois as antenas são conectadas em série, distribuindo em partes iguais
+a potência para cada uma delas (37,5 W para cada dipolo da torre), ou seja, $14,25dBk$.
 
-$L = 150 * k/f$
+ - Está definido que a antena (colocar o nome tecnico da antena) proporciona um ganho de $1,5 dB$ para o sistema.
 
-$k = 0.95$ p VHF e $f = 91.5$ (freq de operação)
-
-$L = 150 x 0.95/91.5 = 1,55m$ (tamanho da antena)
-
-e está definido que ela proporciona um ganho de $3 dB$ para o sistema.
-
-Eficiência da linha, basicamente atenua  a transmissão em $-2 dB$ de acordo com os seguintes cálculos:
+ - Eficiência da linha, basicamente atenua  a transmissão em $-2 dB$ de acordo com os seguintes cálculos:
 
 
 $$Pl = ( L x Al ) / 100$$ , onde:
@@ -273,20 +468,27 @@ $Al$ = é a atenuação do guia a cada 100 metros de comp. Em $dB  = 1,13dB$ p/ o c
 
 Entao $Pl = (3,278 x 1,13)/ 100 = 0.037 dB$, então temos a perda total somando $0.037 dB$ com $2dB$ das perdas dos conectores média estabelecida ($2,037 db$).
 
-Aplicando o calculo = $ERP = -16dBk + 3 dB - 2,037 dB = -15 dBk$
+ - Logo, o intensidade do sinal irradiado, Radial 0,  para o contorno 2 será definida por:
+
+   $ERP = -14,25dBk + 1,5dB - 2,037 dB$
+
+   $ERP = -14,78dBk $  (valor de ERP base)
+
+ - Para a Radial 0, de acordo com a antena usada, o valor de $(E/Emax)²$ é $1.00$, então o valor de ERP não sofre alterações para esta direção. 
 
 
-Logo, o intensidade do sinal irradiado da antena transmissora fica:
+Para definir o valor do contorno para a Radial 0, temos que somar a intensidade do campo ( $E = 76,9dBµ $ ) com o valor de ERP  ($ERP = -14,78dBk $ ),
+que totaliza :
 
-$$76 dBµ - 15 dBk = 61 dBµ$$ , à 7,5 Km do ponto central. Para a Radial 1
+$$ ContornoR0 = 76,9 dBµ + (-14,78dBk) = 62,11 dBµ$$ , à 7,5 Km da base.
 
-Assim, esta radial está respeitando a norma que informa, conforme a tabela, que 
-para a classe C , a distancia máxima ao contorno protegido é de $7,5 km$ com a potencia de irradiação de $66 dBm$ no máximo para esta distância.
+Assim, esta radial está respeitando a norma que exige, conforme a tabela, que 
+para a classe C , a distância máxima ao contorno protegido é de $7,5 km$ com a potencia de irradiação de $66 dBm$, no máximo, para esta distância.
 
-Porém, devemos ter uma atenção especial para a radial que apresente a NMR mais baixo em relação a base da antena. No nosso caso, a radial que apresenta este valor é a Radial 2
+Porém, devemos ter uma atenção especial para a radial que apresente a NMR mais baixo em relação a base da antena. No nosso caso, a radial que apresenta este valor é a Radial 1
 com o valor de NMR = 73,46 m. Então vamos repetir os cálculos para esta radial e verificar os resultados.
 
-$a)$ selecionar a coluna correspondente à altura do centro geométrico da antena $h1$ sobre o NMR da Radial 2;
+$a)$ selecionar a coluna correspondente à altura do centro geométrico da antena $h1$ sobre o NMR da Radial 1;
 
 $$h1 = hbt - NMT + ha$$
 
@@ -296,55 +498,50 @@ $h1$ = 231,54
 
 $b)$ selecionar a linha correspondente à distância de interesse;
 
-Como o valor ficou bem distante de 150 ou 300 m aplicarei a fórmula para encontrar o valor:
+Aplicando a fórmula 2 para encontrar o valor:
 
  $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(µV / m)$$
 
- $$E = 76dBµ + ( 82dBµ - 76dBµ )log( 231,54 / 150 )/log( 300 / 150 )-> dB(µV / m)$$
+ $$E = 77dBµ + ( 82dBµ - 77dBµ )log( 231,54 / 150 )/log( 300 / 150 )$$
 
- $$E = 76dBµ + ( 6dBµ  )log( 1,5436 )/log( 2 )-> dB(µV / m)$$
+ $$E = 77dBµ + ( 5dBµ )log( 1,5436 )/log( 2 )$$
 
- OBS: Professor, aqui eu fico na dúvida. o correto é passar os valores para dB ou simplesmente ir multiplicando normalmente?
+ $$E = 77dBµ + 5dBµ + 1,88 dB - 3 dB $$
 
- Vou continuar o cálculo transformnando os valores em db e somando em seguida.
-
- $$E = 76dBµ + 6dBµ + 1,88 dB - 3 dB -> dB(µV / m)$$
-
- $$E = 81 dBµ$$
+ $$E = 80,88 dBµ$$
 
 $c)$ a interseção de $a)$ com $b)$, contém o valor da intensidade de campo na distância desejada, em $dBµ$
 , para  uma $ERP$de $1 kW$;
 
- Temos que pular essa etapa pois já temos o valor encontrado pelo cálculo ( $81 dBµ$ ).
+ Temos que pular essa etapa pois já temos o valor encontrado pelo cálculo ( $80,88 dBµ$ ).
 
 $d)$ adiciona-se ao valor (em $dBµ$) obtido, o valor da $ERP$ na direção de interesse ( em $dBk$ ); 
 este resultado é o valor da intensidade de campo, em $dBµ$, no ponto considerado. 
 
-$ERP$ encontrado anteriormente é $-15 dBk$
+$ERP$ já encontrado anteriormente é $-14,78 dBk$, mas ainda temos que multiplicar com o valor de $(E/Emax)²$ (valor pré informado na tabela do sistema irradiante).
+
+Valor para Radial 1 = $(E/Emax)² = 0,9025$
+
+Para multiplicar, temos que converter para potencia(W):
+
+  $ERP(W) = 10^x, onde x = ERP(dBk)/10$
+  
+  $ERP(W) = 33,26W$
+
+Multiplicando fica:
+
+  $ERPradial1(W) = 33,26(0,9025)$;
+  $ERPradial1(W) = 30,01W$ ,em dBk fica:
+
+  $ERPradial1(dBk) = -15,22dBk$.
 
 Logo, o intensidade do sinal na distância final é:
 
-$81 dBµ - 15 dBk = 66 dBµ$ , para a Radial 2
+$$ ContornoR1 = 80,88 dBµ + (-15,22dBk) = 65,66 dBµ$$ , para a Radial 1
 
-De acordo com a norma, o contorno protegido deve apresentar, no seu limite máximo, a potencia máxima de 66 dBµ, o resultado mostra exatemente este valor. Mas valor de 81 dB e aproximado, 
-então, para tentar baixar um pouco este valor, mudarei a altura da antena de 20 m para 10 m, e veremos o resultado final.
-
-
-$$h1 = hbt - NMT + ha$$
-
-$h1$ = 285m - 73,46 + 10m
-
-$h1$ = 221,54 (valor ainda não poderá ser usado diretamente no gráfico E(50,50))
-
-$$E = 76dBµ + ( 82dBµ - 76dBµ )log( 221,54 / 150 )/log( 300 / 150 )-> dB(µV / m)$$
-
-$$E = 76dBµ + ( 6dBµ ) + 1,69 dB - 3dB -> dB(µV / m)$$
-
-$$E = 81 dBµ$$
-
-Como podemos observar, mudar o tamanho da antena para a metade não resultou numa diferença significativa no resultado de $E$.
-Por outro lado, sabemos que, na radial onde a propagação está mais facilitada, devido ao NMR ser o mais baixo em relação a base, temos no limite do contorno protegido 
-a potencia maxima irradiada autorizada pela norma.
+De acordo com a norma, o contorno protegido deve apresentar, no seu limite máximo, a potencia máxima de $66 dBµ$, o resultado mostra que estamos logo abaixo deste valor. Como esta é
+a Radial em que o sinal consegue se propagar mais livremente, devido ao NMR ser o mais baixo da lista, consequentemente também será o que terá o sinal mais forte, entre as radiais, no limite
+do contorno protegido.
 
 
 \begin{figure}[!htb]
@@ -362,6 +559,59 @@ a potencia maxima irradiada autorizada pela norma.
 \end{figure}
 
 
+\begin{center}
+\def\tablename{Tabela2}
+\begin{table}
+\centering
+\caption{ Contorno das diversas áreas de serviço segundo cada radial }\vspace*{0.05cm}
+\begin{sideways}
+\begin{tabular}{|l|l|l|l|l|l|cc|cc|cc|} \hline
+
+Radiais&NMT&HSMNT&(E/Emax)&Potência&Potência&Contorno 1&&Contorno 2&&Contorno 3&\\ \cline{7-12}
+Azimutes&(m)&(m)&for square&Proposta&Proposta&&&&&&\\     
+(Graus)&&&&Perp(KW)&Perp(dBk)&74 dbu&C1 (Km)&66 dbu&C2 (Km)&54 dbu&C3 (Km)\\ \hline
+0&158,38&189,19&0,6084&0,1482&-8,29&82,29&5,5&74,29&10,3&62,29&21\\
+30&73,46&274,11&0,4761&0,1159&-9,35&83,35&6,2&75,35&12,5&63,35&24\\
+60&169,14&178,46&0,3969&0,0966&-10,14&84,14&5&76,14&10&64,14&18\\
+90&166,2&181,37&0,3844&0,0936&-10,28&84,28&5&76,28&9&64,28&18,5\\
+120&250,46&97,57&0,3969&0,0966&-10,14&84,14&3,6&76,14&8&64,14&12\\
+150&196,86&150,71&0,4761&0,1159&-9,35&83,35&5&75,35&10&63,35&17\\
+180&151,58&195,99&0,6084&0,1482&-8,29&82,29&5,8&74,29&11&62,29&21\\
+210&394,8&-47,23&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\
+240&502,1&-154,53&0,9025&0,2198&-6,57&80,57&1,9&72,57&3,4&60,57&6,9\\
+270&579,1&-231,53&1,00&0,2436&-6,13&80,13&2&72,13&3,5&60,13&7\\
+300&412,1&-64,53&0,9025&0,2198&-6,57&80,57&1,9&72,57&3,4&60,57&6,9\\
+330&405,32&-57,75&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\ \hline
+Valores&&&&&&&&&&&\\
+Médios &288,29&&&&&&&&&&\\\hline
+
+
+
+\end{tabular}
+\end{sideways}
+\end{table}
+\end{center}
+
+
+\section{Definições do estudo}
+
+A norma apresenta um roteiro para a elaboração de estudos técnicos. O roteiro é usado para demostrar a viabilidade técnica da emissora, e pede que ,necessariamente, o estudo deve apresentar
+ as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo.
+
+Segue as informações indispensáveis para o estudo de viabilidade técnica
+
+\subsection{Informações Básicas}
+
+    a) Nome da entidade requerente: ??????
+    b) Localização da emnissora objeto do estudo (cidade,UF): São Pedro de Alcântara, SC
+    c) Propósito do estudo: homolação do projeto da emissora.
+
+\subsubsection{Características técnicas pretendidas}
+
+    a) frequencia de operação: 91,5 MHz
+    b) n° do canal: 218
+    c) classe: C
+    d) tipo de sistema irradiante: Dipolo 1/2 onda para FM 
 
 
 

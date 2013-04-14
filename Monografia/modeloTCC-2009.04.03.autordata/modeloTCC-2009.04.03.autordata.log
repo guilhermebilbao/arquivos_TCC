@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  20 DEC 2012 09:52
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  14 APR 2013 16:46
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -286,11 +286,7 @@ Package: ./arquivos_para_alterar/a00-personalizar
 (./arquivos_para_alterar/a01-folhaderosto.sty
 Package: ./arquivos_para_alterar/a01-folhaderosto 
 )
-(./modeloTCC-2009.04.03.autordata.aux
-
-LaTeX Warning: Label `nmt' multiply defined.
-
-)
+(./modeloTCC-2009.04.03.autordata.aux)
 \openout1 = `modeloTCC-2009.04.03.autordata.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
@@ -306,7 +302,8 @@ LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
 LaTeX Font Info:    ... okay on input line 56.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 56.
- (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \big@size=\dimen116
@@ -403,11 +400,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.88> not available
 (./modeloTCC-2009.04.03.autordata.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 2.
-)
+ [7
+
+])
 \tf@toc=\write3
 \openout3 = `modeloTCC-2009.04.03.autordata.toc'.
 
- [7
+ [8] [9
 
 ]
 (./arquivos_para_alterar/a09-introducao.tex
@@ -416,163 +415,195 @@ Overfull \hbox (3.58344pt too wide) in paragraph at lines 5--8
 e-ci-men-tos ob-ti-dos das recomenda[][]oes,
  []
 
-) (./arquivos_para_alterar/a10-desenvolvimento.tex [8
-
+) (./arquivos_para_alterar/a10-desenvolvimento.tex [10
 
 ]
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 9.
-<./figuras/nmt1_v2.pdf, id=31, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
 
-<use ./figuras/nmt1_v2.pdf> [9
-
-] [10 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>]
-Cap\'{\i }tulo 2.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 31.
-
-Overfull \hbox (6.93105pt too wide) in paragraph at lines 34--40
-\OT1/ptm/m/n/12 telecomunica[][]oes re-gu-lar-mente au-to-ri-za-dos e re-du-zir
- pos-si-bi-li-da-des de da-nos f[]^^Psicos []a popula[][]ao.
+Overfull \hbox (5.81046pt too wide) in paragraph at lines 13--15
+\OT1/ptm/m/n/12 1$[]$ DE SE-TEM-BRO DE 2010, que al-tera o Re-gu-la-mento T[]ec
+nico para Emis-so-ras de R[]adiodifus[]ao
  []
 
 [11
 
-]
+] [12]
+Cap\'{\i }tulo 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 71.
+
+Overfull \hbox (6.93105pt too wide) in paragraph at lines 73--79
+\OT1/ptm/m/n/12 telecomunica[][]oes re-gu-lar-mente au-to-ri-za-dos e re-du-zir
+ pos-si-bi-li-da-des de da-nos f[]^^Psicos []a popula[][]ao.
+ []
+
+[13
+
+] [14]
 Cap\'{\i }tulo 3.
-<./figuras/google1.png, id=48, 1371.1225pt x 770.88pt>
+
+Overfull \hbox (1.50768pt too wide) in paragraph at lines 107--107
+[]\OT1/ptm/b/n/17.28 N[]IVEL M[]EDIO DO TER-RENO E AL-TURA ACIMA DO
+ []
+
+[15
+
+]
+Cap\'{\i }tulo 4.
+[16
+
+]
+Cap\'{\i }tulo 5.
+
+Overfull \hbox (3.37717pt too wide) in paragraph at lines 145--147
+[]\OT1/ptm/m/n/12 Constatando que existe espa[]o para uma constru[][]ao de uma 
+nova torre, par-ti-mos do princ[]^^Ppio
+ []
+
+<./figuras/google1.png, id=57, 1371.1225pt x 770.88pt>
 File: ./figuras/google1.png Graphic file (type png)
 
-<use ./figuras/google1.png> [12
+<use ./figuras/google1.png> [17
 
- <./figuras/google1.png (PNG copy)>]
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 172.
+
+Overfull \hbox (6.93105pt too wide) in paragraph at lines 174--180
+\OT1/ptm/m/n/12 telecomunica[][]oes re-gu-lar-mente au-to-ri-za-dos e re-du-zir
+ pos-si-bi-li-da-des de da-nos f[]^^Psicos []a popula[][]ao.
+ []
+
+[18 <./figuras/google1.png (PNG copy)>]
+<./figuras/nmt1_v2.pdf, id=64, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
 
-<use ./figuras/nmt1_v2.pdf> [13]
+<use ./figuras/nmt1_v2.pdf>
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 233.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 106.
-
-Overfull \hbox (8.03235pt too wide) in paragraph at lines 186--188
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 233.
+ [19] [20] [21 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>] [22]
+Overfull \hbox (8.03235pt too wide) in paragraph at lines 369--371
 []\OT1/ptm/m/n/12 Confome []e apre-sen-tado na norma, as cur-vas E(50,50) s[]ao
  uti-li-za-das para cal-cu-lar as dist[]ancias
  []
 
-[14] [15] [16] [17] [18] [19]
-<./figuras/e5050.jpg, id=78, 597.23125pt x 643.40375pt>
+[23] [24] [25] [26] [27]
+<./figuras/e5050.jpg, id=103, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050.jpg>
-Overfull \hbox (22.54153pt too wide) in paragraph at lines 352--353
+Overfull \hbox (22.54153pt too wide) in paragraph at lines 545--546
  [][] 
  []
 
-<./figuras/e5010.jpg, id=79, 604.2575pt x 673.51625pt>
+<./figuras/e5010.jpg, id=104, 604.2575pt x 673.51625pt>
 File: ./figuras/e5010.jpg Graphic file (type jpg)
 
 <use ./figuras/e5010.jpg>
-Overfull \hbox (28.16255pt too wide) in paragraph at lines 359--360
+Overfull \hbox (28.16255pt too wide) in paragraph at lines 552--553
  [][] 
  []
 
-[20] [21 <./figuras/e5050.jpg>] [22 <./figuras/e5010.jpg>]
-Cap\'{\i }tulo 4.
+
+LaTeX Warning: Float too large for page by 31.44392pt on input line 588.
+
+[28] [29] [30 <./figuras/e5050.jpg>] [31 <./figuras/e5010.jpg>]
+Cap\'{\i }tulo 6.
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
 <use ./figuras/nmt1_v2.pdf>
-<./figuras/nmt2_v2.pdf, id=89, 845.1575pt x 597.23125pt>
+<./figuras/nmt2_v2.pdf, id=118, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt2_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt2_v2.pdf>
-<./figuras/nmt3_v2.pdf, id=90, 845.1575pt x 597.23125pt>
+<./figuras/nmt3_v2.pdf, id=119, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt3_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt3_v2.pdf>
-<./figuras/nmt4_v2.pdf, id=91, 845.1575pt x 597.23125pt>
+<./figuras/nmt4_v2.pdf, id=120, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt4_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt4_v2.pdf>
-<./figuras/nmt5_v2.pdf, id=92, 845.1575pt x 597.23125pt>
+<./figuras/nmt5_v2.pdf, id=121, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt5_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt5_v2.pdf>
-<./figuras/nmt6_v2.pdf, id=93, 845.1575pt x 597.23125pt>
+<./figuras/nmt6_v2.pdf, id=122, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt6_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt6_v2.pdf>
-<./figuras/nmt7_v2.pdf, id=94, 845.1575pt x 597.23125pt>
+<./figuras/nmt7_v2.pdf, id=123, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt7_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt7_v2.pdf>
-<./figuras/nmt8_v2.pdf, id=95, 845.1575pt x 597.23125pt>
+<./figuras/nmt8_v2.pdf, id=124, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt8_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt8_v2.pdf>
-<./figuras/nmt9_v2.pdf, id=96, 845.1575pt x 597.23125pt>
+<./figuras/nmt9_v2.pdf, id=125, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt9_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt9_v2.pdf>
-<./figuras/nmt10_v2.pdf, id=97, 845.1575pt x 597.23125pt>
+<./figuras/nmt10_v2.pdf, id=126, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt10_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt10_v2.pdf>
-<./figuras/nmt11_v2.pdf, id=98, 845.1575pt x 597.23125pt>
+<./figuras/nmt11_v2.pdf, id=127, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt11_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt11_v2.pdf>
-<./figuras/nmt12_v2.pdf, id=99, 845.1575pt x 597.23125pt>
+<./figuras/nmt12_v2.pdf, id=128, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt12_v2.pdf Graphic file (type pdf)
 
-<use ./figuras/nmt12_v2.pdf>) [23
+<use ./figuras/nmt12_v2.pdf>) [32
 
-] [24 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
-f, page is rotated 90 degrees>] [25 <./figuras/nmt4_v2.pdf, page is rotated 90 
-degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [26 <./figuras/nm
+] [33 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
+f, page is rotated 90 degrees>] [34 <./figuras/nmt4_v2.pdf, page is rotated 90 
+degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [35 <./figuras/nm
 t6_v2.pdf, page is rotated 90 degrees> <./figuras/nmt7_v2.pdf, page is rotated 
-90 degrees>] [27 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
+90 degrees>] [36 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
 /nmt9_v2.pdf, page is rotated 90 degrees>]
-[28 <./figuras/nmt10_v2.pdf, page is rotated 90 degrees> <./figuras/nmt11_v2.pd
-f, page is rotated 90 degrees>] [29 <./figuras/nmt12_v2.pdf, page is rotated 90
+[37 <./figuras/nmt10_v2.pdf, page is rotated 90 degrees> <./figuras/nmt11_v2.pd
+f, page is rotated 90 degrees>] [38 <./figuras/nmt12_v2.pdf, page is rotated 90
  degrees>]
-Cap\'{\i }tulo 5.
+Cap\'{\i }tulo 7.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [30
+(./modeloTCC-2009.04.03.autordata.bbl [39
 
 ])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[31
+[40
 
-] (./modeloTCC-2009.04.03.autordata.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+] (./modeloTCC-2009.04.03.autordata.aux) ) 
 Here is how much of TeX's memory you used:
- 3133 strings out of 495041
- 44185 string characters out of 1181898
- 144031 words of memory out of 3000000
- 6154 multiletter control sequences out of 15000+50000
- 51856 words of font info for 113 fonts, out of 3000000 for 9000
+ 3168 strings out of 495041
+ 44682 string characters out of 1181898
+ 144977 words of memory out of 3000000
+ 6184 multiletter control sequences out of 15000+50000
+ 61363 words of font info for 134 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 35i,9n,41p,395b,251s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/urw/symbol/usyr.pfb
-></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-t
-exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
-urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
-b>
-Output written on modeloTCC-2009.04.03.autordata.pdf (31 pages, 1950898 bytes).
+ 35i,9n,41p,395b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-texlive/fonts/enc/d
+vips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+-texlive/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-texlive/fonts/type1/
+urw/times/utmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pf
+b></usr/share/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-
+texlive/fonts/type1/urw/times/utmri8a.pfb>
+Output written on modeloTCC-2009.04.03.autordata.pdf (40 pages, 1973889 bytes).
 
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
+ 252 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
