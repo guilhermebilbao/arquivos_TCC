@@ -30,6 +30,5 @@
 \contentsline {subsubsection}{Pot\^encia efetiva irradiada m\'axima (ERPmax)}{24}
 \contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERP)}{30}
 \contentsline {subsubsection}{Orienta\c c\~ao da antena}{30}
-\contentsline {chapter}{\numberline {5}Figuras}{32}
-\contentsline {chapter}{\numberline {6}Considera\c c\~oes Finais}{39}
-\contentsline {chapter}{Refer\^encias}{40}
+\contentsline {chapter}{\numberline {5}Considera\c c\~oes Finais}{32}
+\contentsline {chapter}{Refer\^encias}{33}

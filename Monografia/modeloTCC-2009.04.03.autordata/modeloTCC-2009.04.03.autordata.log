@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  25 APR 2013 01:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  25 APR 2013 14:55
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -280,6 +280,12 @@ Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
+(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks26
+\verbatim@line=\toks27
+\verbatim@in@stream=\read1
+)
 (./arquivos_para_alterar/a00-personalizar.sty
 Package: ./arquivos_para_alterar/a00-personalizar 
 \c@teorema=\count104
@@ -293,19 +299,19 @@ Package: ./arquivos_para_alterar/a01-folhaderosto
 (./modeloTCC-2009.04.03.autordata.aux)
 \openout1 = `modeloTCC-2009.04.03.autordata.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 58.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -319,60 +325,60 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \scratchbox=\box53
 \nofMPsegments=\count109
 \nofMParguments=\count110
-\everyMPshowfont=\toks26
+\everyMPshowfont=\toks28
 \MPscratchCnt=\count111
 \MPscratchDim=\dimen118
 \MPnumerator=\count112
-\everyMPtoPDFconversion=\toks27
+\everyMPtoPDFconversion=\toks29
 ) (./arquivos_para_alterar/a02-configurar.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 96
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 97
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 96
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 97
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 96
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 97
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 96
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 97
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 96.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 97.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 96.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 97.
 
-Underfull \hbox (badness 5217) in paragraph at lines 96--96
+Underfull \hbox (badness 5217) in paragraph at lines 97--97
 \OT1/ptm/m/n/12 como parte das ati-vi-da-des para obten[][]ao
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 \OT1/ptm/m/n/12 do t[]^^Ptulo de tecn[]ologo em sis-te-mas de
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 96--96
+Underfull \hbox (badness 7963) in paragraph at lines 97--97
 \OT1/ptm/m/n/12 telecomunica[][]oes do Ins-ti-tuto Fe-de-ral de
  []
 
@@ -383,9 +389,9 @@ Underfull \hbox (badness 7963) in paragraph at lines 96--96
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 131.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 132.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 131.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 132.
 
 (./arquivos_para_alterar/a04-dedicatoria.tex) [3
 
@@ -420,18 +426,14 @@ e-ci-men-tos ob-ti-dos das recomenda[][]oes,
  []
 
 
-Overfull \hbox (3.37717pt too wide) in paragraph at lines 19--21
+Overfull \hbox (3.37717pt too wide) in paragraph at lines 24--27
 []\OT1/ptm/m/n/12 Constatando que existe espa[]o para uma constru[][]ao de uma 
 nova torre, par-ti-mos do princ[]^^Ppio
  []
 
-<./figuras/google1.png, id=34, 1371.1225pt x 770.88pt>
-File: ./figuras/google1.png Graphic file (type png)
+) (./arquivos_para_alterar/a10-desenvolvimento.tex [10
 
-<use ./figuras/google1.png>) (./arquivos_para_alterar/a10-desenvolvimento.tex
-[10
-
-] [11 <./figuras/google1.png (PNG copy)>]
+] [11]
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
@@ -464,7 +466,7 @@ Cap\'{\i }tulo 3.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 188.
 
-<./figuras/tabelaClassificacaoEmissoras.png, id=64, 861.2175pt x 412.54124pt>
+<./figuras/tabelaClassificacaoEmissoras.png, id=63, 861.2175pt x 412.54124pt>
 File: ./figuras/tabelaClassificacaoEmissoras.png Graphic file (type png)
 
 <use ./figuras/tabelaClassificacaoEmissoras.png> [18
@@ -475,7 +477,7 @@ Overfull \hbox (1.50768pt too wide) in paragraph at lines 210--210
  []
 
 [19 <./figuras/tabelaClassificacaoEmissoras.png>]
-<./figuras/nmt1_v2.pdf, id=74, 845.1575pt x 597.23125pt>
+<./figuras/nmt1_v2.pdf, id=73, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt1_v2.pdf>
@@ -487,7 +489,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 Cap\'{\i }tulo 4.
 [24
 
-] [25] [26] [27] <./figuras/e5050.jpg, id=107, 597.23125pt x 643.40375pt>
+] [25] [26] [27] <./figuras/e5050.jpg, id=106, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050.jpg>
@@ -495,7 +497,7 @@ Overfull \hbox (22.54153pt too wide) in paragraph at lines 548--549
  [][] 
  []
 
-<./figuras/e5010.jpg, id=108, 604.2575pt x 673.51625pt>
+<./figuras/e5010.jpg, id=107, 604.2575pt x 673.51625pt>
 File: ./figuras/e5010.jpg Graphic file (type jpg)
 
 <use ./figuras/e5010.jpg>
@@ -506,101 +508,40 @@ Overfull \hbox (28.16255pt too wide) in paragraph at lines 555--556
 
 LaTeX Warning: Float too large for page by 31.44392pt on input line 591.
 
-[28] [29] [30 <./figuras/e5050.jpg>] [31 <./figuras/e5010.jpg>]
+) [28] [29] [30 <./figuras/e5050.jpg>] [31 <./figuras/e5010.jpg>]
 Cap\'{\i }tulo 5.
-File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
-<use ./figuras/nmt1_v2.pdf>
-<./figuras/nmt2_v2.pdf, id=122, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt2_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt2_v2.pdf>
-<./figuras/nmt3_v2.pdf, id=123, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt3_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt3_v2.pdf>
-<./figuras/nmt4_v2.pdf, id=124, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt4_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt4_v2.pdf>
-<./figuras/nmt5_v2.pdf, id=125, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt5_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt5_v2.pdf>
-<./figuras/nmt6_v2.pdf, id=126, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt6_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt6_v2.pdf>
-<./figuras/nmt7_v2.pdf, id=127, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt7_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt7_v2.pdf>
-<./figuras/nmt8_v2.pdf, id=128, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt8_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt8_v2.pdf>
-<./figuras/nmt9_v2.pdf, id=129, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt9_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt9_v2.pdf>
-<./figuras/nmt10_v2.pdf, id=130, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt10_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt10_v2.pdf>
-<./figuras/nmt11_v2.pdf, id=131, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt11_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt11_v2.pdf>
-<./figuras/nmt12_v2.pdf, id=132, 845.1575pt x 597.23125pt>
-File: ./figuras/nmt12_v2.pdf Graphic file (type pdf)
-
-<use ./figuras/nmt12_v2.pdf>) [32
-
-] [33 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
-f, page is rotated 90 degrees>] [34 <./figuras/nmt4_v2.pdf, page is rotated 90 
-degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [35 <./figuras/nm
-t6_v2.pdf, page is rotated 90 degrees> <./figuras/nmt7_v2.pdf, page is rotated 
-90 degrees>] [36 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
-/nmt9_v2.pdf, page is rotated 90 degrees>]
-[37 <./figuras/nmt10_v2.pdf, page is rotated 90 degrees> <./figuras/nmt11_v2.pd
-f, page is rotated 90 degrees>] [38 <./figuras/nmt12_v2.pdf, page is rotated 90
- degrees>]
-Cap\'{\i }tulo 6.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [39
+(./modeloTCC-2009.04.03.autordata.bbl [32
 
 ])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[40
+[33
 
-] (./modeloTCC-2009.04.03.autordata.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./modeloTCC-2009.04.03.autordata.aux) ) 
 Here is how much of TeX's memory you used:
- 3226 strings out of 495041
- 45441 string characters out of 1181898
- 144074 words of memory out of 3000000
- 6238 multiletter control sequences out of 15000+50000
+ 3181 strings out of 495041
+ 44450 string characters out of 1181898
+ 144594 words of memory out of 3000000
+ 6203 multiletter control sequences out of 15000+50000
  54189 words of font info for 118 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  35i,9n,41p,395b,280s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/symbol/usyr.pfb></usr/shar
-e/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/font
-s/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/u
-tmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (40 pages, 2025515 bytes).
-
+{/usr/share/texmf-texlive/fonts/enc/d
+vips/base/8r.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-texlive/fo
+nts/type1/urw/symbol/usyr.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/u
+tmb8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/sha
+re/texmf-texlive/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on modeloTCC-2009.04.03.autordata.pdf (33 pages, 476796 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
