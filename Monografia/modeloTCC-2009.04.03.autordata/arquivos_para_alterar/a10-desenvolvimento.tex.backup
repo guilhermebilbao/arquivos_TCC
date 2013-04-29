@@ -160,7 +160,7 @@ Utilizando os métodos mencionados, vamos calcular os valores necessários para qu
 \subsection{Contorno Protegido}
 
 O contorno protegido é a distância entre a antena transmissora até o local geométrico onde a intensidade de campo E(50,50) apresenta o valor de 
-66 $dBµV /m$, para um canal de rádio FM. A resolução define, através da ultima alteração (resolução nº 546), que , para a classe C, a distância máxima ao
+$66 dBµV /m$, para um canal de rádio FM. A resolução define, através da ultima alteração (resolução nº 546), que , para a classe C, a distância máxima ao
 contorno protegido é de 7,5 KM, a partir da base da antena transmissora. 
 
 \subsection{Contornos Interferentes}
@@ -326,32 +326,31 @@ Os NMR's encontrados neste processo serão usados para obter todos os valores de 
 
 \subsection{Altura Acima do Nível Médio do Terrreno}
 
-No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, devemos encontrar o valores de HNMT (Altura do nível médio do terreno)
+No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, podemos encontrar o valores de HSNMT (Altura do nível médio do terreno)
  também para cada radial.
-Estes valores serão usados para definir os valores de intensidade do campo, que formarah o contorno protegido de $66 dBµ$
-Os valores de $HNTM$ serão utilizado as Curvas de Intensidade de Campo, que será posteriormente abordada com maiores detalhes.
+Estes valores serão usados para definir os valores de intensidade do campo, que formará o contorno protegido de $66 dBµ$
+Os valores de $HSNTM$ serão aplicados posteriormente nas Curvas de Intensidade de Campo, que será abordada com maiores detalhes mais à frente.
 
-O HNTM é definido pela expressão:
+O HSNTM é definido pela expressão:
 
-$$ HNMT = HBT + (HT + CFSI) - NMT $$, onde:
+$$ HSNMT = CBT + HCGSI - NMT $$, onde:
 
-$HBT$ = Altura da base da torre (Altura do terreno onde será instalada a base da emissora);
+$CBT$ = Altura da base da torre (Altura do terreno onde será instalada a base da emissora);
 
-$HT$ = Altura da torre;
-
-$CFSI$ = Centro de Fase do Sistema Irradiante,(normalmente este valor já vem pré determinado e varia conforme o número de elementos);
+$HCGSI$= Altura da torre, somado com o Centro de Fase do Sistema Irradiante;
 
 $NMT$ = Nível Médio do Terreno.
 
-Levando em consideração as observações apresentadas no enquadramento de classe, vamos começar a definir a nossa HNTM.
+%Levando em consideração as observações apresentadas no enquadramento de classe, vamos começar a definir a nossa HNTM.
 
 Utilizando o SIGANATEL, informando as coordenadas tal e tal, buscamos a altura do terreno da nossa base, que resultou em $285 m$ acima do nível do mar. Assim,
  já temos nosso primeiro parâmetro definido.
-(mostrar imagem do siganatel ou google maps)
 
-$$HBT = 285m$$
+***(mostrar imagem do siganatel ou google maps)
 
-Mais um fato curioso, e compreensível, é que o HBT tem um valor muito próximo do já encontrado NMT (288,33 m), demostrando que o relevo, nas redondezas, tende
+$$CBT = 285m$$
+
+Mais um fato curioso, e compreensível, é que o CBT tem um valor muito próximo do já encontrado NMT ($288,33 m$), demostrando que o relevo, nas redondezas, tende
  à manter a mesma altura da
 nossa base. Porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radias.
 
@@ -363,10 +362,45 @@ então teremos que fazer um esforço maior nos locais onde os terrenos são mais el
 Embora a vida útil de uma torre de estrutura metálica (a mais utilizada) e a de um transmissor, sejam ambas de cerca de 20 anos, o transmissor apresenta, além de um custo de manutenção
 muito superior ao da torre, alto gasto de energia elétrica, fazendo com que, normalmente, seja mais recomendável o aumento da altura da torre, em vez da potência do transmissor.
 
+Sendo assim, sabendo que a emissora está localizada em uma área de relevo acidentado e com radias apresentado um NMR mais elevado que a base, ficará definida a altura da torre
+ em 60 metros. Esta é a altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. Usando este critério 
+ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, à longo prazo.
+
+Para definir a $HCGSI$, precisamos ainda obter o valor da altura do Centro de Fase do Sistema Irradiante. Este valor é encontrado nas especificações da antena que será usada no projeto
+ e varia conforme o número de elementos usados na estrutura do sistema irradiante. 
+Este definição será melhor explicada no tópico específico sobre antena, mais à frente.
+
+Para concluir este cálculo, vamos buscar o valor faltante na especificação
+da antena definida para este projeto (será usada uma  Dipolo $1/2$ Onda, para FM, do fabricante IDEAL, conforme ANEXO II).
+De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequencia de  $98.1 Mhz$, que é
+a mais aproximado da nossa ($95,5 Mhz$), o centro de fase do sistema fica em $2315mm$, ou $2,315m$. Efetuando-se a soma entre a altura da torre e a altura do Centro de Fase do Sistema Irradiante
+teremos o seguinte valor: 
+
+$$HCGSI = 60m + 2,315m = 62,315m$$ 
+
+Agora já temos definidas todas as variáveis que compõem nossa equação, ficou assim:
+
+$$HSNMT = 285m + 62,315m - 288,33 m$$
+
+$$HSNMT ? 59m $$
+
+  
 
 \section{CONTORNO PROTEGIDO}
 
+Como mencionado anteriromente, o contorno protegido de uma estação de rádio Fm corresponde ao lugar
+geométrico onde a intensidade de campo do sinal apresentar o valor de $66 dBµ$ ($2 mV/m$)(Contorno 2). 
+Este contorno tem como finalidade atender a Área de Serviço Urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
+as demais áreas de serviços, a Área de Serviço Primária (Contorno 1), limitada pelo contorno de $74 dBµ$ ($5 mV/m$) e a Área de Serviço Rural (Contorno 3),
+ compreendida entre o contorno 2 e o contorno de $54 dBµ$ ($0,5 mV/m$), também estarão de acordo com a norma.
+
+O que vai determinar toda a extenção deste contorno é a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
+que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na resolução determinada pela ANATEL, para a classe do canal proposto.  
+
 \chapter{CÁLCULO DE VIABILIDADE}
+
+Agora que já temos definido todos os fatores preliminares (classe do canal, )
+
 
 \section{SISTEMA IRRADIANTE}
 
@@ -379,66 +413,6 @@ muito superior ao da torre, alto gasto de energia elétrica, fazendo com que, nor
 \subsection{Ajustes de equipamentos}
 
 \subsubsection{Potência efetiva irradiada máxima (ERPmax)}
-
-\subsubsection{Potência efetiva irradiada por azimute (ERP)}
-
-\subsubsection{Orientação da antena}
-
-
-\chapter{Projetando a Emissora Fm em São Pedro de Alcântara}
-
-Este projeto tem como objetivo criar uma documentação técnica, que reuna todos os requisitos necessários para que uma emissora de rádio possa ser 
-homologada pela ANATEL, (de acordo com a Resolução N° 67) e, assim, ser utilizada comercialmente.
-
-O que definiu o local de São Pedro de Alcântara como o escolhido para desenvolver este projeto da emissora FM foi, principalmente, o fator "cenário real", proporcionado
-pela disponibilidade do canal 238,na frequência de XXX Mhz e enquadrado na classe C (classificação das emissoras), atráves do plano básico administrado pela ANATEl. A idéia de desenvolver um projeto que poderia ser realmente implantado, foi uma 
-motivação a mais. Todos os cálculos, ítens e materiais, que foram definidos e documentados neste projeto, foram pensados e analisados com os cuidados de uma possível execução no
- futuro.
-
-Outro ponto, é a relativa facilidade de acesso (São Pedro de Alcântara é um município vizinhho à São José), isto foi importante para verificação e definição do ponto onde ficaria o sistema emissor.
-Ao visitar o local, verificamos que já existia uma antena (moradores informaram que trata-se de uma antena de transmissão de TV analógica) em um terreno no centro do município.
-
-Constatando que existe espaço para uma construção de uma nova torre, partimos do princípio que o local, no centro do município, é o mais indicado para instalar nossa estrutura. Assim, definimos
- o ponto de origem da emissora, exatamente nas coordenadas (informar latitude e longitude).
-
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.25]{./figuras/google1.png} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Local da Antena}
-
-\end{center}
-\label{google1}
-\end{figure}
-
-Encontrado o ponto de partida, deu-se início aos cálculos, para definições dos equipamentos e materiais que vão compor a emissora FM.
-
-Nos próximos capítulos, todas os procedimentos, que são necessários para homologar uma emissora junto a ANATEL, serão apresentados, de uma forma pratica e direta.
-
-\section{ PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF) } 
-
-O PBFM foi aprovado em 12 de novembro de 1998, através da Resolução nº67 (referencia), e nele constam os canais FM previstos para uso,
- em todo o território nacional.
-
-A faixa de radiodifusão sonora em freqüência modulada estende-se de 87,8 a 108 MHz, e é 
-dividida em 101 canais, cujas portadoras estão separadas de 200 kHz. Cada canal é identificado por sua freqüência central, que é a
- freqüência da portadora da estação de FM. A cada canal é atribuído um número de 200 a 300.
-
-
-\subsection{ Curvas de intensidade de campo }
-
-As curvas E(L,T) são gráficos que representam a intensidade de campo excedida em L\% das localidades e T\% do tempo.
- 
-Confome é apresentado na norma, as curvas E(50,50) são utilizadas para calcular as distâncias ao Contorno Protegido e às
- diferentes áreas de serviço; já as curvas E(50,10) são utilizadas para o cálculo dos sinais interferentes. 
-
-As curvas E (50,50)  (Figura~\ref{e5050}) fornecem os valores de intensidade de campo excedidos em 50\% dos locais, durante 50\% do tempo, e as
- curvas E (50,10) (Figura~\ref{e5010}) fornecem os valores de intensidade de campo excedidos em 50\% dos locais e durante 10\% do tempo. Estas
- curvas indicam os valores de intensidade de campo em dB acima de $1 mV/m (dBµ)$, para uma ERP de $1 kW$, irradiada de um dipolo de meia
- onda no espaço livre, que produz uma intensidade de campo não atenuada de 222 mV/m (aproximadamente 107 dBu) a 1 km. (citar a fonte)
-
-
-\subsection{ Cálculos de intensidades de sinal irradiado}
 
 Conforme a determinação publicada na RESOLUÇÃO N° 546, DE 1º DE SETEMBRO DE 2010, que Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Freqüência Modulada,
  segue os cálculos:
@@ -651,26 +625,30 @@ Médios &288,29&&&&&&&&&&\\\hline
 \end{table}
 \end{center}
 
+\subsubsection{Potência efetiva irradiada por azimute (ERP)}
 
-\section{Definições do estudo}
+\subsubsection{Orientação da antena}
 
-A norma apresenta um roteiro para a elaboração de estudos técnicos. O roteiro é usado para demostrar a viabilidade técnica da emissora, e pede que ,necessariamente, o estudo deve apresentar
- as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo.
 
-Segue as informações indispensáveis para o estudo de viabilidade técnica
+%\section{Definições do estudo}
 
-\subsection{Informações Básicas}
+%A norma apresenta um roteiro para a elaboração de estudos técnicos. O roteiro é usado para demostrar a viabilidade técnica da emissora, e pede que ,necessariamente, o estudo deve apresentar
+% as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo.
 
-    a) Nome da entidade requerente: ??????
-    b) Localização da emnissora objeto do estudo (cidade,UF): São Pedro de Alcântara, SC
-    c) Propósito do estudo: homolação do projeto da emissora.
+%Segue as informações indispensáveis para o estudo de viabilidade técnica
 
-\subsubsection{Características técnicas pretendidas}
+%\subsection{Informações Básicas}
 
-    a) frequencia de operação: 91,5 MHz
-    b) n° do canal: 218
-    c) classe: C
-    d) tipo de sistema irradiante: Dipolo 1/2 onda para FM 
+ %   a) Nome da entidade requerente: ??????
+ %   b) Localização da emnissora objeto do estudo (cidade,UF): São Pedro de Alcântara, SC
+ %   c) Propósito do estudo: homolação do projeto da emissora.
+
+%\subsubsection{Características técnicas pretendidas}
+
+ %   a) frequencia de operação: 91,5 MHz
+  %  b) n° do canal: 218
+  %  c) classe: C
+  %  d) tipo de sistema irradiante: Dipolo 1/2 onda para FM 
 
 
 
@@ -895,6 +873,10 @@ Segue as informações indispensáveis para o estudo de viabilidade técnica
 
 %obs: ainda deve ser criada a areferencia na ANATEL e citar na figura tal(difeinir na biblioteca de figuras, verificar como isto funciona)
 
+%************************************************************************************************************************************************
+%******************************FIGURAS***********************************************************************************************************
+\begin{comment}
+
 \chapter{Figuras}
 
 Esta seção será destinadas às figuras usadas no trabalho.
@@ -1018,6 +1000,13 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \end{center}
 \label{nmt12}
 \end{figure}
+
+
+\end{comment}
+
+
+%********************************************************************************************************************************************
+%********************************************************************************************************************************************
 
 %\section{Figuras}
 %Podemos observar um exemplo na figura~\ref{fig01}.

@@ -1,4 +1,4 @@
-%\usepackage{verbatim}
+
 
 \chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF)}
 
@@ -160,7 +160,7 @@ Utilizando os métodos mencionados, vamos calcular os valores necessários para qu
 \subsection{Contorno Protegido}
 
 O contorno protegido é a distância entre a antena transmissora até o local geométrico onde a intensidade de campo E(50,50) apresenta o valor de 
-66 $dBµV /m$, para um canal de rádio FM. A resolução define, através da ultima alteração (resolução nº 546), que , para a classe C, a distância máxima ao
+$66 dBµV /m$, para um canal de rádio FM. A resolução define, através da ultima alteração (resolução nº 546), que , para a classe C, a distância máxima ao
 contorno protegido é de 7,5 KM, a partir da base da antena transmissora. 
 
 \subsection{Contornos Interferentes}
@@ -326,32 +326,31 @@ Os NMR's encontrados neste processo serão usados para obter todos os valores de 
 
 \subsection{Altura Acima do Nível Médio do Terrreno}
 
-No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, devemos encontrar o valores de HNMT (Altura do nível médio do terreno)
+No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, podemos encontrar o valores de HSNMT (Altura do nível médio do terreno)
  também para cada radial.
-Estes valores serão usados para definir os valores de intensidade do campo, que formarah o contorno protegido de $66 dBµ$
-Os valores de $HNTM$ serão utilizado as Curvas de Intensidade de Campo, que será posteriormente abordada com maiores detalhes.
+Estes valores serão usados para definir os valores de intensidade do campo, que formará o contorno protegido de $66 dBµ$
+Os valores de $HSNTM$ serão aplicados posteriormente nas Curvas de Intensidade de Campo, que será abordada com maiores detalhes mais à frente.
 
-O HNTM é definido pela expressão:
+O HSNTM é definido pela expressão:
 
-$$ HNMT = HBT + (HT + CFSI) - NMT $$, onde:
+$$ HSNMT = CBT + HCGSI - NMT $$, onde:
 
-$HBT$ = Altura da base da torre (Altura do terreno onde será instalada a base da emissora);
+$CBT$ = Altura da base da torre (Altura do terreno onde será instalada a base da emissora);
 
-$HT$ = Altura da torre;
-
-$CFSI$ = Centro de Fase do Sistema Irradiante,(normalmente este valor já vem pré determinado e varia conforme o número de elementos);
+$HCGSI$= Altura da torre, somado com o Centro de Fase do Sistema Irradiante;
 
 $NMT$ = Nível Médio do Terreno.
 
-Levando em consideração as observações apresentadas no enquadramento de classe, vamos começar a definir a nossa HNTM.
+%Levando em consideração as observações apresentadas no enquadramento de classe, vamos começar a definir a nossa HNTM.
 
 Utilizando o SIGANATEL, informando as coordenadas tal e tal, buscamos a altura do terreno da nossa base, que resultou em $285 m$ acima do nível do mar. Assim,
  já temos nosso primeiro parâmetro definido.
-(mostrar imagem do siganatel ou google maps)
 
-$$HBT = 285m$$
+***(mostrar imagem do siganatel ou google maps)
 
-Mais um fato curioso, e compreensível, é que o HBT tem um valor muito próximo do já encontrado NMT ($288,33 m$), demostrando que o relevo, nas redondezas, tende
+$$CBT = 285m$$
+
+Mais um fato curioso, e compreensível, é que o CBT tem um valor muito próximo do já encontrado NMT ($288,33 m$), demostrando que o relevo, nas redondezas, tende
  à manter a mesma altura da
 nossa base. Porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radias.
 
@@ -363,10 +362,54 @@ então teremos que fazer um esforço maior nos locais onde os terrenos são mais el
 Embora a vida útil de uma torre de estrutura metálica (a mais utilizada) e a de um transmissor, sejam ambas de cerca de 20 anos, o transmissor apresenta, além de um custo de manutenção
 muito superior ao da torre, alto gasto de energia elétrica, fazendo com que, normalmente, seja mais recomendável o aumento da altura da torre, em vez da potência do transmissor.
 
+Sendo assim, sabendo que a emissora está localizada em uma área de relevo acidentado e com radias apresentado um NMR mais elevado que a base, ficará definida a altura da torre
+ em 60 metros. Esta é a altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. Usando este critério 
+ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, à longo prazo.
+
+Para definir a $HCGSI$, precisamos ainda obter o valor da altura do Centro de Fase do Sistema Irradiante. Este valor é encontrado nas especificações da antena que será usada no projeto
+ e varia conforme o número de elementos usados na estrutura do sistema irradiante. 
+Este definição será melhor explicada no tópico específico sobre antena, mais à frente.
+
+Para concluir este cálculo, vamos buscar o valor faltante na especificação
+da antena definida para este projeto (será usada uma  Dipolo $1/2$ Onda, para FM, do fabricante IDEAL, conforme ANEXO II).
+De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequencia de  $98.1 Mhz$, que é
+a frequencia mais aproximado da que será propagada o sinal da nossa emissora ($95,5 Mhz$), o centro de fase do sistema fica em $2315mm$, ou $2,315m$. Efetuando-se a soma entre a 
+altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor: 
+
+$$HCGSI = 60m + 2,315m = 62,315m$$ 
+
+Agora já temos definidas todas as variáveis que compõem nossa equação, vamos encontrar o HSNMT, ficou assim:
+
+$$HSNMT = 285m + 62,315m - 288,33 m$$, encontramos o resulado aproximado de :
+
+$$HSNMT = 59m $$
+
+Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. Através dele, podemos comprovar que a antena estará numa altura dentro do limite estabelecido
+pela resolução, considerando a média de todas as radiais ($NMT$).
+
+Esta equação agora deve ser usada trocando o $NMT$ por $NMR$ e, assim, encontrar o $HSNMT$ de cada radial, isoladamente.
+
+
+***Fazer a tabela dos HSNMT***
+
+
+  
 
 \section{CONTORNO PROTEGIDO}
 
+Como mencionado anteriromente, o contorno protegido de uma estação de rádio Fm corresponde ao lugar
+geométrico onde a intensidade de campo do sinal apresentar o valor de $66 dBµ$ ($2 mV/m$)(Contorno 2). 
+Este contorno tem como finalidade atender a Área de Serviço Urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
+as demais áreas de serviços, a Área de Serviço Primária (Contorno 1), limitada pelo contorno de $74 dBµ$ ($5 mV/m$) e a Área de Serviço Rural (Contorno 3),
+ compreendida entre o contorno 2 e o contorno de $54 dBµ$ ($0,5 mV/m$), também estarão de acordo com a norma.
+
+O que vai determinar toda a extenção deste contorno é a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
+que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na resolução determinada pela ANATEL, para a classe do canal proposto.  
+
 \chapter{CÁLCULO DE VIABILIDADE}
+
+Agora que já temos definido todos os fatores preliminares (classe do canal, )
+
 
 \section{SISTEMA IRRADIANTE}
 
