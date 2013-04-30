@@ -61,7 +61,7 @@ FREQUÊNCIA & CANAL & FREQUÊNCIA & CANAL & FREQUÊNCIA & CANAL\\
 94,3 & 232 & 101,3 & 267 & & \\ \hline
 
 \end{tabular}
-\caption{CANALIZAÇÃO DA FAIXA DE FM}
+\caption{CANALIZAÇÃO DA FAIXA DE FM.}
 \label{tabelaCanalizacao}
 \end{table}
 
@@ -192,7 +192,7 @@ informadas na resolução $N° 546$:
 \includegraphics[scale=.5]{./figuras/tabelaClassificacaoEmissoras.png} 
 \caption{CLASSIFICAÇÃO DAS EMISSORAS
 EM FUNÇÃO DE SEUS REQUISITOS MÁXIMOS
-}
+(tabela retirada da resolução).}
 \label{tabelaClassificacaoEmissoras}
 \end{figure}
 
@@ -253,7 +253,6 @@ para encontrar o NMR e, consequentemente, o NMT de $288,33 m$, como pode ser obs
 \def\tablename{Tabela}
 \begin{table}
 \tiny
-\caption{ Mapeamento das altitudes de cada radial }
 \vspace*{0.05cm}
 \centering
 
@@ -319,6 +318,7 @@ NMR(m) & 158,38 & 73,46 & 169,14 & 166,2 & 250,46 & 158,38 & 196,86 & 394,8 & 50
 
 \end{tabular}
 \end{sideways}
+\caption{ Mapeamento das altitudes de cada radial. }
 \label{tabelaNMT}
 \end{table}
 
@@ -387,13 +387,41 @@ $$HSNMT = 59m $$
 Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. Através dele, podemos comprovar que a antena estará numa altura dentro do limite estabelecido
 pela resolução, considerando a média de todas as radiais ($NMT$).
 
+
 Esta equação agora deve ser usada trocando o $NMT$ por $NMR$ e, assim, encontrar o $HSNMT$ de cada radial, isoladamente.
 
+A tabela~\ref{tabelaHSNMT} apresenta os valores de $HSNMT$ obtidos. Essa coluna apresenta a diferença entre a altura da antena e o NMR da radial correspondente. 
 
-***Fazer a tabela dos HSNMT***
+Os resultados negativados informam que, na direção das radias correspondentes à estes valores, o nível do terreno é mais alto
+que a altura da antena ($347,315m$). Então podemos concluir que, o sinal irradiado para estas direções encontrará obstáculos que irão interferir na sua propagação.
+Essa informação é muito importante para a otimização da área de cobertura da emissora, e será lembrada mais adiante.
 
 
-  
+\def\tablename{Tabela}
+\begin{table}
+\vspace*{0.05cm}
+\centering
+
+\begin{tabular}{|c|c|c|} \hline
+
+Radial(Graus) & NMR & HSNMT \\ \hline
+0 & 158,38&188,94\\
+30 & 73,46 & 273,85\\
+60 & 169,14 & 178,18\\
+90 & 166,20 & 181,12\\
+120 & 250,46 & 96,85\\
+150 & 196,86 & 150,45\\
+180 & 151,58 & 195,73\\
+210 & 394,80 & -47,48\\
+240 & 502,10 & -154,78\\
+270 & 579,10 & -231,78\\
+300 & 412,10 & -64,78\\
+330 & 405,32 & -58,00\\ \hline
+
+\end{tabular}
+\caption{Valores de HSNMT para cada radial.}
+\label{tabelaHSNMT}
+\end{table}
 
 \section{CONTORNO PROTEGIDO}
 
@@ -602,10 +630,10 @@ do contorno protegido.
 
 
 \begin{center}
-\def\tablename{Tabela2}
+\def\tablename{Tabela}
 \begin{table}
 \centering
-\caption{ Contorno das diversas áreas de serviço segundo cada radial }\vspace*{0.05cm}
+\vspace*{0.05cm}
 \begin{sideways}
 \begin{tabular}{|l|l|l|l|l|l|cc|cc|cc|} \hline
 
@@ -631,6 +659,8 @@ Médios &288,29&&&&&&&&&&\\\hline
 
 \end{tabular}
 \end{sideways}
+\caption{ Contorno das diversas áreas de serviço segundo cada radial. }
+\label{tabelaGeral}
 \end{table}
 \end{center}
 
