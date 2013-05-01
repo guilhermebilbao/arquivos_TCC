@@ -83,8 +83,10 @@ Este é o documento principal que será usado para a realização deste projeto, poi
 uma emissora de rádio FM possa ser instalada e liberada para iniciar seus serviços. Um fator importante é ficar atento as novas resoluções 
 que atualizam este regulamento, para que o projeto possa atender as novas exigências.
 
-A última resolução, que altera o regulamento aprovado na resolução nº 67, foi a de nº 546. Esta altera alguns aspectos importantes para o desenvolvimento do projeto. Como exemplo
-posso citar a classificação das emissoras em função de seus requisitos máximos e as curvas de intensidade de compo ( E (50,10) e E (50,10) ),vindos da Recomedação UIT-R P.1546.
+A última resolução, que altera o regulamento aprovado na resolução nº 67, foi a de nº 546. Esta altera alguns aspectos importantes para o 
+desenvolvimento do projeto. Como exemplo
+posso citar a classificação das emissoras em função de seus requisitos máximos e as curvas de intensidade de compo ( E (50,10) e E (50,10) ),
+vindos da Recomedação UIT-R P.1546.
  
 As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
 
@@ -103,7 +105,8 @@ A seguir serão descritos parâmetros básicos muitos utilizados nos cálculos.
 A altura acima do nível médio do terreno (HNMT) é um valor que representa o nível do terreno ao redor da base transmissora.
 
 Para encontrar o seu valor, deve-se obter cotas entre as distâncias de 3 e 15Km da antena e fazer uma média aritmética dos pontos obtidos.
-As alturas podem variar de 10 a 1200m, conforme a recomendação, porém o documento tembém descreve um método para, caso seja necessário, extrapolar esses valores.
+As alturas podem variar de 10 a 1200m, conforme a recomendação, porém o documento tembém descreve um método para, caso seja necessário, extrapolar 
+esses valores.
 
 \subsubsection{Curvas E(L,T)}
 
@@ -170,11 +173,13 @@ contorno protegido é de 7,5 KM, a partir da base da antena transmissora.
 \chapter{CANAL PROPOSTO}
 
 Para que possa ser autorizado pela ANATEL a utilização de um canal de rádio FM, além da documentação solicitada conforme a resolução, deve ser considerada
- as características básicas do canal.% e também deve ser livre de interferências, bem como não causar interferências nos outros canais que por ventuira possam sofre-las.
+ as características básicas do canal.% e também deve ser livre de interferências, bem como não causar interferências nos outros canais que por ventuira 
+%possam sofre-las.
 
 \section{CARACTERÍSTICAS BÁSICAS}
 
-Ao analizar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequencia Modulada, observou-se a existência de um canal 238
+Ao analizar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequencia Modulada, observou-se a existência de um 
+canal 238
 disponível para a região do município de São Pedro de Alcântara.
 
 O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos máximos que caracterizam os canais autorizados para esta classe.
@@ -182,9 +187,11 @@ O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos máximos
 \section{ENQUADRAMENTO NA CLASSE}
 
 O canal que será usado para esta emissora FM está enquadrado na classe C, conforme apresentado no plano básico 
-(ANEXO I), e para que o projeto fique enquadrado nesta classe, deve ser respeitado seus requisitos máximos, que podem ser verificados na tabela~\ref{tabelaClassificacaoEmissoras}.
+(ANEXO I), e para que o projeto fique enquadrado nesta classe, deve ser respeitado seus requisitos máximos, que podem ser verificados na 
+tabela~\ref{tabelaClassificacaoEmissoras}.
 
-Porém, a resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas condições. Segue estas observações, que são 
+Porém, a resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas condições. Segue estas observações, 
+que são 
 informadas na resolução $N° 546$:
 
 \begin{figure}[!htb]
@@ -247,7 +254,8 @@ medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, r
 De posse dos resultados dos NMR's, podemos agora encontrar o nível medio do terreno (NMT), que é a média aritmética das 12 NMRs,
  tornando o terreno simbolicamente plano e de altura conhecida. 
 
-A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altidudes encontradas dos 50 pontos ao longo de cada radial, possibilitando obter a média 
+A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altidudes encontradas dos 50 pontos ao longo de cada radial,
+ possibilitando obter a média 
 para encontrar o NMR e, consequentemente, o NMT de $288,33 m$, como pode ser observado. 
 
 \def\tablename{Tabela}
@@ -322,11 +330,13 @@ NMR(m) & 158,38 & 73,46 & 169,14 & 166,2 & 250,46 & 158,38 & 196,86 & 394,8 & 50
 \label{tabelaNMT}
 \end{table}
 
-Os NMR's encontrados neste processo serão usados para obter todos os valores de intensidade de sinal para cada uma das radias, como informaremos mais à frente.
+Os NMR's encontrados neste processo serão usados para obter todos os valores de intensidade de sinal para cada uma das radias, como informaremos mais à 
+frente.
 
 \subsection{Altura Acima do Nível Médio do Terrreno}
 
-No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, podemos encontrar o valores de HSNMT (Altura do nível médio do terreno)
+No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, podemos encontrar o valores de HSNMT (Altura do nível médio do
+terreno)
  também para cada radial.
 Estes valores serão usados para definir os valores de intensidade do campo, que formará o contorno protegido de $66 dBµ$
 Os valores de $HSNTM$ serão aplicados posteriormente nas Curvas de Intensidade de Campo, que será abordada com maiores detalhes mais à frente.
@@ -343,37 +353,44 @@ $NMT$ = Nível Médio do Terreno.
 
 %Levando em consideração as observações apresentadas no enquadramento de classe, vamos começar a definir a nossa HNTM.
 
-Utilizando o SIGANATEL, informando as coordenadas tal e tal, buscamos a altura do terreno da nossa base, que resultou em $285 m$ acima do nível do mar. Assim,
- já temos nosso primeiro parâmetro definido.
+Utilizando o SIGANATEL, informando as coordenadas tal e tal, buscamos a altura do terreno da nossa base, que resultou em $285 m$ acima do nível do mar. 
+Assim, já temos nosso primeiro parâmetro definido.
 
 ***(mostrar imagem do siganatel ou google maps)
 
 $$CBT = 285m$$
 
-Mais um fato curioso, e compreensível, é que o CBT tem um valor muito próximo do já encontrado NMT ($288,33 m$), demostrando que o relevo, nas redondezas, tende
+Mais um fato curioso, e compreensível, é que o CBT tem um valor muito próximo do já encontrado NMT ($288,33 m$), demostrando que o relevo, nas redondezas, 
+tende
  à manter a mesma altura da
 nossa base. Porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radias.
 
 Se analisarmos os valores de NMR apresentados na tabela tal, notaremos que a região voltada ao
  Oeste (Sudoeste - Noroeste) da base emissora, apresenta níveis de altura do terreno maiores que a base, enquanto as outras regiões são todas mais baixas.
  Os obstáculos atrapalham na propagação do sinal,
-então teremos que fazer um esforço maior nos locais onde os terrenos são mais elevados que a antena, e, ao mesmo tempo, cuidar para que o contorno protegido seja respeitado.
+então teremos que fazer um esforço maior nos locais onde os terrenos são mais elevados que a antena, e, ao mesmo tempo, cuidar para que o contorno protegido
+ seja respeitado.
 
-Embora a vida útil de uma torre de estrutura metálica (a mais utilizada) e a de um transmissor, sejam ambas de cerca de 20 anos, o transmissor apresenta, além de um custo de manutenção
-muito superior ao da torre, alto gasto de energia elétrica, fazendo com que, normalmente, seja mais recomendável o aumento da altura da torre, em vez da potência do transmissor.
+Embora a vida útil de uma torre de estrutura metálica (a mais utilizada) e a de um transmissor, sejam ambas de cerca de 20 anos, o transmissor apresenta, 
+além de um custo de manutenção
+muito superior ao da torre, alto gasto de energia elétrica, fazendo com que, normalmente, seja mais recomendável o aumento da altura da torre, em vez da 
+potência do transmissor.
 
 Sendo assim, sabendo que a emissora está localizada em uma área de relevo acidentado e com radias apresentado um NMR mais elevado que a base, ficará definida a altura da torre
- em 60 metros. Esta é a altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. Usando este critério 
+ em 60 metros. Esta é a altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. 
+Usando este critério 
 ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, à longo prazo.
 
-Para definir a $HCGSI$, precisamos ainda obter o valor da altura do Centro de Fase do Sistema Irradiante. Este valor é encontrado nas especificações da antena que será usada no projeto
+Para definir a $HCGSI$, precisamos ainda obter o valor da altura do Centro de Fase do Sistema Irradiante. Este valor é encontrado nas especificações da 
+antena que será usada no projeto
  e varia conforme o número de elementos usados na estrutura do sistema irradiante. 
 Este definição será melhor explicada no tópico específico sobre antena, mais à frente.
 
 Para concluir este cálculo, vamos buscar o valor faltante na especificação
 da antena definida para este projeto (será usada uma  Dipolo $1/2$ Onda, para FM, do fabricante IDEAL, conforme ANEXO II).
 De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequencia de  $98.1 Mhz$, que é
-a frequencia mais aproximado da que será propagada o sinal da nossa emissora ($95,5 Mhz$), o centro de fase do sistema fica em $2315mm$, ou $2,315m$. Efetuando-se a soma entre a 
+a frequencia mais aproximado da que será propagada o sinal da nossa emissora ($95,5 Mhz$), o centro de fase do sistema fica em $2315mm$, ou $2,315m$.
+ Efetuando-se a soma entre a 
 altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor: 
 
 $$HCGSI = 60m + 2,315m = 62,315m$$ 
@@ -384,17 +401,20 @@ $$HSNMT = 285m + 62,315m - 288,33 m$$, encontramos o resulado aproximado de :
 
 $$HSNMT = 59m $$
 
-Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. Através dele, podemos comprovar que a antena estará numa altura dentro do limite estabelecido
+Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. Através dele, podemos comprovar que a antena estará numa altura dentro do
+ limite estabelecido
 pela resolução, considerando a média de todas as radiais ($NMT$).
 
 
 Esta equação agora deve ser usada trocando o $NMT$ por $NMR$ e, assim, encontrar o $HSNMT$ de cada radial, isoladamente.
 
-A tabela~\ref{tabelaHSNMT} apresenta os valores de $HSNMT$ obtidos. Essa coluna apresenta a diferença entre a altura da antena e o NMR da radial correspondente. 
+A tabela~\ref{tabelaHSNMT} apresenta os valores de $HSNMT$ obtidos. Essa coluna apresenta a diferença entre a altura da antena e o NMR da radial 
+correspondente. 
 
 Os resultados negativados informam que, na direção das radias correspondentes à estes valores, o nível do terreno é mais alto
-que a altura da antena ($347,315m$). Então podemos concluir que, o sinal irradiado para estas direções encontrará obstáculos que irão interferir na sua propagação.
-Esta informação é muito importante para a otimização da área de cobertura da emissora, e será lembrada mais adiante.
+que a altura da antena ($347,315m$). Então podemos concluir que, o sinal irradiado para estas direções encontrará obstáculos que irão interferir na sua 
+propagação.
+Essa informação é muito importante para a otimização da área de cobertura da emissora, e será lembrada mais adiante.
 
 
 \def\tablename{Tabela}
@@ -414,6 +434,7 @@ Radial(Graus) & NMR & HSNMT \\ \hline
 180 & 151,58 & 195,73\\
 210 & 394,80 & -47,48\\
 240 & 502,10 & -154,78\\
+
 270 & 579,10 & -231,78\\
 300 & 412,10 & -64,78\\
 330 & 405,32 & -58,00\\ \hline
@@ -434,12 +455,28 @@ as demais áreas de serviços, a Área de Serviço Primária (Contorno 1), limitada p
 O que vai determinar toda a extenção deste contorno é a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
 que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na resolução determinada pela ANATEL, para a classe do canal proposto.  
 
-\chapter{CÁLCULO DE VIABILIDADE}
+\chapter{CÁLCULO DO SISTEMA IRRADIANTE}
 
-Agora que já temos definido todos os fatores preliminares (classe do canal, )
+Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos defidos os outros aspectos técnicos primários
+ necessários, vamos para a construção do conjunto de equipamentos que formará o Sistema Irradiante, além de realizar os cálculos necessários para
+deixar a emissora enquadrada conforme a resolução.
 
 
 \section{SISTEMA IRRADIANTE}
+
+Um sistema irradiante é composto basicamente de uma antena, um guia de onda, e um transmissor. Cada um dos componentes apresenta características próprias, 
+variando de fabricante. No levantamento das informações são apresentadas as características que influenciam diretamente nos cálculos.
+
+A seguir serão apresentados as características do sistema irradiante, bem como os critérios usados para a utilização de cada um.
+
+
+\begin{figure}[!htb]
+\centering
+\large
+\includegraphics[scale=1]{./figuras/diagrama_de_irradiacao.jpg} 
+\caption{Diagrama Irradiação da Antena Dipolo $1/2$ Onda para FM}
+\label{diagramaDeIrradiacao}
+\end{figure}
 
 \subsection{Antena}
 
