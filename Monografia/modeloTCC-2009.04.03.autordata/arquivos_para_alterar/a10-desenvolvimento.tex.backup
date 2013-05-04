@@ -1,19 +1,18 @@
 
-
 \chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF)}
 
-O PBFM foi aprovado em 12 de novembro de 1998, através da Resolução nº67 (referencia), e nele constam os canais FM previstos para uso,
+O PBFM foi aprovado em 12 de novembro de 1998, através da Resolução n°67 (referencia), e nele constam os canais FM previstos para uso,
  em todo o território nacional.
- aixa de radiodifusão sonora em freqüência modulada estende-se de 87,8 a 107,9 MHz, e é 
+ A faixa de radiodifusão sonora em frequência modulada estende-se de 87,8 a 107,9 MHz, e é
 dividida em 103 canais (os canais 198,199 e 200 são para uso exclusivo das estações de ROADCOM), cujas portadoras estão separadas de 200 kHz.
  Cada canal é identificado por sua frequência central,
- que é a freqüência da portadora da estação de FM. A cada canal é atribuído um número de 198 a 300.
+ que é a frequência da portadora da estação de FM. A cada canal é atribuído um número de 198 a 300.
 
 \section{CANALIZAÇÃO}
 
-A tabela de Canalização da Faixa de FM atual foi publicada na RESOLUÇÂO N°546, DE 1° DE SETEMBRO DE 2010, que altera o Regulamento Técnico para Emissoras de Rádiodifusão 
+A tabela de Canalização da Faixa de FM atual foi publicada na RESOLUÇÃO N°46, DE 1° DE SETEMBRO DE 2010, que altera o Regulamento Técnico para Emissoras de Radiodifusão
 Sonora em Frequência
-Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da RESOLUÇÃO e apresenta a faixa de frequência para cada canal FM definido pelo Plano Básico. 
+Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da RESOLUÇÃO e apresenta a faixa de Frequência para cada canal FM definido pelo Plano Básico. 
 
 \def\tablename{Tabela}
 \begin{table}
@@ -22,7 +21,7 @@ Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da RESOLUÇÃO
 
 \begin{tabular}{|c|c|c|c|c|c|} \hline
 
-FREQUÊNCIA & CANAL & FREQUÊNCIA & CANAL & FREQUÊNCIA & CANAL\\
+Frequência & CANAL & Frequência & CANAL & Frequência & CANAL\\
  (MHz)&  & (MHz) &  & (MHz) &  \\ \hline
 87,5 & 198 & 94,5 & 233 & 101,5 & 268\\
 87,7 & 199 & 94,7 & 234 & 101,7 & 269\\
@@ -70,33 +69,33 @@ FREQUÊNCIA & CANAL & FREQUÊNCIA & CANAL & FREQUÊNCIA & CANAL\\
 
 %\section{CONSIDERAÇÕES}
 
-\chapter{RESOLUÇÃO Nº 67, DE 12 DE NOVEMBRO DE 1998}
+\chapter{RESOLUÇÃO N° 67, DE 12 DE NOVEMBRO DE 1998}
 
-A Resolução $nº67$ aprova o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequencia Modulada. 
-Tem por objetivo disciplinar a utilização da faixa de 87,8 a 108 MHz, no serviço de radiodifusão sonora em frequência modulada
+A Resolução $n°67$ aprova o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada. 
+Tem por objetivo disciplinar a utilização da faixa de 87,8 a 108 MHz, no serviço de Radiodifusão sonora em Frequência modulada
  e em serviços nela executados, para oferecer um serviço de boa qualidade, evitar interferências sobre outros serviços de
  telecomunicações regularmente autorizados e reduzir possibilidades de danos físicos à população. Para isto, estabelece requisitos
- mínimos para os equipamentos utilizados em radiodifusão sonora em frequência modulada, afim de, além de atender o exposto anterior,
+ mínimos para os equipamentos utilizados em Radiodifusão Sonora em Frequência Modulada, afim de, além de atender o exposto anterior,
  racionalizar sua produção industrial.
 
 Este é o documento principal que será usado para a realização deste projeto, pois informa todas as especificações mínimas necessárias para que 
-uma emissora de rádio FM possa ser instalada e liberada para iniciar seus serviços. Um fator importante é ficar atento as novas resoluções 
+uma emissora de rádio FM possa ser instalada e liberada para iniciar seus serviços. Um fator importante é sempre ficar atento as novas resoluções 
 que atualizam este regulamento, para que o projeto possa atender as novas exigências.
 
-A última resolução, que altera o regulamento aprovado na resolução nº 67, foi a de nº 546. Esta altera alguns aspectos importantes para o 
+A última resolução, que altera o regulamento aprovado na RESOLUÇÃO N° 67, foi a de n° 546. Esta altera alguns aspectos importantes para o 
 desenvolvimento do projeto. Como exemplo
-posso citar a classificação das emissoras em função de seus requisitos máximos e as curvas de intensidade de compo ( E (50,10) e E (50,10) ),
-vindos da Recomedação UIT-R P.1546.
+posso citar a classificação das emissoras em função de seus requisitos máximos e as curvas de intensidade de campo ( E (50,10) e E (50,10) ),
+vindos da Recomendação UIT-R P.1546.
  
 As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
 
 \section{RECOMENDAÇÃO UIT-R P.1546}
 
-*** veririfcar se este topico se enquadra neste trabalho realmente ***
-*** verificar a tabela de intensidade de campo na ultima resolução e bater com as encontradas nos mesus calculos ***
+*** verificar se este tópico se enquadra neste trabalho realmente ***
+*** verificar a tabela de intensidade de campo na ultima RESOLUÇÃO e bater com as encontradas nos meus cálculos ***
 
 
-\subsection{Conceitos básicos}
+\subsection{Conceitos Básicos}
 
 A seguir serão descritos parâmetros básicos muitos utilizados nos cálculos.
 
@@ -105,7 +104,7 @@ A seguir serão descritos parâmetros básicos muitos utilizados nos cálculos.
 A altura acima do nível médio do terreno (HNMT) é um valor que representa o nível do terreno ao redor da base transmissora.
 
 Para encontrar o seu valor, deve-se obter cotas entre as distâncias de 3 e 15Km da antena e fazer uma média aritmética dos pontos obtidos.
-As alturas podem variar de 10 a 1200m, conforme a recomendação, porém o documento tembém descreve um método para, caso seja necessário, extrapolar 
+As alturas podem variar de 10 a 1200m, conforme a recomendação, porém o documento também descreve um método para, caso seja necessário, extrapolar 
 esses valores.
 
 
@@ -115,9 +114,9 @@ esses valores.
 São gráficos que representam a intensidade de campo excedida em L\% das
 localidades e T\% do tempo. O método é válido apenas para distâncias de 1 a 1000km da
 antena transmissora. Os valores tabulados pela recomendação foram obtidos com
-freqüências de valores nominais iguais a 100, 600 e 2000MHz; HNMT de 10, 20, 37,5, 75,
-150, 300, 600 e 1200m ; porcentagem de tempo de 1, 10 e 50\%. Uma curva é traçada para
-cada tipo de percurso e freqüência. Os percursos considerados são: terrestre, sobre o mar
+frequências de valores nominais iguais a 100, 600 e 2000MHz; HNMT de 10, 20, 37,5, 75,
+150, 300, 600 e 1200m ; porcentagem de tempo de 1, 10 e 50\%. Uma curva é tracejada para
+cada tipo de percurso e frequência. Os percursos considerados são: terrestre, sobre o mar
 morno e sobre o mar frio.
 
 Novamente são descritos métodos para obter intensidade de campo quando esses
@@ -134,9 +133,9 @@ encontradas na referência [2].
 
 ***Verificar sobre a utilização do MATLAB (se sobrar tempo...)*** 
 
-\section{ADAPTAÇÕES DA RECOMENDAÇÃO}
+\section{Adaptações da recomendação}
 
-\subsection{Nível médio do terreno}
+\subsection{Nível Médio do Terreno}
 
 Para efeitos de cálculo, no Brasil o nível médio do terreno (NMT) é calculado
 obtendo-se 12 valores de nível médio da radial (NMR). O NMR por sua vez é obtido
@@ -152,20 +151,20 @@ aritmética, dos NMR.
 \subsection{Altura da antena transmissora}
 
 Apesar de ser possível calcular a intensidade de campo para valores fora da faixa de
-10 a 1200m para altura da antena transmissora, a resolução considera esses os valores
+10 a 1200m para altura da antena transmissora, a RESOLUÇÃO considera esses os valores
 máximos. Ou seja, quando a HNMT da antena for interior a 10m, deve ser tomado o valor de
 10m, e quando exceder os 1200m, este valor que deve ser considerado.
 
 ***Indicar a referência do TCC 
 
-\section{PARÂMETROS NECESSÁRIOS PARA O CÁLCULO DE VIABILIDADE TÉCNICA}
+\section{Parâmetros necessários para o cálculo de viabilidade técnica}
 
 Utilizando os métodos mencionados, vamos calcular os valores necessários para que um canal de rádio FM possa ser viabilizado.
 
 \subsection{Contorno Protegido}
 
 O contorno protegido é a distância entre a antena transmissora até o local geométrico onde a intensidade de campo E(50,50) apresenta o valor de 
-$66 dBµV /m$, para um canal de rádio FM. A resolução define, através da ultima alteração (resolução nº 546), que , para a classe C, a distância máxima ao
+$66 dB?V/m$, para um canal de rádio FM. A RESOLUÇÃO define, através da ultima alteração (RESOLUÇÃO n° 546), que , para a classe C, a distância máxima ao
 contorno protegido é de 7,5 KM, a partir da base da antena transmissora. 
 
 \subsection{Contornos Interferentes}
@@ -175,32 +174,30 @@ contorno protegido é de 7,5 KM, a partir da base da antena transmissora.
 \chapter{CANAL PROPOSTO}
 
 Para que possa ser autorizado pela ANATEL a utilização de um canal de rádio FM, além da documentação solicitada conforme a resolução, deve ser considerada
- as características básicas do canal.% e também deve ser livre de interferências, bem como não causar interferências nos outros canais que por ventuira 
-%possam sofre-las.
+ as características básicas do canal.% e também deve ser livre de interferências, bem como não causar interferências nos outros canais.
 
-\section{CARACTERÍSTICAS BÁSICAS}
+\section{Características básicas}
 
-Ao analizar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequencia Modulada, observou-se a existência de um 
-canal 238
-disponível para a região do município de São Pedro de Alcântara.
+Ao analisar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada, observou-se a existência de um canal 218
+disponível para a região do município de são Pedro de Alcântara.
 
 O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos máximos que caracterizam os canais autorizados para esta classe.
 
-\section{ENQUADRAMENTO NA CLASSE}
+\section{Encuadramento na classe}
 
-O canal que será usado para esta emissora FM está enquadrado na classe C, conforme apresentado no plano básico 
+O canal que será usado para esta emissora FM está enquadrado na classe C, conforme apresentado no plano Básico 
 (ANEXO I), e para que o projeto fique enquadrado nesta classe, deve ser respeitado seus requisitos máximos, que podem ser verificados na 
 tabela~\ref{tabelaClassificacaoEmissoras}.
 
-Porém, a resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas condições. Segue estas observações, 
+porém, a RESOLUÇÃO aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas condições. Segue estas observações, 
 que são 
-informadas na resolução $N° 546$:
+informadas na RESOLUÇÃO $N° 546$:
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=.5]{./figuras/tabelaClassificacaoEmissoras.png} 
-\caption{CLASSIFICAÇÃO DAS EMISSORAS
-EM FUNÇÃO DE SEUS REQUISITOS MÁXIMOS
+\caption{classificação DAS EMISSORAS
+EM função DE SEUS REQUISITOS máximos
 (tabela retirada da resolução).}
 \label{tabelaClassificacaoEmissoras}
 \end{figure}
@@ -216,26 +213,26 @@ c)As distâncias apresentadas na TABELA I foram obtidas para o canal 201
 e servem como referência para elaboração de estudos sem o uso de
 ferramentas computacionais.
 
-\section{NÍVEL MÉDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
+\section{Nível médio do terreno e altura acima do nível médio do terreno}
 
 A seguir vamos apresentar o método usado para o reconhecimento geométrico do local onde será instalado a emissora.
 Estes dados são de extrema importância para o sucesso do projeto.
 
-\subsection{Nivel Médio da Radial (NMR) e Nivel Médio do Terreno (NMT)}
+\subsection{Nível médio da Radial (NMR) e Nível médio do Terreno (NMT)}
 
-A resolução exige que sejam traçadas ao menos 12 radias com espaçamento angular de 30º e com pelo menos 50 cotas, igualmente
+A resolução exige que sejam tracejadas ao menos 12 radias com espaçamento angular de 30° e com pelo menos 50 cotas, igualmente
  espaçadas.
 O ponto previamente definido, como sendo o local onde a antena será fixada, será a origem das radias.
-Para traçar estas radias, usei os mapas disponíveis no site do IBGE (citar fonte)(edição de 08-10-2007), na escala $1:50.000$.
-Através destas radiais vamos conseguir obter as altitudes do relevo ao redor da base da antena. 
+Para tracejar estas radias, usei os mapas disponíveis no site do IBGE (citar fonte)(edição de 08-10-2007), na escala $1:50.000$.
+através destas radiais vamos conseguir obter as altitudes do relevo ao redor da base da antena. 
 Esses valores servirão de base para definir todas as características do nosso sistema.
-As radiais foram traçadas a partir do ponto (coordenadas)(local da antena) e deve, obrigatóriamente, incluir a direção do norte
+As radiais foram tracejadas a partir do ponto (coordenadas)(local da antena) e deve, obrigatoriamente, incluir a direção do norte
  Verdadeiro. 
 
-Após os 12 raios traçados, calcula-se o Nível Médio da Radial (NMR) para cada uma delas. O NMR é definido pela média aritimética
+Após os 12 raios tracejados, calcula-se o nível médio da Radial (NMR) para cada uma delas. O NMR é definido pela média aritmética
  de todas as cotas da radial, que, de acordo com a norma, devem ser compreendidas no trecho entre 3 e 15 quilômetros.
 Para obter esses valores das cotas, no caso os 50 valores correspondentes a alturas do terreno dentro da cada radial, existe uma ferramenta
- díponível no portal online da ANATEL, o SIGANATEL (citar fonte).
+ disponível no portal online da ANATEL, o SIGANATEL (citar fonte).
 
 \def\tablename{Tabela}
 \begin{table}
@@ -249,14 +246,13 @@ Radial(Graus) & Latitude(3Km) & Longitude(3Km) & Latitude(15Km) & Longitude(15Km
 30 & 27° 32' 42,16'' S & 48° 47' 38,18'' O & 27° 27' 04,86'' S & 48° 44' 00,00'' O \\\hline
 60 & 27° 33' 15,40'' S & 48° 47' 00,00'' O & 27° 30' 00,00'' S & 48° 40' 38,18'' O \\\hline
 90 & 27° 34' 02,72'' S & 48° 46' 45,45'' O & 27° 34' 02,73'' S & 48° 39' 33,64'' O \\\hline
-120 & 27° 34' 52,37'' S & 48° 47' 00,00'' O & 27° 32' 42,16'' S & 48° 49' 29,09'' O \\\hline
-150 & 27° 35' 25,46'' S & 48° 47' 38,18'' O & 27° 32' 42,16'' S & 48° 49' 29,09'' O \\\hline
-180 & 27° 35' 38,11'' S & 48° 48' 33,71'' O & 27° 32' 42,16'' S & 48° 49' 29,09'' O \\\hline
-210 & 27° 35' 25,46'' S & 48° 49' 29,09'' O & 27° 32' 42,16'' S & 48° 49' 29,09'' O \\\hline
-240 & 27° 34' 52,37'' S & 48° 50' 09,09'' O & 27° 32' 42,16'' S & 48° 49' 29,09'' O \\\hline
-270 & 27° 34' 02,72'' S & 48° 50' 25,63'' O & 27° 32' 42,16'' S & 48° 49' 29,09'' O \\\hline
-300 & 27° 33' 15,40'' S & 48° 50' 09,09'' O & 27° 32' 42,16'' S & 48° 49' 29,09'' O \\\hline
-330 & 27° 32' 42,16'' S & 48° 49' 29,09'' O & 27° 32' 42,16'' S & 48° 49' 29,09'' O \\\hline
+120 & 27° 34' 52,37'' S & 48° 47' 00,00'' O & 27° 38' 05,67'' S & 48° 44' 00,00'' O \\\hline
+180 & 27° 35' 38,11'' S & 48° 48' 33,71'' O & 27° 42' 10,54'' S & 48° 48' 33,71'' O \\\hline
+210 & 27° 35' 25,46'' S & 48° 49' 29,09'' O & 27° 41' 05,67'' S & 48° 53' 05,45'' O \\\hline
+240 & 27° 34' 52,37'' S & 48° 50' 09,09'' O & 27° 38' 07,78'' S & 48° 56' 29,09'' O \\\hline
+270 & 27° 34' 02,72'' S & 48° 50' 25,63'' O & 27° 34' 02,73'' S & 48° 57' 40,00'' O \\\hline
+300 & 27° 33' 15,40'' S & 48° 50' 09,09'' O & 27° 30' 00,00'' S & 48° 56' 29,09'' O \\\hline
+330 & 27° 32' 42,16'' S & 48° 49' 29,09'' O & 27° 27' 04,86'' S & 48° 53' 05,45'' O \\\hline
 
 \end{tabular}
 \caption{COORDENADAS INDICANDO AS REFERÊNCIAS LATITUDINAIS E LONGITUDINAIS DE CADA RADIAL.}
@@ -269,22 +265,24 @@ Radial(Graus) & Latitude(3Km) & Longitude(3Km) & Latitude(15Km) & Longitude(15Km
 Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar esta recurso basta apenas inserir as coordenadas dos pontos 
 inicial e final de cada radial (3kM e 15kM) e o passo, em metros, desejado para a construção da curva (12/quantidade de passos)
 
-Como exemplo, demostro um dos gráficos ( Figura~\ref{nmt} ) que usei para este estudo. Note que usei um passo de 240 metros para cada 
+
+
+Como exemplo, demonstro um dos gráficos ( Figura~\ref{nmt} ) que usei para este estudo. Note que usei um passo de 240 metros para cada 
 medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial.
 
 
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} 
-\caption{Gráfico NMR usando o recurso da SIGANATEL (Radial 1)}
+\caption{gráfico NMR usando o recurso da SIGANATEL (Radial 1)}
 \label{nmt}
 \end{figure}
 
 
-De posse dos resultados dos NMR's, podemos agora encontrar o nível medio do terreno (NMT), que é a média aritmética das 12 NMRs,
+De posse dos resultados dos NMR's, podemos agora encontrar o nível médio do terreno (NMT), que é a média aritmética das 12 NMRs,
  tornando o terreno simbolicamente plano e de altura conhecida. 
 
-A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altidudes encontradas dos 50 pontos ao longo de cada radial,
+A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altitudes encontradas dos 50 pontos ao longo de cada radial,
  possibilitando obter a média 
 para encontrar o NMR e, consequentemente, o NMT de $288,33 m$, como pode ser observado. 
 
@@ -299,7 +297,7 @@ para encontrar o NMR e, consequentemente, o NMT de $288,33 m$, como pode ser obs
 \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|} \hline
 
 -/- & Radial 01 & Radial 02 & Radial 03 & Radial 04 & Radial 05 & Radial 06 & Radial 07 & Radial 08 & Radial 09 & Radial 10 & Radial 11 & Radial 12 & NMT \\ \hline
-Distancia.(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Alt. Média (m)\\\hline
+Distancia.(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Alt. média (m)\\\hline
 3240 & 350 & 335 & 275 & 290 & 470 & 260 & 400 & 315 & 320 & 390 & 140 & 66 & 300,91\\
 3480 & 325 & 290 & 325 & 340 & 530 & 245 & 390 & 320 & 300 & 400 & 50 & 40 & 296,25\\
 3720 & 225 & 180 & 350 & 290 & 550 & 280 & 435 & 355 & 290 & 340 & 140 & 40 & 289,58\\
@@ -360,15 +358,15 @@ NMR(m) & 158,38 & 73,46 & 169,14 & 166,2 & 250,46 & 158,38 & 196,86 & 394,8 & 50
 \label{tabelaNMT}
 \end{table}
 
-Os NMR's encontrados neste processo serão usados para obter todos os valores de intensidade de sinal para cada uma das radias, como informaremos mais à 
+Os NMR's encontrados neste processo serão usados para obter todos os valores de intensidade de sinal para cada uma das radias, como informaremos mais á
 frente.
 
-\subsection{Altura Acima do Nível Médio do Terrreno}
+\subsection{Altura Acima do nível médio do Terreno}
 
 No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, podemos encontrar o valores de HSNMT (Altura do nível médio do
 terreno)
  também para cada radial.
-Estes valores serão usados para definir os valores de intensidade do campo, que formará o contorno protegido de $66 dBµ$
+Estes valores serão usados para definir os valores de intensidade do campo, que formará o contorno protegido de $66 dB?$
 Os valores de $HSNTM$ serão aplicados posteriormente nas Curvas de Intensidade de Campo, que será abordada com maiores detalhes mais à frente.
 
 O HSNTM é definido pela expressão:
@@ -379,7 +377,7 @@ $CBT$ = Altura da base da torre (Altura do terreno onde será instalada a base da
 
 $HCGSI$= Altura da torre, somado com o Centro de Fase do Sistema Irradiante;
 
-$NMT$ = Nível Médio do Terreno.
+$NMT$ = nível médio do Terreno.
 
 %Levando em consideração as observações apresentadas no enquadramento de classe, vamos começar a definir a nossa HNTM.
 
@@ -392,8 +390,8 @@ $$CBT = 285m$$
 
 Mais um fato curioso, e compreensível, é que o CBT tem um valor muito próximo do já encontrado NMT ($288,33 m$), demostrando que o relevo, nas redondezas, 
 tende
- à manter a mesma altura da
-nossa base. Porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radias.
+é manter a mesma altura da
+nossa base. porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radias.
 
 Se analisarmos os valores de NMR apresentados na tabela tal, notaremos que a região voltada ao
  Oeste (Sudoeste - Noroeste) da base emissora, apresenta níveis de altura do terreno maiores que a base, enquanto as outras regiões são todas mais baixas.
@@ -408,8 +406,8 @@ potência do transmissor.
 
 Sendo assim, sabendo que a emissora está localizada em uma área de relevo acidentado e com radias apresentado um NMR mais elevado que a base, ficará definida a altura da torre
  em 60 metros. Esta é a altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. 
-Usando este critério 
-ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, à longo prazo.
+Usando este critério
+ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, á longo prazo.
 
 Para definir a $HCGSI$, precisamos ainda obter o valor da altura do Centro de Fase do Sistema Irradiante. Este valor é encontrado nas especificações da 
 antena que será usada no projeto
@@ -418,8 +416,8 @@ Este definição será melhor explicada no tópico específico sobre antena, mais à f
 
 Para concluir este cálculo, vamos buscar o valor faltante na especificação
 da antena definida para este projeto (será usada uma  Dipolo $1/2$ Onda, para FM, do fabricante IDEAL, conforme ANEXO II).
-De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequencia de  $98.1 Mhz$, que é
-a frequencia mais aproximado da que será propagada o sinal da nossa emissora ($95,5 Mhz$), o centro de fase do sistema fica em $2315mm$, ou $2,315m$.
+De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de  $98.1 Mhz$, que é
+a frequência mais aproximado da que será propagada o sinal da nossa emissora ($95,5 Mhz$), o centro de fase do sistema fica em $2315mm$, ou $2,315m$.
  Efetuando-se a soma entre a 
 altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor: 
 
@@ -427,11 +425,11 @@ $$HCGSI = 60m + 2,315m = 62,315m$$
 
 Agora já temos definidas todas as variáveis que compõem nossa equação, vamos encontrar o HSNMT, ficou assim:
 
-$$HSNMT = 285m + 62,315m - 288,33 m$$, encontramos o resulado aproximado de :
+$$HSNMT = 285m + 62,315m - 288,33 m$$, encontramos o resultado aproximado de :
 
 $$HSNMT = 59m $$
 
-Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. Através dele, podemos comprovar que a antena estará numa altura dentro do
+Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. através dele, podemos comprovar que a antena estará numa altura dentro do
  limite estabelecido
 pela resolução, considerando a média de todas as radiais ($NMT$).
 
@@ -442,7 +440,7 @@ A tabela~\ref{tabelaHSNMT} apresenta os valores de $HSNMT$ obtidos. Essa coluna 
 correspondente. 
 
 Os resultados negativados informam que, na direção das radias correspondentes à estes valores, o nível do terreno é mais alto
-que a altura da antena ($347,315m$). Então podemos concluir que, o sinal irradiado para estas direções encontrará obstáculos que irão interferir na sua 
+que a altura da antena ($347,315m$). então podemos concluir que, o sinal irradiado para estas direções encontraria obstáculos que iriam interferir na sua 
 propagação.
 Essa informação é muito importante para a otimização da área de cobertura da emissora, e será lembrada mais adiante.
 
@@ -464,7 +462,6 @@ Radial(Graus) & NMR & HSNMT \\ \hline
 180 & 151,58 & 195,73\\
 210 & 394,80 & -47,48\\
 240 & 502,10 & -154,78\\
-
 270 & 579,10 & -231,78\\
 300 & 412,10 & -64,78\\
 330 & 405,32 & -58,00\\ \hline
@@ -476,18 +473,18 @@ Radial(Graus) & NMR & HSNMT \\ \hline
 
 \section{CONTORNO PROTEGIDO}
 
-Como mencionado anteriromente, o contorno protegido de uma estação de rádio Fm corresponde ao lugar
-geométrico onde a intensidade de campo do sinal apresentar o valor de $66 dBµ$ ($2 mV/m$)(Contorno 2). 
-Este contorno tem como finalidade atender a Área de Serviço Urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
-as demais áreas de serviços, a Área de Serviço Primária (Contorno 1), limitada pelo contorno de $74 dBµ$ ($5 mV/m$) e a Área de Serviço Rural (Contorno 3),
- compreendida entre o contorno 2 e o contorno de $54 dBµ$ ($0,5 mV/m$), também estarão de acordo com a norma.
+Como mencionado anteriormente, o contorno protegido de uma estação de rádio Fm corresponde ao lugar
+geométrico onde a intensidade de campo do sinal apresentar o valor de $66 dB?$ ($2 mV/m$)(Contorno 2). 
+Este contorno tem como finalidade atender a área de serviço Urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
+as demais áreas de serviços, a área de serviço Primária (Contorno 1), limitada pelo contorno de $74 dB?$ ($5 mV/m$) e a área de serviço Rural (Contorno 3),
+ compreendida entre o contorno 2 e o contorno de $54 dB?$ ($0,5 mV/m$), também estará de acordo com a norma.
 
-O que vai determinar toda a extenção deste contorno é a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
-que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na resolução determinada pela ANATEL, para a classe do canal proposto.  
+O que vai determinar toda a extensão deste contorno será a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
+que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na RESOLUÇÃO determinada pela ANATEL, para a classe do canal proposto.  
 
-\chapter{CÁLCULO DO SISTEMA IRRADIANTE}
+\chapter{cálculo DO SISTEMA IRRADIANTE}
 
-Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos defidos os outros aspectos técnicos primários
+Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos Técnicos primários
  necessários, vamos para a construção do conjunto de equipamentos que formará o Sistema Irradiante, além de realizar os cálculos necessários para
 deixar a emissora enquadrada conforme a resolução.
 
@@ -506,7 +503,7 @@ A seguir serão apresentados as características do sistema irradiante, bem como o
 \centering
 \large
 \includegraphics[scale=1]{./figuras/diagrama_de_irradiacao.jpg} 
-\caption{Diagrama Irradiação da Antena Dipolo $1/2$ Onda para FM}
+\caption{Diagrama Irradiaï¿½ï¿½o da Antena Dipolo $1/2$ Onda para FM}
 \label{diagramaDeIrradiacao}
 \end{figure}
 
@@ -516,9 +513,9 @@ A seguir serão apresentados as características do sistema irradiante, bem como o
 
 \subsection{Ajustes de equipamentos}
 
-\subsubsection{Potência efetiva irradiada máxima (ERPmax)}
+\subsubsection{potência efetiva irradiada máxima (ERPmax)}
 
-Conforme a determinação publicada na RESOLUÇÃO N° 546, DE 1º DE SETEMBRO DE 2010, que Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Freqüência Modulada,
+Conforme a determinação publicada na RESOLUÇÃO N° 546, DE 1° DE SETEMBRO DE 2010, que Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em frequência Modulada,
  segue os cálculos:
 
 Para determinar a intensidade de campo de uma emissora a uma dada distância,utilizam-se as Tabelas ~\ref{e5050} e ~\ref{e5010} da seguinte forma:
@@ -541,21 +538,22 @@ $h1$ = 146,62m
 
 %referencia: http://www.teleco.com.br/tutoriais/tutorialredeslte2/pagina_2.asp
 
-$b)$ selecionar a linha correspondente à distância de interesse;
+$b)$ selecionar a linha correspondente 
+á distância de interesse;
 
  A tabela ~\ref{e5050} não mostra com precisão o valor de intensidade de campo. 
 Para os valores de $h1$ que não estiverem muito bem próximos a uma curva definida na Tabela,deve-se usar a seguinte fórmula 2 (*marcar fórmulas) para encontrar os valores de $E$ 
 para cada Radial:
 
- $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(µV / m)$$
+ $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(uV / m)$$
 
 Onde:
 
-$E$ é o valor de intensidade de campo em $dB (µV/m)$, em função de $h1$,para a distância $d$ desejada; 
+$E$ é o valor de intensidade de campo em $dB (uV/m)$, em função de $h1$,para a distância $d$ desejada; 
 
-$Einf$ é o valor de intensidade de campo em $dB (µV/m)$ para uma altura hinf, extraída das curvas; 
+$Einf$ é o valor de intensidade de campo em $dB (uV/m)$ para uma altura hinf, extraída das curvas; 
 
-$Esup$ é o valor de intensidade de campo em $dB (µV/m)$, para uma altura hsup extraída das curvas; 
+$Esup$ é o valor de intensidade de campo em $dB (uV/m)$, para uma altura hsup extraída das curvas; 
 
 $hinf$ é a altura nominal da antena em $m$, com valor imediatamente inferior a $h1$; 
 
@@ -563,35 +561,35 @@ $hsup$ é a altura nominal da antena em $m$, com valor imediatamente superior $h1
 
 Apresentarei o cálculo utilizando a fórmula para encontrar o valor de intensidade do campo, para a Radial 0:
 
- $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(µV / m)$$ 
+ $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(uV / m)$$ 
 
- $$E =  72dBµ + ( 77dBµ - 72dBµ )log( 146,62m / 75m )/log( 150m / 75m )$$ 
+ $$E =  72dB? + ( 77dB? - 72dB? )log( 146,62m / 75m )/log( 150m / 75m )$$ 
 
- $$E =  72dBµ + ( 5dBµ )log( 1,955 )/log( 2 )$$ 
+ $$E =  72dB? + ( 5dB? )log( 1,955 )/log( 2 )$$ 
 
- $$E =  72dBµ + ( 5dBµ ) + 2,9dBµ - 3dBµ $$ 
+ $$E =  72dB? + ( 5dB? ) + 2,9dB? - 3dB? $$ 
 
- $$E =  72dBµ + ( 5dBµ ) + 2,9dBµ - 3dBµ $$ 
+ $$E =  72dB? + ( 5dB? ) + 2,9dB? - 3dB? $$ 
 
- $$E =  76,9dBµ $$ 
+ $$E =  76,9dB? $$ 
 
 
-$c)$ a interseção de $a)$ com $b)$, contém o valor da intensidade de campo na distância desejada, em $dBµ$
+$c)$ a intersecção de $a)$ com $b)$, contém o valor da intensidade de campo na distância desejada, em $dB?$
 , para  uma $ERP$de $1 kW$;
 
-Neste caso, como foi usada a fórmula 2, esta etapa ja foi concluída no item $b)$.
+Neste caso, como foi usada a fórmula 2, esta etapa já foi concluída no item $b)$.
 
-$d)$ adiciona-se ao valor (em $dBµ$) obtido, o valor da $ERP$ na direção de interesse (em $dBk$); 
-este resultado é o valor da intensidade de campo, em $dBµ$, no ponto considerado. 
+$d)$ adiciona-se ao valor (em $dB?$) obtido, o valor da $ERP$ na direção de interesse (em $dBk$); 
+este resultado é o valor da intensidade de campo, em $dB?$, no ponto considerado. 
 
 Minha $ERP$ calculada ficou:
 
-Após verificar várias maneiras de aumentar a potência do transmissor, de maneira que não desrespeite o contorno protegido de $66dBµ$, segue minhas deduções para a potência do transmissor:
+Após verificar várias maneiras de aumentar a potência do transmissor, de maneira que não desrespeite o contorno protegido de $66dB?$, segue as definições para a potência do transmissor:
 
  - Utilizando 4 antenas dipolo na torre de transmissão, podemos usar um transmissor de 150W (0,150 KW). Isso foi possível pois as antenas são conectadas em série, distribuindo em partes iguais
 a potência para cada uma delas (37,5 W para cada dipolo da torre), ou seja, $14,25dBk$.
 
- - Está definido que a antena (colocar o nome tecnico da antena) proporciona um ganho de $1,5 dB$ para o sistema.
+ - está definido que a antena (colocar o nome técnico da antena) proporciona um ganho de $1,5 dB$ para o sistema.
 
  - Eficiência da linha, basicamente atenua  a transmissão em $-2 dB$ de acordo com os seguintes cálculos:
 
@@ -599,9 +597,9 @@ a potência para cada uma delas (37,5 W para cada dipolo da torre), ou seja, $14,
 $$Pl = ( L x Al ) / 100$$ , onde:
 
 
-$L =$ comp. do guia de onda em metros = $c/f = 300000/91500 = 3,278m$ ($c$ = vel.luz $f$ = frequencia transmissão) 
+$L =$ comp. do guia de onda em metros = $c/f = 300000/91500 = 3,278m$ ($c$ = vel.luz $f$ = frequência transmissão) 
 
-$Al$ = é a atenuação do guia a cada 100 metros de comp. Em $dB  = 1,13dB$ p/ o cabo LCF78 - 50JA - A8. (cabo homologado)
+$Al$ = Informa a atenuação do guia a cada 100 metros de comp. Em $dB  = 1,13dB$ p/ o cabo LCF78 - 50JA - A8. (cabo homologado)
 
 Entao $Pl = (3,278 x 1,13)/ 100 = 0.037 dB$, então temos a perda total somando $0.037 dB$ com $2dB$ das perdas dos conectores média estabelecida ($2,037 db$).
 
@@ -611,21 +609,21 @@ Entao $Pl = (3,278 x 1,13)/ 100 = 0.037 dB$, então temos a perda total somando $
 
    $ERP = -14,78dBk $  (valor de ERP base)
 
- - Para a Radial 0, de acordo com a antena usada, o valor de $(E/Emax)²$ é $1.00$, então o valor de ERP não sofre alterações para esta direção. 
+1. - Para a Radial 0, de acordo com a antena usada, o valor de $(E/Emax)$ fica em $1,00$, então o valor de ERP não sofre alterações para esta direção. 
 
 
-Para definir o valor do contorno para a Radial 0, temos que somar a intensidade do campo ( $E = 76,9dBµ $ ) com o valor de ERP  ($ERP = -14,78dBk $ ),
+Para definir o valor do contorno para a Radial 0, temos que somar a intensidade do campo ( $E = 76,9dB? $ ) com o valor de ERP  ($ERP = -14,78dBk $ ),
 que totaliza :
 
-$$ ContornoR0 = 76,9 dBµ + (-14,78dBk) = 62,11 dBµ$$ , à 7,5 Km da base.
+1. $$ ContornoR0 = 76,9 dB? + (-14,78dBk) = 62,11 dB?$$ , é 7,5 Km da base.
 
 Assim, esta radial está respeitando a norma que exige, conforme a tabela, que 
-para a classe C , a distância máxima ao contorno protegido é de $7,5 km$ com a potencia de irradiação de $66 dBm$, no máximo, para esta distância.
+para a classe C , a distância máxima ao contorno protegido é de $7,5 km$ com a potencia irradiada de $66 dBm$, no máximo, para esta distância.
 
 Porém, devemos ter uma atenção especial para a radial que apresente a NMR mais baixo em relação a base da antena. No nosso caso, a radial que apresenta este valor é a Radial 1
-com o valor de NMR = 73,46 m. Então vamos repetir os cálculos para esta radial e verificar os resultados.
+com o valor de NMR = 73,46 m. então vamos repetir os cálculos para esta radial e verificar os resultados.
 
-$a)$ selecionar a coluna correspondente à altura do centro geométrico da antena $h1$ sobre o NMR da Radial 1;
+$a)$ selecionar a coluna correspondente ï¿½ altura do centro geométrico da antena $h1$ sobre o NMR da Radial 1;
 
 $$h1 = hbt - NMT + ha$$
 
@@ -633,31 +631,31 @@ $h1$ = 285m - 73,46 + 20m
 
 $h1$ = 231,54
 
-$b)$ selecionar a linha correspondente à distância de interesse;
+$b)$ selecionar a linha correspondente é distância de interesse;
 
 Aplicando a fórmula 2 para encontrar o valor:
 
- $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(µV / m)$$
+ $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(uV / m)$$
 
- $$E = 77dBµ + ( 82dBµ - 77dBµ )log( 231,54 / 150 )/log( 300 / 150 )$$
+ $$E = 77dB? + ( 82dB? - 77dB? )log( 231,54 / 150 )/log( 300 / 150 )$$
 
- $$E = 77dBµ + ( 5dBµ )log( 1,5436 )/log( 2 )$$
+ $$E = 77dB? + ( 5dB? )log( 1,5436 )/log( 2 )$$
 
- $$E = 77dBµ + 5dBµ + 1,88 dB - 3 dB $$
+ $$E = 77dB? + 5dB? + 1,88 dB - 3 dB $$
 
- $$E = 80,88 dBµ$$
+ $$E = 80,88 dB?$$
 
-$c)$ a interseção de $a)$ com $b)$, contém o valor da intensidade de campo na distância desejada, em $dBµ$
+$c)$ a intersecção de $a)$ com $b)$, contêm o valor da intensidade de campo na distância desejada, em $dB?$
 , para  uma $ERP$de $1 kW$;
 
- Temos que pular essa etapa pois já temos o valor encontrado pelo cálculo ( $80,88 dBµ$ ).
+ Temos que pular essa etapa pois já temos o valor encontrado pelo cálculo ( $80,88 dB?$ ).
 
-$d)$ adiciona-se ao valor (em $dBµ$) obtido, o valor da $ERP$ na direção de interesse ( em $dBk$ ); 
-este resultado é o valor da intensidade de campo, em $dBµ$, no ponto considerado. 
+$d)$ adiciona-se ao valor (em $dB?$) obtido, o valor da $ERP$ na direção de interesse ( em $dBk$ ); 
+este resultado é o valor da intensidade de campo, em $dB?$, no ponto considerado. 
 
-$ERP$ já encontrado anteriormente é $-14,78 dBk$, mas ainda temos que multiplicar com o valor de $(E/Emax)²$ (valor pré informado na tabela do sistema irradiante).
+$ERP$ já encontrado anteriormente é $-14,78 dBk$, mas ainda temos que multiplicar com o valor de $(E/Emax)$ (valor é informado na tabela do sistema irradiante).
 
-Valor para Radial 1 = $(E/Emax)² = 0,9025$
+Valor para Radial 1 = $(E/Emax) = 0,9025$
 
 Para multiplicar, temos que converter para potencia(W):
 
@@ -672,11 +670,11 @@ Multiplicando fica:
 
   $ERPradial1(dBk) = -15,22dBk$.
 
-Logo, o intensidade do sinal na distância final é:
+Logo, o intensidade do sinal na distância final ï¿½:
 
-$$ ContornoR1 = 80,88 dBµ + (-15,22dBk) = 65,66 dBµ$$ , para a Radial 1
+$$ ContornoR1 = 80,88 dB? + (-15,22dBk) = 65,66 dB?$$ , para a Radial 1
 
-De acordo com a norma, o contorno protegido deve apresentar, no seu limite máximo, a potencia máxima de $66 dBµ$, o resultado mostra que estamos logo abaixo deste valor. Como esta é
+De acordo com a norma, o contorno protegido deve apresentar, no seu limite máximo, a potencia máxima de $66 dB?$, o resultado mostra que estamos logo abaixo deste valor. Como esta é
 a Radial em que o sinal consegue se propagar mais livremente, devido ao NMR ser o mais baixo da lista, consequentemente também será o que terá o sinal mais forte, entre as radiais, no limite
 do contorno protegido.
 
@@ -704,9 +702,9 @@ do contorno protegido.
 \begin{sideways}
 \begin{tabular}{|l|l|l|l|l|l|cc|cc|cc|} \hline
 
-Radiais&NMT&HSMNT&(E/Emax)&Potência&Potência&Contorno 1&&Contorno 2&&Contorno 3&\\ \cline{7-12}
+Radiais&NMT&HSMNT&(E/Emax)&potência&potência&Contorno 1&&Contorno 2&&Contorno 3&\\ \cline{7-12}
 Azimutes&(m)&(m)&for square&Proposta&Proposta&&&&&&\\     
-(Graus)&&&&Perp(KW)&Perp(dBk)&74 dbu&C1 (Km)&66 dbu&C2 (Km)&54 dbu&C3 (Km)\\ \hline
+(Graus)&&&&Perp(KW)&Perp(dBk)&74 dB?&C1 (Km)&66 dB?&C2 (Km)&54 dB?&C3 (Km)\\ \hline
 0&158,38&189,19&0,6084&0,1482&-8,29&82,29&5,5&74,29&10,3&62,29&21\\
 30&73,46&274,11&0,4761&0,1159&-9,35&83,35&6,2&75,35&12,5&63,35&24\\
 60&169,14&178,46&0,3969&0,0966&-10,14&84,14&5&76,14&10&64,14&18\\
@@ -720,7 +718,7 @@ Azimutes&(m)&(m)&for square&Proposta&Proposta&&&&&&\\
 300&412,1&-64,53&0,9025&0,2198&-6,57&80,57&1,9&72,57&3,4&60,57&6,9\\
 330&405,32&-57,75&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\ \hline
 Valores&&&&&&&&&&&\\
-Médios &288,29&&&&&&&&&&\\\hline
+médios &288,29&&&&&&&&&&\\\hline
 
 
 
@@ -733,87 +731,87 @@ Médios &288,29&&&&&&&&&&\\\hline
 
 \subsubsection{Potência efetiva irradiada por azimute (ERP)}
 
-\subsubsection{Orientação da antena}
+\subsubsection{Orientações da antena}
 
 
 %\section{Definições do estudo}
 
-%A norma apresenta um roteiro para a elaboração de estudos técnicos. O roteiro é usado para demostrar a viabilidade técnica da emissora, e pede que ,necessariamente, o estudo deve apresentar
-% as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo.
+%A norma apresenta um roteiro para a elaboração dos estudos Técnicos. O roteiro á usado para demostrar a viabilidade técnica da emissora, e pede que ,necessariamente, o estudo deve apresentar
+% as seguintes partes: informações básicas, cálculo de Viabilidade e Parecer Conclusivo.
 
 %Segue as informações indispensáveis para o estudo de viabilidade técnica
 
-%\subsection{Informações Básicas}
+%\subsection{informações básicas}
 
  %   a) Nome da entidade requerente: ??????
- %   b) Localização da emnissora objeto do estudo (cidade,UF): São Pedro de Alcântara, SC
- %   c) Propósito do estudo: homolação do projeto da emissora.
+ %   b) Localizaï¿½ï¿½o da emnissora objeto do estudo (cidade,UF): são Pedro de Alcântara, SC
+ %   c) Propósito do estudo: homolaï¿½ï¿½o do projeto da emissora.
 
-%\subsubsection{Características técnicas pretendidas}
+%\subsubsection{características técnicas pretendidas}
 
- %   a) frequencia de operação: 91,5 MHz
-  %  b) n° do canal: 218
+ %   a) frequência de operaï¿½ï¿½o: 91,5 MHz
+  %  b) nï¿½ do canal: 218
   %  c) classe: C
   %  d) tipo de sistema irradiante: Dipolo 1/2 onda para FM 
 
 
 
 
-%\chapter{ PLANO BÁSICO DE FREQÊNCIA MODULADA - PBFM}
+%\chapter{ PLANO Básico DE FREQï¿½NCIA MODULADA - PBFM}
 
 
-%\chapter{ O rádio} %Adicione mais capítulos após o este com o comando \chapter{NOME DE OUTRO CAPÍTULO}
+%\chapter{ O rádio} %Adicione mais capï¿½tulos após o este com o comando \chapter{NOME DE OUTRO CAPï¿½TULO}
 
-%O rádio pertence à família de radiação eletromagnética que inclui o infravermelho, luz visível, 
-%ultravioleta, raios X, raios gama e cósmicos. O rádio possui o comprimento de onda mais longo do 
-%grupo, e a frequência mais baixa. As ondas eletromagnéticas resultam da interação entre um campo 
-%elétrico e um campo magnético.
+%O rádio pertence ï¿½ famï¿½lia de radiaï¿½ï¿½o eletromagnï¿½tica que inclui o infravermelho, luz visï¿½vel, 
+%ultravioleta, raios X, raios gama e cï¿½smicos. O rádio possui o comprimento de onda mais longo do 
+%grupo, e a Frequência mais baixa. As ondas eletromagnï¿½ticas resultam da interaï¿½ï¿½o entre um campo 
+%elï¿½trico e um campo magnï¿½tico.
 
-% Uma Carga elétrica que oscile num condutor cria um campo elétrico e \section{ Onda eletromagnéticas}
-%o correspondente campo magnético. O campo magnético por sua vez cria um campo elétrico, que cria 
-%outro campo magnético, e por aí fora. Estes dois campos interagem criando uma onda 
-%eletromagnética, que se propaga no espaço.
+% Uma Carga elï¿½trica que oscile num condutor cria um campo elï¿½trico e \section{ Onda eletromagnï¿½ticas}
+%o correspondente campo magnï¿½tico. O campo magnï¿½tico por sua vez cria um campo elï¿½trico, que cria 
+%outro campo magnï¿½tico, e por aï¿½ fora. Estes dois campos interagem criando uma onda 
+%eletromagnï¿½tica, que se propaga no espaï¿½o.
 
-% Os componentes elétrico e magnético fazem entre si um 
-%ângulo reto, e 90o em relação à direção de propagação. A polarização de uma onda de rádio é 
-%geralmente a mesma do seu campo elétrico. 
+% Os componentes elï¿½trico e magnï¿½tico fazem entre si um 
+%ï¿½ngulo reto, e 90o em relaï¿½ï¿½o ï¿½ direção de propagação. A polarizaï¿½ï¿½o de uma onda de rádio ï¿½ 
+%geralmente a mesma do seu campo elï¿½trico. 
 
 %
 
-%As ondas de rádio que se propagam entre as antenas transmissora e receptora são denominadas de ondas eletromagnéticas.
+%As ondas de rádio que se propagam entre as antenas transmissora e receptora são denominadas de ondas eletromagnï¿½ticas.
 
-%A antena transmissora transforma as variações de tensão e corrente produzidas pelo equipamento transmissor em ondas eletromagnéticas,
-% capazes de se propagar no espaço.
+%A antena transmissora transforma as variaï¿½ï¿½es de tensão e corrente produzidas pelo equipamento transmissor em ondas eletromagnï¿½ticas,
+% capazes de se propagar no espaï¿½o.
 
-%A antena receptora desempenha papel contrário, transformando a energia das ondas eletromagnéticas em variações de tensão e corrente 
+%A antena receptora desempenha papel contrï¿½rio, transformando a energia das ondas eletromagnï¿½ticas em variaï¿½ï¿½es de tensão e corrente 
 %para serem processadas no equipamento receptor.
 
-%Essas ondas eletromagnéticas caracterizam-se pelos campos elétrico e magnético que se propagam na atmosfera. As ondas eletromagnéticas 
-%são representadas normalmente por senoides, uma para cada campo, possuindo então os parâmetros de amplitude, frequência, fase e
- %comprimento de ondas. A velocidade de propagação delas é independente da fonte geradora, estando relacionada ao comprimento de onda
- %(lambda) e a frequência (f) por v = lambda.f. \cite{sanches}
+%Essas ondas eletromagnï¿½ticas caracterizam-se pelos campos elï¿½trico e magnï¿½tico que se propagam na atmosfera. As ondas eletromagnï¿½ticas 
+%são representadas normalmente por senoides, uma para cada campo, possuindo então os parâmetros de amplitude, Frequência, fase e
+ %comprimento de ondas. A velocidade de propagação delas ï¿½ independente da fonte geradora, estando relacionada ao comprimento de onda
+ %(lambda) e a Frequência (f) por v = lambda.f. \cite{sanches}
 
-%O comprimento de onda (l) de qualquer frequência de rádio pode ser determinada por esta fórmula. 
+%O comprimento de onda (l) de qualquer Frequência de rádio pode ser determinada por esta fórmula. 
 
-%Pensando-se em um sinal sendo propagado no vácuo, sua velocidade será constante  a $3 x 10^8 m/s$ (velocidade da luz), então, um sinal
-%de rádio com a frequência de $30MHz$ terá um comprimento de onda de 10 metros.
+%Pensando-se em um sinal sendo propagado no vï¿½cuo, sua velocidade será constante  a $3 x 10^8 m/s$ (velocidade da luz), então, um sinal
+%de rádio com a Frequência de $30MHz$ terá um comprimento de onda de 10 metros.
 
  
-%Considerando-se a propagação no vácuo, a velocidade é constante a 3 x 10^8 m/s (velocidade da luz), logo, comprimento de onda de um
-%sinal de rádio com a frequência de 30Mhz será de 10 metros. Em outros meios de propagação o comprimento de onda diminui porque a 
-%velocidade de propagação é menor. Num fio condutor, o comprimento de onda de um sinal de 30Mhz diminui para 9,5m. Este fator deve 
-%ser tomado em consideração no desenho de antenas e outras aplicações. 
+%Considerando-se a propagação no vï¿½cuo, a velocidade ï¿½ constante a 3 x 10^8 m/s (velocidade da luz), logo, comprimento de onda de um
+%sinal de rádio com a Frequência de 30Mhz será de 10 metros. Em outros meios de propagação o comprimento de onda diminui porque a 
+%velocidade de propagação ï¿½ menor. Num fio condutor, o comprimento de onda de um sinal de 30Mhz diminui para 9,5m. Este fator deve 
+%ser tomado em consideração no desenho de antenas e outras aplicaï¿½ï¿½es. 
 
 
-% A diminuição da velocidade na atmosfera é tão ligeira que é geralmente ignorada, mas por vezes até esta pequena diferença é 
-%significativa. Já a velocidade de propagação num condutor, é cerca de 95\% da velocidade no vácuo. 
+% A diminuiï¿½ï¿½o da velocidade na atmosfera ï¿½ tï¿½o ligeira que ï¿½ geralmente ignorada, mas por vezes até esta pequena diferença ï¿½ 
+%significativa. já a velocidade de propagação num condutor, ï¿½ cerca de 95\% da velocidade no vï¿½cuo. 
 
-%\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+%\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 %\begin{center}
-%\includegraphics[scale=.5]{./figuras/ondaeletromagnetica.jpg} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+%\includegraphics[scale=.5]{./figuras/ondaeletromagnetica.jpg} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
  
-%\caption[ondaeletromagnetica (aparece na Lista de Figuras)]{Componentes de uma onda Eletromagnética.}
+%\caption[ondaeletromagnetica (aparece na Lista de Figuras)]{Componentes de uma onda Eletromagnï¿½tica.}
 
 %\cite{sanches}
 %\end{center}
@@ -823,159 +821,159 @@ Médios &288,29&&&&&&&&&&\\\hline
 
 %\chapter{ Meio de transmissão}
 
-%O meio de uma transmissão via ondas eletromagnéticas é composto pelo conjunto superfície terrestre e atmosfera.
+%O meio de uma transmissão via ondas eletromagnï¿½ticas ï¿½ composto pelo conjunto superfï¿½cie terrestre e atmosfera.
 
-%As condições atmosféricas e o relevo do terreno influenciam diretamente no comportamento do sinal transmitido e sua propagação. 
-%Essa influência acontece de várias formas, entre elas: obstrução, difração e reflexão.
+%As condições atmosfï¿½ricas e o relevo do terreno influenciam diretamente no comportamento do sinal transmitido e sua propagação. 
+%Essa influï¿½ncia acontece de várias formas, entre elas: obstruï¿½ï¿½o, difraï¿½ï¿½o e reflexï¿½o.
 
-%Quando se trata de um espaço livre, as ondas de rádio se propagam em linha reta, sem a influência de fenômenos como refração 
-%a reflexão.
+%Quando se trata de um espaï¿½o livre, as ondas de rádio se propagam em linha reta, sem a influï¿½ncia de fenï¿½menos como refraï¿½ï¿½o 
+%a reflexï¿½o.
 
-%Já quando existem obstáculos durante a propagação do sinal, ou propagado através de meios diferentes, ocorrem fenômenos como 
-%reflexão e difração, degradando o nível e a qualidade do sinal transmitido.
+%já quando existem obstï¿½culos durante a propagação do sinal, ou propagado através de meios diferentes, ocorrem fenï¿½menos como 
+%reflexï¿½o e difraï¿½ï¿½o, degradando o nível e a qualidade do sinal transmitido.
 
-%O sinal que chega na antena receptora é o resultado final da soma de uma transmissão, isto é, os caminhos diferentes que a portadora 
-%pode tomar no trajeto entre a antena transmissora e receptora (reflexões do terreno, refração das camadas troposféricas), isto pode
+%O sinal que chega na antena receptora ï¿½ o resultado final da soma de uma transmissão, isto ï¿½, os caminhos diferentes que a portadora 
+%pode tomar no trajeto entre a antena transmissora e receptora (reflexï¿½es do terreno, refraï¿½ï¿½o das camadas troposfï¿½ricas), isto pode
  %prejudicar seriamente o sinal originalmente transmitido.
 
-%\section{Atenuação e Absorção }
+%\section{Atenuaï¿½ï¿½o e Absorï¿½ï¿½o }
 
-%As ondas de rádio enfraquecem à medida que se propagam, seja no quase vazio do cosmos ou na 
-%atmosfera terrestre. A atenuação no vácuo resulta da dispersão da energia a partir da fonte.
+%As ondas de rádio enfraquecem ï¿½ medida que se propagam, seja no quase vazio do cosmos ou na 
+%atmosfera terrestre. A atenuaï¿½ï¿½o no vï¿½cuo resulta da dispersão da energia a partir da fonte.
  
-%A atenuação cresce rapidamente porque o sinal diminui na razão do quadrado da distância. Se a 
-%distância entre o emissor e o receptor aumentar de 1 km para 10 km, o sinal diminuirá para um 
-%centésimo da intensidade. A atenuação por dispersão é um fator importante na intensidade do sinal, 
-%mas os sinais de rádio sofrem outros tipos de atenuação. 
+%A atenuaï¿½ï¿½o cresce rapidamente porque o sinal diminui na razï¿½o do quadrado da distância. Se a 
+%distância entre o emissor e o receptor aumentar de 1 km para 10 km, o sinal diminuirï¿½ para um 
+%centï¿½simo da intensidade. A atenuaï¿½ï¿½o por dispersão ï¿½ um fator importante na intensidade do sinal, 
+%mas os sinais de rádio sofrem outros tipos de atenuaï¿½ï¿½o. 
 
-%Energia é perdida por absorção quando as ondas de rádio atravessam outros meios que não o vácuo. 
-%As ondas de rádio propagam-se através da atmosfera ou materiais sólidos (como um fio condutor) 
-%excitando elétrons, que irão radiar energia na mesma freqüência. Este processo não é perfeitamente 
-%eficiente, pois alguma energia é transformada em calor e retida no meio. A quantidade de energia 
-%perdida desta forma depende das características do meio e da freqüência.
+%Energia ï¿½ perdida por absorï¿½ï¿½o quando as ondas de rádio atravessam outros meios que não o vï¿½cuo. 
+%As ondas de rádio propagam-se através da atmosfera ou materiais sï¿½lidos (como um fio condutor) 
+%excitando elï¿½trons, que irï¿½o radiar energia na mesma frequência. Este processo não ï¿½ perfeitamente 
+%eficiente, pois alguma energia ï¿½ transformada em calor e retida no meio. A quantidade de energia 
+%perdida desta forma depende das características do meio e da frequência.
 
-%A atenuação na atmosfera é desprezível dos 10MHz aos 3 GHz, mas, nas freqüências mais elevadas, a absorção devida ao vapor 
-%de água e oxigênio podem ser elevadas. A energia das ondas eletromagnéticas também são perdidas 
-%durante a refração, difração e reflexão, fenômenos que permitem comunicar a longa distância. De fato, 
-%qualquer forma útil de propagação é acompanhada de atenuação. 
+%A atenuaï¿½ï¿½o na atmosfera ï¿½ desprezï¿½vel dos 10MHz aos 3 GHz, mas, nas frequências mais elevadas, a absorï¿½ï¿½o devida ao vapor 
+%de ï¿½gua e oxigï¿½nio podem ser elevadas. A energia das ondas eletromagnï¿½ticas também são perdidas 
+%durante a refraï¿½ï¿½o, difraï¿½ï¿½o e reflexï¿½o, fenï¿½menos que permitem comunicar a longa distância. De fato, 
+%qualquer forma ï¿½til de propagação ï¿½ acompanhada de atenuaï¿½ï¿½o. 
 
-%\section{Refração  }
+%\section{Refraï¿½ï¿½o  }
 
-%As ondas eletromagnéticas propagam-se em linha reta até serem defletidas por algo. As ondas de 
+%As ondas eletromagnï¿½ticas propagam-se em linha reta até serem defletidas por algo. As ondas de 
 %rádio são ligeiramente refratadas, ou dobradas, quando passam de um meio para outro. Neste aspecto 
-%as ondas de rádio comportam-se da mesma maneira que outras formas de radiação eletromagnética. 
+%as ondas de rádio comportam-se da mesma maneira que outras formas de radiaï¿½ï¿½o eletromagnï¿½tica. 
 
-%A dobra aparente de um lápis parcialmente imerso em água demonstra este principio. 
+%A dobra aparente de um lï¿½pis parcialmente imerso em ï¿½gua demonstra este principio. 
 
-%A refração é causada pela mudança de velocidade da onda quando atravessa a fronteira entre um 
-%meio de propagação e o seguinte. Se esta transição é feita num ângulo diferente de 90o, uma parte da 
+%A refraï¿½ï¿½o ï¿½ causada pela mudanï¿½a de velocidade da onda quando atravessa a fronteira entre um 
+%meio de propagação e o seguinte. Se esta transiï¿½ï¿½o ï¿½ feita num ï¿½ngulo diferente de 90o, uma parte da 
 %frente da onda acelera (ou retarda) antes da outra, dobrando a onda ligeiramente. 
 
 %As ondas de rádio são refratadas ao passar obliquamente de um meio para outro. As linhas 
 %representam as cristas de uma frente de onda, sendo a distância entre linhas o comprimento de onda. 
 %A direção da onda muda porque um dos extremos da frente de onda desacelera antes da outra, 
-%quando atravessa a fronteira entre os dois meios. O comprimento de onda é encurtado, mas a 
-%frequência mantém-se constante. 
+%quando atravessa a fronteira entre os dois meios. O comprimento de onda ï¿½ encurtado, mas a 
+%Frequência mantï¿½m-se constante. 
 
-%O grau de refração é diretamente proporcional à diferença entre os índices de refração dos meios. O 
-%índice de refração não é mais do que a velocidade de uma onda de rádio no vácuo dividida pela 
-%velocidade no meio em questão. 
+%O grau de refraï¿½ï¿½o ï¿½ diretamente proporcional ï¿½ diferença entre os ï¿½ndices de refraï¿½ï¿½o dos meios. O 
+%ï¿½ndice de refraï¿½ï¿½o não ï¿½ mais do que a velocidade de uma onda de rádio no vï¿½cuo dividida pela 
+%velocidade no meio em questáo. 
 
 %As ondas de rádio são geralmente refratadas quando atravessam diferentes camadas da atmosfera, 
 %seja a ionosfera a 100 ou mais quilômetros de altitude, ou as camadas inferiores da atmosfera. 
-%Quando a relação entre os índices de refração é suficientemente grande, as ondas de rádio podem ser 
-%refletidas, tal como a luz num espelho. A Terra é um refletor com perdas elevadas, mas uma superfície 
-%de metal funciona bem se possuir alguns comprimentos de onda de diâmetro. 
+%Quando a relaï¿½ï¿½o entre os ï¿½ndices de refraï¿½ï¿½o ï¿½ suficientemente grande, as ondas de rádio podem ser 
+%refletidas, tal como a luz num espelho. A Terra ï¿½ um refletor com perdas elevadas, mas uma superfï¿½cie 
+%de metal funciona bem se possuir alguns comprimentos de onda de diï¿½metro. 
 
 %\section{Dispersão }
 
 %A direção das ondas de rádio também pode ser alterada por dispersão. O efeito observado num feixe 
-%de luz que tenta atravessar o nevoeiro é um bom exemplo da dispersão de uma onda luminosa. 
-%Mesmo numa noite límpida, o cone de luz de um farol é visível devido a uma pequena quantidade de 
-%dispersão atmosférica perpendicular ao feixe luminoso. As ondas de rádio dispersam-se da mesma 
-%forma quando encontram objetos dispostos de forma aleatória, de dimensão igual ou menor ao 
-%comprimento de onda, como massas de elétrons, ou gotículas de água. 
+%de luz que tenta atravessar o nevoeiro ï¿½ um bom exemplo da dispersão de uma onda luminosa. 
+%Mesmo numa noite lï¿½mpida, o cone de luz de um farol ï¿½ visï¿½vel devido a uma pequena quantidade de 
+%dispersão atmosfï¿½rica perpendicular ao feixe luminoso. As ondas de rádio dispersam-se da mesma 
+%forma quando encontram objetos dispostos de forma aleatéria, de dimensão igual ou menor ao 
+%comprimento de onda, como massas de elï¿½trons, ou gotï¿½culas de ï¿½gua. 
 %Quando a densidade dos objetos dispersantes se torna suficientemente grande, comportam-se mais 
-%como um meio de propagação com um índice de refração característico. 
+%como um meio de propagação com um ï¿½ndice de refraï¿½ï¿½o caracterástico. 
 
-%\section{Reflexão  }
+%\section{Reflexï¿½o  }
 
-%Tratando-se de freqüências acima de 30 MHz, reflexões causadas grandes objetos, como edifícios, 
-%aviões e montanhas podem proporcionar um meio de aumentar o alcance para lá da linha do horizonte 
+%Tratando-se de frequências acima de 30 MHz, reflexï¿½es causadas grandes objetos, como edifï¿½cios, 
+%aviï¿½es e montanhas podem proporcionar um meio de aumentar o alcance para lï¿½ da linha do horizonte 
 %em várias centenas de quilômetros.
  
-%Duas estações necessitam apenas de apontar as antenas para um refletor comum, seja ele 
-%estacionário ou móvel. Contrariamente ao que o senso comum dita, a melhor posição para um refletor 
-%não é a meio caminho entre as duas estações. A intensidade do sinal aumenta à medida que o refletor 
+%Duas estaï¿½ï¿½es necessitam apenas de apontar as antenas para um refletor comum, seja ele 
+%estacionï¿½rio ou mï¿½vel. Contrariamente ao que o senso comum dita, a melhor posições para um refletor 
+%não ï¿½ a meio caminho entre as duas estaï¿½ï¿½es. A intensidade do sinal aumenta ï¿½ medida que o refletor 
 %se aproxima de um dos extremos do percurso, fazendo com que os refletores mais eficientes estejam 
-%próximos de uma das duas estações. 
+%próximos de uma das duas estaï¿½ï¿½es. 
 
-%O alcance máximo está limitado pela distancia de linha de vista (rádio) das duas estações para o 
-%refletor e pelas forma e dimensão do mesmo. Os refletores devem possuir vários comprimentos de 
-%onda de dimensão e de preferência ser planos. Aviões comerciais de longo e médio curso são bons 
-%refletores e oferecem a oportunidade de contactos a longa distancia. O limite teórico para a reflexão 
-%obtida pelo uso de aviões é de cerca de 900 km, assumindo que os jatos comerciais não voam a mais 
+%O alcance máximo está limitado pela distancia de linha de vista (rádio) das duas estaï¿½ï¿½es para o 
+%refletor e pelas forma e dimensão do mesmo. Os refletores devem possuir vï¿½rios comprimentos de 
+%onda de dimensão e de preferência ser planos. Aviï¿½es comerciais de longo e médio curso são bons 
+%refletores e oferecem a oportunidade de contactos a longa distancia. O limite teï¿½rico para a reflexï¿½o 
+%obtida pelo uso de aviï¿½es ï¿½ de cerca de 900 km, assumindo que os jatos comerciais não voam a mais 
 %de 12 000 m, mas na realidade os contactos conseguidos são bastante menores. 
 
-%\section{Difração } 
+%\section{Difraï¿½ï¿½o } 
 
-%As ondas de rádio podem ser difratadas ou dobradas em torno de objetos sólidos com arestas vivas. 
+%As ondas de rádio podem ser difratadas ou dobradas em torno de objetos sï¿½lidos com arestas vivas. 
 
-%O grau de refração é diretamente proporcional à diferença entre os índices de refração dos meios. O 
-%índice de refração não é mais do que a velocidade de uma onda de rádio no vácuo dividida pela 
-%velocidade no meio em questão. 
+%O grau de refraï¿½ï¿½o ï¿½ diretamente proporcional ï¿½ diferença entre os ï¿½ndices de refraï¿½ï¿½o dos meios. O 
+%ï¿½ndice de refraï¿½ï¿½o não ï¿½ mais do que a velocidade de uma onda de rádio no vï¿½cuo dividida pela 
+%velocidade no meio em questáo. 
 
 %As ondas de rádio são geralmente refratadas quando atravessam diferentes camadas da atmosfera, 
 %seja a ionosfera a 100 ou mais quilômetros de altitude, ou as camadas inferiores da atmosfera. 
-%Quando a relação entre os índices de refração é suficientemente grande, as ondas de rádio podem ser 
-%refletidas, tal com a luz num espelho. A Terra é um refletor com perdas elevadas, mas uma superfície 
-%de metal funciona bem se possuir alguns comprimentos de onda de diâmetro. 
+%Quando a relaï¿½ï¿½o entre os ï¿½ndices de refraï¿½ï¿½o ï¿½ suficientemente grande, as ondas de rádio podem ser 
+%refletidas, tal com a luz num espelho. A Terra ï¿½ um refletor com perdas elevadas, mas uma superfï¿½cie 
+%de metal funciona bem se possuir alguns comprimentos de onda de diï¿½metro. 
 
 %O cume de uma cordilheira com pelo menos 100 comprimentos de onda de comprimento pode servir 
-%para a difracção em frequências de rádio. Cumes agudos, livres de arvores e horizontais dão as 
-%melhores arestas, mas memo cumes arredondados podem servir como aresta de difracção. Apenas 
-%uma pequena parte da energia do sinal será difractada, mas possibilitará comunicações com um 
-%alcance de cerca de 100 km ou mais. Esta forma de difracção funciona nos dois sentidos, por isso 
-%comunicações através do que podem parecer montanhas intransponíveis podem ser possíveis, como 
+%para a difracï¿½ï¿½o em Frequências de rádio. Cumes agudos, livres de arvores e horizontais dï¿½o as 
+%melhores arestas, mas memo cumes arredondados podem servir como aresta de difracï¿½ï¿½o. Apenas 
+%uma pequena parte da energia do sinal será difractada, mas possibilitarï¿½ comunicaï¿½ï¿½es com um 
+%alcance de cerca de 100 km ou mais. Esta forma de difracï¿½ï¿½o funciona nos dois sentidos, por isso 
+%comunicaï¿½ï¿½es através do que podem parecer montanhas intransponíveis podem ser possï¿½veis, como 
 %sucede no exemplo abaixo. 
 
 %(Buscar uma figura de meio de transmissão.)
 
 %\section{Antenas }    
 
-%Os dispositivos metálicos que são capazes de transmitir  e receber ondas eletromagnéticas são denominados antenas.
-%Nas antenas, as propriedades observadas na transmissão também são válidas para a recepção (reciprocidade).
-%Estes dispositivos possuem características elétricas e físicas essenciais para o melhor desempenho e funcionamento 
+%Os dispositivos metï¿½licos que são capazes de transmitir  e receber ondas eletromagnï¿½ticas são denominados antenas.
+%Nas antenas, as propriedades observadas na transmissão também são vï¿½lidas para a recepï¿½ï¿½o (reciprocidade).
+%Estes dispositivos possuem características elï¿½tricas e fï¿½sicas essenciais para o melhor desempenho e funcionamento 
 %de uma transmissão. As antenas  dividem-se em
 %antenas omni-direcionais (todas as direções) ou direcionais  (focadas em uma direção).
 
 %\subsection{Ganho da Antena}
 
-%O ganho medido em dBi é a característica principal da antena e é definido como a relação entre a energia irradiada 
-%de uma determinada antena na direção do máximo do diagrama de radiação da mesma e a que seria irradiada por uma antena
-% isotrópica ideal em uma direção qualquer, supondo q a potência total seja a mesma.
+%O ganho medido em dBi ï¿½ a caracterástica principal da antena e ï¿½ definido como a relaï¿½ï¿½o entre a energia irradiada 
+%de uma determinada antena na direção do máximo do diagrama de radiaï¿½ï¿½o da mesma e a que seria irradiada por uma antena
+% isotrï¿½pica ideal em uma direção qualquer, supondo q a potência total seja a mesma.
 
-%Isotrópica é uma antena hipotética baseada na transmissão para todas as direções(360º).
+%Isotrï¿½pica ï¿½ uma antena hipotï¿½tica baseada na transmissão para todas as direções(360ï¿½).
 
-%Sendo assim, na verdade o ganho considerado para qualquer antena é simplesmente o quando ela é mais diretiva que a antena
-% isotrópica e não deve ser erroneamente interpretada como uma amplificação de potência na antena.
+%Sendo assim, na verdade o ganho considerado para qualquer antena ï¿½ simplesmente o quando ela ï¿½ mais diretiva que a antena
+% isotrï¿½pica e não deve ser erroneamente interpretada como uma amplificaï¿½ï¿½o de potência na antena.
 
-%Por isso o ganho de uma antena é medido em dBi (dB isotrópico).
+%Por isso o ganho de uma antena ï¿½ medido em dBi (dB isotrï¿½pico).
 
-%Uma outra unidade utilizada é o dBd, que é o ganho em relação à antena dipolo.(sanches 158).
+%Uma outra unidade utilizada ï¿½ o dBd, que ï¿½ o ganho em relaï¿½ï¿½o ï¿½ antena dipolo.(sanches 158).
 
- % As antenas utilizadas nos pontos de transmissão de  sinal têm característica de transmissão omni-direcional. Podem ser 
-%antenas  individuais ou formadas por conjuntos de painéis setoriais que formam 360° e  atendem todas as direções.
+ % As antenas utilizadas nos pontos de transmissão de  sinal tï¿½m caracterástica de transmissão omni-direcional. Podem ser 
+%antenas  individuais ou formadas por conjuntos de painï¿½is setoriais que formam 360ï¿½ e  atendem todas as direções.
 
-%\chapter{Nível Médio do Terreno (NMT)} 
+%\chapter{nível médio do Terreno (NMT)} 
 
 %Para definir em que altura será fixada a antena deve-se fazer um estudo do terreno em um raio de 15KM, partindo do ponto base onde ficará localizada
 %a base antena.
 
 %Por definição da norma, 12 radias devem ser definidas a partir do ponto base para efetuar o cálculo do NMT. na página da ANATEL existe um
 %aplicativo que ajuda e muito nesta tarefa......
-%Este gera um g?afico de oscilação terrena para cada radial, informando as altitudes e possibilitando o cálculo. Segue os gráficos
-%gerados com aplicação:
+%Este gera um g?afico de oscilaï¿½ï¿½o terrena para cada radial, informando as altitudes e possibilitando o cálculo. Segue os gráficos
+%gerados com aplicaï¿½ï¿½o:
 
 %obs: ainda deve ser criada a areferencia na ANATEL e citar na figura tal(difeinir na biblioteca de figuras, verificar como isto funciona)
 
@@ -985,11 +983,11 @@ Médios &288,29&&&&&&&&&&\\\hline
 
 \chapter{Figuras}
 
-Esta seção será destinadas às figuras usadas no trabalho.
+Esta seção é destinadas á figuras usadas no trabalho.
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 1}
 
@@ -997,9 +995,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt1}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt2_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt2_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 2}
 
@@ -1007,9 +1005,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt2}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt3_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt3_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 3}
 
@@ -1017,9 +1015,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt3}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt4_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt4_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 4}
 
@@ -1027,9 +1025,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt4}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt5_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt5_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 5}
 
@@ -1037,9 +1035,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt5}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt6_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt6_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 6}
 
@@ -1047,9 +1045,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt6}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt7_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt7_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 7}
 
@@ -1057,9 +1055,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt7}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt8_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt8_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 8}
 
@@ -1067,9 +1065,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt8}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt9_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt9_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 9}
 
@@ -1077,9 +1075,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt9}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt10_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt10_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 10}
 
@@ -1087,9 +1085,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt10}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt11_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt11_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 11}
 
@@ -1097,9 +1095,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 \label{nmt11}
 \end{figure}
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 \begin{center}
-\includegraphics[scale=.5]{./figuras/nmt12_v2.pdf} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\includegraphics[scale=.5]{./figuras/nmt12_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
 \caption[Radiais (aparece na Lista de Figuras)]{Radial 12}
 
@@ -1117,44 +1115,44 @@ Esta seção será destinadas às figuras usadas no trabalho.
 %\section{Figuras}
 %Podemos observar um exemplo na figura~\ref{fig01}.
 
-%\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
+%\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 %\begin{center}
-%\includegraphics[scale=.5]{./figuras/teste.jpg} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+%\includegraphics[scale=.5]{./figuras/teste.jpg} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 %\end{center}
  
 %\caption[Nome Curto da figura (aparece na Lista de Figuras)]{Nome Longo para a figura}
 %\label{fig01}
 %\end{figure}
 
-%\section{Referências}
+%\section{referências}
 
 %Exemplos para citar referências. Um exemplo em \cite{ref1}. Ou utilizamos \cite[p.~35]{ref1}.
 
 %Quando for citar explicitamente o autor da referência, utilize: De acordo com \citeonline{ref8} temos (\ldots). Outra forma: De 
 %acordo com \citeonline[p.~15]{ref8} temos (\ldots). Ainda podemos ter: De acordo com \citeonline[p.~15--17]{ref8} temos (\ldots). 
 
-%Para fazer uma citação longa (Com mais de três linhas) utilize:
+%Para fazer uma citaï¿½ï¿½o longa (Com mais de trï¿½s linhas) utilize:
 
 %\begin{citacao}
 %Mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono \cite[p.~14--15]{ref1}.
 %\end{citacao}
 
-%A citação longa deve vir em parágrafo separado, com recuo de 4 cm da margem esquerda, em fonte menor, sem as aspas e com espaçamento simples
+%A citaï¿½ï¿½o longa deve vir em parï¿½grafo separado, com recuo de 4 cm da margem esquerda, em fonte menor, sem as aspas e com espaï¿½amento simples
 
 
-%\section{Texto Matemático}
+%\section{Texto Matemï¿½tico}
 
-%Utilize \$ para inciar e finalizar o modo matemático\footnote{nota de rodapé} dentro de um texto não matemático e \$\$ para inciar e finalizar o modo matemático centralizado (Fórmulas).
-% Exemplo dentro de um texto não matemático: Sejam $a$ e $b$ dois números reais não nulos, logo $a^{b+a} = a^b a^a$. Agora segue um exemplo de modo matemático centralizado: $$\int_a^b f(x) dx = 56.$$
+%Utilize \$ para inciar e finalizar o modo matemï¿½tico\footnote{nota de rodapï¿½} dentro de um texto não matemï¿½tico e \$\$ para inciar e finalizar o modo matemï¿½tico centralizado (fórmulas).
+% Exemplo dentro de um texto não matemï¿½tico: Sejam $a$ e $b$ dois números reais não nulos, logo $a^{b+a} = a^b a^a$. Agora segue um exemplo de modo matemï¿½tico centralizado: $$\int_a^b f(x) dx = 56.$$
 
-%Abaixo temos um exemplo de proposição com sua demonstração:
+%Abaixo temos um exemplo de proposições com sua demonstraï¿½ï¿½o:
 %\begin{proposicao}
-% Sejam $a$ e $b$ reais, tais que $0<a<b$. Então $a^2<b^2$.
+% Sejam $a$ e $b$ reais, tais que $0<a<b$. então $a^2<b^2$.
 %\end{proposicao}
 %\begin{demonstracao}
-% Pela hipótese concluímos que $(b+a)>0$ e $(b-a)>0$. 
+% Pela hipï¿½tese concluï¿½mos que $(b+a)>0$ e $(b-a)>0$. 
 
-%Como $b^2-a^2=(b+a)(b-a)$ concluímos que $b^2-a^2>0$, ou seja, $a^2<b^2$.
+%Como $b^2-a^2=(b+a)(b-a)$ concluï¿½mos que $b^2-a^2>0$, ou seja, $a^2<b^2$.
 %\end{demonstracao}
 
 
@@ -1162,10 +1160,9 @@ Esta seção será destinadas às figuras usadas no trabalho.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Modelo para escrever TCCs, dissertações e teses utilizando LaTeX, ABNTeX e BibTeX
+% Modelo para escrever TCCs, dissertaï¿½ï¿½es e teses utilizando LaTeX, ABNTeX e BibTeX
 % Autor/E-Mail: Robinson Alves Lemos/contato@robinson.mat.br/robinson.a.l@bol.com.br
 % Data: 19/04/2008 
 % Colaboradore(s)/E-Mail(s):
 % Caso queira colaborar, entre em contato pelo e-mail e informe alterações que realizou.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
