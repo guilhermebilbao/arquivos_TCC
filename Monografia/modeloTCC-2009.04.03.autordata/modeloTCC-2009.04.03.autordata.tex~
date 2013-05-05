@@ -218,7 +218,7 @@ l
 %Introdução 
 \ifthenelse{\boolean{InserirIntroducao}}{
 
-\pretextualchapter{Introdução}
+\pretextualchapter{INTRODUÇÃO}
 
 \input{./arquivos_para_alterar/a09-introducao}
 
@@ -236,7 +236,7 @@ l
 %Conclusão
 \ifthenelse{\boolean{InserirConclusao}}{
 
-\chapter{Considerações Finais}
+\chapter{CONSIDERAÇÕES FINAIS}
 
 \input{./arquivos_para_alterar/a11-conclusao}
 

@@ -233,7 +233,41 @@ Após os 12 raios tracejados, calcula-se o nível médio da Radial (NMR) para cada 
  de todas as cotas da radial, que, de acordo com a norma, devem ser compreendidas no trecho entre 3 e 15 quilômetros.
 Para obter esses valores das cotas, no caso os 50 valores correspondentes a alturas do terreno dentro da cada radial, existe uma ferramenta
  disponível no portal online da ANATEL, o SIGANATEL (citar fonte).
+Mas, para conseguir usar esta ferramenta, é preciso obter as coordenadas das 12 radias, nas distâncias de $3km$ e $15km$ partindo da base da emissora. 
 
+Para buscar estes valores temos que usar como referencia os valores informados no mapa (referencias de coordenadas) e sua escala.
+Numa escala de $1:50.000$ cada centímetro no mapa equivale à $500$ metros, então, as radias devem ter, no mínimo, 30 centímetros para atingir o ponto equivalente
+à $15Km$.
+
+Definidos os pontos de $3km$ e $15km$ em todas as radias, agora devemos buscar as coordenadas de cada um desses 24 pontos no mapa.
+Utilizando a regra de tres, podemos encontrar todas as coordenadas. Traçando uma linha horizontal e uma vertical, partindo dos pontos determinados antes, encontramos os valores
+de referência para as coordenadas que se busca, aplica-se a regra de três e defini-se todas as coordenadas que serão usadas na ferramenta SIGANATEL.
+
+A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no mapa.
+
+*** Indicar como faz para usar a ferramenta online (cadastro, links, até chegar aos gráficos.) ***
+
+Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar esta recurso basta apenas inserir as coordenadas dos pontos 
+inicial e final de cada radial (3kM e 15kM) e o passo, em metros, desejado para a construção da curva (12/quantidade de passos)
+
+O gráfico Figura~\ref{nmt} apresenta um exemplo do retorno que a aplicação nos disponibiliza. Note que usei um passo de 240 metros para cada 
+medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial.
+
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} 
+\caption{gráfico NMR usando o recurso da SIGANATEL (Radial 1)}
+\label{nmt}
+\end{figure}
+
+
+De posse dos resultados dos NMR's, podemos agora encontrar o nível médio do terreno (NMT), que é a média aritmética das 12 NMRs,
+ tornando o terreno simbolicamente plano e de altura conhecida. 
+
+A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altitudes encontradas dos 50 pontos ao longo de cada radial,
+ possibilitando obter a média 
+para encontrar o NMR e, consequentemente, o NMT de $288,33 m$, como pode ser observado. 
 \def\tablename{Tabela}
 \begin{table}
 \vspace*{0.05cm}
@@ -256,35 +290,8 @@ Radial(Graus) & Latitude(3Km) & Longitude(3Km) & Latitude(15Km) & Longitude(15Km
 
 \end{tabular}
 \caption{COORDENADAS INDICANDO AS REFERÊNCIAS LATITUDINAIS E LONGITUDINAIS DE CADA RADIAL.}
-\label{tabelaCanalizacao}
+\label{tabelaCoordenadas}
 \end{table}
-
-
-
-*** Indicar como faz para usar a ferramenta online (cadastro, links, até chegar aos gráficos.) ***
-Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar esta recurso basta apenas inserir as coordenadas dos pontos 
-inicial e final de cada radial (3kM e 15kM) e o passo, em metros, desejado para a construção da curva (12/quantidade de passos)
-
-
-
-Como exemplo, demonstro um dos gráficos ( Figura~\ref{nmt} ) que usei para este estudo. Note que usei um passo de 240 metros para cada 
-medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial.
-
-
-\begin{figure}[!htb]
-\centering
-\includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} 
-\caption{gráfico NMR usando o recurso da SIGANATEL (Radial 1)}
-\label{nmt}
-\end{figure}
-
-
-De posse dos resultados dos NMR's, podemos agora encontrar o nível médio do terreno (NMT), que é a média aritmética das 12 NMRs,
- tornando o terreno simbolicamente plano e de altura conhecida. 
-
-A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altitudes encontradas dos 50 pontos ao longo de cada radial,
- possibilitando obter a média 
-para encontrar o NMR e, consequentemente, o NMT de $288,33 m$, como pode ser observado. 
 
 \def\tablename{Tabela}
 \begin{table}
@@ -427,6 +434,8 @@ Agora já temos definidas todas as variáveis que compõem nossa equação, vamos enc
 
 $$HSNMT = 285m + 62,315m - 288,33 m$$, encontramos o resultado aproximado de :
 
+*******************usar os valores originais canal 218
+
 $$HSNMT = 59m $$
 
 Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. através dele, podemos comprovar que a antena estará numa altura dentro do
@@ -467,7 +476,7 @@ Radial(Graus) & NMR & HSNMT \\ \hline
 330 & 405,32 & -58,00\\ \hline
 
 \end{tabular}
-\caption{Valores de HSNMT para cada radial.}
+\caption{Valores de HSNMT para cada radial.} 
 \label{tabelaHSNMT}
 \end{table}
 
@@ -482,7 +491,7 @@ as demais áreas de serviços, a área de serviço Primária (Contorno 1), limitada p
 O que vai determinar toda a extensão deste contorno será a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
 que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na RESOLUÇÃO determinada pela ANATEL, para a classe do canal proposto.  
 
-\chapter{CÀLCULO DO SISTEMA IRRADIANTE}
+\chapter{CÁLCULO DO SISTEMA IRRADIANTE}
 
 Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos Técnicos primários
  necessários, vamos para a construção do conjunto de equipamentos que formará o Sistema Irradiante, além de realizar os cálculos necessários para
@@ -499,6 +508,13 @@ A seguir serão apresentados as características do sistema irradiante, bem como o
 
 \subsection{Antena}
 
+A antena utilizada neste projeto é uma Dipolo $1/2$ onda e de polarização vertical.
+O diagrama de irradiação desta antena é foi útil para o relevo acidentado da região de São Pedro de Alcântara.
+Como podemos ver na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta um antena com uma irradiação levemente direcionada,
+ vamos usar esta característica para direcionar a antena para azimute onde for necessário um ganho maior, visando sempre
+ o objetivo de cobrir toda a área urbana do município com o contorno de $66 dB?$ 
+
+
 \begin{figure}[!htb]
 \centering
 \large
@@ -512,6 +528,8 @@ A seguir serão apresentados as características do sistema irradiante, bem como o
 \subsection{Transmissor}
 
 \subsection{Ajustes de equipamentos}
+
+\subsubsection{Orientação da antena}
 
 \subsubsection{potência efetiva irradiada máxima (ERPmax)}
 
@@ -545,7 +563,7 @@ $b)$ selecionar a linha correspondente
 Para os valores de $h1$ que não estiverem muito bem próximos a uma curva definida na Tabela,deve-se usar a seguinte fórmula 2 (*marcar fórmulas) para encontrar os valores de $E$ 
 para cada Radial:
 
- $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(uV / m)$$
+ $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(?V / m)$$
 
 Onde:
 
@@ -731,7 +749,6 @@ médios &288,29&&&&&&&&&&\\\hline
 
 \subsubsection{Potência efetiva irradiada por azimute (ERP)}
 
-\subsubsection{Orientações da antena}
 
 
 %\section{Definições do estudo}

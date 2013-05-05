@@ -23,7 +23,7 @@
 \setboolean{InserirResumo}{true}
 
 %Troque por true/false para inserir/não inserir: Abstract (Dissertação/Tese: Elemento OBRIGATÓRIO; TCC:Elemento OPCIONAL)
-\setboolean{InserirAbstract}{true}
+\setboolean{InserirAbstract}{false}
 
 %Troque por true/false para inserir/não inserir: Sumário (Elemento OBRIGATÓRIO)
 \setboolean{InserirSumario}{true}
@@ -47,7 +47,7 @@
 \setboolean{InserirApendice}{false}
 
 %Troque por true/false para inserir/não inserir: Anexo (Elemento OPCIONAL)
-\setboolean{InserirAnexo}{true}
+\setboolean{InserirAnexo}{false}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Modelo para escrever TCCs,dissertações e teses utilizando LaTeX, ABNTeX e BibTeX

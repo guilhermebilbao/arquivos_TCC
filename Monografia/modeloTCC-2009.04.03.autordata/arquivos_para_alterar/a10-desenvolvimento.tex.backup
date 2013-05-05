@@ -233,7 +233,41 @@ Após os 12 raios tracejados, calcula-se o nível médio da Radial (NMR) para cada 
  de todas as cotas da radial, que, de acordo com a norma, devem ser compreendidas no trecho entre 3 e 15 quilômetros.
 Para obter esses valores das cotas, no caso os 50 valores correspondentes a alturas do terreno dentro da cada radial, existe uma ferramenta
  disponível no portal online da ANATEL, o SIGANATEL (citar fonte).
+Mas, para conseguir usar esta ferramenta, é preciso obter as coordenadas das 12 radias, nas distâncias de $3km$ e $15km$ partindo da base da emissora. 
 
+Para buscar estes valores temos que usar como referencia os valores informados no mapa (referencias de coordenadas) e sua escala.
+Numa escala de $1:50.000$ cada centímetro no mapa equivale à $500$ metros, então, as radias devem ter, no mínimo, 30 centímetros para atingir o ponto equivalente
+à $15Km$.
+
+Definidos os pontos de $3km$ e $15km$ em todas as radias, agora devemos buscar as coordenadas de cada um desses 24 pontos no mapa.
+Utilizando a regra de tres, podemos encontrar todas as coordenadas. Traçando uma linha horizontal e uma vertical, partindo dos pontos determinados antes, encontramos os valores
+de referência para as coordenadas que se busca, aplica-se a regra de três e defini-se todas as coordenadas que serão usadas na ferramenta SIGANATEL.
+
+A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no mapa.
+
+*** Indicar como faz para usar a ferramenta online (cadastro, links, até chegar aos gráficos.) ***
+
+Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar esta recurso basta apenas inserir as coordenadas dos pontos 
+inicial e final de cada radial (3kM e 15kM) e o passo, em metros, desejado para a construção da curva (12/quantidade de passos)
+
+O gráfico Figura~\ref{nmt} apresenta um exemplo do retorno que a aplicação nos disponibiliza. Note que usei um passo de 240 metros para cada 
+medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial.
+
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} 
+\caption{gráfico NMR usando o recurso da SIGANATEL (Radial 1)}
+\label{nmt}
+\end{figure}
+
+
+De posse dos resultados dos NMR's, podemos agora encontrar o nível médio do terreno (NMT), que é a média aritmética das 12 NMRs,
+ tornando o terreno simbolicamente plano e de altura conhecida. 
+
+A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altitudes encontradas dos 50 pontos ao longo de cada radial,
+ possibilitando obter a média 
+para encontrar o NMR e, consequentemente, o NMT de $288,33 m$, como pode ser observado. 
 \def\tablename{Tabela}
 \begin{table}
 \vspace*{0.05cm}
@@ -256,35 +290,8 @@ Radial(Graus) & Latitude(3Km) & Longitude(3Km) & Latitude(15Km) & Longitude(15Km
 
 \end{tabular}
 \caption{COORDENADAS INDICANDO AS REFERÊNCIAS LATITUDINAIS E LONGITUDINAIS DE CADA RADIAL.}
-\label{tabelaCanalizacao}
+\label{tabelaCoordenadas}
 \end{table}
-
-
-
-*** Indicar como faz para usar a ferramenta online (cadastro, links, até chegar aos gráficos.) ***
-Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar esta recurso basta apenas inserir as coordenadas dos pontos 
-inicial e final de cada radial (3kM e 15kM) e o passo, em metros, desejado para a construção da curva (12/quantidade de passos)
-
-
-
-Como exemplo, demonstro um dos gráficos ( Figura~\ref{nmt} ) que usei para este estudo. Note que usei um passo de 240 metros para cada 
-medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial.
-
-
-\begin{figure}[!htb]
-\centering
-\includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} 
-\caption{gráfico NMR usando o recurso da SIGANATEL (Radial 1)}
-\label{nmt}
-\end{figure}
-
-
-De posse dos resultados dos NMR's, podemos agora encontrar o nível médio do terreno (NMT), que é a média aritmética das 12 NMRs,
- tornando o terreno simbolicamente plano e de altura conhecida. 
-
-A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altitudes encontradas dos 50 pontos ao longo de cada radial,
- possibilitando obter a média 
-para encontrar o NMR e, consequentemente, o NMT de $288,33 m$, como pode ser observado. 
 
 \def\tablename{Tabela}
 \begin{table}
@@ -467,7 +474,7 @@ Radial(Graus) & NMR & HSNMT \\ \hline
 330 & 405,32 & -58,00\\ \hline
 
 \end{tabular}
-\caption{Valores de HSNMT para cada radial.}
+\caption{Valores de HSNMT para cada radial.} 
 \label{tabelaHSNMT}
 \end{table}
 
@@ -482,7 +489,7 @@ as demais áreas de serviços, a área de serviço Primária (Contorno 1), limitada p
 O que vai determinar toda a extensão deste contorno será a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
 que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na RESOLUÇÃO determinada pela ANATEL, para a classe do canal proposto.  
 
-\chapter{cálculo DO SISTEMA IRRADIANTE}
+\chapter{CÁLCULO DO SISTEMA IRRADIANTE}
 
 Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos Técnicos primários
  necessários, vamos para a construção do conjunto de equipamentos que formará o Sistema Irradiante, além de realizar os cálculos necessários para
@@ -503,7 +510,7 @@ A seguir serão apresentados as características do sistema irradiante, bem como o
 \centering
 \large
 \includegraphics[scale=1]{./figuras/diagrama_de_irradiacao.jpg} 
-\caption{Diagrama Irradiaï¿½ï¿½o da Antena Dipolo $1/2$ Onda para FM}
+\caption{Diagrama de Irradiação da Antena Dipolo $1/2$ Onda para FM}
 \label{diagramaDeIrradiacao}
 \end{figure}
 
@@ -512,6 +519,8 @@ A seguir serão apresentados as características do sistema irradiante, bem como o
 \subsection{Transmissor}
 
 \subsection{Ajustes de equipamentos}
+
+\subsubsection{Orientação da antena}
 
 \subsubsection{potência efetiva irradiada máxima (ERPmax)}
 
@@ -623,7 +632,7 @@ para a classe C , a distância máxima ao contorno protegido é de $7,5 km$ com a p
 Porém, devemos ter uma atenção especial para a radial que apresente a NMR mais baixo em relação a base da antena. No nosso caso, a radial que apresenta este valor é a Radial 1
 com o valor de NMR = 73,46 m. então vamos repetir os cálculos para esta radial e verificar os resultados.
 
-$a)$ selecionar a coluna correspondente ï¿½ altura do centro geométrico da antena $h1$ sobre o NMR da Radial 1;
+$a)$ selecionar a coluna correspondente é altura do centro geométrico da antena $h1$ sobre o NMR da Radial 1;
 
 $$h1 = hbt - NMT + ha$$
 
@@ -670,7 +679,7 @@ Multiplicando fica:
 
   $ERPradial1(dBk) = -15,22dBk$.
 
-Logo, o intensidade do sinal na distância final ï¿½:
+Logo, o intensidade do sinal na distância final é:
 
 $$ ContornoR1 = 80,88 dB? + (-15,22dBk) = 65,66 dB?$$ , para a Radial 1
 
@@ -731,7 +740,6 @@ médios &288,29&&&&&&&&&&\\\hline
 
 \subsubsection{Potência efetiva irradiada por azimute (ERP)}
 
-\subsubsection{Orientações da antena}
 
 
 %\section{Definições do estudo}
@@ -744,74 +752,74 @@ médios &288,29&&&&&&&&&&\\\hline
 %\subsection{informações básicas}
 
  %   a) Nome da entidade requerente: ??????
- %   b) Localizaï¿½ï¿½o da emnissora objeto do estudo (cidade,UF): são Pedro de Alcântara, SC
- %   c) Propósito do estudo: homolaï¿½ï¿½o do projeto da emissora.
+ %   b) Localizaééo da emnissora objeto do estudo (cidade,UF): são Pedro de Alcântara, SC
+ %   c) Propósito do estudo: homolaééo do projeto da emissora.
 
 %\subsubsection{características técnicas pretendidas}
 
- %   a) frequência de operaï¿½ï¿½o: 91,5 MHz
-  %  b) nï¿½ do canal: 218
+ %   a) frequência de operaééo: 91,5 MHz
+  %  b) né do canal: 218
   %  c) classe: C
   %  d) tipo de sistema irradiante: Dipolo 1/2 onda para FM 
 
 
 
 
-%\chapter{ PLANO Básico DE FREQï¿½NCIA MODULADA - PBFM}
+%\chapter{ PLANO Básico DE FREQéNCIA MODULADA - PBFM}
 
 
-%\chapter{ O rádio} %Adicione mais capï¿½tulos após o este com o comando \chapter{NOME DE OUTRO CAPï¿½TULO}
+%\chapter{ O rádio} %Adicione mais capétulos após o este com o comando \chapter{NOME DE OUTRO CAPéTULO}
 
-%O rádio pertence ï¿½ famï¿½lia de radiaï¿½ï¿½o eletromagnï¿½tica que inclui o infravermelho, luz visï¿½vel, 
-%ultravioleta, raios X, raios gama e cï¿½smicos. O rádio possui o comprimento de onda mais longo do 
-%grupo, e a Frequência mais baixa. As ondas eletromagnï¿½ticas resultam da interaï¿½ï¿½o entre um campo 
-%elï¿½trico e um campo magnï¿½tico.
+%O rádio pertence é famélia de radiaééo eletromagnética que inclui o infravermelho, luz visével, 
+%ultravioleta, raios X, raios gama e césmicos. O rádio possui o comprimento de onda mais longo do 
+%grupo, e a Frequência mais baixa. As ondas eletromagnéticas resultam da interaééo entre um campo 
+%elétrico e um campo magnético.
 
-% Uma Carga elï¿½trica que oscile num condutor cria um campo elï¿½trico e \section{ Onda eletromagnï¿½ticas}
-%o correspondente campo magnï¿½tico. O campo magnï¿½tico por sua vez cria um campo elï¿½trico, que cria 
-%outro campo magnï¿½tico, e por aï¿½ fora. Estes dois campos interagem criando uma onda 
-%eletromagnï¿½tica, que se propaga no espaï¿½o.
+% Uma Carga elétrica que oscile num condutor cria um campo elétrico e \section{ Onda eletromagnéticas}
+%o correspondente campo magnético. O campo magnético por sua vez cria um campo elétrico, que cria 
+%outro campo magnético, e por aé fora. Estes dois campos interagem criando uma onda 
+%eletromagnética, que se propaga no espaéo.
 
-% Os componentes elï¿½trico e magnï¿½tico fazem entre si um 
-%ï¿½ngulo reto, e 90o em relaï¿½ï¿½o ï¿½ direção de propagação. A polarizaï¿½ï¿½o de uma onda de rádio ï¿½ 
-%geralmente a mesma do seu campo elï¿½trico. 
+% Os componentes elétrico e magnético fazem entre si um 
+%éngulo reto, e 90o em relaééo é direção de propagação. A polarizaééo de uma onda de rádio é 
+%geralmente a mesma do seu campo elétrico. 
 
 %
 
-%As ondas de rádio que se propagam entre as antenas transmissora e receptora são denominadas de ondas eletromagnï¿½ticas.
+%As ondas de rádio que se propagam entre as antenas transmissora e receptora são denominadas de ondas eletromagnéticas.
 
-%A antena transmissora transforma as variaï¿½ï¿½es de tensão e corrente produzidas pelo equipamento transmissor em ondas eletromagnï¿½ticas,
-% capazes de se propagar no espaï¿½o.
+%A antena transmissora transforma as variaéées de tensão e corrente produzidas pelo equipamento transmissor em ondas eletromagnéticas,
+% capazes de se propagar no espaéo.
 
-%A antena receptora desempenha papel contrï¿½rio, transformando a energia das ondas eletromagnï¿½ticas em variaï¿½ï¿½es de tensão e corrente 
+%A antena receptora desempenha papel contrério, transformando a energia das ondas eletromagnéticas em variaéées de tensão e corrente 
 %para serem processadas no equipamento receptor.
 
-%Essas ondas eletromagnï¿½ticas caracterizam-se pelos campos elï¿½trico e magnï¿½tico que se propagam na atmosfera. As ondas eletromagnï¿½ticas 
+%Essas ondas eletromagnéticas caracterizam-se pelos campos elétrico e magnético que se propagam na atmosfera. As ondas eletromagnéticas 
 %são representadas normalmente por senoides, uma para cada campo, possuindo então os parâmetros de amplitude, Frequência, fase e
- %comprimento de ondas. A velocidade de propagação delas ï¿½ independente da fonte geradora, estando relacionada ao comprimento de onda
+ %comprimento de ondas. A velocidade de propagação delas é independente da fonte geradora, estando relacionada ao comprimento de onda
  %(lambda) e a Frequência (f) por v = lambda.f. \cite{sanches}
 
 %O comprimento de onda (l) de qualquer Frequência de rádio pode ser determinada por esta fórmula. 
 
-%Pensando-se em um sinal sendo propagado no vï¿½cuo, sua velocidade será constante  a $3 x 10^8 m/s$ (velocidade da luz), então, um sinal
+%Pensando-se em um sinal sendo propagado no vécuo, sua velocidade será constante  a $3 x 10^8 m/s$ (velocidade da luz), então, um sinal
 %de rádio com a Frequência de $30MHz$ terá um comprimento de onda de 10 metros.
 
  
-%Considerando-se a propagação no vï¿½cuo, a velocidade ï¿½ constante a 3 x 10^8 m/s (velocidade da luz), logo, comprimento de onda de um
+%Considerando-se a propagação no vécuo, a velocidade é constante a 3 x 10^8 m/s (velocidade da luz), logo, comprimento de onda de um
 %sinal de rádio com a Frequência de 30Mhz será de 10 metros. Em outros meios de propagação o comprimento de onda diminui porque a 
-%velocidade de propagação ï¿½ menor. Num fio condutor, o comprimento de onda de um sinal de 30Mhz diminui para 9,5m. Este fator deve 
-%ser tomado em consideração no desenho de antenas e outras aplicaï¿½ï¿½es. 
+%velocidade de propagação é menor. Num fio condutor, o comprimento de onda de um sinal de 30Mhz diminui para 9,5m. Este fator deve 
+%ser tomado em consideração no desenho de antenas e outras aplicaéées. 
 
 
-% A diminuiï¿½ï¿½o da velocidade na atmosfera ï¿½ tï¿½o ligeira que ï¿½ geralmente ignorada, mas por vezes até esta pequena diferença ï¿½ 
-%significativa. já a velocidade de propagação num condutor, ï¿½ cerca de 95\% da velocidade no vï¿½cuo. 
+% A diminuiééo da velocidade na atmosfera é téo ligeira que é geralmente ignorada, mas por vezes até esta pequena diferença é 
+%significativa. já a velocidade de propagação num condutor, é cerca de 95\% da velocidade no vécuo. 
 
 %\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
 %\begin{center}
 %\includegraphics[scale=.5]{./figuras/ondaeletromagnetica.jpg} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
 
  
-%\caption[ondaeletromagnetica (aparece na Lista de Figuras)]{Componentes de uma onda Eletromagnï¿½tica.}
+%\caption[ondaeletromagnetica (aparece na Lista de Figuras)]{Componentes de uma onda Eletromagnética.}
 
 %\cite{sanches}
 %\end{center}
@@ -821,149 +829,149 @@ médios &288,29&&&&&&&&&&\\\hline
 
 %\chapter{ Meio de transmissão}
 
-%O meio de uma transmissão via ondas eletromagnï¿½ticas ï¿½ composto pelo conjunto superfï¿½cie terrestre e atmosfera.
+%O meio de uma transmissão via ondas eletromagnéticas é composto pelo conjunto superfécie terrestre e atmosfera.
 
-%As condições atmosfï¿½ricas e o relevo do terreno influenciam diretamente no comportamento do sinal transmitido e sua propagação. 
-%Essa influï¿½ncia acontece de várias formas, entre elas: obstruï¿½ï¿½o, difraï¿½ï¿½o e reflexï¿½o.
+%As condições atmosféricas e o relevo do terreno influenciam diretamente no comportamento do sinal transmitido e sua propagação. 
+%Essa influéncia acontece de várias formas, entre elas: obstruééo, difraééo e reflexéo.
 
-%Quando se trata de um espaï¿½o livre, as ondas de rádio se propagam em linha reta, sem a influï¿½ncia de fenï¿½menos como refraï¿½ï¿½o 
-%a reflexï¿½o.
+%Quando se trata de um espaéo livre, as ondas de rádio se propagam em linha reta, sem a influéncia de fenémenos como refraééo 
+%a reflexéo.
 
-%já quando existem obstï¿½culos durante a propagação do sinal, ou propagado através de meios diferentes, ocorrem fenï¿½menos como 
-%reflexï¿½o e difraï¿½ï¿½o, degradando o nível e a qualidade do sinal transmitido.
+%já quando existem obstéculos durante a propagação do sinal, ou propagado através de meios diferentes, ocorrem fenémenos como 
+%reflexéo e difraééo, degradando o nível e a qualidade do sinal transmitido.
 
-%O sinal que chega na antena receptora ï¿½ o resultado final da soma de uma transmissão, isto ï¿½, os caminhos diferentes que a portadora 
-%pode tomar no trajeto entre a antena transmissora e receptora (reflexï¿½es do terreno, refraï¿½ï¿½o das camadas troposfï¿½ricas), isto pode
+%O sinal que chega na antena receptora é o resultado final da soma de uma transmissão, isto é, os caminhos diferentes que a portadora 
+%pode tomar no trajeto entre a antena transmissora e receptora (reflexées do terreno, refraééo das camadas troposféricas), isto pode
  %prejudicar seriamente o sinal originalmente transmitido.
 
-%\section{Atenuaï¿½ï¿½o e Absorï¿½ï¿½o }
+%\section{Atenuaééo e Absorééo }
 
-%As ondas de rádio enfraquecem ï¿½ medida que se propagam, seja no quase vazio do cosmos ou na 
-%atmosfera terrestre. A atenuaï¿½ï¿½o no vï¿½cuo resulta da dispersão da energia a partir da fonte.
+%As ondas de rádio enfraquecem é medida que se propagam, seja no quase vazio do cosmos ou na 
+%atmosfera terrestre. A atenuaééo no vécuo resulta da dispersão da energia a partir da fonte.
  
-%A atenuaï¿½ï¿½o cresce rapidamente porque o sinal diminui na razï¿½o do quadrado da distância. Se a 
-%distância entre o emissor e o receptor aumentar de 1 km para 10 km, o sinal diminuirï¿½ para um 
-%centï¿½simo da intensidade. A atenuaï¿½ï¿½o por dispersão ï¿½ um fator importante na intensidade do sinal, 
-%mas os sinais de rádio sofrem outros tipos de atenuaï¿½ï¿½o. 
+%A atenuaééo cresce rapidamente porque o sinal diminui na razéo do quadrado da distância. Se a 
+%distância entre o emissor e o receptor aumentar de 1 km para 10 km, o sinal diminuiré para um 
+%centésimo da intensidade. A atenuaééo por dispersão é um fator importante na intensidade do sinal, 
+%mas os sinais de rádio sofrem outros tipos de atenuaééo. 
 
-%Energia ï¿½ perdida por absorï¿½ï¿½o quando as ondas de rádio atravessam outros meios que não o vï¿½cuo. 
-%As ondas de rádio propagam-se através da atmosfera ou materiais sï¿½lidos (como um fio condutor) 
-%excitando elï¿½trons, que irï¿½o radiar energia na mesma frequência. Este processo não ï¿½ perfeitamente 
-%eficiente, pois alguma energia ï¿½ transformada em calor e retida no meio. A quantidade de energia 
+%Energia é perdida por absorééo quando as ondas de rádio atravessam outros meios que não o vécuo. 
+%As ondas de rádio propagam-se através da atmosfera ou materiais sélidos (como um fio condutor) 
+%excitando elétrons, que iréo radiar energia na mesma frequência. Este processo não é perfeitamente 
+%eficiente, pois alguma energia é transformada em calor e retida no meio. A quantidade de energia 
 %perdida desta forma depende das características do meio e da frequência.
 
-%A atenuaï¿½ï¿½o na atmosfera ï¿½ desprezï¿½vel dos 10MHz aos 3 GHz, mas, nas frequências mais elevadas, a absorï¿½ï¿½o devida ao vapor 
-%de ï¿½gua e oxigï¿½nio podem ser elevadas. A energia das ondas eletromagnï¿½ticas também são perdidas 
-%durante a refraï¿½ï¿½o, difraï¿½ï¿½o e reflexï¿½o, fenï¿½menos que permitem comunicar a longa distância. De fato, 
-%qualquer forma ï¿½til de propagação ï¿½ acompanhada de atenuaï¿½ï¿½o. 
+%A atenuaééo na atmosfera é desprezével dos 10MHz aos 3 GHz, mas, nas frequências mais elevadas, a absorééo devida ao vapor 
+%de égua e oxigénio podem ser elevadas. A energia das ondas eletromagnéticas também são perdidas 
+%durante a refraééo, difraééo e reflexéo, fenémenos que permitem comunicar a longa distância. De fato, 
+%qualquer forma étil de propagação é acompanhada de atenuaééo. 
 
-%\section{Refraï¿½ï¿½o  }
+%\section{Refraééo  }
 
-%As ondas eletromagnï¿½ticas propagam-se em linha reta até serem defletidas por algo. As ondas de 
+%As ondas eletromagnéticas propagam-se em linha reta até serem defletidas por algo. As ondas de 
 %rádio são ligeiramente refratadas, ou dobradas, quando passam de um meio para outro. Neste aspecto 
-%as ondas de rádio comportam-se da mesma maneira que outras formas de radiaï¿½ï¿½o eletromagnï¿½tica. 
+%as ondas de rádio comportam-se da mesma maneira que outras formas de radiaééo eletromagnética. 
 
-%A dobra aparente de um lï¿½pis parcialmente imerso em ï¿½gua demonstra este principio. 
+%A dobra aparente de um lépis parcialmente imerso em égua demonstra este principio. 
 
-%A refraï¿½ï¿½o ï¿½ causada pela mudanï¿½a de velocidade da onda quando atravessa a fronteira entre um 
-%meio de propagação e o seguinte. Se esta transiï¿½ï¿½o ï¿½ feita num ï¿½ngulo diferente de 90o, uma parte da 
+%A refraééo é causada pela mudanéa de velocidade da onda quando atravessa a fronteira entre um 
+%meio de propagação e o seguinte. Se esta transiééo é feita num éngulo diferente de 90o, uma parte da 
 %frente da onda acelera (ou retarda) antes da outra, dobrando a onda ligeiramente. 
 
 %As ondas de rádio são refratadas ao passar obliquamente de um meio para outro. As linhas 
 %representam as cristas de uma frente de onda, sendo a distância entre linhas o comprimento de onda. 
 %A direção da onda muda porque um dos extremos da frente de onda desacelera antes da outra, 
-%quando atravessa a fronteira entre os dois meios. O comprimento de onda ï¿½ encurtado, mas a 
-%Frequência mantï¿½m-se constante. 
+%quando atravessa a fronteira entre os dois meios. O comprimento de onda é encurtado, mas a 
+%Frequência mantém-se constante. 
 
-%O grau de refraï¿½ï¿½o ï¿½ diretamente proporcional ï¿½ diferença entre os ï¿½ndices de refraï¿½ï¿½o dos meios. O 
-%ï¿½ndice de refraï¿½ï¿½o não ï¿½ mais do que a velocidade de uma onda de rádio no vï¿½cuo dividida pela 
+%O grau de refraééo é diretamente proporcional é diferença entre os éndices de refraééo dos meios. O 
+%éndice de refraééo não é mais do que a velocidade de uma onda de rádio no vécuo dividida pela 
 %velocidade no meio em questáo. 
 
 %As ondas de rádio são geralmente refratadas quando atravessam diferentes camadas da atmosfera, 
 %seja a ionosfera a 100 ou mais quilômetros de altitude, ou as camadas inferiores da atmosfera. 
-%Quando a relaï¿½ï¿½o entre os ï¿½ndices de refraï¿½ï¿½o ï¿½ suficientemente grande, as ondas de rádio podem ser 
-%refletidas, tal como a luz num espelho. A Terra ï¿½ um refletor com perdas elevadas, mas uma superfï¿½cie 
-%de metal funciona bem se possuir alguns comprimentos de onda de diï¿½metro. 
+%Quando a relaééo entre os éndices de refraééo é suficientemente grande, as ondas de rádio podem ser 
+%refletidas, tal como a luz num espelho. A Terra é um refletor com perdas elevadas, mas uma superfécie 
+%de metal funciona bem se possuir alguns comprimentos de onda de diémetro. 
 
 %\section{Dispersão }
 
 %A direção das ondas de rádio também pode ser alterada por dispersão. O efeito observado num feixe 
-%de luz que tenta atravessar o nevoeiro ï¿½ um bom exemplo da dispersão de uma onda luminosa. 
-%Mesmo numa noite lï¿½mpida, o cone de luz de um farol ï¿½ visï¿½vel devido a uma pequena quantidade de 
-%dispersão atmosfï¿½rica perpendicular ao feixe luminoso. As ondas de rádio dispersam-se da mesma 
+%de luz que tenta atravessar o nevoeiro é um bom exemplo da dispersão de uma onda luminosa. 
+%Mesmo numa noite lémpida, o cone de luz de um farol é visével devido a uma pequena quantidade de 
+%dispersão atmosférica perpendicular ao feixe luminoso. As ondas de rádio dispersam-se da mesma 
 %forma quando encontram objetos dispostos de forma aleatéria, de dimensão igual ou menor ao 
-%comprimento de onda, como massas de elï¿½trons, ou gotï¿½culas de ï¿½gua. 
+%comprimento de onda, como massas de elétrons, ou gotéculas de égua. 
 %Quando a densidade dos objetos dispersantes se torna suficientemente grande, comportam-se mais 
-%como um meio de propagação com um ï¿½ndice de refraï¿½ï¿½o caracterástico. 
+%como um meio de propagação com um éndice de refraééo caracterástico. 
 
-%\section{Reflexï¿½o  }
+%\section{Reflexéo  }
 
-%Tratando-se de frequências acima de 30 MHz, reflexï¿½es causadas grandes objetos, como edifï¿½cios, 
-%aviï¿½es e montanhas podem proporcionar um meio de aumentar o alcance para lï¿½ da linha do horizonte 
+%Tratando-se de frequências acima de 30 MHz, reflexées causadas grandes objetos, como edifécios, 
+%aviées e montanhas podem proporcionar um meio de aumentar o alcance para lé da linha do horizonte 
 %em várias centenas de quilômetros.
  
-%Duas estaï¿½ï¿½es necessitam apenas de apontar as antenas para um refletor comum, seja ele 
-%estacionï¿½rio ou mï¿½vel. Contrariamente ao que o senso comum dita, a melhor posições para um refletor 
-%não ï¿½ a meio caminho entre as duas estaï¿½ï¿½es. A intensidade do sinal aumenta ï¿½ medida que o refletor 
+%Duas estaéées necessitam apenas de apontar as antenas para um refletor comum, seja ele 
+%estacionério ou mével. Contrariamente ao que o senso comum dita, a melhor posições para um refletor 
+%não é a meio caminho entre as duas estaéées. A intensidade do sinal aumenta é medida que o refletor 
 %se aproxima de um dos extremos do percurso, fazendo com que os refletores mais eficientes estejam 
-%próximos de uma das duas estaï¿½ï¿½es. 
+%próximos de uma das duas estaéées. 
 
-%O alcance máximo está limitado pela distancia de linha de vista (rádio) das duas estaï¿½ï¿½es para o 
-%refletor e pelas forma e dimensão do mesmo. Os refletores devem possuir vï¿½rios comprimentos de 
-%onda de dimensão e de preferência ser planos. Aviï¿½es comerciais de longo e médio curso são bons 
-%refletores e oferecem a oportunidade de contactos a longa distancia. O limite teï¿½rico para a reflexï¿½o 
-%obtida pelo uso de aviï¿½es ï¿½ de cerca de 900 km, assumindo que os jatos comerciais não voam a mais 
+%O alcance máximo está limitado pela distancia de linha de vista (rádio) das duas estaéées para o 
+%refletor e pelas forma e dimensão do mesmo. Os refletores devem possuir vérios comprimentos de 
+%onda de dimensão e de preferência ser planos. Aviées comerciais de longo e médio curso são bons 
+%refletores e oferecem a oportunidade de contactos a longa distancia. O limite teérico para a reflexéo 
+%obtida pelo uso de aviées é de cerca de 900 km, assumindo que os jatos comerciais não voam a mais 
 %de 12 000 m, mas na realidade os contactos conseguidos são bastante menores. 
 
-%\section{Difraï¿½ï¿½o } 
+%\section{Difraééo } 
 
-%As ondas de rádio podem ser difratadas ou dobradas em torno de objetos sï¿½lidos com arestas vivas. 
+%As ondas de rádio podem ser difratadas ou dobradas em torno de objetos sélidos com arestas vivas. 
 
-%O grau de refraï¿½ï¿½o ï¿½ diretamente proporcional ï¿½ diferença entre os ï¿½ndices de refraï¿½ï¿½o dos meios. O 
-%ï¿½ndice de refraï¿½ï¿½o não ï¿½ mais do que a velocidade de uma onda de rádio no vï¿½cuo dividida pela 
+%O grau de refraééo é diretamente proporcional é diferença entre os éndices de refraééo dos meios. O 
+%éndice de refraééo não é mais do que a velocidade de uma onda de rádio no vécuo dividida pela 
 %velocidade no meio em questáo. 
 
 %As ondas de rádio são geralmente refratadas quando atravessam diferentes camadas da atmosfera, 
 %seja a ionosfera a 100 ou mais quilômetros de altitude, ou as camadas inferiores da atmosfera. 
-%Quando a relaï¿½ï¿½o entre os ï¿½ndices de refraï¿½ï¿½o ï¿½ suficientemente grande, as ondas de rádio podem ser 
-%refletidas, tal com a luz num espelho. A Terra ï¿½ um refletor com perdas elevadas, mas uma superfï¿½cie 
-%de metal funciona bem se possuir alguns comprimentos de onda de diï¿½metro. 
+%Quando a relaééo entre os éndices de refraééo é suficientemente grande, as ondas de rádio podem ser 
+%refletidas, tal com a luz num espelho. A Terra é um refletor com perdas elevadas, mas uma superfécie 
+%de metal funciona bem se possuir alguns comprimentos de onda de diémetro. 
 
 %O cume de uma cordilheira com pelo menos 100 comprimentos de onda de comprimento pode servir 
-%para a difracï¿½ï¿½o em Frequências de rádio. Cumes agudos, livres de arvores e horizontais dï¿½o as 
-%melhores arestas, mas memo cumes arredondados podem servir como aresta de difracï¿½ï¿½o. Apenas 
-%uma pequena parte da energia do sinal será difractada, mas possibilitarï¿½ comunicaï¿½ï¿½es com um 
-%alcance de cerca de 100 km ou mais. Esta forma de difracï¿½ï¿½o funciona nos dois sentidos, por isso 
-%comunicaï¿½ï¿½es através do que podem parecer montanhas intransponíveis podem ser possï¿½veis, como 
+%para a difracééo em Frequências de rádio. Cumes agudos, livres de arvores e horizontais déo as 
+%melhores arestas, mas memo cumes arredondados podem servir como aresta de difracééo. Apenas 
+%uma pequena parte da energia do sinal será difractada, mas possibilitaré comunicaéées com um 
+%alcance de cerca de 100 km ou mais. Esta forma de difracééo funciona nos dois sentidos, por isso 
+%comunicaéées através do que podem parecer montanhas intransponíveis podem ser posséveis, como 
 %sucede no exemplo abaixo. 
 
 %(Buscar uma figura de meio de transmissão.)
 
 %\section{Antenas }    
 
-%Os dispositivos metï¿½licos que são capazes de transmitir  e receber ondas eletromagnï¿½ticas são denominados antenas.
-%Nas antenas, as propriedades observadas na transmissão também são vï¿½lidas para a recepï¿½ï¿½o (reciprocidade).
-%Estes dispositivos possuem características elï¿½tricas e fï¿½sicas essenciais para o melhor desempenho e funcionamento 
+%Os dispositivos metélicos que são capazes de transmitir  e receber ondas eletromagnéticas são denominados antenas.
+%Nas antenas, as propriedades observadas na transmissão também são vélidas para a recepééo (reciprocidade).
+%Estes dispositivos possuem características elétricas e fésicas essenciais para o melhor desempenho e funcionamento 
 %de uma transmissão. As antenas  dividem-se em
 %antenas omni-direcionais (todas as direções) ou direcionais  (focadas em uma direção).
 
 %\subsection{Ganho da Antena}
 
-%O ganho medido em dBi ï¿½ a caracterástica principal da antena e ï¿½ definido como a relaï¿½ï¿½o entre a energia irradiada 
-%de uma determinada antena na direção do máximo do diagrama de radiaï¿½ï¿½o da mesma e a que seria irradiada por uma antena
-% isotrï¿½pica ideal em uma direção qualquer, supondo q a potência total seja a mesma.
+%O ganho medido em dBi é a caracterástica principal da antena e é definido como a relaééo entre a energia irradiada 
+%de uma determinada antena na direção do máximo do diagrama de radiaééo da mesma e a que seria irradiada por uma antena
+% isotrépica ideal em uma direção qualquer, supondo q a potência total seja a mesma.
 
-%Isotrï¿½pica ï¿½ uma antena hipotï¿½tica baseada na transmissão para todas as direções(360ï¿½).
+%Isotrépica é uma antena hipotética baseada na transmissão para todas as direções(360é).
 
-%Sendo assim, na verdade o ganho considerado para qualquer antena ï¿½ simplesmente o quando ela ï¿½ mais diretiva que a antena
-% isotrï¿½pica e não deve ser erroneamente interpretada como uma amplificaï¿½ï¿½o de potência na antena.
+%Sendo assim, na verdade o ganho considerado para qualquer antena é simplesmente o quando ela é mais diretiva que a antena
+% isotrépica e não deve ser erroneamente interpretada como uma amplificaééo de potência na antena.
 
-%Por isso o ganho de uma antena ï¿½ medido em dBi (dB isotrï¿½pico).
+%Por isso o ganho de uma antena é medido em dBi (dB isotrépico).
 
-%Uma outra unidade utilizada ï¿½ o dBd, que ï¿½ o ganho em relaï¿½ï¿½o ï¿½ antena dipolo.(sanches 158).
+%Uma outra unidade utilizada é o dBd, que é o ganho em relaééo é antena dipolo.(sanches 158).
 
- % As antenas utilizadas nos pontos de transmissão de  sinal tï¿½m caracterástica de transmissão omni-direcional. Podem ser 
-%antenas  individuais ou formadas por conjuntos de painï¿½is setoriais que formam 360ï¿½ e  atendem todas as direções.
+ % As antenas utilizadas nos pontos de transmissão de  sinal tém caracterástica de transmissão omni-direcional. Podem ser 
+%antenas  individuais ou formadas por conjuntos de painéis setoriais que formam 360é e  atendem todas as direções.
 
 %\chapter{nível médio do Terreno (NMT)} 
 
@@ -972,8 +980,8 @@ médios &288,29&&&&&&&&&&\\\hline
 
 %Por definição da norma, 12 radias devem ser definidas a partir do ponto base para efetuar o cálculo do NMT. na página da ANATEL existe um
 %aplicativo que ajuda e muito nesta tarefa......
-%Este gera um g?afico de oscilaï¿½ï¿½o terrena para cada radial, informando as altitudes e possibilitando o cálculo. Segue os gráficos
-%gerados com aplicaï¿½ï¿½o:
+%Este gera um g?afico de oscilaééo terrena para cada radial, informando as altitudes e possibilitando o cálculo. Segue os gráficos
+%gerados com aplicaééo:
 
 %obs: ainda deve ser criada a areferencia na ANATEL e citar na figura tal(difeinir na biblioteca de figuras, verificar como isto funciona)
 
@@ -1131,28 +1139,28 @@ Esta seção é destinadas á figuras usadas no trabalho.
 %Quando for citar explicitamente o autor da referência, utilize: De acordo com \citeonline{ref8} temos (\ldots). Outra forma: De 
 %acordo com \citeonline[p.~15]{ref8} temos (\ldots). Ainda podemos ter: De acordo com \citeonline[p.~15--17]{ref8} temos (\ldots). 
 
-%Para fazer uma citaï¿½ï¿½o longa (Com mais de trï¿½s linhas) utilize:
+%Para fazer uma citaééo longa (Com mais de trés linhas) utilize:
 
 %\begin{citacao}
 %Mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono mono \cite[p.~14--15]{ref1}.
 %\end{citacao}
 
-%A citaï¿½ï¿½o longa deve vir em parï¿½grafo separado, com recuo de 4 cm da margem esquerda, em fonte menor, sem as aspas e com espaï¿½amento simples
+%A citaééo longa deve vir em parégrafo separado, com recuo de 4 cm da margem esquerda, em fonte menor, sem as aspas e com espaéamento simples
 
 
-%\section{Texto Matemï¿½tico}
+%\section{Texto Matemético}
 
-%Utilize \$ para inciar e finalizar o modo matemï¿½tico\footnote{nota de rodapï¿½} dentro de um texto não matemï¿½tico e \$\$ para inciar e finalizar o modo matemï¿½tico centralizado (fórmulas).
-% Exemplo dentro de um texto não matemï¿½tico: Sejam $a$ e $b$ dois números reais não nulos, logo $a^{b+a} = a^b a^a$. Agora segue um exemplo de modo matemï¿½tico centralizado: $$\int_a^b f(x) dx = 56.$$
+%Utilize \$ para inciar e finalizar o modo matemético\footnote{nota de rodapé} dentro de um texto não matemético e \$\$ para inciar e finalizar o modo matemético centralizado (fórmulas).
+% Exemplo dentro de um texto não matemético: Sejam $a$ e $b$ dois números reais não nulos, logo $a^{b+a} = a^b a^a$. Agora segue um exemplo de modo matemético centralizado: $$\int_a^b f(x) dx = 56.$$
 
-%Abaixo temos um exemplo de proposições com sua demonstraï¿½ï¿½o:
+%Abaixo temos um exemplo de proposições com sua demonstraééo:
 %\begin{proposicao}
 % Sejam $a$ e $b$ reais, tais que $0<a<b$. então $a^2<b^2$.
 %\end{proposicao}
 %\begin{demonstracao}
-% Pela hipï¿½tese concluï¿½mos que $(b+a)>0$ e $(b-a)>0$. 
+% Pela hipétese concluémos que $(b+a)>0$ e $(b-a)>0$. 
 
-%Como $b^2-a^2=(b+a)(b-a)$ concluï¿½mos que $b^2-a^2>0$, ou seja, $a^2<b^2$.
+%Como $b^2-a^2=(b+a)(b-a)$ concluémos que $b^2-a^2>0$, ou seja, $a^2<b^2$.
 %\end{demonstracao}
 
 
@@ -1160,7 +1168,7 @@ Esta seção é destinadas á figuras usadas no trabalho.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Modelo para escrever TCCs, dissertaï¿½ï¿½es e teses utilizando LaTeX, ABNTeX e BibTeX
+% Modelo para escrever TCCs, dissertaéées e teses utilizando LaTeX, ABNTeX e BibTeX
 % Autor/E-Mail: Robinson Alves Lemos/contato@robinson.mat.br/robinson.a.l@bol.com.br
 % Data: 19/04/2008 
 % Colaboradore(s)/E-Mail(s):
