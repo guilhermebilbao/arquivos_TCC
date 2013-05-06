@@ -434,6 +434,8 @@ Agora já temos definidas todas as variáveis que compõem nossa equação, vamos enc
 
 $$HSNMT = 285m + 62,315m - 288,33 m$$, encontramos o resultado aproximado de :
 
+*******************usar os valores originais canal 218
+
 $$HSNMT = 59m $$
 
 Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. através dele, podemos comprovar que a antena estará numa altura dentro do
@@ -506,6 +508,10 @@ A seguir serão apresentados as características do sistema irradiante, bem como o
 
 \subsection{Antena}
 
+A antena utilizada neste projeto é uma Dipolo $1/2$ onda e de polarização vertical.
+O diagrama de irradiação desta antena é foi útil para o relevo acidentado da região de São Pedro de Alcântara.
+Como podemos ver na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta um antena com uma irradiação levemente direcionada.
+
 \begin{figure}[!htb]
 \centering
 \large
@@ -513,6 +519,15 @@ A seguir serão apresentados as características do sistema irradiante, bem como o
 \caption{Diagrama de Irradiação da Antena Dipolo $1/2$ Onda para FM}
 \label{diagramaDeIrradiacao}
 \end{figure}
+
+
+Vamos usar esta característica para direcionar a antena para azimute onde for necessário um ganho maior, visando sempre
+ o objetivo de cobrir toda a área urbana do município com o contorno de $66 dB?$ e atender a maior parte da população possível.
+Deste modo a direção adotada será 270°, assim o sinal irradiado apresentará mais potência onde existe maiores obstáculos, causado 
+pelo relevo mais elevado que a base.
+
+O Anexo A contém o documento do fabricante na íntegra.
+ O ganho máximo da antena é de $3 dBd$ para uma construção utilizando 2 elementos.
 
 \subsection{Guia de onda e conectores}
 
@@ -522,7 +537,7 @@ A seguir serão apresentados as características do sistema irradiante, bem como o
 
 \subsubsection{Orientação da antena}
 
-\subsubsection{potência efetiva irradiada máxima (ERPmax)}
+\subsubsection{Potência efetiva irradiada máxima (ERPmax)}
 
 Conforme a determinação publicada na RESOLUÇÃO N° 546, DE 1° DE SETEMBRO DE 2010, que Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em frequência Modulada,
  segue os cálculos:
@@ -554,7 +569,7 @@ $b)$ selecionar a linha correspondente
 Para os valores de $h1$ que não estiverem muito bem próximos a uma curva definida na Tabela,deve-se usar a seguinte fórmula 2 (*marcar fórmulas) para encontrar os valores de $E$ 
 para cada Radial:
 
- $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(uV / m)$$
+ $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(?V / m)$$
 
 Onde:
 

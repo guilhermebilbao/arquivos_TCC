@@ -1,6 +1,13 @@
-\chapter{Anexo I}
+\begin{figure}[!htb]
+\centering
+\large
+\includegraphics[scale=0.8]{./figuras/1pdfantenadipolodemeiaondafm.jpg} 
+\includegraphics[scale=0.8]{./figuras/2pdfantenadipolodemeiaondafm.jpg} 
+\includegraphics[scale=0.8]{./figuras/3pdfantenadipolodemeiaondafm.jpg} 
+\includegraphics[scale=0.8]{./figuras/4pdfantenadipolodemeiaondafm.jpg} 
+\label{especificacaoAntena}
+\end{figure}
 
-Texto de exemplo!
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Modelo para escrever TCCs, dissertações e teses utilizando LaTeX, ABNTeX e BibTeX
