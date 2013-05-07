@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  5 MAY 2013 20:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  7 MAY 2013 00:25
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -296,7 +296,20 @@ Package: ./arquivos_para_alterar/a00-personalizar
 (./arquivos_para_alterar/a01-folhaderosto.sty
 Package: ./arquivos_para_alterar/a01-folhaderosto 
 )
-(./modeloTCC-2009.04.03.autordata.aux)
+(./modeloTCC-2009.04.03.autordata.aux
+
+LaTeX Warning: Label `especificacaoAntena' multiply defined.
+
+
+LaTeX Warning: Label `especificacaoAntena' multiply defined.
+
+
+LaTeX Warning: Label `especificacaoAntena' multiply defined.
+
+
+LaTeX Warning: Label `especificacaoAntena' multiply defined.
+
+)
 \openout1 = `modeloTCC-2009.04.03.autordata.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -312,8 +325,7 @@ LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 58.
-
-(/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
+ (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \big@size=\dimen116
@@ -486,7 +498,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 304.
 [21] [22 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>] [23] [24]
-Overfull \hbox (0.16083pt too wide) in paragraph at lines 446--447
+Overfull \hbox (0.16083pt too wide) in paragraph at lines 444--445
 []\OT1/ptm/m/n/12 Esta equa[][]ao agora deve ser usada tro-cando o $\OML/ztmcm/
 m/it/12 NMT$ \OT1/ptm/m/n/12 por $\OML/ztmcm/m/it/12 NMR$ \OT1/ptm/m/n/12 e, as
 -sim, en-con-trar o $\OML/ztmcm/m/it/12 HSNMT$
@@ -499,12 +511,21 @@ File: ./figuras/diagrama_de_irradiacao.jpg Graphic file (type jpg)
 
 <use ./figuras/diagrama_de_irradiacao.jpg> [27
 
-] [28 <./figuras/diagrama_de_irradiacao.jpg>] [29] [30] [31] [32]
+]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 533.
+
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 533.
+ [28 <./figuras/diagrama_de_irradiacao.jpg>] [29] [30] [31] [32]
 <./figuras/e5050.jpg, id=122, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050.jpg>
-Overfull \hbox (22.54153pt too wide) in paragraph at lines 711--712
+Overfull \hbox (22.54153pt too wide) in paragraph at lines 727--728
  [][] 
  []
 
@@ -512,12 +533,12 @@ Overfull \hbox (22.54153pt too wide) in paragraph at lines 711--712
 File: ./figuras/e5010.jpg Graphic file (type jpg)
 
 <use ./figuras/e5010.jpg>
-Overfull \hbox (28.16255pt too wide) in paragraph at lines 718--719
+Overfull \hbox (28.16255pt too wide) in paragraph at lines 734--735
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 36.70009pt on input line 756.
+LaTeX Warning: Float too large for page by 36.70009pt on input line 772.
 
 ) [33] [34] [35 <./figuras/e5050.jpg>] [36 <./figuras/e5010.jpg>]
 Cap\'{\i }tulo 5.
@@ -562,26 +583,33 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-)
-+-------------------------------------------------------------------+
-| Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
-|                  http://abntex.codigolivre.org.br                 |
-+-------------------------------------------------------------------+
-[39
+) [39
 
 ] [40 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [41 <./figuras/2pdfantenadi
 polodemeiaondafm.jpg>] [42 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
 [43 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
-(./modeloTCC-2009.04.03.autordata.aux)
+Anexo B.
+(./arquivos_para_alterar/a16-anexo.tex
+<./figuras/LCF158-50JFNL.pdf, id=163, 596.2275pt x 794.97pt>
+File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+<use ./figuras/LCF158-50JFNL.pdf>)
++-------------------------------------------------------------------+
+| Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
+|                  http://abntex.codigolivre.org.br                 |
++-------------------------------------------------------------------+
+[44
+
+] [45 <./figuras/LCF158-50JFNL.pdf>] (./modeloTCC-2009.04.03.autordata.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3220 strings out of 495041
- 45833 string characters out of 1181898
- 153641 words of memory out of 3000000
- 6230 multiletter control sequences out of 15000+50000
+ 3247 strings out of 495041
+ 46376 string characters out of 1181898
+ 153680 words of memory out of 3000000
+ 6250 multiletter control sequences out of 15000+50000
  55582 words of font info for 125 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  32i,11n,41p,395b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -593,10 +621,10 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (43 pages, 1223124 bytes).
+Output written on modeloTCC-2009.04.03.autordata.pdf (45 pages, 1328482 bytes).
 
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
+ 218 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

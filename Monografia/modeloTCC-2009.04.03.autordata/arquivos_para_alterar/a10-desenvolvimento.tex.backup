@@ -423,20 +423,18 @@ Este definição será melhor explicada no tópico específico sobre antena, mais à f
 
 Para concluir este cálculo, vamos buscar o valor faltante na especificação
 da antena definida para este projeto (será usada uma  Dipolo $1/2$ Onda, para FM, do fabricante IDEAL, conforme ANEXO II).
-De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de  $98.1 Mhz$, que é
-a frequência mais aproximado da que será propagada o sinal da nossa emissora ($95,5 Mhz$), o centro de fase do sistema fica em $2315mm$, ou $2,315m$.
+De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de  $98,1 Mhz$, que é
+a frequência mais aproximado da que será propagada o sinal da nossa emissora ($91,5 Mhz$), o centro de fase do sistema fica em $2570mm$, ou $2,570m$.
  Efetuando-se a soma entre a 
 altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor: 
 
-$$HCGSI = 60m + 2,315m = 62,315m$$ 
+$$HCGSI = 60m + 2,570m = 62,57m$$ 
 
 Agora já temos definidas todas as variáveis que compõem nossa equação, vamos encontrar o HSNMT, ficou assim:
 
-$$HSNMT = 285m + 62,315m - 288,33 m$$, encontramos o resultado aproximado de :
+$$HSNMT = 285m + 62,57m - 288,33 m$$, encontramos o resultado aproximado de :
 
-*******************usar os valores originais canal 218
-
-$$HSNMT = 59m $$
+$$HSNMT = 59,24m $$
 
 Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. através dele, podemos comprovar que a antena estará numa altura dentro do
  limite estabelecido
@@ -449,7 +447,7 @@ A tabela~\ref{tabelaHSNMT} apresenta os valores de $HSNMT$ obtidos. Essa coluna 
 correspondente. 
 
 Os resultados negativados informam que, na direção das radias correspondentes à estes valores, o nível do terreno é mais alto
-que a altura da antena ($347,315m$). então podemos concluir que, o sinal irradiado para estas direções encontraria obstáculos que iriam interferir na sua 
+que a altura da antena ($347,57m$). então podemos concluir que, o sinal irradiado para estas direções encontraria obstáculos que iriam interferir na sua 
 propagação.
 Essa informação é muito importante para a otimização da área de cobertura da emissora, e será lembrada mais adiante.
 
@@ -462,18 +460,18 @@ Essa informação é muito importante para a otimização da área de cobertura da emi
 \begin{tabular}{|c|c|c|} \hline
 
 Radial(Graus) & NMR & HSNMT \\ \hline
-0 & 158,38&188,94\\
-30 & 73,46 & 273,85\\
-60 & 169,14 & 178,18\\
-90 & 166,20 & 181,12\\
-120 & 250,46 & 96,85\\
-150 & 196,86 & 150,45\\
-180 & 151,58 & 195,73\\
-210 & 394,80 & -47,48\\
-240 & 502,10 & -154,78\\
-270 & 579,10 & -231,78\\
-300 & 412,10 & -64,78\\
-330 & 405,32 & -58,00\\ \hline
+0 & 158,38&189,19\\
+30 & 73,46 & 274,11\\
+60 & 169,14 & 178,43\\
+90 & 166,20 & 181,37\\
+120 & 250,46 & 97,57\\
+150 & 196,86 & 150,71\\
+180 & 151,58 & 195,99\\
+210 & 394,80 & -47,23\\
+240 & 502,10 & -154,53\\
+270 & 579,10 & -231,53\\
+300 & 412,10 & -64,53\\
+330 & 405,32 & -57,75\\ \hline
 
 \end{tabular}
 \caption{Valores de HSNMT para cada radial.} 
@@ -530,6 +528,15 @@ O Anexo A contém o documento do fabricante na íntegra.
  O ganho máximo da antena é de $3 dBd$ para uma construção utilizando 2 elementos.
 
 \subsection{Guia de onda e conectores}
+
+Conforme a potência máxima irradiada e a antena escolhida, para o guia de onda deve ser usado o padrão EIA 1-5/8''.
+Optou-se pelo modelo CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable da fabricante RFS, que apresenta uma boa mobilidade
+para o manuseio e uma atenuação de apenas $0.663dB/100m$, operando numa frequênciancia de $88MHz$; as especificações podm ser encontradas no ANEXO B.
+ Como a frequência do canal que está sendo projetado é de $91,5MHz$, adotaremos o valor de $0.680dB/100m$.
+
+Como já definido, a estrutura da torre, onde será alocada a antena, tem a altura de 60m. Então o comprimento do guia de onda será de 80m,
+visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada. Sendo assim a atenuação introduzida pelo cabo
+será de $0,544dB$. 
 
 \subsection{Transmissor}
 
