@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  7 MAY 2013 00:25
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  7 MAY 2013 23:39
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -468,16 +468,10 @@ Overfull \hbox (6.93105pt too wide) in paragraph at lines 74--80
 
 [15
 
-] [16]
-Overfull \hbox (20.81529pt too wide) in paragraph at lines 160--160
-[]\OT1/ptm/b/n/17.28 Par[]ametros ne-cess[]arios para o c[]alculo de vi-a-bi-li
--dade t[]ecnica 
- []
-
-[17] [18]
+] [16] [17] [18]
 Cap\'{\i }tulo 3.
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 194.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 193.
 
 <./figuras/tabelaClassificacaoEmissoras.png, id=65, 861.2175pt x 412.54124pt>
 File: ./figuras/tabelaClassificacaoEmissoras.png Graphic file (type png)
@@ -489,16 +483,16 @@ File: ./figuras/tabelaClassificacaoEmissoras.png Graphic file (type png)
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt1_v2.pdf>
-Overfull \hbox (5.03789pt too wide) in paragraph at lines 276--292
+Overfull \hbox (5.03789pt too wide) in paragraph at lines 275--291
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 304.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 303.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 304.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 303.
 [21] [22 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>] [23] [24]
-Overfull \hbox (0.16083pt too wide) in paragraph at lines 444--445
+Overfull \hbox (0.16083pt too wide) in paragraph at lines 443--444
 []\OT1/ptm/m/n/12 Esta equa[][]ao agora deve ser usada tro-cando o $\OML/ztmcm/
 m/it/12 NMT$ \OT1/ptm/m/n/12 por $\OML/ztmcm/m/it/12 NMR$ \OT1/ptm/m/n/12 e, as
 -sim, en-con-trar o $\OML/ztmcm/m/it/12 HSNMT$
@@ -509,38 +503,48 @@ Cap\'{\i }tulo 4.
 <./figuras/diagrama_de_irradiacao.jpg, id=102, 307.8702pt x 280.4076pt>
 File: ./figuras/diagrama_de_irradiacao.jpg Graphic file (type jpg)
 
-<use ./figuras/diagrama_de_irradiacao.jpg> [27
-
-]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 533.
+<use ./figuras/diagrama_de_irradiacao.jpg>
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 526.
 
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 533.
- [28 <./figuras/diagrama_de_irradiacao.jpg>] [29] [30] [31] [32]
-<./figuras/e5050.jpg, id=122, 597.23125pt x 643.40375pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 526.
+ [27
+
+] [28 <./figuras/diagrama_de_irradiacao.jpg>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 555.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 556.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 557.
+
+[29] [30] [31] [32] [33]
+<./figuras/e5050.jpg, id=125, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050.jpg>
-Overfull \hbox (22.54153pt too wide) in paragraph at lines 727--728
+Overfull \hbox (22.54153pt too wide) in paragraph at lines 728--729
  [][] 
  []
 
-<./figuras/e5010.jpg, id=123, 604.2575pt x 673.51625pt>
+<./figuras/e5010.jpg, id=126, 604.2575pt x 673.51625pt>
 File: ./figuras/e5010.jpg Graphic file (type jpg)
 
 <use ./figuras/e5010.jpg>
-Overfull \hbox (28.16255pt too wide) in paragraph at lines 734--735
+Overfull \hbox (28.16255pt too wide) in paragraph at lines 735--736
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 36.70009pt on input line 772.
+LaTeX Warning: Float too large for page by 36.70009pt on input line 773.
 
-) [33] [34] [35 <./figuras/e5050.jpg>] [36 <./figuras/e5010.jpg>]
+[34 <./figuras/e5050.jpg>] [35]) [36 <./figuras/e5010.jpg>]
 Cap\'{\i }tulo 5.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
@@ -606,10 +610,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3247 strings out of 495041
- 46376 string characters out of 1181898
- 153680 words of memory out of 3000000
- 6250 multiletter control sequences out of 15000+50000
+ 3248 strings out of 495041
+ 46384 string characters out of 1181898
+ 152680 words of memory out of 3000000
+ 6251 multiletter control sequences out of 15000+50000
  55582 words of font info for 125 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  32i,11n,41p,395b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -621,7 +625,7 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (45 pages, 1328482 bytes).
+Output written on modeloTCC-2009.04.03.autordata.pdf (45 pages, 1329903 bytes).
 
 PDF statistics:
  218 PDF objects out of 1000 (max. 8388607)

@@ -3,8 +3,8 @@
 
 O PBFM foi aprovado em 12 de novembro de 1998, através da Resolução n°67 (referencia), e nele constam os canais FM previstos para uso,
  em todo o território nacional.
- A faixa de radiodifusão sonora em frequência modulada estende-se de 87,8 a 107,9 MHz, e é
-dividida em 103 canais (os canais 198,199 e 200 são para uso exclusivo das estações de ROADCOM), cujas portadoras estão separadas de 200 kHz.
+ A faixa de radiodifusão sonora em frequência modulada estende-se de $87,8$ a $107,9MHz$, e é
+dividida em 103 canais (os canais 198,199 e 200 são para uso exclusivo das estações de ROADCOM), cujas portadoras estão separadas de $200KHz$.
  Cada canal é identificado por sua frequência central,
  que é a frequência da portadora da estação de FM. A cada canal é atribuído um número de 198 a 300.
 
@@ -133,7 +133,7 @@ encontradas na referência [2].
 
 ***Verificar sobre a utilização do MATLAB (se sobrar tempo...)*** 
 
-\section{Adaptações da recomendação}
+\section{ADAPTAÇÕES DA RECOMENDAÇÃO}
 
 \subsection{Nível Médio do Terreno}
 
@@ -157,7 +157,7 @@ máximos. Ou seja, quando a HNMT da antena for interior a 10m, deve ser tomado o 
 
 ***Indicar a referência do TCC 
 
-\section{Parâmetros necessários para o cálculo de viabilidade técnica}
+\section{PARÂMETROS NECESSÁRIOS PARA O CÁLCULO DE VIABILIDADE TÉCNICA}
 
 Utilizando os métodos mencionados, vamos calcular os valores necessários para que um canal de rádio FM possa ser viabilizado.
 
@@ -176,22 +176,21 @@ contorno protegido é de 7,5 KM, a partir da base da antena transmissora.
 Para que possa ser autorizado pela ANATEL a utilização de um canal de rádio FM, além da documentação solicitada conforme a resolução, deve ser considerada
  as características básicas do canal.% e também deve ser livre de interferências, bem como não causar interferências nos outros canais.
 
-\section{Características básicas}
+\section{CARACTERÍSTICAS BÁSICAS}
 
-Ao analisar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada, observou-se a existência de um canal 218
-disponível para a região do município de são Pedro de Alcântara.
+Ao analisar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada, observou-se a existência do canal 218,
+ disponível na região do município de são Pedro de Alcântara.
 
 O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos máximos que caracterizam os canais autorizados para esta classe.
 
-\section{Encuadramento na classe}
+\section{Enquadramento na classe}
 
-O canal que será usado para esta emissora FM está enquadrado na classe C, conforme apresentado no plano Básico 
-(ANEXO I), e para que o projeto fique enquadrado nesta classe, deve ser respeitado seus requisitos máximos, que podem ser verificados na 
+Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no plano Básico 
+(ANEXO I), e para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
 tabela~\ref{tabelaClassificacaoEmissoras}.
 
-porém, a RESOLUÇÃO aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas condições. Segue estas observações, 
-que são 
-informadas na RESOLUÇÃO $N° 546$:
+Porém, a resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas outras condições também informadas.
+ Segue estas observações, que foram publicadas na RESOLUÇÃO $N° 546$:
 
 \begin{figure}[!htb]
 \centering
@@ -236,7 +235,7 @@ Para obter esses valores das cotas, no caso os 50 valores correspondentes a altu
 Mas, para conseguir usar esta ferramenta, é preciso obter as coordenadas das 12 radias, nas distâncias de $3km$ e $15km$ partindo da base da emissora. 
 
 Para buscar estes valores temos que usar como referencia os valores informados no mapa (referencias de coordenadas) e sua escala.
-Numa escala de $1:50.000$ cada centímetro no mapa equivale à $500$ metros, então, as radias devem ter, no mínimo, 30 centímetros para atingir o ponto equivalente
+Numa escala de $1:50.000$ cada centímetro no mapa equivale à $500m$, então, as radias devem ter, no mínimo, 30 centímetros para atingir o ponto equivalente
 à $15Km$.
 
 Definidos os pontos de $3km$ e $15km$ em todas as radias, agora devemos buscar as coordenadas de cada um desses 24 pontos no mapa.
@@ -267,7 +266,7 @@ De posse dos resultados dos NMR's, podemos agora encontrar o nível médio do terr
 
 A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altitudes encontradas dos 50 pontos ao longo de cada radial,
  possibilitando obter a média 
-para encontrar o NMR e, consequentemente, o NMT de $288,33 m$, como pode ser observado. 
+para encontrar o NMR e, consequentemente, o NMT de $288,33m$, como pode ser observado. 
 \def\tablename{Tabela}
 \begin{table}
 \vspace*{0.05cm}
@@ -373,7 +372,7 @@ frente.
 No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, podemos encontrar o valores de HSNMT (Altura do nível médio do
 terreno)
  também para cada radial.
-Estes valores serão usados para definir os valores de intensidade do campo, que formará o contorno protegido de $66 dB?$
+Estes valores serão usados para definir os valores de intensidade do campo, que formará o contorno protegido de $66dB?$
 Os valores de $HSNTM$ serão aplicados posteriormente nas Curvas de Intensidade de Campo, que será abordada com maiores detalhes mais à frente.
 
 O HSNTM é definido pela expressão:
@@ -388,14 +387,14 @@ $NMT$ = nível médio do Terreno.
 
 %Levando em consideração as observações apresentadas no enquadramento de classe, vamos começar a definir a nossa HNTM.
 
-Utilizando o SIGANATEL, informando as coordenadas tal e tal, buscamos a altura do terreno da nossa base, que resultou em $285 m$ acima do nível do mar. 
+Utilizando o SIGANATEL, informando as coordenadas tal e tal, buscamos a altura do terreno da nossa base, que resultou em $285m$ acima do nível do mar. 
 Assim, já temos nosso primeiro parâmetro definido.
 
 ***(mostrar imagem do siganatel ou google maps)
 
 $$CBT = 285m$$
 
-Mais um fato curioso, e compreensível, é que o CBT tem um valor muito próximo do já encontrado NMT ($288,33 m$), demostrando que o relevo, nas redondezas, 
+Mais um fato curioso, e compreensível, é que o CBT tem um valor muito próximo do já encontrado NMT ($288,33m$), demostrando que o relevo, nas redondezas, 
 tende
 é manter a mesma altura da
 nossa base. porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radias.
@@ -423,8 +422,8 @@ Este definição será melhor explicada no tópico específico sobre antena, mais à f
 
 Para concluir este cálculo, vamos buscar o valor faltante na especificação
 da antena definida para este projeto (será usada uma  Dipolo $1/2$ Onda, para FM, do fabricante IDEAL, conforme ANEXO II).
-De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de  $98,1 Mhz$, que é
-a frequência mais aproximado da que será propagada o sinal da nossa emissora ($91,5 Mhz$), o centro de fase do sistema fica em $2570mm$, ou $2,570m$.
+De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de  $98,1MHz$, que é
+a frequência mais aproximado da que será propagada o sinal da nossa emissora ($91,5MHz$), o centro de fase do sistema fica em $2570mm$, ou $2,570m$.
  Efetuando-se a soma entre a 
 altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor: 
 
@@ -481,10 +480,10 @@ Radial(Graus) & NMR & HSNMT \\ \hline
 \section{CONTORNO PROTEGIDO}
 
 Como mencionado anteriormente, o contorno protegido de uma estação de rádio Fm corresponde ao lugar
-geométrico onde a intensidade de campo do sinal apresentar o valor de $66 dB?$ ($2 mV/m$)(Contorno 2). 
+geométrico onde a intensidade de campo do sinal apresentar o valor de $66dB?$ ($2mV/m$)(Contorno 2). 
 Este contorno tem como finalidade atender a área de serviço Urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
-as demais áreas de serviços, a área de serviço Primária (Contorno 1), limitada pelo contorno de $74 dB?$ ($5 mV/m$) e a área de serviço Rural (Contorno 3),
- compreendida entre o contorno 2 e o contorno de $54 dB?$ ($0,5 mV/m$), também estará de acordo com a norma.
+as demais áreas de serviços, a área de serviço Primária (Contorno 1), limitada pelo contorno de $74dB?$ ($5mV/m$) e a área de serviço Rural (Contorno 3),
+ compreendida entre o contorno 2 e o contorno de $54dB?$ ($0,5mV/m$), também estará de acordo com a norma.
 
 O que vai determinar toda a extensão deste contorno será a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
 que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na RESOLUÇÃO determinada pela ANATEL, para a classe do canal proposto.  
@@ -518,31 +517,48 @@ Como podemos ver na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta um a
 \label{diagramaDeIrradiacao}
 \end{figure}
 
-
-Vamos usar esta característica para direcionar a antena para azimute onde for necessário um ganho maior, visando sempre
- o objetivo de cobrir toda a área urbana do município com o contorno de $66 dB?$ e atender a maior parte da população possível.
-Deste modo a direção adotada será 270°, assim o sinal irradiado apresentará mais potência onde existe maiores obstáculos, causado 
-pelo relevo mais elevado que a base.
-
 O Anexo A contém o documento do fabricante na íntegra.
- O ganho máximo da antena é de $3 dBd$ para uma construção utilizando 2 elementos.
+ O ganho máximo da antena é de $4,77dBd$ (ou um ganho de 3 vezes a potência de chegada) para uma construção com 3 elementos.
 
 \subsection{Guia de onda e conectores}
 
 Conforme a potência máxima irradiada e a antena escolhida, para o guia de onda deve ser usado o padrão EIA 1-5/8''.
-Optou-se pelo modelo CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable da fabricante RFS, que apresenta uma boa mobilidade
+Optou-se pelo modelo CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable, da fabricante RFS, que apresenta uma boa mobilidade
 para o manuseio e uma atenuação de apenas $0.663dB/100m$, operando numa frequênciancia de $88MHz$; as especificações podm ser encontradas no ANEXO B.
  Como a frequência do canal que está sendo projetado é de $91,5MHz$, adotaremos o valor de $0.680dB/100m$.
 
-Como já definido, a estrutura da torre, onde será alocada a antena, tem a altura de 60m. Então o comprimento do guia de onda será de 80m,
-visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada. Sendo assim a atenuação introduzida pelo cabo
+Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 60m. Sendo assim, o comprimento do guia de onda será de 80m,
+visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada. Portanto, a atenuação introduzida pelo cabo
 será de $0,544dB$. 
 
 \subsection{Transmissor}
 
+A única característica de um transmissor levada em consideração nos cálculos é a sua
+potência de saída. Essa potência é informada nas especificações técnicas, e dada geralmente
+em Wrms.
+
+Baseando-se em pesquisas nos sites de fabricantes de transmissores nacionais, foi encontrado transmissores com 
+potências nominais de 25, 100, 300 Wrms. Visando atender a resolução, que limita a potência da emissora de rádio
+em $300Wrms$ para a classe C, usaremos nos cálculos um transmissor de $100Wrms$, que , combinado com o ganho da antena e com a 
+eficiência da linha de transmissão, terá que resultar numa potência $P(erp) < 300Wrms$ .
+ 
 \subsection{Ajustes de equipamentos}
 
+A seguir serão mostrados alguns ajustes necessários para obter o resultado mais
+eficiente e dentro da norma.
+
 \subsubsection{Orientação da antena}
+
+Como pode ser visto na tabela~\ref{tabelaHSNMT}, existem valores de $HSNMT$ negativos. Em locais onde o terreno é acidentado, o sinal transmitido apresentará
+mais dificuldades em propagar-se nas direções onde o terreno é mais alto que a antena, atenuando-o conforme vai se distanciando da origem.
+
+O azimute 270° é a direção onde o NMR é o mais alto e, consequentemente, o HSMNT mais negativado. Gradativamente, a altura terrena nestra região vai baixando
+ conforme muda-se a direção. Afim de amenizar a atenuação do sinal neste cenário, a antena será direcionada para o ocidente, ou seja, o azimute 0° da antena,
+que conforme a especificação não atenua a pot?ncia na transmissão, ficará apontado para o azimute 270° da base.
+Vamos usar esta característica para direcionar a antena para azimute onde for necessário um ganho maior, visando sempre
+ o objetivo de cobrir toda a área urbana do município com o contorno de $66dB?$ e atender a maior parte da população possível.
+Deste modo a direção adotada será 270°, assim o sinal irradiado apresentará mais potência onde existe maiores obstáculos, causado 
+pelo relevo mais elevado que a base.
 
 \subsubsection{Potência efetiva irradiada máxima (ERPmax)}
 
@@ -762,6 +778,7 @@ médios &288,29&&&&&&&&&&\\\hline
 
 \subsubsection{Potência efetiva irradiada por azimute (ERP)}
 
+***potencia em W x a atenuaçaão da antena para cada direção..verificar se é realmente necessário
 
 
 %\section{Definições do estudo}

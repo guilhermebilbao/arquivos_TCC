@@ -133,7 +133,7 @@ encontradas na referência [2].
 
 ***Verificar sobre a utilização do MATLAB (se sobrar tempo...)*** 
 
-\section{Adaptações da recomendação}
+\section{ADAPTAÇÕES DA RECOMENDAÇÃO}
 
 \subsection{Nível Médio do Terreno}
 
@@ -157,7 +157,7 @@ máximos. Ou seja, quando a HNMT da antena for interior a 10m, deve ser tomado o 
 
 ***Indicar a referência do TCC 
 
-\section{Parâmetros necessários para o cálculo de viabilidade técnica}
+\section{PARÂMETROS NECESSÁRIOS PARA O CÁLCULO DE VIABILIDADE TÉCNICA}
 
 Utilizando os métodos mencionados, vamos calcular os valores necessários para que um canal de rádio FM possa ser viabilizado.
 
@@ -176,22 +176,21 @@ contorno protegido é de 7,5 KM, a partir da base da antena transmissora.
 Para que possa ser autorizado pela ANATEL a utilização de um canal de rádio FM, além da documentação solicitada conforme a resolução, deve ser considerada
  as características básicas do canal.% e também deve ser livre de interferências, bem como não causar interferências nos outros canais.
 
-\section{Características básicas}
+\section{CARACTERÍSTICAS BÁSICAS}
 
-Ao analisar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada, observou-se a existência de um canal 218
-disponível para a região do município de são Pedro de Alcântara.
+Ao analisar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada, observou-se a existência do canal 218,
+ disponível na região do município de são Pedro de Alcântara.
 
 O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos máximos que caracterizam os canais autorizados para esta classe.
 
-\section{Encuadramento na classe}
+\section{Enquadramento na classe}
 
-O canal que será usado para esta emissora FM está enquadrado na classe C, conforme apresentado no plano Básico 
-(ANEXO I), e para que o projeto fique enquadrado nesta classe, deve ser respeitado seus requisitos máximos, que podem ser verificados na 
+Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no plano Básico 
+(ANEXO I), e para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
 tabela~\ref{tabelaClassificacaoEmissoras}.
 
-porém, a RESOLUÇÃO aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas condições. Segue estas observações, 
-que são 
-informadas na RESOLUÇÃO $N° 546$:
+Porém, a resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas outras condições também informadas.
+ Segue estas observações, que foram publicadas na RESOLUÇÃO $N° 546$:
 
 \begin{figure}[!htb]
 \centering
@@ -480,19 +479,19 @@ Radial(Graus) & NMR & HSNMT \\ \hline
 
 \section{CONTORNO PROTEGIDO}
 
-Como mencionado anteriormente, o contorno protegido de uma estação de rádio Fm corresponde ao lugar
+Como mencionado anteriormente, o contorno protegido de uma estação de rádio FM corresponde ao lugar
 geométrico onde a intensidade de campo do sinal apresentar o valor de $66dB?$ ($2mV/m$)(Contorno 2). 
-Este contorno tem como finalidade atender a área de serviço Urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
-as demais áreas de serviços, a área de serviço Primária (Contorno 1), limitada pelo contorno de $74dB?$ ($5mV/m$) e a área de serviço Rural (Contorno 3),
+Este contorno tem como finalidade atender a área de serviço urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
+as demais áreas de serviços, a área de serviço primária (Contorno 1), limitada pelo contorno de $74dB?$ ($5mV/m$) e a área de serviço rural (Contorno 3),
  compreendida entre o contorno 2 e o contorno de $54dB?$ ($0,5mV/m$), também estará de acordo com a norma.
 
 O que vai determinar toda a extensão deste contorno será a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
-que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na RESOLUÇÃO determinada pela ANATEL, para a classe do canal proposto.  
+que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na resolução determinada pela ANATEL, para a classe do canal proposto.  
 
 \chapter{CÁLCULO DO SISTEMA IRRADIANTE}
 
-Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos Técnicos primários
- necessários, vamos para a construção do conjunto de equipamentos que formará o Sistema Irradiante, além de realizar os cálculos necessários para
+Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos técnicos primários
+ necessários, vamos para a construção do conjunto de equipamentos que formará o sistema irradiante, além de realizar os cálculos necessários para
 deixar a emissora enquadrada conforme a resolução.
 
 
@@ -518,14 +517,8 @@ Como podemos ver na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta um a
 \label{diagramaDeIrradiacao}
 \end{figure}
 
-
-Vamos usar esta característica para direcionar a antena para azimute onde for necessário um ganho maior, visando sempre
- o objetivo de cobrir toda a área urbana do município com o contorno de $66dB?$ e atender a maior parte da população possível.
-Deste modo a direção adotada será 270°, assim o sinal irradiado apresentará mais potência onde existe maiores obstáculos, causado 
-pelo relevo mais elevado que a base.
-
 O Anexo A contém o documento do fabricante na íntegra.
- O ganho máximo da antena é de $3dBd$ para uma construção utilizando 2 elementos.
+ O ganho máximo da antena é de $4,77dBd$ (ou um ganho de 3 vezes a potência de chegada) para uma construção com 3 elementos.
 
 \subsection{Guia de onda e conectores}
 
@@ -544,17 +537,25 @@ A única característica de um transmissor levada em consideração nos cálculos é a
 potência de saída. Essa potência é informada nas especificações técnicas, e dada geralmente
 em Wrms.
 
-Adotou-se um transmissor fictício com potência de 150 Wrms de saída, essa potência
-foi baseada em pesquisa nos sites de fabricantes nacionais. Outras potências encontradas
-foram de 100, 150 e 250 Wrms.
-
-
+Baseando-se em pesquisas nos sites de fabricantes de transmissores nacionais, foi encontrado transmissores com 
+potências nominais de 25, 100, 300 Wrms. Visando atender a resolução, que limita a potência da emissora de rádio
+em $300Wrms$ para a classe C, usaremos nos cálculos um transmissor de $100Wrms$, que , combinado com o ganho da antena e com a 
+eficiência da linha de transmissão, terá que resultar numa potência $P(erp) < 300Wrms$ .
+ 
 \subsection{Ajustes de equipamentos}
 
 A seguir serão mostrados alguns ajustes necessários para obter o resultado mais
-preciso possível.
+eficiente e dentro da norma.
 
 \subsubsection{Orientação da antena}
+
+Como pode ser visto na tabela~\ref{tabelaHSNMT}, existem valores de $HSNMT$ negativos. Em locais onde o terreno é acidentado, o sinal transmitido apresentará
+mais dificuldades em propagar-se nas direções onde o terreno é mais alto que a antena, atenuando-o conforme vai se distanciando da origem.
+
+O azimute $270°$ é a direção onde o NMR é o mais alto e, consequentemente, o HSMNT mais negativado. Gradativamente, a altura terrena nestra região vai baixando
+ junto com as outras direções das radiais. Afim de amenizar a atenuação do sinal neste cenário, a antena será direcionada para o ocidente, ou seja, o azimute $0°$ da antena,
+que conforme a especificação não atenua a potência na origem da transmissão, ficará apontado para o azimute $270°$ da base. Com esta atitude, o sinal irradiado 
+é previlegiado onde existe os maiores obstáculos.
 
 \subsubsection{Potência efetiva irradiada máxima (ERPmax)}
 
@@ -774,6 +775,7 @@ médios &288,29&&&&&&&&&&\\\hline
 
 \subsubsection{Potência efetiva irradiada por azimute (ERP)}
 
+***potencia em W x a atenuaçaão da antena para cada direção..verificar se é realmente necessário
 
 
 %\section{Definições do estudo}

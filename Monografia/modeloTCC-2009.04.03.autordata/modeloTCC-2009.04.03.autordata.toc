@@ -8,15 +8,15 @@
 \contentsline {subsubsection}{Altura acima do n\IeC {\'\i }vel m\'edio do terreno}{16}
 \contentsline {subsubsection}{Curvas E(L,T)}{16}
 \contentsline {subsubsection}{Implementa\c c\~ao computacional da recomenda\c c\~ao}{16}
-\contentsline {section}{\numberline {2.2}Adapta\c c\~oes da recomenda\c c\~ao}{17}
+\contentsline {section}{\numberline {2.2}ADAPTA\c C\~OES DA RECOMENDA\c C\~AO}{17}
 \contentsline {subsection}{\numberline {2.2.1}N\IeC {\'\i }vel M\'edio do Terreno}{17}
 \contentsline {subsection}{\numberline {2.2.2}Altura da antena transmissora}{17}
-\contentsline {section}{\numberline {2.3}Par\^ametros necess\'arios para o c\'alculo de viabilidade t\'ecnica}{17}
+\contentsline {section}{\numberline {2.3}PAR\^AMETROS NECESS\'ARIOS PARA O C\'ALCULO DE VIABILIDADE T\'ECNICA}{17}
 \contentsline {subsection}{\numberline {2.3.1}Contorno Protegido}{17}
 \contentsline {subsection}{\numberline {2.3.2}Contornos Interferentes}{18}
 \contentsline {chapter}{\numberline {3}CANAL PROPOSTO}{19}
-\contentsline {section}{\numberline {3.1}Caracter\IeC {\'\i }sticas b\'asicas}{19}
-\contentsline {section}{\numberline {3.2}Encuadramento na classe}{19}
+\contentsline {section}{\numberline {3.1}CARACTER\'ISTICAS B\'ASICAS}{19}
+\contentsline {section}{\numberline {3.2}Enquadramento na classe}{19}
 \contentsline {section}{\numberline {3.3}N\IeC {\'\i }vel m\'edio do terreno e altura acima do n\IeC {\'\i }vel m\'edio do terreno}{20}
 \contentsline {subsection}{\numberline {3.3.1}N\IeC {\'\i }vel m\'edio da Radial (NMR) e N\IeC {\'\i }vel m\'edio do Terreno (NMT)}{20}
 \contentsline {subsection}{\numberline {3.3.2}Altura Acima do n\IeC {\'\i }vel m\'edio do Terreno}{22}
@@ -25,11 +25,11 @@
 \contentsline {section}{\numberline {4.1}SISTEMA IRRADIANTE}{27}
 \contentsline {subsection}{\numberline {4.1.1}Antena}{27}
 \contentsline {subsection}{\numberline {4.1.2}Guia de onda e conectores}{28}
-\contentsline {subsection}{\numberline {4.1.3}Transmissor}{29}
+\contentsline {subsection}{\numberline {4.1.3}Transmissor}{28}
 \contentsline {subsection}{\numberline {4.1.4}Ajustes de equipamentos}{29}
 \contentsline {subsubsection}{Orienta\c c\~ao da antena}{29}
 \contentsline {subsubsection}{Pot\^encia efetiva irradiada m\'axima (ERPmax)}{29}
-\contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERP)}{35}
+\contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERP)}{36}
 \contentsline {chapter}{\numberline {5}CONSIDERA\c C\~OES FINAIS}{37}
 \contentsline {chapter}{Refer\^encias}{38}
 \contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{39}
