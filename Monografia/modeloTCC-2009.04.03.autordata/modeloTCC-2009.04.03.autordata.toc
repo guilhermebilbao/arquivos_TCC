@@ -29,8 +29,9 @@
 \contentsline {subsection}{\numberline {4.1.4}Ajustes de equipamentos}{29}
 \contentsline {subsubsection}{Orienta\c c\~ao da antena}{29}
 \contentsline {subsubsection}{Pot\^encia efetiva irradiada m\'axima (ERPmax)}{29}
-\contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERP)}{36}
-\contentsline {chapter}{\numberline {5}CONSIDERA\c C\~OES FINAIS}{37}
-\contentsline {chapter}{Refer\^encias}{38}
-\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{39}
-\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{44}
+\contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERP)}{31}
+\contentsline {section}{\numberline {4.2}Texto Matem\'etico}{38}
+\contentsline {chapter}{\numberline {5}CONSIDERA\c C\~OES FINAIS}{40}
+\contentsline {chapter}{Refer\^encias}{41}
+\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{42}
+\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{47}

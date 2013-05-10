@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  7 MAY 2013 23:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  10 MAY 2013 01:23
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -504,15 +504,32 @@ Cap\'{\i }tulo 4.
 File: ./figuras/diagrama_de_irradiacao.jpg Graphic file (type jpg)
 
 <use ./figuras/diagrama_de_irradiacao.jpg>
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 526.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 525.
 
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 526.
- [27
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 525.
+
+Overfull \hbox (25.91554pt too wide) in paragraph at lines 524--529
+\OT1/ptm/m/n/12 Dielectric Co-a-xial Ca-ble , da fa-bri-cante RFS, que apre-sen
+ta uma atenua[][]ao de ape-nas $\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 :\OT1/ztm
+cm/m/n/12 663\OML/ztmcm/m/it/12 dB=\OT1/ztmcm/m/n/12 100\OML/ztmcm/m/it/12 m$\O
+T1/ptm/m/n/12 ,
+ []
+
+
+Overfull \hbox (14.99771pt too wide) in paragraph at lines 524--529
+\OT1/ptm/m/n/12 frequ[]encia do ca-nal que est[]a sendo pro-je-tado []e de $\OT
+1/ztmcm/m/n/12 91\OML/ztmcm/m/it/12 ; \OT1/ztmcm/m/n/12 5\OML/ztmcm/m/it/12 MHz
+$\OT1/ptm/m/n/12 , ado-ta-re-mos o va-lor de $\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/i
+t/12 :\OT1/ztmcm/m/n/12 680\OML/ztmcm/m/it/12 dB=\OT1/ztmcm/m/n/12 100\OML/ztmc
+m/m/it/12 m$\OT1/ptm/m/n/12 . 
+ []
+
+[27
 
 ] [28 <./figuras/diagrama_de_irradiacao.jpg>]
 
@@ -524,38 +541,50 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 556.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 557.
 
-[29] [30] [31] [32] [33]
-<./figuras/e5050.jpg, id=125, 597.23125pt x 643.40375pt>
+[29]
+Overfull \hbox (2.56006pt too wide) in paragraph at lines 584--587
+[]\OT1/ptm/m/n/12 O par[]ametro $\OML/ztmcm/m/it/12 L$ \OT1/ptm/m/n/12 in-forma
+ o com-pri-mento do guia de onda em me-tros, $\OML/ztmcm/m/it/12 Al$ \OT1/ptm/m
+/n/12 re-pre-senta a atenua[][]ao
+ []
+
+[30] [31] [32] [33] [34]
+<./figuras/e5050.jpg, id=128, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050.jpg>
-Overfull \hbox (22.54153pt too wide) in paragraph at lines 728--729
+Overfull \hbox (22.54153pt too wide) in paragraph at lines 785--786
  [][] 
  []
 
-<./figuras/e5010.jpg, id=126, 604.2575pt x 673.51625pt>
+<./figuras/e5010.jpg, id=129, 604.2575pt x 673.51625pt>
 File: ./figuras/e5010.jpg Graphic file (type jpg)
 
 <use ./figuras/e5010.jpg>
-Overfull \hbox (28.16255pt too wide) in paragraph at lines 735--736
+Overfull \hbox (28.16255pt too wide) in paragraph at lines 792--793
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 36.70009pt on input line 773.
+LaTeX Warning: Float too large for page by 36.70009pt on input line 830.
 
-[34 <./figuras/e5050.jpg>] [35]) [36 <./figuras/e5010.jpg>]
+[35] [36]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1245.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1245.
+ [37 <./figuras/e5050.jpg>] [38 <./figuras/e5010.jpg>]) [39]
 Cap\'{\i }tulo 5.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [37
+(./modeloTCC-2009.04.03.autordata.bbl [40
 
-]) [38
+]) [41
 
 ]
 Anexo A.
 (./arquivos_para_alterar/a14-anexo.tex
-<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=143, 615.0177pt x 862.9038pt>
+<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=153, 615.0177pt x 862.9038pt>
 File: ./figuras/1pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/1pdfantenadipolodemeiaondafm.jpg>
@@ -563,7 +592,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=144, 615.0177pt x 862.9038pt>
+<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=154, 615.0177pt x 862.9038pt>
 File: ./figuras/2pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/2pdfantenadipolodemeiaondafm.jpg>
@@ -571,7 +600,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=145, 615.0177pt x 862.9038pt>
+<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=155, 615.0177pt x 862.9038pt>
 File: ./figuras/3pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/3pdfantenadipolodemeiaondafm.jpg>
@@ -579,7 +608,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=146, 615.0177pt x 862.9038pt>
+<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=156, 615.0177pt x 862.9038pt>
 File: ./figuras/4pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/4pdfantenadipolodemeiaondafm.jpg>
@@ -587,14 +616,14 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [39
+) [42
 
-] [40 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [41 <./figuras/2pdfantenadi
-polodemeiaondafm.jpg>] [42 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
-[43 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
+] [43 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [44 <./figuras/2pdfantenadi
+polodemeiaondafm.jpg>] [45 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
+[46 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
 Anexo B.
 (./arquivos_para_alterar/a16-anexo.tex
-<./figuras/LCF158-50JFNL.pdf, id=163, 596.2275pt x 794.97pt>
+<./figuras/LCF158-50JFNL.pdf, id=173, 596.2275pt x 794.97pt>
 File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
 <use ./figuras/LCF158-50JFNL.pdf>)
@@ -602,33 +631,34 @@ File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[44
+[47
 
-] [45 <./figuras/LCF158-50JFNL.pdf>] (./modeloTCC-2009.04.03.autordata.aux)
+] [48 <./figuras/LCF158-50JFNL.pdf>] (./modeloTCC-2009.04.03.autordata.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3248 strings out of 495041
- 46384 string characters out of 1181898
+ 3275 strings out of 495041
+ 46737 string characters out of 1181898
  152680 words of memory out of 3000000
- 6251 multiletter control sequences out of 15000+50000
- 55582 words of font info for 125 fonts, out of 3000000 for 9000
+ 6272 multiletter control sequences out of 15000+50000
+ 66066 words of font info for 149 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  32i,11n,41p,395b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
-re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
-nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
-utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (45 pages, 1329903 bytes).
+ve/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+</usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-te
+xlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/u
+rw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on modeloTCC-2009.04.03.autordata.pdf (48 pages, 1343224 bytes).
 
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
+ 231 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

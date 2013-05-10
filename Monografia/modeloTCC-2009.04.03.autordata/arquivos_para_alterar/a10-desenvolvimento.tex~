@@ -355,7 +355,7 @@ Distancia.(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude
 14760 & 300 & 15 & 150 & 19 & 35 & 180 & 70 & 520 & 570 & 760 & 605 & 675 & 324,92\\
 15000 & 280 & 15 & 130 & 25 & 10 & 100 & 55 & 490 & 580 & 800 & 500 & 690 & 306,25\\\hline
 Soma & 7919 & 3673 & 8457 & 8310 & 12523 & 9843 & 7579 & 19740 & 25105 & 28980 & 20605 & 20266 & 14416,66\\\hline
-NMR(m) & 158,38 & 73,46 & 169,14 & 166,2 & 250,46 & 158,38 & 196,86 & 394,8 & 502,1 & 579,6 & 412,1 & 405,32 & 288,33\\ \hline
+NMR(m) & 158,38 & 73,46 & 169,14 & 166,2 & 250,46 & 196,86 & 151,58 & 394,8 & 502,1 & 579,6 & 412,1 & 405,32 & 288,33\\ \hline
 
 
 \end{tabular}
@@ -518,18 +518,18 @@ Como podemos ver na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta um a
 \end{figure}
 
 O Anexo A contém o documento do fabricante na íntegra.
- O ganho máximo da antena é de $4,77dBd$ (ou um ganho de 3 vezes a potência de chegada) para uma construção com 3 elementos.
-
+ 
 \subsection{Guia de onda e conectores}
 
 Conforme a potência máxima irradiada e a antena escolhida, para o guia de onda deve ser usado o padrão EIA 1-5/8''.
-Optou-se pelo modelo CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable, da fabricante RFS, que apresenta uma boa mobilidade
-para o manuseio e uma atenuação de apenas $0.663dB/100m$, operando numa frequênciancia de $88MHz$; as especificações podm ser encontradas no ANEXO B.
+Optou-se pelo 1-5/8" CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable
+, da fabricante RFS, que apresenta uma atenuação de apenas $0.663dB/100m$,
+ operando numa frequênciancia de $88MHz$; conforme especificações em ANEXO B.
  Como a frequência do canal que está sendo projetado é de $91,5MHz$, adotaremos o valor de $0.680dB/100m$.
 
-Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 60m. Sendo assim, o comprimento do guia de onda será de 80m,
-visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada. Portanto, a atenuação introduzida pelo cabo
-será de $0,544dB$. 
+Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 60m. Sendo assim, o comprimento do guia de onda será de 70m,
+visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada (já constrída no local). Portanto, a atenuação introduzida pelo cabo
+será de $0,476dB$. 
 
 \subsection{Transmissor}
 
@@ -542,22 +542,79 @@ potências nominais de 25, 100, 300 Wrms. Visando atender a resolução, que limita
 em $300Wrms$ para a classe C, usaremos nos cálculos um transmissor de $100Wrms$, que , combinado com o ganho da antena e com a 
 eficiência da linha de transmissão, terá que resultar numa potência $P(erp) < 300Wrms$ .
  
-\subsection{Ajustes de equipamentos}
+\subsection{Definindo o contorno protegido}
 
-A seguir serão mostrados alguns ajustes necessários para obter o resultado mais
+A seguir serão mostrados os ajustes e cálculos necessários para obter o resultado mais
 eficiente e dentro da norma.
+
+\subsubsection{Potência efetiva irradiada máxima (ERPmax)}
+
+A fórmula para obter a $ERPmax$, a partir do equipamentos escolhidos, é a seguinte:
+
+$$ERPmax = Pt \times Gtmax \times Ef$$
+
+A variável $Pt$ representa a potência de saída do transmissor em Wrms, $Gtmax$ o ganho máximo da antena representado em vezes, e
+ $Ef$ a eficiência da linha de transmissão.
+
+Através das especificações do fabricante podem ser obtidos a potência de saída do transmissor e o ganho máximo da antena, que neste caso
+assumem os valores de 0,1kW e 4 vezes (o ganho máximo da antena é de $6dBd$ ou um ganho de 4 vezes a potência de chegada, para uma construção com 4 elementos)
+, respectivamente. Caso o $Gtmax$ esteja somente representado em dBd é usado a seguinte fórmula para a conversão:
+
+$$Gtmax = 10^{0,1 \times Gtmax(dBd)}$$  
+
+A eficiência da linha de transmssão é determinada através das perdas do sistema. Para calcular as perdas na linha usa-se a seguinte fórmula:
+
+$$Pl = \frac{L \times Al}{100}$$
+
+$$Pl = \frac{70 \times 0,680}{100}$$
+
+$$Pl = 0,476$$
+
+
+O parâmetro $L$ informa o comprimento do guia de onda em metros, $Al$ representa a atenuação do guia a cada 100m de comprimento, em dB/100m. É usual considerar
+ o valor de 2dB como perda com acessórios ($Pc$), provenientes de conectores e divisores de linha, que deve ser somado ao valor $Pl$, resultando então 
+ na perda total da linha ($Pd$), em dB.
+
+$$Pd = Pl + Pc$$
+
+$$Pd = 0,476 + 2$$
+
+$$Pd = 2,476$$
+
+Converte-se então as perdas totais em vezes ($Pv$):
+
+$$Pv = 10^{0,1 \times Pd}$$
+
+$$Pv = 10^{0,1 \times 2,476}$$
+
+$$Pv = 1,768$$
+
+Por fim, inverte-se o último resultado para obter a eficiência da linha:
+
+$$Ef = 1 / Pv$$
+
+$$Ef = 1 / 1,768$$
+
+$$Ef = 0,565$$
+
+Portanto a potência de saída do sistema fica:
+
+$$ERPmax = 0,1 \times 4 \times 0,565$$
+
+$$ERPmax = 0,226kW$$
 
 \subsubsection{Orientação da antena}
 
 Como pode ser visto na tabela~\ref{tabelaHSNMT}, existem valores de $HSNMT$ negativos. Em locais onde o terreno é acidentado, o sinal transmitido apresentará
 mais dificuldades em propagar-se nas direções onde o terreno é mais alto que a antena, atenuando-o conforme vai se distanciando da origem.
 
-O azimute $270°$ é a direção onde o NMR é o mais alto e, consequentemente, o HSMNT mais negativado. Gradativamente, a altura terrena nestra região vai baixando
+O azimute $270°$ é a direção onde o NMR é o mais alto e, consequentemente, o HSMNT mais negativado. Gradativamente, a altura terrena nesta região vai baixando
  junto com as outras direções das radiais. Afim de amenizar a atenuação do sinal neste cenário, a antena será direcionada para o ocidente, ou seja, o azimute $0°$ da antena,
 que conforme a especificação não atenua a potência na origem da transmissão, ficará apontado para o azimute $270°$ da base. Com esta atitude, o sinal irradiado 
 é previlegiado onde existe os maiores obstáculos.
 
-\subsubsection{Potência efetiva irradiada máxima (ERPmax)}
+\subsubsection{Potência efetiva irradiada por azimute (ERP)}
+
 
 Conforme a determinação publicada na RESOLUÇÃO N° 546, DE 1° DE SETEMBRO DE 2010, que Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em frequência Modulada,
  segue os cálculos:
@@ -746,7 +803,7 @@ do contorno protegido.
 \begin{sideways}
 \begin{tabular}{|l|l|l|l|l|l|cc|cc|cc|} \hline
 
-Radiais&NMT&HSMNT&(E/Emax)&potência&potência&Contorno 1&&Contorno 2&&Contorno 3&\\ \cline{7-12}
+Radiais&NMT&HSMNT&(E/Emax)&Potência&Potência&Contorno 1&&Contorno 2&&Contorno 3&\\ \cline{7-12}
 Azimutes&(m)&(m)&for square&Proposta&Proposta&&&&&&\\     
 (Graus)&&&&Perp(KW)&Perp(dBk)&74 dB?&C1 (Km)&66 dB?&C2 (Km)&54 dB?&C3 (Km)\\ \hline
 0&158,38&189,19&0,6084&0,1482&-8,29&82,29&5,5&74,29&10,3&62,29&21\\
@@ -773,7 +830,6 @@ médios &288,29&&&&&&&&&&\\\hline
 \end{table}
 \end{center}
 
-\subsubsection{Potência efetiva irradiada por azimute (ERP)}
 
 ***potencia em W x a atenuaçaão da antena para cada direção..verificar se é realmente necessário
 
@@ -1184,20 +1240,20 @@ Esta seção é destinadas á figuras usadas no trabalho.
 %A citaééo longa deve vir em parégrafo separado, com recuo de 4 cm da margem esquerda, em fonte menor, sem as aspas e com espaéamento simples
 
 
-%\section{Texto Matemético}
+\section{Texto Matemético}
 
-%Utilize \$ para inciar e finalizar o modo matemético\footnote{nota de rodapé} dentro de um texto não matemético e \$\$ para inciar e finalizar o modo matemético centralizado (fórmulas).
-% Exemplo dentro de um texto não matemético: Sejam $a$ e $b$ dois números reais não nulos, logo $a^{b+a} = a^b a^a$. Agora segue um exemplo de modo matemético centralizado: $$\int_a^b f(x) dx = 56.$$
+Utilize \$ para inciar e finalizar o modo matemético\footnote{nota de rodapé} dentro de um texto não matemético e \$\$ para inciar e finalizar o modo matemético centralizado (fórmulas).
+ Exemplo dentro de um texto não matemético: Sejam $a$ e $b$ dois números reais não nulos, logo $a^{b+a} = a^b a^a$. Agora segue um exemplo de modo matemético centralizado: $$\int_a^b f(x) dx = 56.$$
 
-%Abaixo temos um exemplo de proposições com sua demonstraééo:
-%\begin{proposicao}
-% Sejam $a$ e $b$ reais, tais que $0<a<b$. então $a^2<b^2$.
-%\end{proposicao}
-%\begin{demonstracao}
-% Pela hipétese concluémos que $(b+a)>0$ e $(b-a)>0$. 
+Abaixo temos um exemplo de proposições com sua demonstraééo:
+\begin{proposicao}
+ Sejam $a$ e $b$ reais, tais que $0<a<b$. então $a^2<b^2$.
+\end{proposicao}
+\begin{demonstracao}
+ Pela hipétese concluémos que $(b+a)>0$ e $(b-a)>0$. 
 
-%Como $b^2-a^2=(b+a)(b-a)$ concluémos que $b^2-a^2>0$, ou seja, $a^2<b^2$.
-%\end{demonstracao}
+Como $b^2-a^2=(b+a)(b-a)$ concluémos que $b^2-a^2>0$, ou seja, $a^2<b^2$.
+\end{demonstracao}
 
 
 
