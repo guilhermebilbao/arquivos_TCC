@@ -1,37 +1,38 @@
 \select@language {brazil}
-\contentsline {chapter}{INTRODU\c C\~AO}{}
-\contentsline {chapter}{\numberline {1}PLANO B\'ASICO DE DISTRIBUI\c C\~AO DE CANAIS DE RADIODIFUS\~AO SONORA EM FREQU\^ENCIA MODULADA (PBMF)}{13}
-\contentsline {section}{\numberline {1.1}CANALIZA\c C\~AO}{13}
-\contentsline {chapter}{\numberline {2}RESOLU\c C\~AO N\IeC {\textdegree } 67, DE 12 DE NOVEMBRO DE 1998}{15}
-\contentsline {section}{\numberline {2.1}RECOMENDA\c C\~AO UIT-R P.1546}{15}
-\contentsline {subsection}{\numberline {2.1.1}Conceitos B\'asicos}{16}
-\contentsline {subsubsection}{Altura acima do n\IeC {\'\i }vel m\'edio do terreno}{16}
-\contentsline {subsubsection}{Curvas E(L,T)}{16}
-\contentsline {subsubsection}{Implementa\c c\~ao computacional da recomenda\c c\~ao}{16}
-\contentsline {section}{\numberline {2.2}ADAPTA\c C\~OES DA RECOMENDA\c C\~AO}{17}
-\contentsline {subsection}{\numberline {2.2.1}N\IeC {\'\i }vel M\'edio do Terreno}{17}
-\contentsline {subsection}{\numberline {2.2.2}Altura da antena transmissora}{17}
-\contentsline {section}{\numberline {2.3}PAR\^AMETROS NECESS\'ARIOS PARA O C\'ALCULO DE VIABILIDADE T\'ECNICA}{17}
-\contentsline {subsection}{\numberline {2.3.1}Contorno Protegido}{17}
-\contentsline {subsection}{\numberline {2.3.2}Contornos Interferentes}{18}
-\contentsline {chapter}{\numberline {3}CANAL PROPOSTO}{19}
-\contentsline {section}{\numberline {3.1}CARACTER\'ISTICAS B\'ASICAS}{19}
-\contentsline {section}{\numberline {3.2}Enquadramento na classe}{19}
-\contentsline {section}{\numberline {3.3}N\IeC {\'\i }vel m\'edio do terreno e altura acima do n\IeC {\'\i }vel m\'edio do terreno}{20}
-\contentsline {subsection}{\numberline {3.3.1}N\IeC {\'\i }vel m\'edio da Radial (NMR) e N\IeC {\'\i }vel m\'edio do Terreno (NMT)}{20}
-\contentsline {subsection}{\numberline {3.3.2}Altura Acima do n\IeC {\'\i }vel m\'edio do Terreno}{22}
-\contentsline {section}{\numberline {3.4}CONTORNO PROTEGIDO}{26}
-\contentsline {chapter}{\numberline {4}C\'ALCULO DO SISTEMA IRRADIANTE}{27}
-\contentsline {section}{\numberline {4.1}SISTEMA IRRADIANTE}{27}
-\contentsline {subsection}{\numberline {4.1.1}Antena}{27}
-\contentsline {subsection}{\numberline {4.1.2}Guia de onda e conectores}{28}
-\contentsline {subsection}{\numberline {4.1.3}Transmissor}{28}
-\contentsline {subsection}{\numberline {4.1.4}Ajustes de equipamentos}{29}
+\contentsline {chapter}{\numberline {1}INTRODU\c C\~AO}{11}
+\contentsline {chapter}{\numberline {2}PLANO B\'ASICO DE DISTRIBUI\c C\~AO DE CANAIS DE RADIODIFUS\~AO SONORA EM FREQU\^ENCIA MODULADA (PBMF)}{12}
+\contentsline {section}{\numberline {2.1}CANALIZA\c C\~AO}{12}
+\contentsline {chapter}{\numberline {3}RESOLU\c C\~AO N\IeC {\textdegree } 67, DE 12 DE NOVEMBRO DE 1998}{14}
+\contentsline {section}{\numberline {3.1}RECOMENDA\c C\~AO UIT-R P.1546}{14}
+\contentsline {subsection}{\numberline {3.1.1}Conceitos B\'asicos}{15}
+\contentsline {subsubsection}{Altura acima do n\IeC {\'\i }vel m\'edio do terreno}{15}
+\contentsline {subsubsection}{Curvas E(L,T)}{15}
+\contentsline {subsubsection}{Implementa\c c\~ao computacional da recomenda\c c\~ao}{15}
+\contentsline {section}{\numberline {3.2}ADAPTA\c C\~OES DA RECOMENDA\c C\~AO}{16}
+\contentsline {subsection}{\numberline {3.2.1}N\IeC {\'\i }vel M\'edio do Terreno}{16}
+\contentsline {subsection}{\numberline {3.2.2}Altura da antena transmissora}{16}
+\contentsline {section}{\numberline {3.3}PAR\^AMETROS NECESS\'ARIOS PARA O C\'ALCULO DE VIABILIDADE T\'ECNICA}{16}
+\contentsline {subsection}{\numberline {3.3.1}Contorno Protegido}{16}
+\contentsline {subsection}{\numberline {3.3.2}Contornos Interferentes}{17}
+\contentsline {chapter}{\numberline {4}CANAL PROPOSTO}{18}
+\contentsline {section}{\numberline {4.1}CARACTER\'ISTICAS B\'ASICAS}{18}
+\contentsline {section}{\numberline {4.2}Enquadramento na classe}{18}
+\contentsline {section}{\numberline {4.3}N\IeC {\'\i }vel m\'edio do terreno e altura acima do n\IeC {\'\i }vel m\'edio do terreno}{19}
+\contentsline {subsection}{\numberline {4.3.1}N\IeC {\'\i }vel m\'edio da Radial (NMR) e N\IeC {\'\i }vel m\'edio do Terreno (NMT)}{19}
+\contentsline {subsection}{\numberline {4.3.2}Altura Acima do n\IeC {\'\i }vel m\'edio do Terreno}{21}
+\contentsline {section}{\numberline {4.4}CONTORNO PROTEGIDO}{25}
+\contentsline {chapter}{\numberline {5}DEFINI\c C\~OES DO SISTEMA IRRADIANTE}{26}
+\contentsline {section}{\numberline {5.1}SISTEMA IRRADIANTE}{26}
+\contentsline {subsection}{\numberline {5.1.1}Antena}{26}
+\contentsline {subsection}{\numberline {5.1.2}Guia de onda e conectores}{27}
+\contentsline {subsection}{\numberline {5.1.3}Transmissor}{27}
+\contentsline {subsection}{\numberline {5.1.4}Definindo o contorno protegido}{28}
+\contentsline {subsubsection}{Pot\^encia efetiva irradiada m\'axima (ERPmax)}{28}
+\contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERPaz)}{29}
 \contentsline {subsubsection}{Orienta\c c\~ao da antena}{29}
-\contentsline {subsubsection}{Pot\^encia efetiva irradiada m\'axima (ERPmax)}{29}
-\contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERP)}{31}
-\contentsline {section}{\numberline {4.2}Texto Matem\'etico}{38}
-\contentsline {chapter}{\numberline {5}CONSIDERA\c C\~OES FINAIS}{40}
-\contentsline {chapter}{Refer\^encias}{41}
-\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{42}
-\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{47}
+\contentsline {chapter}{\numberline {6}DESENVOLVENDO}{31}
+\contentsline {section}{\numberline {6.1}Texto Matem\'etico}{35}
+\contentsline {chapter}{\numberline {7}CONSIDERA\c C\~OES FINAIS}{39}
+\contentsline {chapter}{Refer\^encias}{40}
+\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{41}
+\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{46}

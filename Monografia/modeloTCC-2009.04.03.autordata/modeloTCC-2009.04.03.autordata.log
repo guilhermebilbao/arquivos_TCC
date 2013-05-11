@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  10 MAY 2013 01:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  11 MAY 2013 12:17
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -432,88 +432,84 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 \tf@toc=\write3
 \openout3 = `modeloTCC-2009.04.03.autordata.toc'.
 
- [9] [10
+ [9]
+(./arquivos_para_alterar/a10-desenvolvimento.tex [10
 
 ]
-(./arquivos_para_alterar/a09-introducao.tex
-Overfull \hbox (3.58344pt too wide) in paragraph at lines 4--7
+Cap\'{\i }tulo 1.
+
+Overfull \hbox (3.58344pt too wide) in paragraph at lines 5--8
 \OT1/ptm/m/n/12 baseando-se num cen[]ario real. Co-lo-car em pr[]atica os co-nh
 e-ci-men-tos ob-ti-dos das recomenda[][]oes,
  []
 
 
-Overfull \hbox (3.37717pt too wide) in paragraph at lines 24--27
+Overfull \hbox (3.37717pt too wide) in paragraph at lines 25--28
 []\OT1/ptm/m/n/12 Constatando que existe espa[]o para uma constru[][]ao de uma 
 nova torre, par-ti-mos do princ[]^^Ppio
  []
 
-) (./arquivos_para_alterar/a10-desenvolvimento.tex [11
+[11
 
-] [12]
-Cap\'{\i }tulo 1.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 11.
-[13
-
-] [14]
+]
 Cap\'{\i }tulo 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 38.
+[12
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 74.
+] [13]
+Cap\'{\i }tulo 3.
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 101.
 
 
-Overfull \hbox (6.93105pt too wide) in paragraph at lines 74--80
+Overfull \hbox (6.93105pt too wide) in paragraph at lines 101--107
 \OT1/ptm/m/n/12 telecomunica[][]oes re-gu-lar-mente au-to-ri-za-dos e re-du-zir
  pos-si-bi-li-da-des de da-nos f[]^^Psicos []a popula[][]ao.
  []
 
-[15
+[14
 
-] [16] [17] [18]
-Cap\'{\i }tulo 3.
+] [15] [16] [17]
+Cap\'{\i }tulo 4.
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 193.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 220.
 
-<./figuras/tabelaClassificacaoEmissoras.png, id=65, 861.2175pt x 412.54124pt>
+<./figuras/tabelaClassificacaoEmissoras.png, id=62, 861.2175pt x 412.54124pt>
 File: ./figuras/tabelaClassificacaoEmissoras.png Graphic file (type png)
 
-<use ./figuras/tabelaClassificacaoEmissoras.png> [19
+<use ./figuras/tabelaClassificacaoEmissoras.png> [18
 
-] [20 <./figuras/tabelaClassificacaoEmissoras.png>]
-<./figuras/nmt1_v2.pdf, id=75, 845.1575pt x 597.23125pt>
+] [19 <./figuras/tabelaClassificacaoEmissoras.png>]
+<./figuras/nmt1_v2.pdf, id=72, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt1_v2.pdf>
-Overfull \hbox (5.03789pt too wide) in paragraph at lines 275--291
+Overfull \hbox (5.03789pt too wide) in paragraph at lines 302--318
  [][] 
  []
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 303.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 330.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 303.
-[21] [22 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>] [23] [24]
-Overfull \hbox (0.16083pt too wide) in paragraph at lines 443--444
-[]\OT1/ptm/m/n/12 Esta equa[][]ao agora deve ser usada tro-cando o $\OML/ztmcm/
-m/it/12 NMT$ \OT1/ptm/m/n/12 por $\OML/ztmcm/m/it/12 NMR$ \OT1/ptm/m/n/12 e, as
--sim, en-con-trar o $\OML/ztmcm/m/it/12 HSNMT$
- []
-
-[25] [26]
-Cap\'{\i }tulo 4.
-<./figuras/diagrama_de_irradiacao.jpg, id=102, 307.8702pt x 280.4076pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 330.
+[20] [21 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>] [22] [23]
+[24] [25]
+Cap\'{\i }tulo 5.
+<./figuras/diagrama_de_irradiacao.jpg, id=99, 307.8702pt x 280.4076pt>
 File: ./figuras/diagrama_de_irradiacao.jpg Graphic file (type jpg)
 
 <use ./figuras/diagrama_de_irradiacao.jpg>
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 525.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 547.
 
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 525.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 547.
 
-Overfull \hbox (25.91554pt too wide) in paragraph at lines 524--529
+Overfull \hbox (25.91554pt too wide) in paragraph at lines 546--551
 \OT1/ptm/m/n/12 Dielectric Co-a-xial Ca-ble , da fa-bri-cante RFS, que apre-sen
 ta uma atenua[][]ao de ape-nas $\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 :\OT1/ztm
 cm/m/n/12 663\OML/ztmcm/m/it/12 dB=\OT1/ztmcm/m/n/12 100\OML/ztmcm/m/it/12 m$\O
@@ -521,7 +517,7 @@ T1/ptm/m/n/12 ,
  []
 
 
-Overfull \hbox (14.99771pt too wide) in paragraph at lines 524--529
+Overfull \hbox (14.99771pt too wide) in paragraph at lines 546--551
 \OT1/ptm/m/n/12 frequ[]encia do ca-nal que est[]a sendo pro-je-tado []e de $\OT
 1/ztmcm/m/n/12 91\OML/ztmcm/m/it/12 ; \OT1/ztmcm/m/n/12 5\OML/ztmcm/m/it/12 MHz
 $\OT1/ptm/m/n/12 , ado-ta-re-mos o va-lor de $\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/i
@@ -529,31 +525,34 @@ t/12 :\OT1/ztmcm/m/n/12 680\OML/ztmcm/m/it/12 dB=\OT1/ztmcm/m/n/12 100\OML/ztmc
 m/m/it/12 m$\OT1/ptm/m/n/12 . 
  []
 
-[27
+[26
 
-] [28 <./figuras/diagrama_de_irradiacao.jpg>]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 555.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 556.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 557.
-
-[29]
-Overfull \hbox (2.56006pt too wide) in paragraph at lines 584--587
+] [27 <./figuras/diagrama_de_irradiacao.jpg>]
+Overfull \hbox (2.56006pt too wide) in paragraph at lines 597--600
 []\OT1/ptm/m/n/12 O par[]ametro $\OML/ztmcm/m/it/12 L$ \OT1/ptm/m/n/12 in-forma
  o com-pri-mento do guia de onda em me-tros, $\OML/ztmcm/m/it/12 Al$ \OT1/ptm/m
 /n/12 re-pre-senta a atenua[][]ao
  []
 
-[30] [31] [32] [33] [34]
-<./figuras/e5050.jpg, id=128, 597.23125pt x 643.40375pt>
+[28]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 648.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 650.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 651.
+
+[29] [30]
+Cap\'{\i }tulo 6.
+[31
+
+] [32] [33] [34] <./figuras/e5050.jpg, id=128, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050.jpg>
-Overfull \hbox (22.54153pt too wide) in paragraph at lines 785--786
+Overfull \hbox (22.54153pt too wide) in paragraph at lines 826--827
  [][] 
  []
 
@@ -561,30 +560,29 @@ Overfull \hbox (22.54153pt too wide) in paragraph at lines 785--786
 File: ./figuras/e5010.jpg Graphic file (type jpg)
 
 <use ./figuras/e5010.jpg>
-Overfull \hbox (28.16255pt too wide) in paragraph at lines 792--793
+Overfull \hbox (28.16255pt too wide) in paragraph at lines 833--834
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 36.70009pt on input line 830.
+LaTeX Warning: Float too large for page by 36.70009pt on input line 869.
 
-[35] [36]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1245.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1282.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1245.
- [37 <./figuras/e5050.jpg>] [38 <./figuras/e5010.jpg>]) [39]
-Cap\'{\i }tulo 5.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1282.
+[35] [36]) [37 <./figuras/e5050.jpg>] [38 <./figuras/e5010.jpg>]
+Cap\'{\i }tulo 7.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [40
+(./modeloTCC-2009.04.03.autordata.bbl [39
 
-]) [41
+]) [40
 
 ]
 Anexo A.
 (./arquivos_para_alterar/a14-anexo.tex
-<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=153, 615.0177pt x 862.9038pt>
+<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=150, 615.0177pt x 862.9038pt>
 File: ./figuras/1pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/1pdfantenadipolodemeiaondafm.jpg>
@@ -592,7 +590,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=154, 615.0177pt x 862.9038pt>
+<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=151, 615.0177pt x 862.9038pt>
 File: ./figuras/2pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/2pdfantenadipolodemeiaondafm.jpg>
@@ -600,7 +598,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=155, 615.0177pt x 862.9038pt>
+<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=152, 615.0177pt x 862.9038pt>
 File: ./figuras/3pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/3pdfantenadipolodemeiaondafm.jpg>
@@ -608,7 +606,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=156, 615.0177pt x 862.9038pt>
+<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=153, 615.0177pt x 862.9038pt>
 File: ./figuras/4pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/4pdfantenadipolodemeiaondafm.jpg>
@@ -616,14 +614,14 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [42
+) [41
 
-] [43 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [44 <./figuras/2pdfantenadi
-polodemeiaondafm.jpg>] [45 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
-[46 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
+] [42 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [43 <./figuras/2pdfantenadi
+polodemeiaondafm.jpg>] [44 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
+[45 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
 Anexo B.
 (./arquivos_para_alterar/a16-anexo.tex
-<./figuras/LCF158-50JFNL.pdf, id=173, 596.2275pt x 794.97pt>
+<./figuras/LCF158-50JFNL.pdf, id=170, 596.2275pt x 794.97pt>
 File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
 <use ./figuras/LCF158-50JFNL.pdf>)
@@ -631,16 +629,16 @@ File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[47
+[46
 
-] [48 <./figuras/LCF158-50JFNL.pdf>] (./modeloTCC-2009.04.03.autordata.aux)
+] [47 <./figuras/LCF158-50JFNL.pdf>] (./modeloTCC-2009.04.03.autordata.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3275 strings out of 495041
- 46737 string characters out of 1181898
+ 3272 strings out of 495041
+ 46639 string characters out of 1181898
  152680 words of memory out of 3000000
  6272 multiletter control sequences out of 15000+50000
  66066 words of font info for 149 fonts, out of 3000000 for 9000
@@ -655,10 +653,10 @@ cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 xlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/u
 rw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on modeloTCC-2009.04.03.autordata.pdf (48 pages, 1343224 bytes).
+Output written on modeloTCC-2009.04.03.autordata.pdf (47 pages, 1342250 bytes).
 
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
+ 228 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

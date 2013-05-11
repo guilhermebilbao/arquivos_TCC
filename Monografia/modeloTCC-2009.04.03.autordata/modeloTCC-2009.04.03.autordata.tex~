@@ -216,13 +216,13 @@ l
 
 
 %Introdução 
-\ifthenelse{\boolean{InserirIntroducao}}{
+%\ifthenelse{\boolean{InserirIntroducao}}{
 
-\pretextualchapter{INTRODUÇÃO}
+%\pretextualchapter{INTRODUÇÃO}
 
-\input{./arquivos_para_alterar/a09-introducao}
+%\input{./arquivos_para_alterar/a09-introducao}
 
-}{}
+%}{}
 
 
 %Desenvolvimento
@@ -290,7 +290,7 @@ l
 
 \chapter{Especificações técnicas do fabricante do guia de onda utilizado}
 
-\input{./arquivos_para_alterar/a14-anexo}
+\input{./arquivos_para_alterar/a16-anexo}
 
 }{}
 

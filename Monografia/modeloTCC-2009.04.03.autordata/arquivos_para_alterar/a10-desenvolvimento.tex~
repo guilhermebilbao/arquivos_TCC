@@ -1,3 +1,30 @@
+\chapter{INTRODUÇÃO}
+
+Estudo e compreensão das normas mais recentes em relação à transmissão de rádio FM, utilizando ferramentas livres oferecidas pela ANATEL
+
+Realizar um estudo de viabilidade técnica de um canal de rádio em frequência modulada, baseando-se num cenário real. Colocar em prática
+os conhecimentos obtidos das recomendações, aplicando em situação real e possível. Com os resultados obtidos, será elaborada uma solução para
+cada eventual problema que surgir.
+
+Este projeto tem como objetivo criar uma documentação técnica, que reuna todos os requisitos necessários para que uma emissora de rádio possa ser 
+homologada pela ANATEL, (de acordo com a Resolução N° 67) e, assim, ser utilizada comercialmente.
+
+O que definiu o local de São Pedro de Alcântara como o escolhido para desenvolver este projeto da emissora FM foi, principalmente, o fator "cenário real",
+ proporcionado
+pela disponibilidade do canal 218,na frequência de XXX Mhz e enquadrado na classe C (classificação das emissoras), atráves do plano básico administrado pela
+ ANATEl. A idéia de desenvolver um projeto que poderia ser realmente implantado, foi uma 
+motivação a mais. Todos os cálculos, ítens e materiais, que foram definidos e documentados neste projeto, foram pensados e analisados com os cuidados de uma
+ possível execução no
+ futuro.
+
+Outro ponto, é a relativa facilidade de acesso (São Pedro de Alcântara é um município vizinhho à São José), isto foi importante para verificação e definição 
+do ponto onde ficaria o sistema emissor.
+Ao visitar o local, verificamos que já existia uma antena (moradores informaram que trata-se de uma antena de transmissão de TV analógica) em um terreno no 
+centro do município.
+
+Constatando que existe espaço para uma construção de uma nova torre, partimos do princípio que o local, no centro do município, é o mais indicado para
+ instalar nossa estrutura. Assim, definimos
+ o ponto de origem da emissora, exatamente nas coordenadas (informar latitude e longitude).
 
 \chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF)}
 
@@ -410,37 +437,31 @@ além de um custo de manutenção
 muito superior ao da torre, alto gasto de energia elétrica, fazendo com que, normalmente, seja mais recomendável o aumento da altura da torre, em vez da 
 potência do transmissor.
 
-Sendo assim, sabendo que a emissora está localizada em uma área de relevo acidentado e com radias apresentado um NMR mais elevado que a base, ficará definida a altura da torre
- em 60 metros. Esta é a altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. 
-Usando este critério
-ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, á longo prazo.
+Sendo assim, sabendo que a emissora está localizada em uma área de relevo acidentado e com algumas radias apresentado um NMR mais elevado que a base, ficará
+ definida a altura da torre em 55 metros. 
+
+%Esta altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. 
+%Usando este critério ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, á longo prazo.
 
 Para definir a $HCGSI$, precisamos ainda obter o valor da altura do Centro de Fase do Sistema Irradiante. Este valor é encontrado nas especificações da 
-antena que será usada no projeto
- e varia conforme o número de elementos usados na estrutura do sistema irradiante. 
-Este definição será melhor explicada no tópico específico sobre antena, mais à frente.
+antena Dipolo $1/2$ Onda para FM do fabricante IDEAL, conforme ANEXO A, que será usada no projeto e varia conforme o número de elementos usados na estrutura
+ do sistema irradiante. 
+De acordo com a especificação da antena, usando três elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de 
+$88,1MHz$, que é a frequência mais aproximado da que será propagada o sinal da nossa emissora ($91,5MHz$), o centro de fase do sistema fica em $4244,5mm$, ou $4,244m$.
+ Efetuando-se a soma entre a altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor: 
 
-Para concluir este cálculo, vamos buscar o valor faltante na especificação
-da antena definida para este projeto (será usada uma  Dipolo $1/2$ Onda, para FM, do fabricante IDEAL, conforme ANEXO II).
-De acordo com a especificação da antena, usando dois elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de  $98,1MHz$, que é
-a frequência mais aproximado da que será propagada o sinal da nossa emissora ($91,5MHz$), o centro de fase do sistema fica em $2570mm$, ou $2,570m$.
- Efetuando-se a soma entre a 
-altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor: 
-
-$$HCGSI = 60m + 2,570m = 62,57m$$ 
+$$HCGSI = 55m + 4,244m = 59,244m$$ 
 
 Agora já temos definidas todas as variáveis que compõem nossa equação, vamos encontrar o HSNMT, ficou assim:
 
-$$HSNMT = 285m + 62,57m - 288,33 m$$, encontramos o resultado aproximado de :
+$$HSNMT = 285m + 59,244m - 288,33 m$$, encontramos o resultado aproximado de :
 
-$$HSNMT = 59,24m $$
+$$HSNMT = 55,914m $$
 
 Na verdade, este valor de $HSNMT$ encontrado vai servir somente de referência. através dele, podemos comprovar que a antena estará numa altura dentro do
- limite estabelecido
-pela resolução, considerando a média de todas as radiais ($NMT$).
+ limite estabelecido pela resolução (60 metros), considerando a média de todas as radiais ($NMT$).
 
-
-Esta equação agora deve ser usada trocando o $NMT$ por $NMR$ e, assim, encontrar o $HSNMT$ de cada radial, isoladamente.
+Agora, esta equação deve ser usada trocando o $NMT$ por $NMR$ e, assim, encontrar o $HSNMT$ de cada radial, isoladamente.
 
 A tabela~\ref{tabelaHSNMT} apresenta os valores de $HSNMT$ obtidos. Essa coluna apresenta a diferença entre a altura da antena e o NMR da radial 
 correspondente. 
@@ -450,6 +471,7 @@ que a altura da antena ($347,57m$). então podemos concluir que, o sinal irradiad
 propagação.
 Essa informação é muito importante para a otimização da área de cobertura da emissora, e será lembrada mais adiante.
 
+***Calcular os novos HSNMT com o valor de 59,244
 
 \def\tablename{Tabela}
 \begin{table}
@@ -459,18 +481,18 @@ Essa informação é muito importante para a otimização da área de cobertura da emi
 \begin{tabular}{|c|c|c|} \hline
 
 Radial(Graus) & NMR & HSNMT \\ \hline
-0 & 158,38&189,19\\
-30 & 73,46 & 274,11\\
-60 & 169,14 & 178,43\\
-90 & 166,20 & 181,37\\
-120 & 250,46 & 97,57\\
-150 & 196,86 & 150,71\\
-180 & 151,58 & 195,99\\
-210 & 394,80 & -47,23\\
-240 & 502,10 & -154,53\\
-270 & 579,10 & -231,53\\
-300 & 412,10 & -64,53\\
-330 & 405,32 & -57,75\\ \hline
+0 & 158,38&185,86\\
+30 & 73,46 & 270,78\\
+60 & 169,14 & 175,04\\
+90 & 166,20 & 178,04\\
+120 & 250,46 & 93,78\\
+150 & 196,86 & 147,38\\
+180 & 151,58 & 192,66\\
+210 & 394,80 & -50,55\\
+240 & 502,10 & -157,85\\
+270 & 579,10 & -234,85\\
+300 & 412,10 & -67,85\\
+330 & 405,32 & -61,07\\ \hline
 
 \end{tabular}
 \caption{Valores de HSNMT para cada radial.} 
@@ -488,7 +510,7 @@ as demais áreas de serviços, a área de serviço primária (Contorno 1), limitada p
 O que vai determinar toda a extensão deste contorno será a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
 que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na resolução determinada pela ANATEL, para a classe do canal proposto.  
 
-\chapter{CÁLCULO DO SISTEMA IRRADIANTE}
+\chapter{DEFINIÇÕES DO SISTEMA IRRADIANTE}
 
 Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos técnicos primários
  necessários, vamos para a construção do conjunto de equipamentos que formará o sistema irradiante, além de realizar os cálculos necessários para
@@ -527,9 +549,9 @@ Optou-se pelo 1-5/8" CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable
  operando numa frequênciancia de $88MHz$; conforme especificações em ANEXO B.
  Como a frequência do canal que está sendo projetado é de $91,5MHz$, adotaremos o valor de $0.680dB/100m$.
 
-Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 60m. Sendo assim, o comprimento do guia de onda será de 70m,
-visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada (já constrída no local). Portanto, a atenuação introduzida pelo cabo
-será de $0,476dB$. 
+Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 55m. Sendo assim, o comprimento do guia de onda será de 65m,
+visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada (já constrída no local). Portanto, a atenuação
+ introduzida pelo cabo será de $0,442dB$. 
 
 \subsection{Transmissor}
 
@@ -538,8 +560,8 @@ potência de saída. Essa potência é informada nas especificações técnicas, e dada
 em Wrms.
 
 Baseando-se em pesquisas nos sites de fabricantes de transmissores nacionais, foi encontrado transmissores com 
-potências nominais de 25, 100, 300 Wrms. Visando atender a resolução, que limita a potência da emissora de rádio
-em $300Wrms$ para a classe C, usaremos nos cálculos um transmissor de $100Wrms$, que , combinado com o ganho da antena e com a 
+potências nominais de 25, 100,150 e 300 Wrms. Visando atender a resolução, que limita a potência da emissora de rádio
+em $300Wrms$ para a classe C, usaremos nos cálculos um transmissor de $150Wrms$, que , combinado com o ganho da antena e com a 
 eficiência da linha de transmissão, terá que resultar numa potência $P(erp) < 300Wrms$ .
  
 \subsection{Definindo o contorno protegido}
@@ -556,9 +578,10 @@ $$ERPmax = Pt \times Gtmax \times Ef$$
 A variável $Pt$ representa a potência de saída do transmissor em Wrms, $Gtmax$ o ganho máximo da antena representado em vezes, e
  $Ef$ a eficiência da linha de transmissão.
 
-Através das especificações do fabricante podem ser obtidos a potência de saída do transmissor e o ganho máximo da antena, que neste caso
-assumem os valores de 0,1kW e 4 vezes (o ganho máximo da antena é de $6dBd$ ou um ganho de 4 vezes a potência de chegada, para uma construção com 4 elementos)
-, respectivamente. Caso o $Gtmax$ esteja somente representado em dBd é usado a seguinte fórmula para a conversão:
+Através das especificações do fabricante podem ser obtidos a potência de saída do transmissor e o ganho máximo da antena. %, que neste caso
+%assumem os valores de 0,150kW e 3 vezes (o ganho máximo da antena é de $4,77dBd$ ou um ganho de 3 vezes a potência de chegada, para uma construção com 3 elementos)
+%, respectivamente.
+Caso o $Gtmax$ esteja somente representado em dBd é usado a seguinte fórmula para a conversão:
 
 $$Gtmax = 10^{0,1 \times Gtmax(dBd)}$$  
 
@@ -566,54 +589,72 @@ A eficiência da linha de transmssão é determinada através das perdas do sistema.
 
 $$Pl = \frac{L \times Al}{100}$$
 
-$$Pl = \frac{70 \times 0,680}{100}$$
+%$$Pl = \frac{65 \times 0,680}{100}$$
 
-$$Pl = 0,476$$
+%$$Pl = 0,442$$
 
 
 O parâmetro $L$ informa o comprimento do guia de onda em metros, $Al$ representa a atenuação do guia a cada 100m de comprimento, em dB/100m. É usual considerar
  o valor de 2dB como perda com acessórios ($Pc$), provenientes de conectores e divisores de linha, que deve ser somado ao valor $Pl$, resultando então 
- na perda total da linha ($Pd$), em dB.
+ na perda total da linha ($Pd$), em dB:
 
 $$Pd = Pl + Pc$$
 
-$$Pd = 0,476 + 2$$
+%$$Pd = 0,442 + 2$$
 
-$$Pd = 2,476$$
+%$$Pd = 2,442$$
 
 Converte-se então as perdas totais em vezes ($Pv$):
 
 $$Pv = 10^{0,1 \times Pd}$$
 
-$$Pv = 10^{0,1 \times 2,476}$$
+%$$Pv = 10^{0,1 \times 2,442}$$
 
-$$Pv = 1,768$$
+%$$Pv = 1,754$$
 
-Por fim, inverte-se o último resultado para obter a eficiência da linha:
+Por fim, para definir o parâmetro que falta para encontrar o $ERPmax$, inverte-se o último resultado, obtendo a eficiência da linha:
 
 $$Ef = 1 / Pv$$
 
-$$Ef = 1 / 1,768$$
+%$$Ef = 1 / 1,754$$
 
-$$Ef = 0,565$$
+%$$Ef = 0,569$$
 
-Portanto a potência de saída do sistema fica:
+%Portanto a potência de saída do sistema fica:
 
-$$ERPmax = 0,1 \times 4 \times 0,565$$
+%$$ERPmax = 0,15 \times 3 \times 0,569$$
 
-$$ERPmax = 0,226kW$$
+%$$ERPmax = 0,256kW$$
+
+
+\subsubsection{Potência efetiva irradiada por azimute (ERPaz)}
+
+A $ERPmax$ representa a potência máxima, mas, conforme o diagrama de irradiação da antena, na prática essa potência será irradiada somente em uma direção.
+Então, a $ERPaz$ é usada e necessária para encontrar os valores de potência em cada radial. Com eses valores definidos poderemos
+encontrar as distâncias e traçar os contornos do nosso sistema.
+
+A $ERPaz$ é sismplismente a parcela do $ERPmax$ irradiada em um azimute determinado, e pode ser calculado com a fórmula:
+
+$$ERPaz = ERPmax \times (E/Emax)^2$$
+
+Onde $E/Emax$ representa a porcentagem da potência máxima que é irradiada no azimute correspondente. Este pode ser buscado diretamente das 
+especificações técnicas do fabricante.
 
 \subsubsection{Orientação da antena}
 
 Como pode ser visto na tabela~\ref{tabelaHSNMT}, existem valores de $HSNMT$ negativos. Em locais onde o terreno é acidentado, o sinal transmitido apresentará
 mais dificuldades em propagar-se nas direções onde o terreno é mais alto que a antena, atenuando-o conforme vai se distanciando da origem.
 
-O azimute $270°$ é a direção onde o NMR é o mais alto e, consequentemente, o HSMNT mais negativado. Gradativamente, a altura terrena nesta região vai baixando
- junto com as outras direções das radiais. Afim de amenizar a atenuação do sinal neste cenário, a antena será direcionada para o ocidente, ou seja, o azimute $0°$ da antena,
-que conforme a especificação não atenua a potência na origem da transmissão, ficará apontado para o azimute $270°$ da base. Com esta atitude, o sinal irradiado 
-é previlegiado onde existe os maiores obstáculos.
+Na região onde está sendo projetado a emissora, o azimute $270°$ é a direção onde o NMR é o mais alto e, consequentemente, o HSMNT mais negativado. 
+Gradativamente, a altura terrena nesta região vai baixando junto com as outras direções das radiais. 
+Afim de amenizar a atenuação do sinal neste cenário, a antena será direcionada para o oeste, ou seja, o azimute $0°$ da antena,
+que conforme a especificação irradia o $ERPmax$ para esta direção, ficará apontado para o azimute $270°$ da base. Com esta atitude, o sinal está
+sendo irradiado com a maior potência possível para estas regiões.
 
-\subsubsection{Potência efetiva irradiada por azimute (ERP)}
+\chapter{DESENVOLVENDO}
+
+
+
 
 
 Conforme a determinação publicada na RESOLUÇÃO N° 546, DE 1° DE SETEMBRO DE 2010, que Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em frequência Modulada,
@@ -820,8 +861,6 @@ Azimutes&(m)&(m)&for square&Proposta&Proposta&&&&&&\\
 330&405,32&-57,75&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\ \hline
 Valores&&&&&&&&&&&\\
 médios &288,29&&&&&&&&&&\\\hline
-
-
 
 \end{tabular}
 \end{sideways}
