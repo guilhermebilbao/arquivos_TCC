@@ -188,11 +188,11 @@ máximos. Ou seja, quando a HNMT da antena for interior a 10m, deve ser tomado o 
 
 Utilizando os métodos mencionados, vamos calcular os valores necessários para que um canal de rádio FM possa ser viabilizado.
 
-\subsection{Contorno Protegido}
+\subsection{Contorno protegido}
 
 O contorno protegido é a distância entre a antena transmissora até o local geométrico onde a intensidade de campo E(50,50) apresenta o valor de 
-$66 dB?V/m$, para um canal de rádio FM. A RESOLUÇÃO define, através da ultima alteração (RESOLUÇÃO n° 546), que , para a classe C, a distância máxima ao
-contorno protegido é de 7,5 KM, a partir da base da antena transmissora. 
+$66 dB?V/m$, para um canal de rádio FM. A resolução define, através da ultima alteração (RESOLUÇÃO n° 546), que , para a classe C, a distância máxima ao
+contorno protegido é de 7,5km, a partir da base da antena transmissora. 
 
 \subsection{Contornos Interferentes}
 
@@ -208,9 +208,9 @@ Para que possa ser autorizado pela ANATEL a utilização de um canal de rádio FM, 
 Ao analisar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada, observou-se a existência do canal 218,
  disponível na região do município de são Pedro de Alcântara.
 
-O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos máximos que caracterizam os canais autorizados para esta classe.
+O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos que caracterizam os canais autorizados para esta classe.
 
-\section{Enquadramento na classe}
+\subsection{Enquadramento na classe}
 
 Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no plano Básico 
 (ANEXO I), e para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
@@ -239,7 +239,7 @@ c)As distâncias apresentadas na TABELA I foram obtidas para o canal 201
 e servem como referência para elaboração de estudos sem o uso de
 ferramentas computacionais.
 
-\section{Nível médio do terreno e altura acima do nível médio do terreno}
+\section{NÍVEL MEDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
 
 A seguir vamos apresentar o método usado para o reconhecimento geométrico do local onde será instalado a emissora.
 Estes dados são de extrema importância para o sucesso do projeto.
@@ -471,8 +471,6 @@ que a altura da antena ($347,57m$). então podemos concluir que, o sinal irradiad
 propagação.
 Essa informação é muito importante para a otimização da área de cobertura da emissora, e será lembrada mais adiante.
 
-***Calcular os novos HSNMT com o valor de 59,244
-
 \def\tablename{Tabela}
 \begin{table}
 \vspace*{0.05cm}
@@ -564,7 +562,7 @@ potências nominais de 25, 100,150 e 300 Wrms. Visando atender a resolução, que l
 em $300Wrms$ para a classe C, usaremos nos cálculos um transmissor de $150Wrms$, que , combinado com o ganho da antena e com a 
 eficiência da linha de transmissão, terá que resultar numa potência $P(erp) < 300Wrms$ .
  
-\subsection{Definindo o contorno protegido}
+\subsection{Cálculos de ERPmax, ERPaz e a orientação da antena}
 
 A seguir serão mostrados os ajustes e cálculos necessários para obter o resultado mais
 eficiente e dentro da norma.
@@ -651,7 +649,74 @@ Afim de amenizar a atenuação do sinal neste cenário, a antena será direcionada p
 que conforme a especificação irradia o $ERPmax$ para esta direção, ficará apontado para o azimute $270°$ da base. Com esta atitude, o sinal está
 sendo irradiado com a maior potência possível para estas regiões.
 
-\chapter{DESENVOLVENDO}
+\chapter{DESENVOLVENDO A EMISSORA FM}
+
+Agora que já conhecemos detalhadamente o local em que vamos trabalhar, os equipamentos que vão compor a emissora, e também quais caminhos devemos
+seguir para desenvolver o projeto, tem-se o início do desenvolvimento.
+
+\section{ESPECIFICAÇÕES DEFINIDAS}
+
+Ao decorrer desta leitura, já foram mostrados alguns levantamentos que apresentam seus valores definitivos. 
+Vimos a tabela~\ref{tabelaHSNMT}, que apresenta o mapeamento geográfico da localidade com os valores de NMR e HSNMT, e agora
+temos a tabela~\ref{tabelaResumoEspecificacoesTecnicas}, que agrupa as especificações técnicas já definidas até este momento.
+
+\begin{table}
+\vspace*{0.05cm}
+\centering
+
+\begin{tabular}{|l|l|} \hline
+
+Canal & 218\\ \hline
+Frequência & 91,5 \\ \hline
+Classe & C\\ \hline
+Altura do centro geométrico do sistema irradiante (HSNMT) & 55,914 metros\\ \hline
+Orientação do Norte Verdadeiro & 90° no diagrama de irradiação\\ \hline
+Cota da base da torre & 285 metros\\ \hline
+Comprimento da linha de transmissão & 65 metros\\ \hline
+Altura da antena & 55 metros\\ \hline
+Atenuação do guia de onda e conectores & 0,442dB (para 65 metros)\\ \hline
+Ganho da antena & 4,77dBd (para 3 elementos)\\ \hline
+Potência do transmissor & 0,150kW\\ \hline
+
+\end{tabular}
+\caption{Resumo das especificações técnicas da emissora} 
+\label{tabelaResumoEspecificacoesTecnicas}
+\end{table}
+
+Os próximos passos serão destinados à mostrar os valores que comprovarão que esta configuração do sistema 
+está respeitando todos os requisitos máximos, principalmente o contorno protegido de 66dBu.
+
+\section{DEFININDO O CONTORNO PROTEGIDO}
+
+Definir a distância do contorno protegido de 66dBu é o principal objetivo deste estudo. 
+Esta distância é a média aritmética das distâncias a este contorno segundo cada radial, 
+ e é o que irá identificar a classe desta emissora. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
