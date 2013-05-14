@@ -33,8 +33,9 @@
 \contentsline {chapter}{\numberline {6}DESENVOLVENDO A EMISSORA FM}{31}
 \contentsline {section}{\numberline {6.1}ESPECIFICA\c C\~OES DEFINIDAS}{31}
 \contentsline {section}{\numberline {6.2}DEFININDO O CONTORNO PROTEGIDO}{32}
-\contentsline {section}{\numberline {6.3}Texto Matem\'etico}{36}
-\contentsline {chapter}{\numberline {7}CONSIDERA\c C\~OES FINAIS}{40}
-\contentsline {chapter}{Refer\^encias}{41}
-\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{42}
-\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{47}
+\contentsline {subsection}{\numberline {6.2.1}Pot\^encias ERPmax e ERPaz}{32}
+\contentsline {section}{\numberline {6.3}Texto Matem\'etico}{39}
+\contentsline {chapter}{\numberline {7}CONSIDERA\c C\~OES FINAIS}{42}
+\contentsline {chapter}{Refer\^encias}{43}
+\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{44}
+\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{49}

@@ -259,13 +259,13 @@ Após os 12 raios tracejados, calcula-se o nível médio da Radial (NMR) para cada 
  de todas as cotas da radial, que, de acordo com a norma, devem ser compreendidas no trecho entre 3 e 15 quilômetros.
 Para obter esses valores das cotas, no caso os 50 valores correspondentes a alturas do terreno dentro da cada radial, existe uma ferramenta
  disponível no portal online da ANATEL, o SIGANATEL (citar fonte).
-Mas, para conseguir usar esta ferramenta, é preciso obter as coordenadas das 12 radias, nas distâncias de $3km$ e $15km$ partindo da base da emissora. 
+Mas, para conseguir usar esta ferramenta, é preciso obter as coordenadas das 12 radias, nas distâncias de 3km e 15km partindo da base da emissora. 
 
 Para buscar estes valores temos que usar como referencia os valores informados no mapa (referencias de coordenadas) e sua escala.
-Numa escala de $1:50.000$ cada centímetro no mapa equivale à $500m$, então, as radias devem ter, no mínimo, 30 centímetros para atingir o ponto equivalente
-à $15Km$.
+Numa escala de $1:50.000$ cada centímetro no mapa equivale à 500m, então, as radias devem ter, no mínimo, 30 centímetros para atingir o ponto equivalente
+à 15km.
 
-Definidos os pontos de $3km$ e $15km$ em todas as radias, agora devemos buscar as coordenadas de cada um desses 24 pontos no mapa.
+Definidos os pontos de 3km e 15km em todas as radias, agora devemos buscar as coordenadas de cada um desses 24 pontos no mapa.
 Utilizando a regra de tres, podemos encontrar todas as coordenadas. Traçando uma linha horizontal e uma vertical, partindo dos pontos determinados antes, encontramos os valores
 de referência para as coordenadas que se busca, aplica-se a regra de três e defini-se todas as coordenadas que serão usadas na ferramenta SIGANATEL.
 
@@ -274,7 +274,7 @@ A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no m
 *** Indicar como faz para usar a ferramenta online (cadastro, links, até chegar aos gráficos.) ***
 
 Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar esta recurso basta apenas inserir as coordenadas dos pontos 
-inicial e final de cada radial (3kM e 15kM) e o passo, em metros, desejado para a construção da curva (12/quantidade de passos)
+inicial e final de cada radial (3km e 15km) e o passo, em metros, desejado para a construção da curva (12km/quantidade de passos). 
 
 O gráfico Figura~\ref{nmt} apresenta um exemplo do retorno que a aplicação nos disponibiliza. Note que usei um passo de 240 metros para cada 
 medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial.
@@ -293,7 +293,7 @@ De posse dos resultados dos NMR's, podemos agora encontrar o nível médio do terr
 
 A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altitudes encontradas dos 50 pontos ao longo de cada radial,
  possibilitando obter a média 
-para encontrar o NMR e, consequentemente, o NMT de $288,33m$, como pode ser observado. 
+para encontrar o NMR e, consequentemente, o NMT de 288,33m, como pode ser observado. 
 \def\tablename{Tabela}
 \begin{table}
 \vspace*{0.05cm}
@@ -560,7 +560,7 @@ em Wrms.
 Baseando-se em pesquisas nos sites de fabricantes de transmissores nacionais, foi encontrado transmissores com 
 potências nominais de 25, 100,150 e 300 Wrms. Visando atender a resolução, que limita a potência da emissora de rádio
 em $300Wrms$ para a classe C, usaremos nos cálculos um transmissor de $150Wrms$, que , combinado com o ganho da antena e com a 
-eficiência da linha de transmissão, terá que resultar numa potência $P(erp) < 300Wrms$ .
+eficiência da linha de transmissão, terá que resultar numa potência $P(erp) <= 300Wrms$ .
  
 \subsection{Cálculos de ERPmax, ERPaz e a orientação da antena}
 
@@ -679,7 +679,7 @@ Ganho da antena & 4,77dBd (para 3 elementos)\\ \hline
 Potência do transmissor & 0,150kW\\ \hline
 
 \end{tabular}
-\caption{Resumo das especificações técnicas do sistema} 
+\caption{Resumo das especificações técnicas da emissora} 
 \label{tabelaResumoEspecificacoesTecnicas}
 \end{table}
 
@@ -689,8 +689,49 @@ está respeitando todos os requisitos máximos, principalmente o contorno protegid
 \section{DEFININDO O CONTORNO PROTEGIDO}
 
 Definir a distância do contorno protegido de 66dBu é o principal objetivo deste estudo. 
-Esta distância é a média aritmética das distâncias a este contorno segundo cada radial, 
- e é o que irá identificar a classe desta emissora. 
+Esta distância é a média aritmética das distâncias a este contorno, segundo cada radial, 
+ e é o que irá identificar a classe desta emissora. Para a classe C, o contorno 2 (66dBu)
+não deve ultrapassar 7,5km o resultado da média das 12 radiais.
+
+\subsection{Potências ERPmax e ERPaz}
+
+O limite máximo da potência que o nosso sistema pode usar para irradiar o sinal está fixado em 0,300kW. 
+Já temos todos os fatores necessários para saber o valor de ERPmax da emissora, vamos aos cálculos, começando pela perda da linha:
+
+$$Pl = \frac{65 \times 0,680}{100}$$
+
+$$Pl = 0,442dB$$
+
+Soma-se este reultado à atenuação dos conectores:
+
+$$Pd = 0,442 + 2$$
+
+$$Pd = 2,442dB$$
+
+Convertendo para perdas totais em vezes ($Pv$): 
+
+$$Pv = 10^{0,1 \times 2,442}$$
+
+$$Pv = 1,754$$
+
+Inverte-se este resultado para obter a Eficiência da linha:
+ 
+$$Ef = 1 / 1,754$$
+
+$$Ef = 0,569$$
+
+Portanto, a potência de saída do sistema fica:
+
+$$ERPmax = 0,15 \times 3 \times 0,569$$
+
+$$ERPmax = 0,256kW$$
+
+Este resultado atende o estabelecido pela resolução, é menor que 300W, então podemos começar à
+calcular o ERPaz para cada um dos azimutes traçados. 
+
+Considerando a tabela, que relaciona os azimutes com os valores de e/emax, segue o cálculo para o azimute $0°$:
+
+$$ERPaz = 0,256kW \times (E/Emax)^2$$
 
 
 
@@ -910,7 +951,7 @@ do contorno protegido.
 \begin{tabular}{|l|l|l|l|l|l|cc|cc|cc|} \hline
 
 Radiais&NMT&HSMNT&(E/Emax)&Potência&Potência&Contorno 1&&Contorno 2&&Contorno 3&\\ \cline{7-12}
-Azimutes&(m)&(m)&for square&Proposta&Proposta&&&&&&\\     
+Azimutes&(m)&(m)&&Proposta&Proposta&&&&&&\\     
 (Graus)&&&&Perp(KW)&Perp(dBk)&74 dB?&C1 (Km)&66 dB?&C2 (Km)&54 dB?&C3 (Km)\\ \hline
 0&158,38&189,19&0,6084&0,1482&-8,29&82,29&5,5&74,29&10,3&62,29&21\\
 30&73,46&274,11&0,4761&0,1159&-9,35&83,35&6,2&75,35&12,5&63,35&24\\
