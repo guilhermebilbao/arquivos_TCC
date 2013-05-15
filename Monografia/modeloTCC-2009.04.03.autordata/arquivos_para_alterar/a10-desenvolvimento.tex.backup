@@ -467,7 +467,7 @@ A tabela~\ref{tabelaHSNMT} apresenta os valores de $HSNMT$ obtidos. Essa coluna 
 correspondente. 
 
 Os resultados negativados informam que, na direção das radias correspondentes à estes valores, o nível do terreno é mais alto
-que a altura da antena ($347,57m$). então podemos concluir que, o sinal irradiado para estas direções encontraria obstáculos que iriam interferir na sua 
+que a altura da antena ($344,24m$). então podemos concluir que, o sinal irradiado para estas direções encontraria obstáculos que iriam interferir na sua 
 propagação.
 Essa informação é muito importante para a otimização da área de cobertura da emissora, e será lembrada mais adiante.
 
@@ -478,17 +478,17 @@ Essa informação é muito importante para a otimização da área de cobertura da emi
 
 \begin{tabular}{|c|c|c|} \hline
 
-Radial(Graus) & NMR & HSNMT \\ \hline
+Radial(azimute) & NMR & HSNMT \\ \hline
 0 & 158,38&185,86\\
 30 & 73,46 & 270,78\\
-60 & 169,14 & 175,04\\
+60 & 169,14 & 175,10\\
 90 & 166,20 & 178,04\\
 120 & 250,46 & 93,78\\
 150 & 196,86 & 147,38\\
 180 & 151,58 & 192,66\\
 210 & 394,80 & -50,55\\
 240 & 502,10 & -157,85\\
-270 & 579,10 & -234,85\\
+270 & 579,60 & -235,35\\
 300 & 412,10 & -67,85\\
 330 & 405,32 & -61,07\\ \hline
 
@@ -729,9 +729,46 @@ $$ERPmax = 0,256kW$$
 Este resultado atende o estabelecido pela resolução, é menor que 300W, então podemos começar à
 calcular o ERPaz para cada um dos azimutes traçados. 
 
-Considerando a tabela, que relaciona os azimutes com os valores de e/emax, segue o cálculo para o azimute $0°$:
+Como já mencionado anteriormente, a antena ficou posicionada apontando o seu $90°$ em direção ao norte verdadeiro, 
+assim ficando de frente para o azimute $270°$ da emissora. 
 
-$$ERPaz = 0,256kW \times (E/Emax)^2$$
+Considerando a posição da antena e os valores de $E/Emax$ (disponível na especificação da antena - ANEXO A), 
+segue o cálculo para o azimute $0°$:
+
+$$ERPaz(0°) = 0,256kW \times (0,78)^2$$
+$$ERPaz(0°) = 0,256kW \times 0,6084$$
+$$ERPaz(0°) = 0,1557kW$$
+
+Convertendo para dBk ($10\times\log$):
+$$ERPaz(0°) = -8,07dBk$$
+
+Repete-se este procedimento para todos os outros 11 angulos, segue tabela completa, com os valores de $E/Emax$ e $ERPaz$:
+
+\def\tablename{Tabela}
+\begin{table}
+\vspace*{0.05cm}
+\centering
+
+\begin{tabular}{|c|c|c|c|} \hline
+
+Radial&l&&
+0 & 158,38&185,86\\
+30 & 73,46 & 270,78\\
+60 & 169,14 & 175,10\\
+90 & 166,20 & 178,04\\
+120 & 250,46 & 93,78\\
+150 & 196,86 & 147,38\\
+180 & 151,58 & 192,66\\
+210 & 394,80 & -50,55\\
+240 & 502,10 & -157,85\\
+270 & 579,60 & -235,35\\
+300 & 412,10 & -67,85\\
+330 & 405,32 & -61,07\\ \hline
+
+\end{tabular}
+\caption{Valores $E/Emax$ para cada radial.} 
+\label{tabelaEmax}
+\end{table}
 
 
 
