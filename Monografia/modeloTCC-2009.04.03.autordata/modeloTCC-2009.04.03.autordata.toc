@@ -34,9 +34,9 @@
 \contentsline {section}{\numberline {6.1}ESPECIFICA\c C\~OES DEFINIDAS}{31}
 \contentsline {section}{\numberline {6.2}DEFININDO O CONTORNO PROTEGIDO}{32}
 \contentsline {subsection}{\numberline {6.2.1}Pot\^encias ERPmax e ERPaz}{32}
-\contentsline {subsection}{\numberline {6.2.2}Contorno de 66dbu (\'area de servi\c co urbana)}{33}
-\contentsline {section}{\numberline {6.3}Texto Matem\'etico}{42}
-\contentsline {chapter}{\numberline {7}CONSIDERA\c C\~OES FINAIS}{43}
-\contentsline {chapter}{Refer\^encias}{44}
-\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{45}
-\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{50}
+\contentsline {subsection}{\numberline {6.2.2}Contorno de 66dbm (\'area de servi\c co urbana)}{33}
+\contentsline {section}{\numberline {6.3}Texto Matem\'etico}{40}
+\contentsline {chapter}{\numberline {7}CONSIDERA\c C\~OES FINAIS}{44}
+\contentsline {chapter}{Refer\^encias}{45}
+\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{46}
+\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{51}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  15 MAY 2013 01:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  17 MAY 2013 01:30
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -618,46 +618,82 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 765.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 766.
 
-<./figuras/e5050_calc.jpg, id=122, 597.23125pt x 643.40375pt>
+[33] <./figuras/e5050_calc.jpg, id=125, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050_calc.jpg Graphic file (type jpg)
 
-<use ./figuras/e5050_calc.jpg> [33] [34 <./figuras/e5050_calc.jpg>] [35]
-[36] [37] [38] <./figuras/e5050.jpg, id=142, 597.23125pt x 643.40375pt>
+<use ./figuras/e5050_calc.jpg> [34]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 822.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 823.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 824.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 825.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 826.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 827.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 828.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 829.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 830.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 831.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 832.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 833.
+
+[35 <./figuras/e5050_calc.jpg>] [36] [37] [38] [39]
+<./figuras/e5050.jpg, id=145, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050.jpg>
-Overfull \hbox (22.54153pt too wide) in paragraph at lines 979--980
+Overfull \hbox (22.54153pt too wide) in paragraph at lines 1035--1036
  [][] 
  []
 
-<./figuras/e5010.jpg, id=143, 604.2575pt x 673.51625pt>
+<./figuras/e5010.jpg, id=146, 604.2575pt x 673.51625pt>
 File: ./figuras/e5010.jpg Graphic file (type jpg)
 
 <use ./figuras/e5010.jpg>
-Overfull \hbox (28.16255pt too wide) in paragraph at lines 986--987
+Overfull \hbox (28.16255pt too wide) in paragraph at lines 1042--1043
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 35.04405pt on input line 1022.
+LaTeX Warning: Float too large for page by 35.04405pt on input line 1078.
 
-[39 <./figuras/e5050.jpg>] [40]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1435.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1491.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1435.
- [41 <./figuras/e5010.jpg>]) [42]
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1491.
+) [40] [41] [42 <./figuras/e5050.jpg>] [43 <./figuras/e5010.jpg>]
 Cap\'{\i }tulo 7.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [43
+(./modeloTCC-2009.04.03.autordata.bbl [44
 
-]) [44
+]) [45
 
 ]
 Anexo A.
 (./arquivos_para_alterar/a14-anexo.tex
-<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=164, 615.0177pt x 862.9038pt>
+<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=167, 615.0177pt x 862.9038pt>
 File: ./figuras/1pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/1pdfantenadipolodemeiaondafm.jpg>
@@ -665,7 +701,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=165, 615.0177pt x 862.9038pt>
+<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=168, 615.0177pt x 862.9038pt>
 File: ./figuras/2pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/2pdfantenadipolodemeiaondafm.jpg>
@@ -673,7 +709,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=166, 615.0177pt x 862.9038pt>
+<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=169, 615.0177pt x 862.9038pt>
 File: ./figuras/3pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/3pdfantenadipolodemeiaondafm.jpg>
@@ -681,7 +717,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=167, 615.0177pt x 862.9038pt>
+<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=170, 615.0177pt x 862.9038pt>
 File: ./figuras/4pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/4pdfantenadipolodemeiaondafm.jpg>
@@ -689,14 +725,14 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [45
+) [46
 
-] [46 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [47 <./figuras/2pdfantenadi
-polodemeiaondafm.jpg>] [48 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
-[49 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
+] [47 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [48 <./figuras/2pdfantenadi
+polodemeiaondafm.jpg>] [49 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
+[50 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
 Anexo B.
 (./arquivos_para_alterar/a16-anexo.tex
-<./figuras/LCF158-50JFNL.pdf, id=184, 596.2275pt x 794.97pt>
+<./figuras/LCF158-50JFNL.pdf, id=187, 596.2275pt x 794.97pt>
 File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
 <use ./figuras/LCF158-50JFNL.pdf>)
@@ -704,18 +740,18 @@ File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[50
+[51
 
-] [51 <./figuras/LCF158-50JFNL.pdf>] (./modeloTCC-2009.04.03.autordata.aux)
+] [52 <./figuras/LCF158-50JFNL.pdf>] (./modeloTCC-2009.04.03.autordata.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3280 strings out of 495041
- 46833 string characters out of 1181898
- 153713 words of memory out of 3000000
- 6279 multiletter control sequences out of 15000+50000
+ 3282 strings out of 495041
+ 46858 string characters out of 1181898
+ 153724 words of memory out of 3000000
+ 6281 multiletter control sequences out of 15000+50000
  66066 words of font info for 149 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  32i,12n,41p,395b,276s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -728,10 +764,10 @@ cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 xlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/u
 rw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on modeloTCC-2009.04.03.autordata.pdf (51 pages, 1479530 bytes).
+Output written on modeloTCC-2009.04.03.autordata.pdf (52 pages, 1483654 bytes).
 
 PDF statistics:
- 242 PDF objects out of 1000 (max. 8388607)
+ 245 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

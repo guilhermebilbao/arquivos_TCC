@@ -500,10 +500,10 @@ Radial & NMR & HSNMT \\ \hline
 \section{CONTORNO PROTEGIDO}
 
 Como mencionado anteriormente, o contorno protegido de uma estação de rádio FM corresponde ao lugar
-geométrico onde a intensidade de campo do sinal apresentar o valor de $66dB?$ ($2mV/m$)(Contorno 2). 
+geométrico onde a intensidade de campo do sinal apresentar o valor de $66dBm$ ($2mV/m$)(Contorno 2). 
 Este contorno tem como finalidade atender a área de serviço urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
-as demais áreas de serviços, a área de serviço primária (Contorno 1), limitada pelo contorno de $74dB?$ ($5mV/m$) e a área de serviço rural (Contorno 3),
- compreendida entre o contorno 2 e o contorno de $54dB?$ ($0,5mV/m$), também estará de acordo com a norma.
+as demais áreas de serviços, a área de serviço primária (Contorno 1), limitada pelo contorno de $74dBm$ ($5mV/m$) e a área de serviço rural (Contorno 3),
+ compreendida entre o contorno 2 e o contorno de $54dBm$ ($0,5mV/m$), também estará de acordo com a norma.
 
 O que vai determinar toda a extensão deste contorno será a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
 que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na resolução determinada pela ANATEL, para a classe do canal proposto.  
@@ -684,13 +684,13 @@ Potência do transmissor & 0,150kW\\ \hline
 \end{table}
 
 Os próximos passos serão destinados à mostrar os valores que comprovarão que esta configuração do sistema 
-está respeitando todos os requisitos máximos, principalmente o contorno protegido de 66dBu.
+está respeitando todos os requisitos máximos, principalmente o contorno protegido de 66dBm.
 
 \section{DEFININDO O CONTORNO PROTEGIDO}
 
-Definir a distância do contorno protegido de 66dBu é o principal objetivo deste estudo. 
+Definir a distância do contorno protegido de 66dBm é o principal objetivo deste estudo. 
 Esta distância é a média aritmética das distâncias a este contorno, segundo cada radial, 
- e é o que irá identificar a classe desta emissora. Para a classe C, o contorno 2 (66dBu)
+ e é o que irá identificar a classe desta emissora. Para a classe C, o contorno 2 (66dBm)
 não deve ultrapassar 7,5km o resultado da média das 12 radiais.
 
 \subsection{Potências ERPmax e ERPaz}
@@ -770,16 +770,72 @@ $330°$& 0,88 & 0,1985 & -7,02 \\\hline
 \label{tabelaERPaz}
 \end{table}
 
-\subsection{Contorno de 66dbu (área de serviço urbana)}
+\subsection{Contorno de 66dbm (área de serviço urbana)}
 
+Agora que já temos o potencial de irradiação de cada uma das radias do sistema, a próxima etapa é
+identificar cada uma das distâncias que formarão os contornos. As curvas de intensidade de campo 
+$E(50,50)$ serão usadas para esta finalidade. Através destas curvas obtemos as relações 
+entre potência e relevo, necessárias para determinar as distâncias dos contornos das áreas de serviços.
+Tais curvas baseiam-se em uma potencia efetiva de 1KW irradiado por um dipolo de 1/2 onda, em espaço livre,
+ que produz uma intensidade de campo não atenuada, a 1km, de aproximadamente 107dBu.
+
+Para identificar se a emissora está respeitando o contorno de 7,5km, vamos primeiramente buscar os valores para
+o formar o contorno de 66dBm.
+
+Como as potências efetivas irradiadas, que encontramos anteriormente, são inferiores à 1KW, deve ser feito
+um ajuste, subtraindo estes valores em dBk do valor para o contorno desejado. O resultado será o valor referência 
+do eixo das ordenadas.
+
+O ponto de intersecção será o valor de HSMNT correspondente à radial desta potência, que deverá ser encontrado
+entre as escalas apresentadas nas curvas de intensidade.
+
+Definido o ponto, busca-se o valor, em km, que está em escala logarítmica no eixo das abscissas. 
+A figura~\ref{curvaE5050Calc} mostra um exemplo deste procedimento para os valores referentes à radial 0°. 
+À esquerda está destacado o valor resultante da subração de $66dBm - 8,07dBk = 74,07dBm$ e , através do valor de
+ HSMNT de 185,86m na radial 0°, utilizando a curva correspondente obtem-se o valor de 10,5km.
+
+Agora sabemos que à 10,5km da base da emissora, em direção ao norte verdadeiro, a intensidade do
+sinal apresenta uma potência de $66dbm$. Nota-se que esta distância ultrapassa o valor de limite de 7,5km, 
+porém, devido à irregularidade do terreno, é permitido que algumas distancias ultrapassem o limite máximo, 
+desde que a média geral ultrapasse. Para que esta exclusividade seja permitida, a potência ERPmax e altura da antena
+não podem estar excedendo os limites máximos.
+
+Executando este procedimento em todas as 12 radias, obteve-se os resultados apresentados na tabela~\ref{tabelaContorno2}.
+ 
 \begin{figure}[!htb]
 \centering
 \large
-\includegraphics[scale=1]{./figuras/e5050_calc.jpg} 
-\caption{Utilizando as curvas E(50,50) para encontrar as distâncias do contorno protegido}
+\includegraphics[scale=.5]{./figuras/e5050_calc.jpg} 
+\caption{Utilizando as curvas E(50,50) para encontrar as distâncias do contorno protegido.}
 \label{curvaE5050Calc}
 \end{figure}
 
+
+\def\tablename{Tabela}
+\begin{table}
+\vspace*{0.05cm}
+\centering
+
+\begin{tabular}{|c|c|c|c|c|} \hline
+
+Radial& ERPaz(dBk) & HSMNT (m) & 66dBm & Contorno 2 (km)\\\hline\hline
+$0°$  & -8,07 &185,86&74,07&10,5\\\hline
+$30°$ & -9,13 &270,78&75,13&11\\\hline
+$60°$ & -9,92 &175,10&75,92,&9\\\hline
+$90°$ & -10,06 &178,04&76,06&9\\\hline
+$120°$& -9,92 &96,78&75,92&7\\\hline
+$150°$& -9,13 &147,38&75,13&9\\\hline
+$180°$& -8,07 &192,66&74,07&11\\\hline
+$210°$& -7,02 &-50,55&73,02&3,2\\\hline
+$240°$& -6,35 &-157,85&72,35&3,4\\\hline
+$270°$& -5,91 &-235,35&71,91&3,6\\\hline
+$300°$& -6,35 &-67,85&72,35&3,4\\\hline
+$330°$& -7,02 &-61,07&73,02&3,2\\\hline
+
+\end{tabular}
+\caption{Distancias do contorno protegido (66dBm).} 
+\label{tabelaContorno2}
+\end{table}
 
 
 
