@@ -1,6 +1,9 @@
 ``\textit{ % Abre aspas e o texto abaixo aparecerá em itálico
+O rádio, por transmitir apenas sons, liberta o imaginário do ouvinte,
+ transformando-o num construtor de imagens que "vestem" os sons. 
+Instigando-o a ser um engenheiro de idédias e não um repetidor delas
 .}'' \\ % Fim do texto em itálico, fecha aspas, quebra de linha e o texto abaixo aparecerá sem itálico:
-Dito popular que se contradiz.
+Cury.
 
 % Observação:
 % Todo texto que aparece depois de um sinal de porcentagem ``%'' é desconciderado 

@@ -189,13 +189,20 @@
 
 \tableofcontents
 
+\listoffigures
+
+\listoftables
+
+
+%\listofsymbols
+
+%\nomencl
+
 }{}
 %%%%%%%%% Fim Sumário
 
 %%%%%%%%% Lista de Figuras (para lista de tabelas: \listoftables Utilizar caso tenha mais de 5 figuras
 \ifthenelse{\boolean{InserirListaIlustracoes}}{ 
-
-\listoffigures
 
 }{} 
 %%%%%%%%% Fim Lista de Figuras
@@ -205,7 +212,6 @@
 %%%%%%%%% Fim Elementos Pré-Textuais
 %%%%%%%%%
 
-l
 %%%%%%%%%
 %%%%%%%%% Elementos Textuais
 %%%%%%%%%
@@ -236,7 +242,7 @@ l
 %Conclusão
 \ifthenelse{\boolean{InserirConclusao}}{
 
-\chapter{CONSIDERAÇÕES FINAIS}
+\chapter{CONCLUSÕES E TRABALHOS FUTUROS}
 
 \input{./arquivos_para_alterar/a11-conclusao}
 
@@ -291,6 +297,10 @@ l
 \chapter{Especificações técnicas do fabricante do guia de onda utilizado}
 
 \input{./arquivos_para_alterar/a16-anexo}
+
+\chapter{Mapa de Macrozoneamento de São Pedro de Alcântara}
+
+\input{./arquivos_para_alterar/a17-anexo}
 
 }{}
 

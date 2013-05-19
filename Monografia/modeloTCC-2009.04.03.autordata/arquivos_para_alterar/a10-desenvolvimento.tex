@@ -11,7 +11,7 @@ homologada pela ANATEL, (de acordo com a Resolução N° 67) e, assim, ser utilizad
 
 O que definiu o local de São Pedro de Alcântara como o escolhido para desenvolver este projeto da emissora FM foi, principalmente, o fator "cenário real",
  proporcionado
-pela disponibilidade do canal 218,na frequência de XXX Mhz e enquadrado na classe C (classificação das emissoras), atráves do plano básico administrado pela
+pela disponibilidade do canal 218,na frequência de 91,5MHz e enquadrado na classe C (classificação das emissoras), atráves do plano básico administrado pela
  ANATEl. A idéia de desenvolver um projeto que poderia ser realmente implantado, foi uma 
 motivação a mais. Todos os cálculos, ítens e materiais, que foram definidos e documentados neste projeto, foram pensados e analisados com os cuidados de uma
  possível execução no
@@ -25,6 +25,19 @@ centro do município.
 Constatando que existe espaço para uma construção de uma nova torre, partimos do princípio que o local, no centro do município, é o mais indicado para
  instalar nossa estrutura. Assim, definimos
  o ponto de origem da emissora, exatamente nas coordenadas (informar latitude e longitude).
+
+\section{OBJETIVO GERAL}
+
+Estudo e compreensão das normas técnicas, relacionadas à rádio FM, e suas atualizações, juntamente com 
+a utilizanção de ferramentas livres oferecidas pela ANATEL.
+
+\section{OBJETIVO ESPECÍFICO}
+
+
+
+\section{MOTIVAÇÃO E JUSTIFICATIVA}
+
+\section{ESTRUTURA DO TRABALHO}
 
 \chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF)}
 
@@ -87,7 +100,7 @@ Frequência & CANAL & Frequência & CANAL & Frequência & CANAL\\
 94,3 & 232 & 101,3 & 267 & & \\ \hline
 
 \end{tabular}
-\caption{CANALIZAÇÃO DA FAIXA DE FM.}
+\caption{Canalização da faixa de FM.}
 \label{tabelaCanalizacao}
 \end{table}
 
@@ -117,10 +130,9 @@ vindos da Recomendação UIT-R P.1546.
 As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
 
 \section{RECOMENDAÇÃO UIT-R P.1546}
-
-*** verificar se este tópico se enquadra neste trabalho realmente ***
-*** verificar a tabela de intensidade de campo na ultima RESOLUÇÃO e bater com as encontradas nos meus cálculos ***
-
+A UIT-R, através desta recomendação, descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
+na faixa de 30 a 3000MHz. Os procedimentos que seguimos neste trabalho, principalmente para definir as áreas de serviços, foram
+baseados nestes métodos. 
 
 \subsection{Conceitos Básicos}
 
@@ -154,11 +166,9 @@ encontradas na referência [2].
 
 ***Indicar a referência do TCC 
  
+%\subsubsection{Implementação computacional da recomendação}
 
-
-\subsubsection{Implementação computacional da recomendação}
-
-***Verificar sobre a utilização do MATLAB (se sobrar tempo...)*** 
+%***Verificar sobre a utilização do MATLAB (se sobrar tempo...)*** 
 
 \section{ADAPTAÇÕES DA RECOMENDAÇÃO}
 
@@ -212,8 +222,8 @@ O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos que car
 
 \subsection{Enquadramento na classe}
 
-Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no plano Básico 
-(ANEXO I), e para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
+Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no portal da ANATEL (Figura~\ref{imagemSistemaInterativoAnatel}) 
+e, para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
 tabela~\ref{tabelaClassificacaoEmissoras}.
 
 Porém, a resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas outras condições também informadas. 
@@ -221,9 +231,17 @@ Segue estas observações, que foram publicadas na RESOLUÇÃO $N° 546$:
 
 \begin{figure}[!htb]
 \centering
+\includegraphics[scale= 0.7]{./figuras/imagem_plano_basico_218_anatel.png} 
+\caption{Consulta de canais disponíveis para uso - Portal da ANATEL}
+\label{imagemSistemaInterativoAnatel}
+\end{figure}
+
+
+\begin{figure}[!htb]
+\centering
 \includegraphics[scale=.5]{./figuras/tabelaClassificacaoEmissoras.png} 
-\caption{classificação DAS EMISSORAS
-EM função DE SEUS REQUISITOS máximos
+\caption{Classificação das emissoras
+em função de seus requisitos máximos
 (tabela retirada da resolução).}
 \label{tabelaClassificacaoEmissoras}
 \end{figure}
@@ -262,7 +280,7 @@ Para obter esses valores das cotas, no caso os 50 valores correspondentes a altu
 Mas, para conseguir usar esta ferramenta, é preciso obter as coordenadas das 12 radias, nas distâncias de 3km e 15km partindo da base da emissora. 
 
 Para buscar estes valores temos que usar como referencia os valores informados no mapa (referencias de coordenadas) e sua escala.
-Numa escala de $1:50.000$ cada centímetro no mapa equivale à 500m, então, as radias devem ter, no mínimo, 30 centímetros para atingir o ponto equivalente
+Numa escala de $1:50.000$ cada centímetro no mapa equivale à 500m, então, as radias devem ter 30 centímetros para atingir o ponto equivalente
 à 15km.
 
 Definidos os pontos de 3km e 15km em todas as radias, agora devemos buscar as coordenadas de cada um desses 24 pontos no mapa.
@@ -283,7 +301,7 @@ medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, r
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} 
-\caption{gráfico NMR usando o recurso da SIGANATEL (Radial 1)}
+\caption{Gráfico do NMR usando o recurso da SIGANATEL (Radial 1)}
 \label{nmt}
 \end{figure}
 
@@ -315,7 +333,7 @@ Radial & Latitude(3Km) & Longitude(3Km) & Latitude(15Km) & Longitude(15Km)\\\hli
 330° & 27° 32' 42,16'' S & 48° 49' 29,09'' O & 27° 27' 04,86'' S & 48° 53' 05,45'' O \\\hline
 
 \end{tabular}
-\caption{COORDENADAS INDICANDO AS REFERÊNCIAS LATITUDINAIS E LONGITUDINAIS DE CADA RADIAL.}
+\caption{Coordenadas indicando as referências latitudinais e longitudinais de cada radial.}
 \label{tabelaCoordenadas}
 \end{table}
 
@@ -444,7 +462,7 @@ Sendo assim, sabendo que a emissora está localizada em uma área de relevo aciden
 %Usando este critério ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, á longo prazo.
 
 Para definir a $HCGSI$, precisamos ainda obter o valor da altura do Centro de Fase do Sistema Irradiante. Este valor é encontrado nas especificações da 
-antena Dipolo $1/2$ Onda para FM do fabricante IDEAL, conforme ANEXO A, que será usada no projeto e varia conforme o número de elementos usados na estrutura
+antena Dipolo $1/2$ Onda para FM do fabricante IDEAL, conforme ANEXO~\ref{especificacaoAntena}, que será usada no projeto e varia conforme o número de elementos usados na estrutura
  do sistema irradiante. 
 De acordo com a especificação da antena, usando três elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de 
 $88,1MHz$, que é a frequência mais aproximado da que será propagada o sinal da nossa emissora ($91,5MHz$), o centro de fase do sistema fica em $4244,5mm$, ou $4,244m$.
@@ -537,14 +555,14 @@ Como podemos ver na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta um a
 \label{diagramaDeIrradiacao}
 \end{figure}
 
-O Anexo A contém o documento do fabricante na íntegra.
+O ANEXO~\ref{especificacaoAntena} contém o documento do fabricante na íntegra.
  
 \subsection{Guia de onda e conectores}
 
 Conforme a potência máxima irradiada e a antena escolhida, para o guia de onda deve ser usado o padrão EIA 1-5/8''.
 Optou-se pelo 1-5/8" CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable
 , da fabricante RFS, que apresenta uma atenuação de apenas $0.663dB/100m$,
- operando numa frequênciancia de $88MHz$; conforme especificações em ANEXO B.
+ operando numa frequênciancia de $88MHz$; conforme especificações em ANEXO~\ref{especificacaoGuia}.
  Como a frequência do canal que está sendo projetado é de $91,5MHz$, adotaremos o valor de $0.680dB/100m$.
 
 Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 55m. Sendo assim, o comprimento do guia de onda será de 65m,
@@ -562,6 +580,9 @@ potências nominais de 25, 100,150 e 300 Wrms. Visando atender a resolução, que l
 em $300Wrms$ para a classe C, usaremos nos cálculos um transmissor de $150Wrms$, que , combinado com o ganho da antena e com a 
 eficiência da linha de transmissão, terá que resultar numa potência $P(erp) <= 300Wrms$ .
  
+
+link \url{http://www.videolinkpro.com.br/transmissor_fm_ex150.shtml}
+
 \subsection{Cálculos de ERPmax, ERPaz e a orientação da antena}
 
 A seguir serão mostrados os ajustes e cálculos necessários para obter o resultado mais
@@ -679,21 +700,14 @@ Ganho da antena & 4,77dBd (para 3 elementos)\\ \hline
 Potência do transmissor & 0,150kW\\ \hline
 
 \end{tabular}
-\caption{Resumo das especificações técnicas da emissora} 
+\caption{Resumo das especificações técnicas da emissora.} 
 \label{tabelaResumoEspecificacoesTecnicas}
 \end{table}
 
 Os próximos passos serão destinados à mostrar os valores que comprovarão que esta configuração do sistema 
 está respeitando todos os requisitos máximos, principalmente o contorno protegido de 66dBm.
 
-\section{DEFININDO O CONTORNO PROTEGIDO}
-
-Definir a distância do contorno protegido de 66dBm é o principal objetivo deste estudo. 
-Esta distância é a média aritmética das distâncias a este contorno, segundo cada radial, 
- e é o que irá identificar a classe desta emissora. Para a classe C, o contorno 2 (66dBm)
-não deve ultrapassar 7,5km o resultado da média das 12 radiais.
-
-\subsection{Potências ERPmax e ERPaz}
+\section{DEFININDO AS POTÊNCIAS ERPmax E ERPaz}
 
 O limite máximo da potência que o nosso sistema pode usar para irradiar o sinal está fixado em 0,300kW. 
 Já temos todos os fatores necessários para saber o valor de ERPmax da emissora, vamos aos cálculos, começando pela perda da linha:
@@ -732,7 +746,7 @@ calcular o ERPaz para cada um dos azimutes traçados.
 Como já mencionado anteriormente, a antena ficou posicionada apontando o seu $90°$ em direção ao norte verdadeiro, 
 assim ficando de frente para o azimute $270°$ da emissora. 
 
-Considerando a posição da antena e os valores de $E/Emax$ (disponível na especificação da antena - ANEXO A), 
+Considerando a posição da antena e os valores de $E/Emax$ (disponível na especificação da antena - ANEXO~\ref{especificacaoAntena}), 
 segue o cálculo para o azimute $0°$:
 
 $$ERPaz(0°) = 0,256kW \times (0,78)^2$$
@@ -770,22 +784,33 @@ $330°$& 0,88 & 0,1985 & -7,02 \\\hline
 \label{tabelaERPaz}
 \end{table}
 
-\subsection{Contorno de 66dbm (área de serviço urbana)}
+\section{DEFININDO OS CONTORNOS DAS ÀREAS DE SERVIÇOS}
 
-Agora que já temos o potencial de irradiação de cada uma das radias do sistema, a próxima etapa é
+Definir a distância do contorno protegido, cobertura da Àrea de Serviço Urbana com potência mínima de 66dBm, 
+é o principal objetivo deste estudo. 
+Esta distância é a média aritmética das distâncias a este contorno, segundo cada radial, 
+ e é o que irá identificar a classe desta emissora. Para a classe C, o Contorno 2 
+não deve ultrapassar 7,5km, sendo este o resultado da média das 12 radiais. 
+
+A norma também solicita as definições das outras duas àreas de serviços, a Área de Serviço Primário (74dBm) 
+e a Àrea de Serviço Rural (54dBm), Contornos 1 e 3 respectivamente. O conjunto desses 3 contornos
+compõem a àrea de serviço da emissora.
+
+Já temos o potencial de irradiação de cada uma das radias do sistema, a próxima etapa é
 identificar cada uma das distâncias que formarão os contornos. As curvas de intensidade de campo 
 $E(50,50)$ serão usadas para esta finalidade. Através destas curvas obtemos as relações 
 entre potência e relevo, necessárias para determinar as distâncias dos contornos das áreas de serviços.
 Tais curvas baseiam-se em uma potencia efetiva de 1KW irradiado por um dipolo de 1/2 onda, em espaço livre,
  que produz uma intensidade de campo não atenuada, a 1km, de aproximadamente 107dBu.
 
-Para identificar se a emissora está respeitando o contorno de 7,5km, vamos primeiramente buscar os valores para
-o formar o contorno de 66dBm.
+\subsection{Àrea de Serviço Urbana - 66dBm}
 
+Como já mencionado, a Área de Serviço Urbana é o contorno principal do projeto. 
+Para identificar se a emissora está respeitando o contorno de 7,5km, temos que fazer uso das curvas de intensidade, 
+combinadas com as potências ERPaz. 
 Como as potências efetivas irradiadas, que encontramos anteriormente, são inferiores à 1KW, deve ser feito
 um ajuste, subtraindo estes valores em dBk do valor para o contorno desejado. O resultado será o valor referência 
-do eixo das ordenadas.
-
+do eixo das ordenadas. 
 O ponto de intersecção será o valor de HSMNT correspondente à radial desta potência, que deverá ser encontrado
 entre as escalas apresentadas nas curvas de intensidade.
 
@@ -797,10 +822,11 @@ A figura~\ref{curvaE5050Calc} mostra um exemplo deste procedimento para os valor
 Agora sabemos que à 10,5km da base da emissora, em direção ao norte verdadeiro, a intensidade do
 sinal apresenta uma potência de $66dbm$. Nota-se que esta distância ultrapassa o valor de limite de 7,5km, 
 porém, devido à irregularidade do terreno, é permitido que algumas distancias ultrapassem o limite máximo, 
-desde que a média geral ultrapasse. Para que esta exclusividade seja permitida, a potência ERPmax e altura da antena
-não podem estar excedendo os limites máximos.
+desde que a média geral não à ultrapasse. Para que esta exclusividade seja permitida, a potência ERPmax e altura da antena
+não podem estar excedendo os limites de 0,3 KW e 60 metros respectivamente, sendo este o nosso caso.
 
-Executando este procedimento em todas as 12 radias, obteve-se os resultados apresentados na tabela~\ref{tabelaContorno2}.
+Executando este procedimento em todas as 12 radias, obteve-se os resultados apresentados na tabela~\ref{tabelaContorno2}. 
+Para os valores de HSMNT negativos é considerado a curva de menor valor como referencia (10m). 
  
 \begin{figure}[!htb]
 \centering
@@ -819,218 +845,100 @@ Executando este procedimento em todas as 12 radias, obteve-se os resultados apre
 \begin{tabular}{|c|c|c|c|c|} \hline
 
 Radial& ERPaz(dBk) & HSMNT (m) & 66dBm & Contorno 2 (km)\\\hline\hline
-$0°$  & -8,07 &185,86&74,07&10,5\\\hline
-$30°$ & -9,13 &270,78&75,13&11\\\hline
-$60°$ & -9,92 &175,10&75,92,&9\\\hline
-$90°$ & -10,06 &178,04&76,06&9\\\hline
-$120°$& -9,92 &96,78&75,92&7\\\hline
-$150°$& -9,13 &147,38&75,13&9\\\hline
-$180°$& -8,07 &192,66&74,07&11\\\hline
-$210°$& -7,02 &-50,55&73,02&3,2\\\hline
-$240°$& -6,35 &-157,85&72,35&3,4\\\hline
-$270°$& -5,91 &-235,35&71,91&3,6\\\hline
-$300°$& -6,35 &-67,85&72,35&3,4\\\hline
-$330°$& -7,02 &-61,07&73,02&3,2\\\hline
+$0°$  & -8,07 &185,86 &74,07 &10,5\\\hline
+$30°$ & -9,13 &270,78 &75,13 &11  \\\hline
+$60°$ & -9,92 &175,10 &75,92 &9   \\\hline
+$90°$ & -10,06&178,04 &76,06 &9   \\\hline
+$120°$& -9,92 &96,78  &75,92 &7   \\\hline
+$150°$& -9,13 &147,38 &75,13 &9   \\\hline
+$180°$& -8,07 &192,66 &74,07 &11  \\\hline
+$210°$& -7,02 &-50,55 &73,02 &3,2 \\\hline
+$240°$& -6,35 &-157,85&72,35 &3,4 \\\hline
+$270°$& -5,91 &-235,35&71,91 &3,6 \\\hline
+$300°$& -6,35 &-67,85 &72,35 &3,4 \\\hline
+$330°$& -7,02 &-61,07 &73,02 &3,2 \\\hline
 
 \end{tabular}
 \caption{Distancias do contorno protegido (66dBm).} 
 \label{tabelaContorno2}
 \end{table}
 
-Para os valores de HSMNT negativos é considerado a curva de menor valor como referencia (10m). 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Conforme a determinação publicada na RESOLUÇÃO N° 546, DE 1° DE SETEMBRO DE 2010, que Altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em frequência Modulada,
- segue os cálculos:
-
-Para determinar a intensidade de campo de uma emissora a uma dada distância,utilizam-se as Tabelas ~\ref{e5050} e ~\ref{e5010} da seguinte forma:
-
-$a)$ selecionar a coluna correspondente à altura do centro geométrico da antena $h1$ sobre o NMR da Radial 0;
-
-$$h1 = hbt - NMT + ha$$
-
-$h1$ é a altura da antena transmissora em m;
-
-$hbt$ é a altura do terreno da antena em relação ao nível do mar em m;
-
-$NMT$ é o nível médio do terreno em m;
-
-$ha$ é a altura da antena acima do solo em m.
-
-$h1$ = 285m - 158,38 + 20m
-
-$h1$ = 146,62m
-
-%referencia: http://www.teleco.com.br/tutoriais/tutorialredeslte2/pagina_2.asp
-
-$b)$ selecionar a linha correspondente 
-á distância de interesse;
-
- A tabela ~\ref{e5050} não mostra com precisão o valor de intensidade de campo. 
-Para os valores de $h1$ que não estiverem muito bem próximos a uma curva definida na Tabela,deve-se usar a seguinte fórmula 2 (*marcar fórmulas) para encontrar os valores de $E$ 
-para cada Radial:
-
- $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(?V / m)$$
-
-Onde:
-
-$E$ é o valor de intensidade de campo em $dB (uV/m)$, em função de $h1$,para a distância $d$ desejada; 
-
-$Einf$ é o valor de intensidade de campo em $dB (uV/m)$ para uma altura hinf, extraída das curvas; 
-
-$Esup$ é o valor de intensidade de campo em $dB (uV/m)$, para uma altura hsup extraída das curvas; 
-
-$hinf$ é a altura nominal da antena em $m$, com valor imediatamente inferior a $h1$; 
-
-$hsup$ é a altura nominal da antena em $m$, com valor imediatamente superior $h1$. 
-
-Apresentarei o cálculo utilizando a fórmula para encontrar o valor de intensidade do campo, para a Radial 0:
-
- $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(uV / m)$$ 
-
- $$E =  72dB? + ( 77dB? - 72dB? )log( 146,62m / 75m )/log( 150m / 75m )$$ 
-
- $$E =  72dB? + ( 5dB? )log( 1,955 )/log( 2 )$$ 
-
- $$E =  72dB? + ( 5dB? ) + 2,9dB? - 3dB? $$ 
-
- $$E =  72dB? + ( 5dB? ) + 2,9dB? - 3dB? $$ 
-
- $$E =  76,9dB? $$ 
-
-
-$c)$ a intersecção de $a)$ com $b)$, contém o valor da intensidade de campo na distância desejada, em $dB?$
-, para  uma $ERP$de $1 kW$;
-
-Neste caso, como foi usada a fórmula 2, esta etapa já foi concluída no item $b)$.
-
-$d)$ adiciona-se ao valor (em $dB?$) obtido, o valor da $ERP$ na direção de interesse (em $dBk$); 
-este resultado é o valor da intensidade de campo, em $dB?$, no ponto considerado. 
-
-Minha $ERP$ calculada ficou:
-
-Após verificar várias maneiras de aumentar a potência do transmissor, de maneira que não desrespeite o contorno protegido de $66dB?$, segue as definições para a potência do transmissor:
-
- - Utilizando 4 antenas dipolo na torre de transmissão, podemos usar um transmissor de 150W (0,150 KW). Isso foi possível pois as antenas são conectadas em série, distribuindo em partes iguais
-a potência para cada uma delas (37,5 W para cada dipolo da torre), ou seja, $14,25dBk$.
-
- - está definido que a antena (colocar o nome técnico da antena) proporciona um ganho de $1,5 dB$ para o sistema.
-
- - Eficiência da linha, basicamente atenua  a transmissão em $-2 dB$ de acordo com os seguintes cálculos:
-
-
-$$Pl = ( L x Al ) / 100$$ , onde:
-
-
-$L =$ comp. do guia de onda em metros = $c/f = 300000/91500 = 3,278m$ ($c$ = vel.luz $f$ = frequência transmissão) 
-
-$Al$ = Informa a atenuação do guia a cada 100 metros de comp. Em $dB  = 1,13dB$ p/ o cabo LCF78 - 50JA - A8. (cabo homologado)
-
-Entao $Pl = (3,278 x 1,13)/ 100 = 0.037 dB$, então temos a perda total somando $0.037 dB$ com $2dB$ das perdas dos conectores média estabelecida ($2,037 db$).
-
- - Logo, o intensidade do sinal irradiado, Radial 0,  para o contorno 2 será definida por:
-
-   $ERP = -14,25dBk + 1,5dB - 2,037 dB$
-
-   $ERP = -14,78dBk $  (valor de ERP base)
-
-1. - Para a Radial 0, de acordo com a antena usada, o valor de $(E/Emax)$ fica em $1,00$, então o valor de ERP não sofre alterações para esta direção. 
-
-
-Para definir o valor do contorno para a Radial 0, temos que somar a intensidade do campo ( $E = 76,9dB? $ ) com o valor de ERP  ($ERP = -14,78dBk $ ),
-que totaliza :
-
-1. $$ ContornoR0 = 76,9 dB? + (-14,78dBk) = 62,11 dB?$$ , é 7,5 Km da base.
-
-Assim, esta radial está respeitando a norma que exige, conforme a tabela, que 
-para a classe C , a distância máxima ao contorno protegido é de $7,5 km$ com a potencia irradiada de $66 dBm$, no máximo, para esta distância.
-
-Porém, devemos ter uma atenção especial para a radial que apresente a NMR mais baixo em relação a base da antena. No nosso caso, a radial que apresenta este valor é a Radial 1
-com o valor de NMR = 73,46 m. então vamos repetir os cálculos para esta radial e verificar os resultados.
-
-$a)$ selecionar a coluna correspondente é altura do centro geométrico da antena $h1$ sobre o NMR da Radial 1;
-
-$$h1 = hbt - NMT + ha$$
-
-$h1$ = 285m - 73,46 + 20m
-
-$h1$ = 231,54
-
-$b)$ selecionar a linha correspondente é distância de interesse;
-
-Aplicando a fórmula 2 para encontrar o valor:
-
- $$E = Einf + ( Esup - Einf )log( h1 / hinf )/log( hsup / hinf )-> dB(uV / m)$$
-
- $$E = 77dB? + ( 82dB? - 77dB? )log( 231,54 / 150 )/log( 300 / 150 )$$
-
- $$E = 77dB? + ( 5dB? )log( 1,5436 )/log( 2 )$$
-
- $$E = 77dB? + 5dB? + 1,88 dB - 3 dB $$
-
- $$E = 80,88 dB?$$
-
-$c)$ a intersecção de $a)$ com $b)$, contêm o valor da intensidade de campo na distância desejada, em $dB?$
-, para  uma $ERP$de $1 kW$;
-
- Temos que pular essa etapa pois já temos o valor encontrado pelo cálculo ( $80,88 dB?$ ).
-
-$d)$ adiciona-se ao valor (em $dB?$) obtido, o valor da $ERP$ na direção de interesse ( em $dBk$ ); 
-este resultado é o valor da intensidade de campo, em $dB?$, no ponto considerado. 
-
-$ERP$ já encontrado anteriormente é $-14,78 dBk$, mas ainda temos que multiplicar com o valor de $(E/Emax)$ (valor é informado na tabela do sistema irradiante).
-
-Valor para Radial 1 = $(E/Emax) = 0,9025$
-
-Para multiplicar, temos que converter para potencia(W):
-
-  $ERP(W) = 10^x, onde x = ERP(dBk)/10$
-  
-  $ERP(W) = 33,26W$
-
-Multiplicando fica:
-
-  $ERPradial1(W) = 33,26(0,9025)$;
-  $ERPradial1(W) = 30,01W$ ,em dBk fica:
-
-  $ERPradial1(dBk) = -15,22dBk$.
-
-Logo, o intensidade do sinal na distância final é:
-
-$$ ContornoR1 = 80,88 dB? + (-15,22dBk) = 65,66 dB?$$ , para a Radial 1
-
-De acordo com a norma, o contorno protegido deve apresentar, no seu limite máximo, a potencia máxima de $66 dB?$, o resultado mostra que estamos logo abaixo deste valor. Como esta é
-a Radial em que o sinal consegue se propagar mais livremente, devido ao NMR ser o mais baixo da lista, consequentemente também será o que terá o sinal mais forte, entre as radiais, no limite
-do contorno protegido.
-
+A o valor médio deste contorno protegido é de aproximadamente 7km, então este fator
+está de acordo com a norma.
+
+\subsubsection{Cobertura da Área de Serviço Urbana} 
+
+Encontramos no site de prefeitura um mapa do macrozoneamento de São Pedro de Alcântara (ANEXO~\ref{mapaMacrozoneamento}), que delimita 
+as áreas conforme sua densidade populacional urbana ou rural (pesquisa realizada em 2010).
+
+A àrea em vermelho corresponde à àrea urbana atual, e a àrea um laranja é correspondente à àrea de expansão urbana. 
+O contorno de 66dBm deve cobrir ao menos 90\% dessas áreas para, assim, comprovar a cobertura da área urbana do 
+município, conforme o estabelecido pela resolução.
+
+Aplicando as distâncias do contorno de 66dBm no mapa, podemos ver que este cobre totalmente as áreas necessárias. É 
+mais um requisito atingido.
+
+*** obter uma figura para demostrar este passo.***
+
+\subsection{Àreas de Serviço de 74dBm e 54dBm} 
+
+Os outros contornos de serviço, Àrea de Serviço Primário (74dBm) e Àrea de Serviço Rural (54dBm), tem como objetivos 
+atender a àrea de maior densidade populacional e àrea rural, respectivamente, na localidade. 
+Os mesmos procedimentos usados para encontrar as distâncias do contorno de 66dBm são usados para esses dois outros contornos.
+Os resultados estão na tabela~\ref{tabelaGeral}.
+
+***Atualizar a tabela***
+
+\begin{center}
+\def\tablename{Tabela}
+\begin{table}
+\centering
+\vspace*{0.05cm}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
+
+\begin{comment}
+
+Radiais&NMT&HSMNT&(E/Emax)&Potência&Potência&Contorno 1&&Contorno 2&&Contorno 3&\\ \cline{7-12}
+Azimutes&(m)&(m)&&Proposta&Proposta&&&&&&\\     
+(Graus)&&&&Perp(KW)&Perp(dBk)&74 dBm&C1 (km)&66 dBm&C2 (km)&54 dBm&C3 (km)\\ \hline
+0&158,38&189,19&0,6084&0,1482&-8,29&82,29&5,5&74,29&10,3&62,29&21\\
+30&73,46&274,11&0,4761&0,1159&-9,35&83,35&6,2&75,35&12,5&63,35&24\\
+60&169,14&178,46&0,3969&0,0966&-10,14&84,14&5&76,14&10&64,14&18\\
+90&166,2&181,37&0,3844&0,0936&-10,28&84,28&5&76,28&9&64,28&18,5\\
+120&250,46&97,57&0,3969&0,0966&-10,14&84,14&3,6&76,14&8&64,14&12\\
+150&196,86&150,71&0,4761&0,1159&-9,35&83,35&5&75,35&10&63,35&17\\
+180&151,58&195,99&0,6084&0,1482&-8,29&82,29&5,8&74,29&11&62,29&21\\
+210&394,8&-47,23&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\
+240&502,1&-154,53&0,9025&0,2198&-6,57&80,57&1,9&72,57&3,4&60,57&6,9\\
+270&579,1&-231,53&1,00&0,2436&-6,13&80,13&2&72,13&3,5&60,13&7\\
+300&412,1&-64,53&0,9025&0,2198&-6,57&80,57&1,9&72,57&3,4&60,57&6,9\\
+330&405,32&-57,75&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\ \hline
+Valores&&&&&&&&&&&\\
+médios &288,29&&&&&&&&&&\\\hline
+
+\end{comment}
+
+Radiais&(graus)&0°&30°&60°&90°&120°&150°&180°&210°&240°&270°&300°&330°\\\hline
+NMT&(m)&&&&&&&&&&&&\\\hline
+HSMNT&(m)&&&&&&&&&&&&\\\hline
+E/Emax&vezes&&&&&&&&&&&&\\\hline
+Potência&(KW)&&&&&&&&&&&&\\\cline{2-14}
+ERPaz&(dBk)&&&&&&&&&&&&\\\hline
+Contorno&74dBm&&&&&&&&&&&&\\\cline{2-14}
+1&(km)&&&&&&&&&&&&\\\hline
+Contorno&66dBm&&&&&&&&&&&&\\\cline{2-14}
+2&(km)&&&&&&&&&&&&\\\hline
+Contorno&54dBm&&&&&&&&&&&&\\\cline{2-14}
+3&(km)&&&&&&&&&&&&\\\hline
+
+
+\end{tabular}
+\caption{Contornos das diversas áreas de serviço por radial e dados correspondentes.}
+\label{tabelaGeral}
+\end{table}
+\end{center}  
+
+\chapter{RESULTADOS}
 
 \begin{figure}[!htb]
 \centering
@@ -1047,38 +955,6 @@ do contorno protegido.
 \end{figure}
 
 
-\begin{center}
-\def\tablename{Tabela}
-\begin{table}
-\centering
-\vspace*{0.05cm}
-\begin{sideways}
-\begin{tabular}{|l|l|l|l|l|l|cc|cc|cc|} \hline
-
-Radiais&NMT&HSMNT&(E/Emax)&Potência&Potência&Contorno 1&&Contorno 2&&Contorno 3&\\ \cline{7-12}
-Azimutes&(m)&(m)&&Proposta&Proposta&&&&&&\\     
-(Graus)&&&&Perp(KW)&Perp(dBk)&74 dB?&C1 (Km)&66 dB?&C2 (Km)&54 dB?&C3 (Km)\\ \hline
-0&158,38&189,19&0,6084&0,1482&-8,29&82,29&5,5&74,29&10,3&62,29&21\\
-30&73,46&274,11&0,4761&0,1159&-9,35&83,35&6,2&75,35&12,5&63,35&24\\
-60&169,14&178,46&0,3969&0,0966&-10,14&84,14&5&76,14&10&64,14&18\\
-90&166,2&181,37&0,3844&0,0936&-10,28&84,28&5&76,28&9&64,28&18,5\\
-120&250,46&97,57&0,3969&0,0966&-10,14&84,14&3,6&76,14&8&64,14&12\\
-150&196,86&150,71&0,4761&0,1159&-9,35&83,35&5&75,35&10&63,35&17\\
-180&151,58&195,99&0,6084&0,1482&-8,29&82,29&5,8&74,29&11&62,29&21\\
-210&394,8&-47,23&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\
-240&502,1&-154,53&0,9025&0,2198&-6,57&80,57&1,9&72,57&3,4&60,57&6,9\\
-270&579,1&-231,53&1,00&0,2436&-6,13&80,13&2&72,13&3,5&60,13&7\\
-300&412,1&-64,53&0,9025&0,2198&-6,57&80,57&1,9&72,57&3,4&60,57&6,9\\
-330&405,32&-57,75&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\ \hline
-Valores&&&&&&&&&&&\\
-médios &288,29&&&&&&&&&&\\\hline
-
-\end{tabular}
-\end{sideways}
-\caption{ Contorno das diversas áreas de serviço segundo cada radial. }
-\label{tabelaGeral}
-\end{table}
-\end{center}
 
 
 
@@ -1487,6 +1363,7 @@ Esta seção é destinadas á figuras usadas no trabalho.
 
 %A citaééo longa deve vir em parégrafo separado, com recuo de 4 cm da margem esquerda, em fonte menor, sem as aspas e com espaéamento simples
 
+\begin{comment}
 
 \section{Texto Matemético}
 
@@ -1503,7 +1380,7 @@ Abaixo temos um exemplo de proposições com sua demonstraééo:
 Como $b^2-a^2=(b+a)(b-a)$ concluémos que $b^2-a^2>0$, ou seja, $a^2<b^2$.
 \end{demonstracao}
 
-
+\end{comment}
 
 
 
