@@ -1,30 +1,23 @@
 \chapter{INTRODUÇÃO}
 
-Estudo e compreensão das normas mais recentes em relação à transmissão de rádio FM, utilizando ferramentas livres oferecidas pela ANATEL
+Visando aprofundar os conhecimentos em rádiotransmissão, através deste estudo é apresentado os aspectos e considerações técnicas necessárias para a instalação de uma
+emissora de rádio em frequência modulada.
 
-Realizar um estudo de viabilidade técnica de um canal de rádio em frequência modulada, baseando-se num cenário real. Colocar em prática
-os conhecimentos obtidos das recomendações, aplicando em situação real e possível. Com os resultados obtidos, será elaborada uma solução para
-cada eventual problema que surgir.
+Comunicar-se, utilizando como meio ondas eletromagnéticas, já é um método bastante conhecido e difundido à muitos anos, consolidando-se
+históricamente como um dos meios de comunicação mais usados no mundo.
+ Apesar da crescente e irreversível expansão da comunicação através da transmissão de dados, as emissoras de rádio ainda mantém seu 
+espaço entre os uruários.
+ Seja para ouvir músicas, notícias ou programas de entretenimento, este método de comunicação ainda mantém-se
+ativo devido à simplicidade para o acesso dos ouvintes, que já são culturalmente habituados à ouvir o rádio durante as suas atividades,
+ou nos momentos de lazer.
 
-Este projeto tem como objetivo criar uma documentação técnica, que reuna todos os requisitos necessários para que uma emissora de rádio possa ser 
-homologada pela ANATEL, (de acordo com a Resolução N° 67) e, assim, ser utilizada comercialmente.
+ Nos municípios onde ainda prevalece entre seus habitantes as atividades rurais, as emissoras de rádio são de fato importantíssimas para 
+estabelecer a comunicação e a interação entre as comunidades destas regiões, devido a falta de infraestrutura que possibilitaria
+também o uso dos meios mais modernos.
 
-O que definiu o local de São Pedro de Alcântara como o escolhido para desenvolver este projeto da emissora FM foi, principalmente, o fator "cenário real",
- proporcionado
-pela disponibilidade do canal 218,na frequência de 91,5MHz e enquadrado na classe C (classificação das emissoras), atráves do plano básico administrado pela
- ANATEl. A idéia de desenvolver um projeto que poderia ser realmente implantado, foi uma 
-motivação a mais. Todos os cálculos, ítens e materiais, que foram definidos e documentados neste projeto, foram pensados e analisados com os cuidados de uma
- possível execução no
- futuro.
-
-Outro ponto, é a relativa facilidade de acesso (São Pedro de Alcântara é um município vizinhho à São José), isto foi importante para verificação e definição 
-do ponto onde ficaria o sistema emissor.
-Ao visitar o local, verificamos que já existia uma antena (moradores informaram que trata-se de uma antena de transmissão de TV analógica) em um terreno no 
-centro do município.
-
-Constatando que existe espaço para uma construção de uma nova torre, partimos do princípio que o local, no centro do município, é o mais indicado para
- instalar nossa estrutura. Assim, definimos
- o ponto de origem da emissora, exatamente nas coordenadas (informar latitude e longitude).
+Para que a ANATEL autorize que uma emissora de rádio transmita seu sinal, fazendo uso de um dos canais disponibilizados e ainda vagos no plano básico, 
+deve-se seguir e apresentar uma documentação técnica que esteja respeitando todos os requisitos apresentado na norma [referencia], publicada no seu portal [referencia]. 
+ Demostrar todos os passos e procedimentos necessários para desenvolver esta documentação é o principal objetivo do estudo apresentado neste trabalho.
 
 \section{OBJETIVO GERAL}
 
@@ -33,11 +26,24 @@ a utilizanção de ferramentas livres oferecidas pela ANATEL.
 
 \section{OBJETIVO ESPECÍFICO}
 
-
+Realizar um estudo sobre as especificações técnicas necessárias para homologar um canal de rádio FM disponível no plano básico da ANATEL.
+ Colocar em prática os procedimentos e conhecimentos obtidos das recomendações, aplicando em um cenário real.
+ Com os resultados definidos, será elaborado a dacumentação técnica solicitada pela ANATEL.
 
 \section{MOTIVAÇÃO E JUSTIFICATIVA}
 
+Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em 
+rádiotransmissão, é abordar as atualizações nas normas técnicas.
+ Também para servir como referência para estudantes e futuros projetistas, pois, apesar de ser um tipo de projeto já muitas vezes executados em diversos cenários e situações, 
+é grande a dificuldade para encontrar um modelo diponível para consulta. Este documento certamente pode servir de base para outros projetos de emissoras FM ou rádiotransmissão em
+geral. 
+
 \section{ESTRUTURA DO TRABALHO}
+
+Nos primeiros capítulos são estudados as resoluções e normas aprovados referentes aos cálculos de viabilidade de um canal de rádio FM.
+ Seguindo, aborda-se sobre o canal proposto. Depois começam as definições para o início dos cálculos do contorno protegido.
+ Após são apresentados as especificações definidas para o projeto da emissora e a documentação que deve ser apresentada junto a ANATEL.
+ Ao final são apresentadas as conclusões e novas propostas de trabalhos.
 
 \chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF)}
 
@@ -104,11 +110,6 @@ Frequência & CANAL & Frequência & CANAL & Frequência & CANAL\\
 \label{tabelaCanalizacao}
 \end{table}
 
-
-%\section{PLANEJAMENTO}
-
-%\section{CONSIDERAÇÕES}
-
 \chapter{RESOLUÇÃO N° 67, DE 12 DE NOVEMBRO DE 1998}
 
 A Resolução $n°67$ aprova o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada. 
@@ -145,8 +146,6 @@ A altura acima do nível médio do terreno (HNMT) é um valor que representa o níve
 Para encontrar o seu valor, deve-se obter cotas entre as distâncias de 3 e 15Km da antena e fazer uma média aritmética dos pontos obtidos.
 As alturas podem variar de 10 a 1200m, conforme a recomendação, porém o documento também descreve um método para, caso seja necessário, extrapolar 
 esses valores.
-
-
 
 \subsubsection{Curvas E(L,T)}
 
@@ -401,6 +400,7 @@ Distancia.(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude(m) & Altitude
 15000 & 280 & 15 & 130 & 25 & 10 & 100 & 55 & 490 & 580 & 800 & 500 & 690 & 306,25\\\hline
 Soma & 7919 & 3673 & 8457 & 8310 & 12523 & 9843 & 7579 & 19740 & 25105 & 28980 & 20605 & 20266 & 14416,66\\\hline
 NMR(m) & 158,38 & 73,46 & 169,14 & 166,2 & 250,46 & 196,86 & 151,58 & 394,8 & 502,1 & 579,6 & 412,1 & 405,32 & 288,33\\ \hline
+
 
 
 \end{tabular}
@@ -694,7 +694,7 @@ Altura do centro geométrico do sistema irradiante (HSNMT) & 55,914 metros\\ \hli
 Orientação do Norte Verdadeiro & 90° no diagrama de irradiação\\ \hline
 Cota da base da torre & 285 metros\\ \hline
 Comprimento da linha de transmissão & 65 metros\\ \hline
-Altura da antena & 55 metros\\ \hline
+Altura da antena & 59,244 metros\\ \hline
 Atenuação do guia de onda e conectores & 0,442dB (para 65 metros)\\ \hline
 Ganho da antena & 4,77dBd (para 3 elementos)\\ \hline
 Potência do transmissor & 0,150kW\\ \hline
@@ -738,7 +738,7 @@ Portanto, a potência de saída do sistema fica:
 
 $$ERPmax = 0,15 \times 3 \times 0,569$$
 
-$$ERPmax = 0,256kW$$
+$$ERPmax = 0,256kW ou -5,91dBk$$ 
 
 Este resultado atende o estabelecido pela resolução, é menor que 300W, então podemos começar à
 calcular o ERPaz para cada um dos azimutes traçados. 
@@ -893,43 +893,35 @@ Os resultados estão na tabela~\ref{tabelaGeral}.
 \def\tablename{Tabela}
 \begin{table}
 \centering
+\small
 \vspace*{0.05cm}
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
+\begin{tabular}{|c|c|c|c|c|c|c|c|} \hline
 
-\begin{comment}
+Radiais&(graus)&0°&30°&60°&90°&120°&150°\\\hline
+NMT&(m)&158,38&73,46&169,20&166,20&250,46&196,86\\\hline
+HSMNT&(m)&185,86&270,78&175,10&178,04&93,78&147,38\\\hline
+E/Emax&vezes&0,78&0,69&0,63&0,62&0,63&0,69\\\hline
+Potência&(KW)&0,1560&0,1220&0,1017&0,0985&0,1017&0,1220\\\cline{2-8}
+ERPaz&(dBk)&-8,07&-9,13&-9,92&-10,06&-9,92&-9,13\\\hline
+Contorno&74dBm&82,07&83,13&83,92&84,06&83,92&83,13\\\cline{2-8}
+1&(km)&5,2&6&5&5&4&5\\\hline
+Contorno&66dBm&74,07&75,13&75,92&76,06&75,92&75,13\\\cline{2-8}
+2&(km)&10,5&11&9&9&7&9\\\hline
+Contorno&54dBm&62,07&63,13&63,92&64,06&63,92&63,13\\\cline{2-8}
+3&(km)&21&23&19&18&15&18\\\hline \hline
 
-Radiais&NMT&HSMNT&(E/Emax)&Potência&Potência&Contorno 1&&Contorno 2&&Contorno 3&\\ \cline{7-12}
-Azimutes&(m)&(m)&&Proposta&Proposta&&&&&&\\     
-(Graus)&&&&Perp(KW)&Perp(dBk)&74 dBm&C1 (km)&66 dBm&C2 (km)&54 dBm&C3 (km)\\ \hline
-0&158,38&189,19&0,6084&0,1482&-8,29&82,29&5,5&74,29&10,3&62,29&21\\
-30&73,46&274,11&0,4761&0,1159&-9,35&83,35&6,2&75,35&12,5&63,35&24\\
-60&169,14&178,46&0,3969&0,0966&-10,14&84,14&5&76,14&10&64,14&18\\
-90&166,2&181,37&0,3844&0,0936&-10,28&84,28&5&76,28&9&64,28&18,5\\
-120&250,46&97,57&0,3969&0,0966&-10,14&84,14&3,6&76,14&8&64,14&12\\
-150&196,86&150,71&0,4761&0,1159&-9,35&83,35&5&75,35&10&63,35&17\\
-180&151,58&195,99&0,6084&0,1482&-8,29&82,29&5,8&74,29&11&62,29&21\\
-210&394,8&-47,23&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\
-240&502,1&-154,53&0,9025&0,2198&-6,57&80,57&1,9&72,57&3,4&60,57&6,9\\
-270&579,1&-231,53&1,00&0,2436&-6,13&80,13&2&72,13&3,5&60,13&7\\
-300&412,1&-64,53&0,9025&0,2198&-6,57&80,57&1,9&72,57&3,4&60,57&6,9\\
-330&405,32&-57,75&0,7744&0,1886&-7,24&81,24&1,8&73,24&3,2&61,24&6,8\\ \hline
-Valores&&&&&&&&&&&\\
-médios &288,29&&&&&&&&&&\\\hline
-
-\end{comment}
-
-Radiais&(graus)&0°&30°&60°&90°&120°&150°&180°&210°&240°&270°&300°&330°\\\hline
-NMT&(m)&&&&&&&&&&&&\\\hline
-HSMNT&(m)&&&&&&&&&&&&\\\hline
-E/Emax&vezes&&&&&&&&&&&&\\\hline
-Potência&(KW)&&&&&&&&&&&&\\\cline{2-14}
-ERPaz&(dBk)&&&&&&&&&&&&\\\hline
-Contorno&74dBm&&&&&&&&&&&&\\\cline{2-14}
-1&(km)&&&&&&&&&&&&\\\hline
-Contorno&66dBm&&&&&&&&&&&&\\\cline{2-14}
-2&(km)&&&&&&&&&&&&\\\hline
-Contorno&54dBm&&&&&&&&&&&&\\\cline{2-14}
-3&(km)&&&&&&&&&&&&\\\hline
+Radiais&(graus)&180°&210°&240°&270°&300°&330°\\\hline
+NMT&(m)&151,58&394,80&502,10&579,60&412,10&405,32\\\hline
+HSMNT&(m)&192,66&-50,55&-157,85&-235,35&-67,85&-61,07\\\hline
+E/Emax&vezes&0,78&0,88&0,95&1,00&0,95&0,88\\\hline
+Potência&(KW)&0,1560&0,1985&0,2314&0,2564&0,2314&0,1985\\\cline{2-8}
+ERPaz&(dBk)&-8,07&-7,02&-6,35&-5,91&-6,35&-7,02\\\hline
+Contorno&74dBm&82,07&81,02&80,35&79,91&80,35&81,02\\\cline{2-8}
+1&(km)&5,2&1,8&2&2,1&2&1,8\\\hline
+Contorno&66dBm&74,07&73,02&72,35&71,91&72,35&73,02\\\cline{2-8}
+2&(km)&11&3,2&3,4&3,6&3,4&3,2\\\hline
+Contorno&54dBm&62,07&61,02&60,35&59,91&60,35&61,02\\\cline{2-8}
+3&(km)&21&6,5&6,8&7&6,8&6,5\\\hline
 
 
 \end{tabular}

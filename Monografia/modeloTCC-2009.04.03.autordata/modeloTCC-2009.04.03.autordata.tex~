@@ -242,7 +242,7 @@
 %Conclusão
 \ifthenelse{\boolean{InserirConclusao}}{
 
-\chapter{CONSIDERAÇÕES FINAIS}
+\chapter{CONCLUSÕES E TRABALHOS FUTUROS}
 
 \input{./arquivos_para_alterar/a11-conclusao}
 

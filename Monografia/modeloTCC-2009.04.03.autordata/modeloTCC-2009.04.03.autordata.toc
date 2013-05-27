@@ -2,7 +2,7 @@
 \contentsline {chapter}{Lista de Figuras}{}
 \contentsline {chapter}{Lista de Tabelas}{}
 \contentsline {chapter}{\numberline {1}INTRODU\c C\~AO}{13}
-\contentsline {section}{\numberline {1.1}OBJETIVO GERAL}{14}
+\contentsline {section}{\numberline {1.1}OBJETIVO GERAL}{13}
 \contentsline {section}{\numberline {1.2}OBJETIVO ESPEC\'IFICO}{14}
 \contentsline {section}{\numberline {1.3}MOTIVA\c C\~AO E JUSTIFICATIVA}{14}
 \contentsline {section}{\numberline {1.4}ESTRUTURA DO TRABALHO}{14}
