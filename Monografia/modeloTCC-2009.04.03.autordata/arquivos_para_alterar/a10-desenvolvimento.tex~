@@ -1,3 +1,5 @@
+\bibliographystyle { plain}
+
 \chapter{INTRODUÇÃO}
 
 Visando aprofundar os conhecimentos em rádiotransmissão, através deste estudo é apresentado os aspectos e considerações técnicas necessárias para a instalação de uma
@@ -16,7 +18,7 @@ estabelecer a comunicação e a interação entre as comunidades destas regiões, dev
 também o uso dos meios mais modernos.
 
 Para que a ANATEL autorize que uma emissora de rádio transmita seu sinal, fazendo uso de um dos canais disponibilizados e ainda vagos no plano básico, 
-deve-se seguir e apresentar uma documentação técnica que esteja respeitando todos os requisitos apresentado na norma [referencia], publicada no seu portal [referencia]. 
+deve-se seguir e apresentar uma documentação técnica que esteja respeitando todos os requisitos apresentado na norma técnica~\cite{ref1}, publicada no seu portal~\cite{ref3}. 
  Demostrar todos os passos e procedimentos necessários para desenvolver esta documentação é o principal objetivo do estudo apresentado neste trabalho.
 
 \section{OBJETIVO GERAL}
@@ -32,7 +34,8 @@ Realizar um estudo sobre as especificações técnicas necessárias para homologar u
 
 \section{MOTIVAÇÃO E JUSTIFICATIVA}
 
-Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em rádiotransmissão, é abordar as atualizações nas normas técnicas.
+Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em 
+rádiotransmissão, é abordar as atualizações nas normas técnicas.
  Também para servir como referência para estudantes e futuros projetistas, pois, apesar de ser um tipo de projeto já muitas vezes executados em diversos cenários e situações, 
 é grande a dificuldade para encontrar um modelo diponível para consulta. Este documento certamente pode servir de base para outros projetos de emissoras FM ou rádiotransmissão em
 geral. 
@@ -46,18 +49,19 @@ Nos primeiros capítulos são estudados as resoluções e normas aprovados referente
 
 \chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF)}
 
-O PBFM foi aprovado em 12 de novembro de 1998, através da Resolução n°67 (referencia), e nele constam os canais FM previstos para uso,
- em todo o território nacional.
+O Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada é definido e gerenciado pela ANATEL, e nele constam os canais FM previstos para uso 
+em todo o território nacional. Os canais que ainda estão vagos podem ser consultados no portal da ANATEL~\cite{ref2}.
+
  A faixa de radiodifusão sonora em frequência modulada estende-se de $87,8$ a $107,9MHz$, e é
 dividida em 103 canais (os canais 198,199 e 200 são para uso exclusivo das estações de ROADCOM), cujas portadoras estão separadas de $200KHz$.
  Cada canal é identificado por sua frequência central,
- que é a frequência da portadora da estação de FM. A cada canal é atribuído um número de 198 a 300.
+ que é a frequência da portadora da estação de FM, e a cada canal é atribuído um número de 198 a 300, que será o seu identificador.
 
 \section{CANALIZAÇÃO}
 
 A tabela de Canalização da Faixa de FM atual foi publicada na RESOLUÇÃO N°46, DE 1° DE SETEMBRO DE 2010, que altera o Regulamento Técnico para Emissoras de Radiodifusão
 Sonora em Frequência
-Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da RESOLUÇÃO e apresenta a faixa de Frequência para cada canal FM definido pelo Plano Básico. 
+Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da norma~\cite{ref1} e apresenta a faixa de Frequência para cada canal FM, definido pelo PBFM. 
 
 \def\tablename{Tabela}
 \begin{table}
@@ -130,7 +134,7 @@ vindos da Recomendação UIT-R P.1546.
 As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
 
 \section{RECOMENDAÇÃO UIT-R P.1546}
-A UIT-R, através desta recomendação, descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
+A UIT-R, através da Recomendação UIT-R P.1546~\cite{ref4}, descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
 na faixa de 30 a 3000MHz. Os procedimentos que seguimos neste trabalho, principalmente para definir as áreas de serviços, foram
 baseados nestes métodos. 
 
@@ -160,9 +164,8 @@ Novamente são descritos métodos para obter intensidade de campo quando esses
 valores não forem exatamente iguais aos tabulados.
 
 As curvas utilizadas neste estudo são a E(50,50) e E(50,10) que podem ser
-encontradas na referência [2].
+encontradas na resolução~\cite{ref1}.~\cite{paulo}
 
-***Indicar a referência do TCC 
  
 %\subsubsection{Implementação computacional da recomendação}
 
@@ -179,18 +182,14 @@ compreendidas entre as distâncias de 3 a 15km da antena transmissora.
 
 As 12 radiais devem ser também igualmente espaçadas de 30 em 30 graus, e deve
 incluir a radial do norte verdadeiro. O NMT é então obtido, fazendo-se também uma média
-aritmética, dos NMR.
-
-***Indicar a referência do TCC 
+aritmética, dos NMR.~\cite{paulo}
 
 \subsection{Altura da antena transmissora}
 
 Apesar de ser possível calcular a intensidade de campo para valores fora da faixa de
 10 a 1200m para altura da antena transmissora, a RESOLUÇÃO considera esses os valores
 máximos. Ou seja, quando a HNMT da antena for interior a 10m, deve ser tomado o valor de
-10m, e quando exceder os 1200m, este valor que deve ser considerado.
-
-***Indicar a referência do TCC 
+10m, e quando exceder os 1200m, este valor que deve ser considerado.~\cite{paulo}
 
 \section{PARÂMETROS NECESSÁRIOS PARA O CÁLCULO DE VIABILIDADE TÉCNICA}
 
@@ -886,8 +885,6 @@ atender a àrea de maior densidade populacional e àrea rural, respectivamente, na
 Os mesmos procedimentos usados para encontrar as distâncias do contorno de 66dBm são usados para esses dois outros contornos.
 Os resultados estão na tabela~\ref{tabelaGeral}.
 
-***Atualizar a tabela***
-
 \begin{center}
 \def\tablename{Tabela}
 \begin{table}
@@ -931,6 +928,9 @@ Contorno&54dBm&62,07&61,02&60,35&59,91&60,35&61,02\\\cline{2-8}
 
 \chapter{RESULTADOS}
 
+\begin{comment}
+
+
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=0.80]{./figuras/e5050.jpg}
@@ -945,6 +945,7 @@ Contorno&54dBm&62,07&61,02&60,35&59,91&60,35&61,02\\\cline{2-8}
 \label{e5010}
 \end{figure}
 
+\end{comment}
 
 
 

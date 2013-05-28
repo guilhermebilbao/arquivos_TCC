@@ -5,15 +5,34 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
+\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 2013]{ref3}
+\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{AGÊNCIA NACIONAL DE
+  TELECOMUNICAÇÕES}{2013a}
+{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{Portal ANATEL.}
+[S.l.], 2013. Dispon{\'\i}vel em: $<$http://www.anatel.gov.br/Portal/$>$.
+  Acesso em: 27 mai. 2013.}
+
+\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 2013]{ref2}
+\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{AGÊNCIA NACIONAL DE
+  TELECOMUNICAÇÕES}{2013b}
+{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{SRD - SISTEMA DE CONTROLE DE
+  RADIODIFUSÃO.}
+[S.l.], 2013. Dispon{\'\i}vel em: $<$http://sistemas.anatel.gov.br/srd$>$.
+  Acesso em: 27 mai. 2013.}
+
+\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil) 2010]{ref1}
+\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)}{AGÊNCIA NACIONAL DE
+  TELECOMUNICAÇÕES (BRASIL)}{2010}
+{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (BRASIL). \emph{Resolução nº 67, de 12 de
+  novembro de 1998.}
+[S.l.], 2010. Dispon{\'\i}vel em:
+  $<$http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67$>$.
+  Acesso em: 27 mai. 2013.}
+
 \bibitem[Autor 1995]{ref5}
-\abntrefinfo{Autor}{AUTOR}{1995a}
+\abntrefinfo{Autor}{AUTOR}{1995}
 {AUTOR, N. \emph{Título}: Subtítudo, que vem depois de dois pontos. São Paulo:
   Editora, 1995.}
-
-\bibitem[Autor 1995]{ref3}
-\abntrefinfo{Autor}{AUTOR}{1995b}
-{AUTOR, N. Título do artigo.
-\emph{A Folha de S.~Paulo}, São Paulo, p. 11--23, 7 set. 1995.}
 
 \bibitem[Conceitos criados como exemplo 2003]{ref9}
 \abntrefinfo{Conceitos\ldots}{CONCEITOS\ldots}{2003}
@@ -26,14 +45,14 @@ Dispon{\'\i}vel em: $<$http://nomedodominio.com.br$>$. Acesso em: 8 mar. 1999.}
 {EVANS, X. Y.~Z. et al. \emph{Exemplo de citação no texto}. [S.l.: s.n.],
   1987.}
 
-\bibitem[Nome do artigo 1995]{ref2}
-\abntrefinfo{Nome\ldots}{NOME\ldots}{1995}
-{NOME do artigo.
-\emph{A Folha de S.~Paulo}, São Paulo, p.~4, 2 abr. 1995.}
-
 \bibitem[Nome 1978]{ref6}
 \abntrefinfo{Nome}{NOME}{1978}
 {NOME, O. \emph{Algum nome}. [S.l.: s.n.], 1978. 101-114~p.}
+
+\bibitem[RÉGIS 2010]{paulo}
+\abntrefinfo{RÉGIS}{RÉGIS}{2010}
+{RÉGIS, P.~A. \emph{Cálculo de Viabilidade Técnica de um Canal de Televisão
+  Digital}. Blumenal: FURB, 2010.}
 
 \bibitem[Silva 2003]{ref8}
 \abntrefinfo{Silva}{SILVA}{2003}
@@ -41,9 +60,15 @@ Dispon{\'\i}vel em: $<$http://nomedodominio.com.br$>$. Acesso em: 8 mar. 1999.}
 [S.l.], 2003. Dispon{\'\i}vel em: $<$http://nomedodominio.com.br$>$. Acesso em:
   8 mar. 1999.}
 
-\bibitem[T\'{\i}tulo do Artigo 1987]{ref4}
-\abntrefinfo{T\'{\i}tulo\ldots}{T\'{I}TULO\ldots}{1987}
-{T\'{I}TULO do Artigo.
-\emph{Nome da revista}, Rio de Janeiro, n.~35, p. 51--60, jan. 1987.}
+\bibitem[UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE RADIOCOMUNICAÇÕES.
+  2013]{ref4}
+\abntrefinfo{UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE
+  RADIOCOMUNICAÇÕES.}{UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE
+  RADIOCOMUNICAÇÕES.}{2013}
+{UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE RADIOCOMUNICAÇÕES.
+  \emph{Recomendação P.1546 -1: Médoto de previsões ponto-área para serviços
+  terrestres na faixa de frequências de 30 a 3000MHz .}
+[S.l.], 2013. Dispon{\'\i}vel em:
+  $<$http://sistemas.anatel.gov.br/siganatel/$>$. Acesso em: 27 mai. 2013.}
 
 \end{thebibliography}

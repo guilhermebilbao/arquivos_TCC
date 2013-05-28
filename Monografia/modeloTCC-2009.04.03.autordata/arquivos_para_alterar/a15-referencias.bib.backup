@@ -11,41 +11,36 @@
 %% =====================================================
 
 %% Exemplo de como colocar um livro
-
-
 @manual{ref1,
 organization={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)},
-title={Resolução nº 67, de 12 de novembro de 1998.},
+title={Resolução nº 67, de 12 de novembro de 1998},
 url={http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67},
 year={2010},
 urlaccessdate={27 mai. 2013}}
 
-@manual{ref2,
-organization={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES},
-title={SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO.},
-url={http://sistemas.anatel.gov.br/srd},
-year={2013},
-urlaccessdate={27 mai. 2013}}
 
-@manual{ref3,
-organization={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES},
-title={Portal ANATEL.},
-url={http://www.anatel.gov.br/Portal/},
-year={2013},
-urlaccessdate={27 mai. 2013}}
-
-@manual{ref4,
-organization={UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE RADIOCOMUNICAÇÕES.},
-title={Recomendação P.1546 -1: Médoto de previsões ponto-área para serviços terrestres na
-faixa de frequências de 30 a 3000MHz .},
-url={http://sistemas.anatel.gov.br/siganatel/},
-year={2013},
-urlaccessdate={27 mai. 2013}}
+@BOOK{ref8,
+  title = {T\'{\i}tulo Teste},
+  publisher = {Editora},
+  year = {2007},
+  author = {Nome Nomedomeio Sobrenome},
+  volume = {3},
+  address = {Rio de Janeiro},
+  edition = {12}
+}
 
 %% Exemplo de como colocar um artigo de jornal sem autor
+@article{ref2,
+address={São Paulo},
+journal={A Folha de S.~Paulo},
+month={2 abr.},
+pages={4},
+title={Nome do artigo},
+year={1995}
+}
 
 %% Exemplo de como colocar um artigo de jornal com autor
-@article{ref10,
+@article{ref3,
 author={Nome Autor},
 address={São Paulo},
 journal={A Folha de S.~Paulo},
@@ -56,7 +51,7 @@ year={1995}
 }
 
 %% Exemplo de como colocar um artigo de revista sem autor
-@article{ref14,
+@article{ref4,
 address={Rio de Janeiro},
 journal={Nome da revista},
 month={jan.},
@@ -111,13 +106,6 @@ urlaccessdate={8 mar. 1999}}
   author = {E. M. Miyoshi and C.A. Sanches},
   address = {São Paulo},
   edition = {3}}
-
-@book{paulo,
-  title = {Cálculo de Viabilidade Técnica de um Canal de Televisão Digital},
-  publisher = {FURB},
-  year = {2010},
-  author = {P. A. RÉGIS},
-  address = {Blumenal},
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
