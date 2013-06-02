@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  28 MAY 2013 01:05
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  1 JUN 2013 15:33
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -453,12 +453,18 @@ Overfull \hbox (8.672pt too wide) in paragraph at lines 6--13
 r-re-vers[]^^Pvel ex-pans[]ao da comunica[][]ao
  []
 
+
+Overfull \hbox (18.78696pt too wide) in paragraph at lines 6--13
+\OT1/ptm/m/n/12 uru[]arios. Seja para ou-vir m[]usicas, not[]^^Pcias ou en-tre-
+te-ni-mento em ge-ral, este m[]etodo de comunica[][]ao
+ []
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
 [13
 
 ]
-Overfull \hbox (33.67567pt too wide) in paragraph at lines 35--40
+Overfull \hbox (33.67567pt too wide) in paragraph at lines 35--39
 []\OT1/ptm/m/n/12 Uma das raz[]oes para es-tu-dar o tema, al[]em de ad-qui-rir 
 mai-o-res co-nhe-ci-men-tos em r[]adiotransmiss[]ao,
  []
@@ -470,16 +476,16 @@ Cap\'{\i }tulo 2.
 ] [16]
 Cap\'{\i }tulo 3.
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 116.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 115.
 
 
-Overfull \hbox (6.93105pt too wide) in paragraph at lines 116--122
+Overfull \hbox (6.93105pt too wide) in paragraph at lines 115--121
 \OT1/ptm/m/n/12 telecomunica[][]oes re-gu-lar-mente au-to-ri-za-dos e re-du-zir
  pos-si-bi-li-da-des de da-nos f[]^^Psicos []a popula[][]ao.
  []
 
 
-Overfull \hbox (95.59412pt too wide) in paragraph at lines 135--138
+Overfull \hbox (95.59412pt too wide) in paragraph at lines 134--137
 []\OT1/ptm/m/n/12 A UIT-R, atrav[]es da Recomenda[][]ao UIT-R P.1546 (UNI[]AO I
 N-TER-NA-CI-O-NAL DE TELECOMUNICA[][]OES:
  []
@@ -489,13 +495,13 @@ N-TER-NA-CI-O-NAL DE TELECOMUNICA[][]OES:
 ] [18] [19]
 Cap\'{\i }tulo 4.
 
-Overfull \hbox (19.20724pt too wide) in paragraph at lines 220--223
+Overfull \hbox (19.20724pt too wide) in paragraph at lines 219--222
 \OT1/ptm/m/n/12 forme apre-sen-tado no por-tal da ANA-TEL (Fi-gura 4.1[]) e, pa
 ra que o pro-jeto res-peite as especifica[][]oes
  []
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 225.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 224.
 
 
 <./figuras/imagem_plano_basico_218_anatel.png, id=69, 618.81187pt x 355.3275pt>
@@ -507,7 +513,7 @@ File: ./figuras/tabelaClassificacaoEmissoras.png Graphic file (type png)
 <use ./figuras/tabelaClassificacaoEmissoras.png> [20
 
 ]
-Overfull \hbox (1.50768pt too wide) in paragraph at lines 255--255
+Overfull \hbox (1.50768pt too wide) in paragraph at lines 254--254
 []\OT1/ptm/b/n/17.28 N[]IVEL ME-DIO DO TER-RENO E AL-TURA ACIMA DO
  []
 
@@ -518,9 +524,9 @@ File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt1_v2.pdf>
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 343.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 342.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 343.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 342.
  [23 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>] [24] [25] [26] [27] [
 28]
 Cap\'{\i }tulo 5.
@@ -528,16 +534,16 @@ Cap\'{\i }tulo 5.
 File: ./figuras/diagrama_de_irradiacao.jpg Graphic file (type jpg)
 
 <use ./figuras/diagrama_de_irradiacao.jpg>
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 559.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 558.
 
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 559.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 558.
 
-Overfull \hbox (25.91554pt too wide) in paragraph at lines 558--563
+Overfull \hbox (25.91554pt too wide) in paragraph at lines 557--562
 \OT1/ptm/m/n/12 Dielectric Co-a-xial Ca-ble , da fa-bri-cante RFS, que apre-sen
 ta uma atenua[][]ao de ape-nas $\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 :\OT1/ztm
 cm/m/n/12 663\OML/ztmcm/m/it/12 dB=\OT1/ztmcm/m/n/12 100\OML/ztmcm/m/it/12 m$\O
@@ -545,7 +551,7 @@ T1/ptm/m/n/12 ,
  []
 
 
-Overfull \hbox (14.99771pt too wide) in paragraph at lines 558--563
+Overfull \hbox (14.99771pt too wide) in paragraph at lines 557--562
 \OT1/ptm/m/n/12 frequ[]encia do ca-nal que est[]a sendo pro-je-tado []e de $\OT
 1/ztmcm/m/n/12 91\OML/ztmcm/m/it/12 ; \OT1/ztmcm/m/n/12 5\OML/ztmcm/m/it/12 MHz
 $\OT1/ptm/m/n/12 , ado-ta-re-mos o va-lor de $\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/i
@@ -556,7 +562,7 @@ m/m/it/12 m$\OT1/ptm/m/n/12 .
 [29
 
 ] [30 <./figuras/diagrama_de_irradiacao.jpg>]
-Overfull \hbox (2.56006pt too wide) in paragraph at lines 612--615
+Overfull \hbox (2.56006pt too wide) in paragraph at lines 611--614
 []\OT1/ptm/m/n/12 O par[]ametro $\OML/ztmcm/m/it/12 L$ \OT1/ptm/m/n/12 in-forma
  o com-pri-mento do guia de onda em me-tros, $\OML/ztmcm/m/it/12 Al$ \OT1/ptm/m
 /n/12 re-pre-senta a atenua[][]ao
@@ -564,23 +570,23 @@ Overfull \hbox (2.56006pt too wide) in paragraph at lines 612--615
 
 [31]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 663.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 662.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 664.
 
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 665.
 
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 666.
-
 [32] [33]
 Cap\'{\i }tulo 6.
 
-Overfull \hbox (5.31952pt too wide) in paragraph at lines 684--699
+Overfull \hbox (5.31952pt too wide) in paragraph at lines 683--698
  [][] 
  []
 
 
-Overfull \hbox (25.4327pt too wide) in paragraph at lines 703--705
+Overfull \hbox (25.4327pt too wide) in paragraph at lines 702--704
 []\OT1/ptm/m/n/12 Os pr[]oximos pas-sos ser[]ao des-ti-na-dos []a mos-trar os v
 a-lo-res que com-pro-var[]ao que esta configura[][]ao
  []
@@ -589,34 +595,25 @@ a-lo-res que com-pro-var[]ao que esta configura[][]ao
 
 ] [35]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 742.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 743.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 745.
 
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 746.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 748.
-
-
 LaTeX Warning: Command \textdegree invalid in math mode on input line 749.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 750.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 751.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 752.
 
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 753.
 
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 765.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 766.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 767.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 756.
 
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 768.
@@ -646,12 +643,21 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 775.
 LaTeX Warning: Command \textdegree invalid in math mode on input line 776.
 
 
-Overfull \hbox (40.21558pt too wide) in paragraph at lines 783--783
+LaTeX Warning: Command \textdegree invalid in math mode on input line 777.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 778.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 779.
+
+
+Overfull \hbox (40.21558pt too wide) in paragraph at lines 786--786
 []\OT1/ptm/b/n/17.28 DEFININDO OS CON-TOR-NOS DAS []AREAS DE SERVI[]OS 
  []
 
 
-Overfull \hbox (4.49336pt too wide) in paragraph at lines 785--790
+Overfull \hbox (4.49336pt too wide) in paragraph at lines 788--793
 []\OT1/ptm/m/n/12 Definir a dist[]ancia do con-torno pro-te-gido, co-ber-tura d
 a []Area de Servi[]o Ur-bana com pot[]encia
  []
@@ -660,15 +666,6 @@ a []Area de Servi[]o Ur-bana com pot[]encia
 File: ./figuras/e5050_calc.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050_calc.jpg>
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 844.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 845.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 846.
-
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 847.
 
@@ -697,18 +694,32 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 854.
 LaTeX Warning: Command \textdegree invalid in math mode on input line 855.
 
 
-Overfull \hbox (0.86905pt too wide) in paragraph at lines 867--869
+LaTeX Warning: Command \textdegree invalid in math mode on input line 856.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 857.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 858.
+
+
+Overfull \hbox (0.86905pt too wide) in paragraph at lines 870--872
 []\OT1/ptm/m/n/12 Encontramos no site de pre-fei-tura um mapa do ma-cro-zo-ne-a
 -mento de S[]ao Pe-dro de Alc[]antara
  []
 
 [38 <./figuras/e5050_calc.jpg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 892.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 895.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 892.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 895.
  [39] [40]
 Cap\'{\i }tulo 7.
+
+Overfull \hbox (8.33595pt too wide) in paragraph at lines 937--937
+[]\OT1/ptm/b/n/17.28 CONSIDERA[][]OES SO-BRE OS CON-TOR-NOS EN-CON-
+ []
+
 ) [41
 
 ]
@@ -809,7 +820,7 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (52 pages, 2537671 bytes).
+Output written on modeloTCC-2009.04.03.autordata.pdf (52 pages, 2538616 bytes).
 
 PDF statistics:
  245 PDF objects out of 1000 (max. 8388607)

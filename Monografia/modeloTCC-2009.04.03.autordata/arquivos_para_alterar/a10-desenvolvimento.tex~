@@ -1,25 +1,23 @@
-\bibliographystyle { plain}
-
 \chapter{INTRODUÇÃO}
 
-Visando aprofundar os conhecimentos em rádiotransmissão, através deste estudo é apresentado os aspectos e considerações técnicas necessárias para a instalação de uma
+Visando aprofundar os conhecimentos em rádiotransmissão, através deste estudo é apresentado os aspectos e considerações técnicas necessárias para projetar uma
 emissora de rádio em frequência modulada.
 
 Comunicar-se, utilizando como meio ondas eletromagnéticas, já é um método bastante conhecido e difundido à muitos anos, consolidando-se
 históricamente como um dos meios de comunicação mais usados no mundo.
  Apesar da crescente e irreversível expansão da comunicação através da transmissão de dados, as emissoras de rádio ainda mantém seu 
 espaço entre os uruários.
- Seja para ouvir músicas, notícias ou programas de entretenimento, este método de comunicação ainda mantém-se
-ativo devido à simplicidade para o acesso dos ouvintes, que já são culturalmente habituados à ouvir o rádio durante as suas atividades,
+ Seja para ouvir músicas, notícias ou entretenimento em geral, este método de comunicação ainda mantém-se
+ativo devido à simplicidade para o acesso dos ouvintes, que já são culturalmente habituados à ouvir o rádio durante as suas atividades 
 ou nos momentos de lazer.
 
- Nos municípios onde ainda prevalece entre seus habitantes as atividades rurais, as emissoras de rádio são de fato importantíssimas para 
+ Em municípios onde ainda prevalece entre seus habitantes as atividades rurais, as emissoras de rádio são de fato importantíssimas para 
 estabelecer a comunicação e a interação entre as comunidades destas regiões, devido a falta de infraestrutura que possibilitaria
 também o uso dos meios mais modernos.
 
 Para que a ANATEL autorize que uma emissora de rádio transmita seu sinal, fazendo uso de um dos canais disponibilizados e ainda vagos no plano básico, 
 deve-se seguir e apresentar uma documentação técnica que esteja respeitando todos os requisitos apresentado na norma técnica~\cite{ref1}, publicada no seu portal~\cite{ref3}. 
- Demostrar todos os passos e procedimentos necessários para desenvolver esta documentação é o principal objetivo do estudo apresentado neste trabalho.
+ Demostrar os procedimentos necessários para desenvolver um projeto que respeite esta norma é o principal objetivo do estudo apresentado neste trabalho.
 
 \section{OBJETIVO GERAL}
 
@@ -30,12 +28,11 @@ a utilizanção de ferramentas livres oferecidas pela ANATEL.
 
 Realizar um estudo sobre as especificações técnicas necessárias para homologar um canal de rádio FM disponível no plano básico da ANATEL.
  Colocar em prática os procedimentos e conhecimentos obtidos das recomendações, aplicando em um cenário real.
- Com os resultados definidos, será elaborado a dacumentação técnica solicitada pela ANATEL.
+ %Com os resultados definidos, será elaborado a documentação técnica solicitada pela ANATEL.
 
 \section{MOTIVAÇÃO E JUSTIFICATIVA}
 
-Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em 
-rádiotransmissão, é abordar as atualizações nas normas técnicas.
+Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em rádiotransmissão, é abordar as atualizações nas normas técnicas.
  Também para servir como referência para estudantes e futuros projetistas, pois, apesar de ser um tipo de projeto já muitas vezes executados em diversos cenários e situações, 
 é grande a dificuldade para encontrar um modelo diponível para consulta. Este documento certamente pode servir de base para outros projetos de emissoras FM ou rádiotransmissão em
 geral. 
@@ -44,7 +41,7 @@ geral.
 
 Nos primeiros capítulos são estudados as resoluções e normas aprovados referentes aos cálculos de viabilidade de um canal de rádio FM.
  Seguindo, aborda-se sobre o canal proposto. Depois começam as definições para o início dos cálculos do contorno protegido.
- Após são apresentados as especificações definidas para o projeto da emissora e a documentação que deve ser apresentada junto a ANATEL.
+ Após são apresentados as especificações definidas para o projeto da emissora.% e a documentação que deve ser apresentada junto a ANATEL.
  Ao final são apresentadas as conclusões e novas propostas de trabalhos.
 
 \chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF)}
@@ -221,7 +218,7 @@ O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos que car
 
 Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no portal da ANATEL (Figura~\ref{imagemSistemaInterativoAnatel}) 
 e, para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
-tabela~\ref{tabelaClassificacaoEmissoras}.
+figura~\ref{tabelaClassificacaoEmissoras}.
 
 Porém, a resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas outras condições também informadas. 
 Segue estas observações, que foram publicadas na RESOLUÇÃO $N° 546$:
@@ -736,7 +733,11 @@ Portanto, a potência de saída do sistema fica:
 
 $$ERPmax = 0,15 \times 3 \times 0,569$$
 
-$$ERPmax = 0,256kW ou -5,91dBk$$ 
+$$ERPmax = 0,256kW$$
+
+Se for usada a notação em dB:
+
+$$ERPmax -5,91dBk$$ 
 
 Este resultado atende o estabelecido pela resolução, é menor que 300W, então podemos começar à
 calcular o ERPaz para cada um dos azimutes traçados. 
@@ -801,7 +802,7 @@ entre potência e relevo, necessárias para determinar as distâncias dos contornos
 Tais curvas baseiam-se em uma potencia efetiva de 1KW irradiado por um dipolo de 1/2 onda, em espaço livre,
  que produz uma intensidade de campo não atenuada, a 1km, de aproximadamente 107dBu.
 
-\subsection{Àrea de Serviço Urbana - 66dBm}
+\subsection{Àrea de Serviço Urbana (66dBm)}
 
 Como já mencionado, a Área de Serviço Urbana é o contorno principal do projeto. 
 Para identificar se a emissora está respeitando o contorno de 7,5km, temos que fazer uso das curvas de intensidade, 
@@ -878,7 +879,7 @@ mais um requisito atingido.
 
 *** obter uma figura para demostrar este passo.***
 
-\subsection{Àreas de Serviço de 74dBm e 54dBm} 
+\subsection{Àreas de Serviço Primário e Rural (74dBm e 54dBm)} 
 
 Os outros contornos de serviço, Àrea de Serviço Primário (74dBm) e Àrea de Serviço Rural (54dBm), tem como objetivos 
 atender a àrea de maior densidade populacional e àrea rural, respectivamente, na localidade. 
@@ -926,7 +927,17 @@ Contorno&54dBm&62,07&61,02&60,35&59,91&60,35&61,02\\\cline{2-8}
 \end{table}
 \end{center}  
 
-\chapter{RESULTADOS}
+\section{TRAÇADO DOS CONTORNOS UTILIZANDO A FERRAMENTA SIGANATEL}
+
+
+
+
+\chapter{RESULTADOS OBTIDOS COM O PROJETO}
+
+\section{CONSIDERAÇÕES SOBRE OS CONTORNOS ENCONTRADOS}
+
+\subsection{Analisando a cobertura da Àrea de Serviço Urbana em São Pedro de Alcântara}
+
 
 \begin{comment}
 
