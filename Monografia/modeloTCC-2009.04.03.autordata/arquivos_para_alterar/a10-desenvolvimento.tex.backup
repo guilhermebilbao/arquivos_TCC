@@ -195,33 +195,20 @@ Utilizando os métodos mencionados, vamos calcular os valores necessários para qu
 \subsection{Contorno protegido}
 
 O contorno protegido é a distância entre a antena transmissora até o local geométrico onde a intensidade de campo E(50,50) apresenta o valor de 
-$66 dB?V/m$, para um canal de rádio FM. A resolução define, através da ultima alteração (RESOLUÇÃO n° 546), que , para a classe C, a distância máxima ao
+$66 dBm$, para um canal de rádio FM. A resolução define, através da ultima alteração (RESOLUÇÃO n° 546), que , para a classe C, a distância máxima ao
 contorno protegido é de 7,5km, a partir da base da antena transmissora. 
-
-\subsection{Contornos Interferentes}
-
-*** Verificar ***
 
 \chapter{CANAL PROPOSTO}
 
 Para que possa ser autorizado pela ANATEL a utilização de um canal de rádio FM, além da documentação solicitada conforme a resolução, deve ser considerada
- as características básicas do canal.% e também deve ser livre de interferências, bem como não causar interferências nos outros canais.
+ as características básicas do canal.
 
 \section{CARACTERÍSTICAS BÁSICAS}
 
 Ao analisar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada, observou-se a existência do canal 218,
  disponível na região do município de são Pedro de Alcântara.
 
-O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos que caracterizam os canais autorizados para esta classe.
-
-\subsection{Enquadramento na classe}
-
-Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no portal da ANATEL (Figura~\ref{imagemSistemaInterativoAnatel}) 
-e, para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
-figura~\ref{tabelaClassificacaoEmissoras}.
-
-Porém, a resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas outras condições também informadas. 
-Segue estas observações, que foram publicadas na RESOLUÇÃO $N° 546$:
+O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos que caracterizam os canais autorizados para esta classe (Figura~\ref{imagemSistemaInterativoAnatel}) .
 
 \begin{figure}[!htb]
 \centering
@@ -229,6 +216,15 @@ Segue estas observações, que foram publicadas na RESOLUÇÃO $N° 546$:
 \caption{Consulta de canais disponíveis para uso - Portal da ANATEL}
 \label{imagemSistemaInterativoAnatel}
 \end{figure}
+
+\subsection{Enquadramento na classe}
+
+Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no portal da ANATEL (Figura~\ref{imagemSistemaInterativoAnatel})
+e, para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
+figura~\ref{tabelaClassificacaoEmissoras}.
+
+Porém, a resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas outras condições também informadas. 
+Segue estas observações, que foram publicadas na RESOLUÇÃO $N° 546$:
 
 
 \begin{figure}[!htb]
@@ -264,8 +260,8 @@ O ponto previamente definido, como sendo o local onde a antena será fixada, será
 Para tracejar estas radias, usei os mapas disponíveis no site do IBGE (citar fonte)(edição de 08-10-2007), na escala $1:50.000$.
 através destas radiais vamos conseguir obter as altitudes do relevo ao redor da base da antena. 
 Esses valores servirão de base para definir todas as características do nosso sistema.
-As radiais foram tracejadas a partir do ponto (coordenadas)(local da antena) e deve, obrigatoriamente, incluir a direção do norte
- Verdadeiro. 
+As radiais foram tracejadas a partir das coordenadas $27°34'02.72''S$ com $48°48'33.71''O$ (ponto referente à base da torre da antena),
+ e deve, obrigatoriamente, incluir a direção do norte Verdadeiro. 
 
 Após os 12 raios tracejados, calcula-se o nível médio da Radial (NMR) para cada uma delas. O NMR é definido pela média aritmética
  de todas as cotas da radial, que, de acordo com a norma, devem ser compreendidas no trecho entre 3 e 15 quilômetros.
@@ -281,9 +277,22 @@ Definidos os pontos de 3km e 15km em todas as radias, agora devemos buscar as co
 Utilizando a regra de tres, podemos encontrar todas as coordenadas. Traçando uma linha horizontal e uma vertical, partindo dos pontos determinados antes, encontramos os valores
 de referência para as coordenadas que se busca, aplica-se a regra de três e defini-se todas as coordenadas que serão usadas na ferramenta SIGANATEL.
 
-A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no mapa.
+A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no mapa, a figura~\ref{radiaisSiganatel} mostra o layout da ferramenta SIGANATEL e a
+ figura~\ref{radiais_detalhado} detalha as 12 radiais traçadas, partindo da base da torre.
 
-*** Indicar como faz para usar a ferramenta online (cadastro, links, até chegar aos gráficos.) ***
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=.4]{./figuras/siganatel_radiais.png} 
+\caption{Demonstração do layout do aplicativo da SIGANATEL.}
+\label{radiaisSiganatel}
+\end{figure}
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[scale=.48]{./figuras/radiais_detalhado.png} 
+\caption{Traçado das 12 radias partindo da base da emissora.}
+\label{radiais_detalhado}
+\end{figure}
 
 Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar esta recurso basta apenas inserir as coordenadas dos pontos 
 inicial e final de cada radial (3km e 15km) e o passo, em metros, desejado para a construção da curva (12km/quantidade de passos). 
@@ -295,7 +304,7 @@ medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, r
 \begin{figure}[!htb]
 \centering
 \includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} 
-\caption{Gráfico do NMR usando o recurso da SIGANATEL (Radial 1)}
+\caption{Gráfico do NMR da Radial 1 usando o aplicativo da SIGANATEL}
 \label{nmt}
 \end{figure}
 
@@ -324,7 +333,6 @@ Radial & Latitude(3Km) & Longitude(3Km) & Latitude(15Km) & Longitude(15Km)\\\hli
 240° & 27° 34' 52,37'' S & 48° 50' 09,09'' O & 27° 38' 07,78'' S & 48° 56' 29,09'' O \\\hline
 270° & 27° 34' 02,72'' S & 48° 50' 25,63'' O & 27° 34' 02,73'' S & 48° 57' 40,00'' O \\\hline
 300° & 27° 33' 15,40'' S & 48° 50' 09,09'' O & 27° 30' 00,00'' S & 48° 56' 29,09'' O \\\hline
-330° & 27° 32' 42,16'' S & 48° 49' 29,09'' O & 27° 27' 04,86'' S & 48° 53' 05,45'' O \\\hline
 
 \end{tabular}
 \caption{Coordenadas indicando as referências latitudinais e longitudinais de cada radial.}
@@ -412,7 +420,7 @@ frente.
 No momento que já temos definidos os níveis médios do terreno para cada uma das 12 radiais, podemos encontrar o valores de HSNMT (Altura do nível médio do
 terreno)
  também para cada radial.
-Estes valores serão usados para definir os valores de intensidade do campo, que formará o contorno protegido de $66dB?$
+Estes valores serão usados para definir os valores de intensidade do campo, que formará o contorno protegido de $66dBm$
 Os valores de $HSNTM$ serão aplicados posteriormente nas Curvas de Intensidade de Campo, que será abordada com maiores detalhes mais à frente.
 
 O HSNTM é definido pela expressão:
@@ -427,7 +435,7 @@ $NMT$ = nível médio do Terreno.
 
 %Levando em consideração as observações apresentadas no enquadramento de classe, vamos começar a definir a nossa HNTM.
 
-Utilizando o SIGANATEL, informando as coordenadas tal e tal, buscamos a altura do terreno da nossa base, que resultou em $285m$ acima do nível do mar. 
+Utilizando o SIGANATEL, informando as coordenadas $27°34'02.72''S$ e $48°48'33.71''O$ , buscamos a altura do terreno da nossa base, que resultou em $285m$ acima do nível do mar. 
 Assim, já temos nosso primeiro parâmetro definido.
 
 ***(mostrar imagem do siganatel ou google maps)
@@ -435,9 +443,7 @@ Assim, já temos nosso primeiro parâmetro definido.
 $$CBT = 285m$$
 
 Mais um fato curioso, e compreensível, é que o CBT tem um valor muito próximo do já encontrado NMT ($288,33m$), demostrando que o relevo, nas redondezas, 
-tende
-é manter a mesma altura da
-nossa base. porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radias.
+tende à manter a mesma altura do ponto escolhido como base, porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radias.
 
 Se analisarmos os valores de NMR apresentados na tabela tal, notaremos que a região voltada ao
  Oeste (Sudoeste - Noroeste) da base emissora, apresenta níveis de altura do terreno maiores que a base, enquanto as outras regiões são todas mais baixas.
@@ -874,10 +880,6 @@ A àrea em vermelho corresponde à àrea urbana atual, e a àrea um laranja é corres
 O contorno de 66dBm deve cobrir ao menos 90\% dessas áreas para, assim, comprovar a cobertura da área urbana do 
 município, conforme o estabelecido pela resolução.
 
-Aplicando as distâncias do contorno de 66dBm no mapa, podemos ver que este cobre totalmente as áreas necessárias. É 
-mais um requisito atingido.
-
-*** obter uma figura para demostrar este passo.***
 
 \subsection{Àreas de Serviço Primário e Rural (74dBm e 54dBm)} 
 
@@ -927,7 +929,21 @@ Contorno&54dBm&62,07&61,02&60,35&59,91&60,35&61,02\\\cline{2-8}
 \end{table}
 \end{center}  
 
-\section{Traçado dos contornos utilizando a ferramenta do SIGANATEL}
+\subsection{O traçado dos contornos}
+
+Já sabemos todas as distancias em todas as radias, para cada intensidade do sinal (área de serviço), que juntos formam os 3 contornos
+do sistema. Utilizando a ferramenta SIGANATEL, podemos visualizar estes contornos projetados no mapa da localidade, e assim analisar,
+ num primeiro momento, se os efeitos destas coberturas estão dentro do esperado.
+
+A figura~\ref{todososcontornos} apresenta as projeções das áreas de serviço da emissora em São Pedro de Alcântara.
+
+\begin{figure}[!htb]
+\centering
+\large
+\includegraphics[scale=.48]{./figuras/todososcontornos.png} 
+\caption{Projeção da cobertura das áreas de serviços utilizando a ferramenta SIGANATEL.}
+\label{todososcontornos}
+\end{figure}
 
 
 \chapter{RESULTADOS OBTIDOS COM O PROJETO}
@@ -936,6 +952,10 @@ Contorno&54dBm&62,07&61,02&60,35&59,91&60,35&61,02\\\cline{2-8}
 
 \subsection{Analisando a cobertura da Àrea de Serviço Urbana em São Pedro de Alcântara}
 
+Aplicando as distâncias do contorno de 66dBm no mapa, podemos ver que este cobre totalmente as áreas necessárias. É 
+mais um requisito atingido.
+
+*** obter uma figura para demostrar este passo.***
 
 \begin{comment}
 

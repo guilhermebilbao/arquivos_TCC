@@ -53,6 +53,7 @@
 
 \usepackage{./arquivos_para_alterar/a00-personalizar}
 \usepackage{./arquivos_para_alterar/a01-folhaderosto}
+\usepackage{./arquivos_para_alterar/a99-capa}
 
 \renewcommand{\ABNTbibliographyname}{Referências}
 \begin{document}

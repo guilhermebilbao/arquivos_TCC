@@ -1,0 +1,37 @@
+%NÃO ALTERAR A LINHA ABAIXO
+\ProvidesPackage{./arquivos_para_alterar/a01-folhaderosto}
+%NÃO ALTERAR A LINHA ACIMA
+
+\autor{Guilherme Bilbao Soares da Silva}
+
+\titulo{Emissora FM em São Pedro de Alcântara}
+
+\comentario{Trabalho de conclusão de curso apresentado como parte das atividades para obtenção do título de tecnólogo em sistemas de telecomunicações do Instituto Federal de Santa Catarina - \mbox{IFSC} }
+
+
+%\orientador[Orientador:]{\par Profº. Jaci Destri}
+%\coorientador[Co-orientador:]{\par Profº. Diego Botelho}
+% Outros exemplos para o comando \orientador :
+% Modelo para mais de 1 orientador:
+ \orientador[Orientador]{\par Prof. Jaci Destri}
+% Modelo para apenas um orientador
+% \orientador[Orientador:]{Prof. Dr. Fulano de Tal}
+
+
+%CASO TENHA UM CO-ORIENTADOR apagar o símbolo de "%" da próxima linha.
+
+%\coorientador[Co-orientador:]{\par Prof. Dr. Beltrano Monomono}
+
+%\instituicao{Nome da instituição}  %NOME DA INSTITUIÇÃO É OPCIONAL
+
+\local{São José}
+
+\data{2013} %SOMENTE o ano de defesa
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modelo para escrever TCCs,dissertações e teses utilizando LaTeX, ABNTeX e BibTeX
+% Autor/E-Mail: Robinson Alves Lemos/contato@robinson.mat.br/robinson.a.l@bol.com.br
+% Data: 19/04/2008 
+% Colaboradore(s)/E-Mail(s):
+% Caso queira colaborar, entre em contato pelo e-mail e informe alterações que realizou.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
