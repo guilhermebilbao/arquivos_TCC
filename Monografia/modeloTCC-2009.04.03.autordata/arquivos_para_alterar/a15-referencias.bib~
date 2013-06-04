@@ -21,14 +21,14 @@ year={2010},
 urlaccessdate={27 mai. 2013}}
 
 @manual{ref2,
-organization={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES},
+organization={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)},
 title={SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO.},
 url={http://sistemas.anatel.gov.br/srd},
 year={2013},
 urlaccessdate={27 mai. 2013}}
 
 @manual{ref3,
-organization={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES},
+organization={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)},
 title={Portal ANATEL.},
 url={http://www.anatel.gov.br/Portal/},
 year={2013},
@@ -41,6 +41,14 @@ faixa de frequências de 30 a 3000MHz .},
 url={http://sistemas.anatel.gov.br/siganatel/},
 year={2013},
 urlaccessdate={27 mai. 2013}}
+
+
+@manual{google,
+organization={Google Maps.},
+title={Localização da base do sistema irradiante. São Pedro de Alcantara - 2013},
+url={https://maps.google.com.br/},
+year={2013},
+urlaccessdate={03 jun. 2013}}
 
 %% Exemplo de como colocar um artigo de jornal sem autor
 
@@ -117,7 +125,7 @@ urlaccessdate={8 mar. 1999}}
   publisher = {FURB},
   year = {2010},
   author = {P. A. RÉGIS},
-  address = {Blumenal},
+  address = {Blumenal}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

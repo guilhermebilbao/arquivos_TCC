@@ -527,6 +527,19 @@ as demais áreas de serviços, a área de serviço primária (Contorno 1), limitada p
 O que vai determinar toda a extensão deste contorno será a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
 que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na resolução determinada pela ANATEL, para a classe do canal proposto.  
 
+\subsection{Interferências}
+
+A resolução mostra, em várias passagens, bastante rigor no que diz respeito à interferências entre canais. Apesar de informar que o PBFM foi organizado para evitar interferências, 
+a norma exige que este quesito esteja incluso no estudo de viabilidade técnica, conforme previsto no subitem 3.6.2~\cite{ref1}.
+
+Porém, a norma também informa que, no caso do sistema irradiante estar fixado p?oximo das coordenadas informadas no PBFM para este canal, o estudo de interferências torna-se dispensável, 
+conforme segue no trecho da resolução:
+
+``8.3.1.2  Nos projetos de instalação de emissoras, bem como nos de mudança de localização de sistema irradiante, o demonstrativo de compatibilidade do subitem 3.6.2 é 
+indispensável, a menos que as coordenadas geográficas de seu sistema irradiante estejam fixadas no PBFM~\cite{ref1}.''
+
+A recomendação 
+
 \chapter{DEFINIÇÕES DO SISTEMA IRRADIANTE}
 
 Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos técnicos primários
@@ -931,8 +944,8 @@ Contorno&54dBm&62,07&61,02&60,35&59,91&60,35&61,02\\\cline{2-8}
 
 \subsection{O traçado dos contornos}
 
-Já sabemos todas as distancias em todas as radias, para cada intensidade do sinal (área de serviço), que juntos formam os 3 contornos
-do sistema. Utilizando a ferramenta SIGANATEL, podemos visualizar estes contornos projetados no mapa da localidade, e assim analisar,
+Já sabemos todas as distancias, em todas as radias, para cada intensidade do sinal (área de serviço), que juntos formam os 3 contornos
+do sistema. Utilizando a ferramenta SIGANATEL, podemos visualizar estes contornos, projetados no mapa da localidade, e assim analisar,
  num primeiro momento, se os efeitos destas coberturas estão dentro do esperado.
 
 A figura~\ref{todososcontornos} apresenta as projeções das áreas de serviço da emissora em São Pedro de Alcântara.
@@ -956,6 +969,8 @@ Aplicando as distâncias do contorno de 66dBm no mapa, podemos ver que este cobre
 mais um requisito atingido.
 
 *** obter uma figura para demostrar este passo.***
+
+\section{}
 
 \begin{comment}
 

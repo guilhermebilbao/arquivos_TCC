@@ -5,21 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
-\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 2013]{ref3}
-\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{AGÊNCIA NACIONAL DE
-  TELECOMUNICAÇÕES}{2013a}
-{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{Portal ANATEL.}
-[S.l.], 2013. Dispon{\'\i}vel em: $<$http://www.anatel.gov.br/Portal/$>$.
-  Acesso em: 27 mai. 2013.}
-
-\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 2013]{ref2}
-\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{AGÊNCIA NACIONAL DE
-  TELECOMUNICAÇÕES}{2013b}
-{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{SRD - SISTEMA DE CONTROLE DE
-  RADIODIFUSÃO.}
-[S.l.], 2013. Dispon{\'\i}vel em: $<$http://sistemas.anatel.gov.br/srd$>$.
-  Acesso em: 27 mai. 2013.}
-
 \bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil) 2010]{ref1}
 \abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)}{AGÊNCIA NACIONAL DE
   TELECOMUNICAÇÕES (BRASIL)}{2010}
@@ -27,6 +12,21 @@
   novembro de 1998.}
 [S.l.], 2010. Dispon{\'\i}vel em:
   $<$http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67$>$.
+  Acesso em: 27 mai. 2013.}
+
+\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil) 2013]{ref3}
+\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)}{AGÊNCIA NACIONAL DE
+  TELECOMUNICAÇÕES (BRASIL)}{2013a}
+{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (BRASIL). \emph{Portal ANATEL.}
+[S.l.], 2013. Dispon{\'\i}vel em: $<$http://www.anatel.gov.br/Portal/$>$.
+  Acesso em: 27 mai. 2013.}
+
+\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil) 2013]{ref2}
+\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)}{AGÊNCIA NACIONAL DE
+  TELECOMUNICAÇÕES (BRASIL)}{2013b}
+{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (BRASIL). \emph{SRD - SISTEMA DE CONTROLE
+  DE RADIODIFUSÃO.}
+[S.l.], 2013. Dispon{\'\i}vel em: $<$http://sistemas.anatel.gov.br/srd$>$.
   Acesso em: 27 mai. 2013.}
 
 \bibitem[Autor 1995]{ref5}
@@ -44,6 +44,13 @@ Dispon{\'\i}vel em: $<$http://nomedodominio.com.br$>$. Acesso em: 8 mar. 1999.}
 \abntrefinfo{Evans et al.}{EVANS et al.}{1987}
 {EVANS, X. Y.~Z. et al. \emph{Exemplo de citação no texto}. [S.l.: s.n.],
   1987.}
+
+\bibitem[Google Maps. 2013]{google}
+\abntrefinfo{Google Maps.}{GOOGLE MAPS.}{2013}
+{GOOGLE MAPS. \emph{Localização da base do sistema irradiante. São Pedro de
+  Alcantara - 2013}.
+[S.l.], 2013. Dispon{\'\i}vel em: $<$https://maps.google.com.br/$>$. Acesso em:
+  03 jun. 2013.}
 
 \bibitem[Nome 1978]{ref6}
 \abntrefinfo{Nome}{NOME}{1978}
