@@ -535,10 +535,24 @@ a norma exige que este quesito esteja incluso no estudo de viabilidade técnica, 
 Porém, a norma também informa que, no caso do sistema irradiante estar fixado p?oximo das coordenadas informadas no PBFM para este canal, o estudo de interferências torna-se dispensável, 
 conforme segue no trecho da resolução:
 
-``8.3.1.2  Nos projetos de instalação de emissoras, bem como nos de mudança de localização de sistema irradiante, o demonstrativo de compatibilidade do subitem 3.6.2 é 
-indispensável, a menos que as coordenadas geográficas de seu sistema irradiante estejam fixadas no PBFM~\cite{ref1}.''
 
-A recomendação 
+\begin{quotation}
+8.3.1.2  Nos projetos de instalação de emissoras, bem como nos de mudança de localização de sistema irradiante, o demonstrativo de compatibilidade do subitem 3.6.2 é 
+indispensável, a menos que as coordenadas geográficas de seu sistema irradiante estejam fixadas no PBFM~\cite{ref1}.
+
+\end{quotation}
+
+O caso do nosso sistema é exatamente este, ou seja, nosso sistema irradiante está fixado muito próximo de onde o está definido o canal no PBFM, 
+conforme apresentado na Figura~\ref{proximidadePBMF}.
+ Sendo assim, ficamos isentos da obrigação de buscar estas informações.
+
+\begin{figure}[!htb]
+\centering
+\large
+\includegraphics[scale=0.45]{./figuras/proximidadePBMF.png} 
+\caption{Proximidade entre a base do sistema e a coordenada indicada no PBFM, para o canal proposto~\cite{google}.}
+\label{proximidadePBMF}
+\end{figure}
 
 \chapter{DEFINIÇÕES DO SISTEMA IRRADIANTE}
 
@@ -961,9 +975,20 @@ A figura~\ref{todososcontornos} apresenta as projeções das áreas de serviço da e
 
 \chapter{RESULTADOS OBTIDOS COM O PROJETO}
 
+Todas as informações que precisávamos saber sobre o sistema irradiante neste projeto de emissora FM já estão definidas.
+ Os equipamentos usados, dimensões estabelecidas e corportamento do sinal irradiado já estão mapeados.
+
+Agora devemos analisar estes resultados e verificar se está tudo conforme orienta a resolução tanta vezes mencionada no decorrer deste documento. 
+O objetivo é que o projeto apresente uma tendência em anular ou, ao menos, minimizar as chances de apresentar problemas na homologação junto à ANATEL.    
+
 \section{CONSIDERAÇÕES SOBRE OS CONTORNOS ENCONTRADOS}
 
+Uma verificação importante e indispensável é saber se as áreas de serviço, principalmente o contorno protegido, cobrem as zonas à que se destinam.
+ Para isto, buscamos como referencia um mapeamento das zonas urbanas e rurais da cidade (ANEXO~\ref{mapaMacrozoneamento}), de 2010, solicitado e
+ publicado no portal da camara de São Pedro de Alcântara, no link:\url{http://camaraspa.sc.gov.br/}. 
+
 \subsection{Analisando a cobertura da Àrea de Serviço Urbana em São Pedro de Alcântara}
+
 
 Aplicando as distâncias do contorno de 66dBm no mapa, podemos ver que este cobre totalmente as áreas necessárias. É 
 mais um requisito atingido.

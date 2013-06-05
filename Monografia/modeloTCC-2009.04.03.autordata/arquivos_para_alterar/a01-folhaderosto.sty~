@@ -6,7 +6,13 @@
 
 \titulo{Emissora FM em São Pedro de Alcântara}
 
-\comentario{Trabalho de conclusão de curso apresentado como parte das atividades para obtenção do título de Tecnólogo em Sistemas de Telecomunicações do Instituto Federal de Santa Catarina - \mbox{IFSC} }
+\comentario{Monografia apresentada à Coordenação do Curso Superior de
+Tecnologia em Sistemas de Telecomunicações do Instituto
+Federal de Educação, Ciência e Tecnologia do Estado de Santa
+Catarina para a obtenção do diploma de Tecnólogo em Sistemas
+de Telecomunicações.
+% - \mbox{IFSC} 
+}
 
 
 %\orientador[Orientador:]{\par Profº. Jaci Destri}
@@ -22,11 +28,15 @@
 
 %\coorientador[Co-orientador:]{\par Prof. Dr. Beltrano Monomono}
 
-%\instituicao{Nome da instituição}  %NOME DA INSTITUIÇÃO É OPCIONAL
+\instituicao{CURSO SUPERIOR DE TECNOLOGIA EM SISTEMAS DE TELECOMUNICAÇÕES 
 
-\local{São José}
+ INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO 
 
-\data{2013} %SOMENTE o ano de defesa
+ESTADO DE SANTA CATARINA}  %NOME DA INSTITUIÇÃO É OPCIONAL
+
+\local{São José - SC}
+
+\data{Julho/ 2013} %SOMENTE o ano de defesa
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Modelo para escrever TCCs,dissertações e teses utilizando LaTeX, ABNTeX e BibTeX

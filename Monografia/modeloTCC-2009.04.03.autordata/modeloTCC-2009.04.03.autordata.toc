@@ -46,9 +46,9 @@
 \contentsline {chapter}{\numberline {7}RESULTADOS OBTIDOS COM O PROJETO}{44}
 \contentsline {section}{\numberline {7.1}CONSIDERA\c C\~OES SOBRE OS CONTORNOS ENCONTRADOS}{44}
 \contentsline {subsection}{\numberline {7.1.1}Analisando a cobertura da \`Area de Servi\c co Urbana em S\~ao Pedro de Alc\^antara}{44}
-\contentsline {section}{\numberline {7.2}}{44}
-\contentsline {chapter}{\numberline {8}CONCLUS\~OES E TRABALHOS FUTUROS}{45}
-\contentsline {chapter}{Refer\^encias}{46}
-\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{47}
-\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{52}
-\contentsline {chapter}{Anexo{} C{} -$\mskip -\thinmuskip $-{} Mapa de Macrozoneamento de S\~ao Pedro de Alc\^antara}{54}
+\contentsline {section}{\numberline {7.2}}{45}
+\contentsline {chapter}{\numberline {8}CONCLUS\~OES E TRABALHOS FUTUROS}{46}
+\contentsline {chapter}{Refer\^encias}{47}
+\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{48}
+\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{53}
+\contentsline {chapter}{Anexo{} C{} -$\mskip -\thinmuskip $-{} Mapa de Macrozoneamento de S\~ao Pedro de Alc\^antara}{55}
