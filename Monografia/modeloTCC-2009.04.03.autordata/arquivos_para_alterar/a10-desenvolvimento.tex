@@ -978,23 +978,88 @@ A figura~\ref{todososcontornos} apresenta as projeções das áreas de serviço da e
 Todas as informações que precisávamos saber sobre o sistema irradiante neste projeto de emissora FM já estão definidas.
  Os equipamentos usados, dimensões estabelecidas e corportamento do sinal irradiado já estão mapeados.
 
-Agora devemos analisar estes resultados e verificar se está tudo conforme orienta a resolução tanta vezes mencionada no decorrer deste documento. 
+Agora devemos analisar estes resultados e verificar se está tudo conforme orienta a resolução, tantas vezes mencionada no decorrer deste documento. 
 O objetivo é que o projeto apresente uma tendência em anular ou, ao menos, minimizar as chances de apresentar problemas na homologação junto à ANATEL.    
 
 \section{CONSIDERAÇÕES SOBRE OS CONTORNOS ENCONTRADOS}
 
 Uma verificação importante e indispensável é saber se as áreas de serviço, principalmente o contorno protegido, cobrem as zonas à que se destinam.
- Para isto, buscamos como referencia um mapeamento das zonas urbanas e rurais da cidade (ANEXO~\ref{mapaMacrozoneamento}), de 2010, solicitado e
+ Para isto, buscamos como referencia um mapeamento das zonas urbanas e rurais da cidade (ANEXO~\ref{mapaMacrozoneamento}), de 2010,
  publicado no portal da camara de São Pedro de Alcântara, no link:\url{http://camaraspa.sc.gov.br/}. 
+
+Cruzando as informações deste documento com os resultados do projeto, saberemos se as áreas de cobertura estão de acordo com o que
+ estabelece à resolução.
 
 \subsection{Analisando a cobertura da Àrea de Serviço Urbana em São Pedro de Alcântara}
 
-Aplicando as distâncias do contorno de 66dBm no mapa, podemos ver que este cobre totalmente as áreas necessárias. É 
-mais um requisito atingido.
+A Área de Serviço Urbana, correspondente ao contorno 2 ou contorno protegido (66dBm), entre as três, é a área referência para a homologação das coberturas.
+É este contorno que vai indicar se o sistema está devidamente enquadrado na classe correspondente, no caso classe C. 
 
-*** obter uma figura para demostrar este passo.***
+Os requisitos mínimos apresentados pela resolução para o contorno de 66dBm são os seguintes:
 
-\section{}
+- a média aritmética das distancias a este contorno não pode ultrapassar 7,5km;
+
+- a média aritmética das distancias a este contorno não poderá ser menor do que a distância ao contorno máximo da classe imediatamente inferior;
+
+- o contorno de 66dBm deve cobrir ao menos 90\% dessa àrea urbana da localidade.
+
+Primeiramente verificaremos a média aritmética das distancias do contorno protegido. Buscando os valores das distancias, apresentados na tabela~\ref{tabelaGeral},
+podemos encontrar esta média do contorno e saber se a emissora está respeitando este requisito. Segue o cálculo:
+
+ $$\frac{10,5 + 11 + 9 + 9 + 7 + 9 + 11 + 3,2 + 3,4 + 3,6 + 3,4 + 3,2}{12} = 6,942km$$
+
+Resultando aproximadamante em 7km, a média aritmética das distancias do contorno protegido é menor que 7,5km e está dentro do primeiro requisito. O segundo requisito
+também pode ser considerado como alcançado, pois a classe C é a última dentro da hierarquia das classes, ou seja, não existe uma classe imediatamente inferior a esta.
+
+Para verificar o último requisito, vamos utilizar o mapa de Macrozoneamento (ANEXO ~\ref{mapaMacrozoneamento}) e comparar com área de cobertura.	
+Comparando, um à um, os valores das distâncias do contorno protegido e do contorno da área urbana, sempre partindo da base da emissora e considerando os mesmos angulos que formam
+as 12 radias, podemos comprovar que a área urbana está inserida praticamente 100\% dentro do contorno de 66dBm, conforme representado na Figura~\ref{contornoAreaUrbana}. Os
+valores que foram comparados podem ser verificados na tabela~\ref{tabelaAreaUrbana}.
+
+\def\tablename{Tabela}
+\begin{table}
+\vspace*{0.05cm}
+\centering
+
+\begin{tabular}{|c|c|c|} \hline
+
+Radial& Contorno 66dBm(km) & Distancias zona urbana  \\\hline\hline
+$0°$  & 10,50 & 1,05  \\\hline
+$30°$ & 11,00 & 1,85  \\\hline
+$60°$ & 9,00  & 4,00  \\\hline
+$90°$ & 9,00  & 7,70  \\\hline
+$120°$& 7,00  & 1,40  \\\hline
+$150°$& 9,00  & 1,60  \\\hline
+$180°$& 11,00 & 1,50  \\\hline
+$210°$& 3,20  & 1,00  \\\hline
+$240°$& 3,40  & 1,20  \\\hline
+$270°$& 3,60  & 0,75  \\\hline
+$300°$& 3,40  & 0,65  \\\hline
+$330°$& 3,20  & 0,65  \\\hline
+
+\end{tabular}
+\caption{Comparando os valores de Contorno Protegido com as distancias da Zona Urbana.} 
+\label{tabelaAreaUrbana}
+\end{table}
+
+\begin{figure}[!htb]
+\centering
+\large
+\includegraphics[scale=.48]{./figuras/contornoAreaUrbana.png} 
+\caption{Projeção da cobertura das Àrea de Serviço Urbana sobre a zona urbana do município.}
+\label{contornoAreaUrbana}
+\end{figure}
+
+Assim, comprovamos que a Área de serviço Urbana está devidamente coberta pelo contorno de 66dBm, conforme exige a resolução.
+
+\subsubsection{As outras Áreas}
+
+As Àreas de Serviço Primário e Rural (74dBm e 54dBm) não são tratadas com tanto rigor quanto a Àrea Urbana. Uma vez que a 
+Àrea Urbana está dentro da cobertura estabelecida, as outras duas Áreas estão ''amarradas'' nesta situação, ou seja, se o contorno
+protegido está cumprindo os requisitos as outras duas Áreas, automaticamente, também estão.
+
+\section{APRESENTANDO AS INFORMAÇÕES DE VIABILIDADE TÉCNICA}
+
 
 \begin{comment}
 

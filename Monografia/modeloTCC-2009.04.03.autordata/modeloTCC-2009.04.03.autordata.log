@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  4 JUN 2013 23:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  8 JUN 2013 23:20
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -756,9 +756,9 @@ Overfull \hbox (16.67363pt too wide) in paragraph at lines 970--971
 [41] [42] [43 <./figuras/todososcontornos.png (PNG copy)>]
 Cap\'{\i }tulo 7.
 
-Overfull \hbox (1.52827pt too wide) in paragraph at lines 981--983
+Overfull \hbox (4.52827pt too wide) in paragraph at lines 981--983
 []\OT1/ptm/m/n/12 Agora de-ve-mos ana-li-sar es-tes re-sul-ta-dos e ve-ri-fi-ca
-r se est[]a tudo con-forme ori-enta a resolu[][]ao
+r se est[]a tudo con-forme ori-enta a resolu[][]ao,
  []
 
 
@@ -766,20 +766,65 @@ Overfull \hbox (8.33595pt too wide) in paragraph at lines 984--984
 []\OT1/ptm/b/n/17.28 CONSIDERA[][]OES SO-BRE OS CON-TOR-NOS EN-CON-
  []
 
-) [44
+[44
 
-] [45]
+]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1027.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1028.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1029.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1030.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1031.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1032.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1033.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1034.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1035.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1036.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1037.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 1038.
+
+<./figuras/contornoAreaUrbana.png, id=170, 1032.10594pt x 535.2497pt>
+File: ./figuras/contornoAreaUrbana.png Graphic file (type png)
+
+<use ./figuras/contornoAreaUrbana.png>
+Overfull \hbox (40.16112pt too wide) in paragraph at lines 1048--1049
+ [][] 
+ []
+
+[45]) [46 <./figuras/contornoAreaUrbana.png>]
 Cap\'{\i }tulo 8.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [46
+(./modeloTCC-2009.04.03.autordata.bbl [47
 
-]) [47
+]) [48
 
 ]
 Anexo A.
 (./arquivos_para_alterar/a14-anexo.tex
-<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=179, 615.0177pt x 862.9038pt>
+<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=185, 615.0177pt x 862.9038pt>
 File: ./figuras/1pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/1pdfantenadipolodemeiaondafm.jpg>
@@ -787,7 +832,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=180, 615.0177pt x 862.9038pt>
+<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=186, 615.0177pt x 862.9038pt>
 File: ./figuras/2pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/2pdfantenadipolodemeiaondafm.jpg>
@@ -795,7 +840,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=181, 615.0177pt x 862.9038pt>
+<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=187, 615.0177pt x 862.9038pt>
 File: ./figuras/3pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/3pdfantenadipolodemeiaondafm.jpg>
@@ -803,7 +848,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=182, 615.0177pt x 862.9038pt>
+<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=188, 615.0177pt x 862.9038pt>
 File: ./figuras/4pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/4pdfantenadipolodemeiaondafm.jpg>
@@ -811,22 +856,22 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [48
+) [49
 
-] [49 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [50 <./figuras/2pdfantenadi
-polodemeiaondafm.jpg>] [51 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
-[52 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
+] [50 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [51 <./figuras/2pdfantenadi
+polodemeiaondafm.jpg>] [52 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
+[53 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
 Anexo B.
 (./arquivos_para_alterar/a16-anexo.tex
-<./figuras/LCF158-50JFNL.pdf, id=199, 596.2275pt x 794.97pt>
+<./figuras/LCF158-50JFNL.pdf, id=204, 596.2275pt x 794.97pt>
 File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
-<use ./figuras/LCF158-50JFNL.pdf>) [53
+<use ./figuras/LCF158-50JFNL.pdf>) [54
 
-] [54 <./figuras/LCF158-50JFNL.pdf>]
+] [55 <./figuras/LCF158-50JFNL.pdf>]
 Anexo C.
 (./arquivos_para_alterar/a17-anexo.tex
-<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=226, 1195.46625pt x 845.1575pt>
+<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=231, 1195.46625pt x 845.1575pt>
 File: ./figuras/1757_MAPA_MACROZONEAMENTO.pdf Graphic file (type pdf)
 
 <use ./figuras/1757_MAPA_MACROZONEAMENTO.pdf>
@@ -842,19 +887,19 @@ LaTeX Warning: Float too large for page by 23.19267pt on input line 8.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[55
+[56
 
-] [56 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>] (
+] [57 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>] (
 ./modeloTCC-2009.04.03.autordata.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3332 strings out of 495041
- 48292 string characters out of 1181898
- 151691 words of memory out of 3000000
- 6317 multiletter control sequences out of 15000+50000
+ 3339 strings out of 495041
+ 48499 string characters out of 1181898
+ 151713 words of memory out of 3000000
+ 6323 multiletter control sequences out of 15000+50000
  65672 words of font info for 148 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  32i,12n,41p,395b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -866,10 +911,10 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (57 pages, 10643476 bytes)
+Output written on modeloTCC-2009.04.03.autordata.pdf (58 pages, 13021384 bytes)
 .
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
+ 271 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
