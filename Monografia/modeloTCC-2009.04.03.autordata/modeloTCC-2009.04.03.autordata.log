@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  8 JUN 2013 23:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  9 JUN 2013 18:27
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -813,18 +813,33 @@ Overfull \hbox (40.16112pt too wide) in paragraph at lines 1048--1049
  [][] 
  []
 
-[45]) [46 <./figuras/contornoAreaUrbana.png>]
+[45] [46 <./figuras/contornoAreaUrbana.png>]
 Cap\'{\i }tulo 8.
+
+Overfull \hbox (9.76807pt too wide) in paragraph at lines 1071--1071
+[]\OT1/ptm/b/n/17.28 ESTUDO DE VI-A-BI-LI-DADE T[]ECNICA DE UMA EMIS-
+ []
+
+[47
+
+]
+Overfull \hbox (7.52774pt too wide) in paragraph at lines 1118--1120
+\OT1/ptm/m/n/12 Bra-si-leiro de Ge-o-gra-fia e Es-tat[]^^Pstica - IBGE - Di-re-
+to-ria de Ge-oci[]encias/Departamento
+ []
+
+[48]) [49]
+Cap\'{\i }tulo 9.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [47
+(./modeloTCC-2009.04.03.autordata.bbl [50
 
-]) [48
+]) [51
 
 ]
 Anexo A.
 (./arquivos_para_alterar/a14-anexo.tex
-<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=185, 615.0177pt x 862.9038pt>
+<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=194, 615.0177pt x 862.9038pt>
 File: ./figuras/1pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/1pdfantenadipolodemeiaondafm.jpg>
@@ -832,7 +847,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=186, 615.0177pt x 862.9038pt>
+<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=195, 615.0177pt x 862.9038pt>
 File: ./figuras/2pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/2pdfantenadipolodemeiaondafm.jpg>
@@ -840,7 +855,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=187, 615.0177pt x 862.9038pt>
+<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=196, 615.0177pt x 862.9038pt>
 File: ./figuras/3pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/3pdfantenadipolodemeiaondafm.jpg>
@@ -848,7 +863,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=188, 615.0177pt x 862.9038pt>
+<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=197, 615.0177pt x 862.9038pt>
 File: ./figuras/4pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/4pdfantenadipolodemeiaondafm.jpg>
@@ -856,22 +871,22 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [49
+) [52
 
-] [50 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [51 <./figuras/2pdfantenadi
-polodemeiaondafm.jpg>] [52 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
-[53 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
+] [53 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [54 <./figuras/2pdfantenadi
+polodemeiaondafm.jpg>] [55 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
+[56 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
 Anexo B.
 (./arquivos_para_alterar/a16-anexo.tex
-<./figuras/LCF158-50JFNL.pdf, id=204, 596.2275pt x 794.97pt>
+<./figuras/LCF158-50JFNL.pdf, id=214, 596.2275pt x 794.97pt>
 File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
-<use ./figuras/LCF158-50JFNL.pdf>) [54
+<use ./figuras/LCF158-50JFNL.pdf>) [57
 
-] [55 <./figuras/LCF158-50JFNL.pdf>]
+] [58 <./figuras/LCF158-50JFNL.pdf>]
 Anexo C.
 (./arquivos_para_alterar/a17-anexo.tex
-<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=231, 1195.46625pt x 845.1575pt>
+<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=240, 1195.46625pt x 845.1575pt>
 File: ./figuras/1757_MAPA_MACROZONEAMENTO.pdf Graphic file (type pdf)
 
 <use ./figuras/1757_MAPA_MACROZONEAMENTO.pdf>
@@ -887,9 +902,9 @@ LaTeX Warning: Float too large for page by 23.19267pt on input line 8.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[56
+[59
 
-] [57 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>] (
+] [60 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>] (
 ./modeloTCC-2009.04.03.autordata.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -911,10 +926,10 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (58 pages, 13021384 bytes)
+Output written on modeloTCC-2009.04.03.autordata.pdf (61 pages, 13026341 bytes)
 .
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

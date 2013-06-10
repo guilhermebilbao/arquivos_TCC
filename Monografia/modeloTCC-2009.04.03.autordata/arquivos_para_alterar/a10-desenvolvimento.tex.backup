@@ -987,7 +987,7 @@ Uma verificação importante e indispensável é saber se as áreas de serviço, princ
  Para isto, buscamos como referencia um mapeamento das zonas urbanas e rurais da cidade (ANEXO~\ref{mapaMacrozoneamento}), de 2010,
  publicado no portal da camara de São Pedro de Alcântara, no link:\url{http://camaraspa.sc.gov.br/}. 
 
-Cruzando as informações deste ducomento com os resultados do projeto, saberemos se as áreas de cobertura estão de acordo com o que
+Cruzando as informações deste documento com os resultados do projeto, saberemos se as áreas de cobertura estão de acordo com o que
  estabelece à resolução.
 
 \subsection{Analisando a cobertura da Àrea de Serviço Urbana em São Pedro de Alcântara}
@@ -1046,13 +1046,111 @@ $330°$& 3,20  & 0,65  \\\hline
 \centering
 \large
 \includegraphics[scale=.48]{./figuras/contornoAreaUrbana.png} 
-\caption{Projeção da cobertura das áreas de serviços utilizando a ferramenta SIGANATEL.}
+\caption{Projeção da cobertura das Àrea de Serviço Urbana sobre a zona urbana do município.}
 \label{contornoAreaUrbana}
 \end{figure}
 
 Assim, comprovamos que a Área de serviço Urbana está devidamente coberta pelo contorno de 66dBm, conforme exige a resolução.
 
-\section{}
+\subsubsection{As outras Áreas}
+
+As Àreas de Serviço Primário e Rural (74dBm e 54dBm) não são tratadas com tanto rigor quanto a Àrea Urbana. Uma vez que a 
+Àrea Urbana está dentro da cobertura estabelecida, as outras duas Áreas estão ''amarradas'' nesta situação, ou seja, se o contorno
+protegido está cumprindo os requisitos as outras duas Áreas, automaticamente, também estão.
+
+\chapter{ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
+
+A resolução contém um capítulo inteiro que aborda um roteiro para elaboração de estudos técnicos, 
+indicando diversos parâmetros técnicos que devem ser informados sobre a emissora para as diversas e possíveis situações.
+
+Neste capítulo vamos abordar e informar apenas as especificações e dados pertinentes ao sistema apresentado neste estudo.
+
+\section{ESTUDO DE VIABILIDADE TÉCNICA DE UMA EMISSORA}
+
+A primeira lista de informações que é solicitada faz referencia ao estudo de viabilidade técnica da emissora, conforme trecho da resolução: 
+
+\begin{quotation}
+O Estudo de Viabilidade Técnica de uma Emissora deverá conter, necessariamente, as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo
+~\cite{ref1}.
+\end{quotation}
+
+\subsection{Informações básicas}
+
+\subsection{Cálculo de Viabilidade}
+
+\subsection{Parecer Conclusivo}
+
+
+\begin{quotation}
+9. ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS
+
+9.1 - ESTUDO DE VIABILIDADE TÉCNICA DE UMA EMISSORA
+
+O Estudo de Viabilidade Técnica de uma Emissora deverá conter, necessariamente, as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo.
+
+9.1.1 - INFORMAÇÕES BÁSICAS:
+
+a) Nome da entidade requerente.
+
+b) Localização da emissora objeto do estudo (cidade, UF).
+
+c) Propósito do estudo.
+
+9.1.1.1 ...
+
+9.1.1.2 Características técnicas pretendidas:(Redação dada pela Resolução nº 546, de 1º de setembro de 2010)
+
+a) frequência de operação (MHz);
+
+b) nº do canal;
+
+c) classe;
+
+d) tipo de sistema irradiante;
+
+e) coordenadas geográficas de instalação, para os casos previstos no subitem 8.1.3.
+
+OBS: Para fins de determinação das coordenadas geográficas de uma localidade, se utilizará a Listagem de Cidades e Vilas do Brasil, publicada 
+pelo Instituto Brasileiro de Geografia e Estatística - IBGE - Diretoria de Geociências/Departamento de Cartografia.
+
+...
+
+9.1.2 - CÁLCULOS DE VIABILIDADE
+
+9.1.2.1 Para cada emissora da lista elaborada como indicado no item anterior, verificar se há o atendimento às distâncias mínimas exigidas, estabelecidas na TABELA IV. 
+(Redação dada pela Resolução nº 546, de 1º de setembro de 2010)
+
+9.1.2.1.1 ...
+
+9.1.2.2 Verificar o atendimento ao disposto no subitem 3.6.2.(Redação dada pela Resolução nº 546, de 1º de setembro de 2010)
+
+9.1.2.3 ...
+
+9.1.3 ANEXOS
+
+9.1.3.1 ...
+
+9.1.3.2 ...
+
+9.1.4 - PARECER CONCLUSIVO
+
+Resumir os tópicos importantes do estudo e emitir parecer conclusivo sobre a viabilidade do propósito do mesmo.
+
+9.1.4.1 - Profissional habilitado
+
+- nome por extenso;
+
+- número da inscrição no CREA;
+
+- CPF;
+
+- Data e assinatura.
+
+\end{quotation}
+
+
+ 
+
 
 \begin{comment}
 
