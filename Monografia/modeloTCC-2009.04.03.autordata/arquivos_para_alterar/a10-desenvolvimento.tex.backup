@@ -532,7 +532,7 @@ que melhor atenda a geografia da localidade, e que também respeite todas as regu
 A resolução mostra, em várias passagens, bastante rigor no que diz respeito à interferências entre canais. Apesar de informar que o PBFM foi organizado para evitar interferências, 
 a norma exige que este quesito esteja incluso no estudo de viabilidade técnica, conforme previsto no subitem 3.6.2~\cite{ref1}.
 
-Porém, a norma também informa que, no caso do sistema irradiante estar fixado p?oximo das coordenadas informadas no PBFM para este canal, o estudo de interferências torna-se dispensável, 
+Porém, a norma também informa que, no caso do sistema irradiante estar fixado próximo das coordenadas informadas no PBFM para este canal, o estudo de interferências torna-se dispensável, 
 conforme segue no trecho da resolução:
 
 
@@ -1076,65 +1076,37 @@ O Estudo de Viabilidade Técnica de uma Emissora deverá conter, necessariamente, 
 
 \subsection{Informações básicas}
 
+Conforme apresentado na resolução, as informações básicas para este estudo são respostas dos seguintes questionamentos:
+
+- Nome da entidade requerente
+
+- Localização da emissora objeto do estudo (cidade, UF).
+
+- Propósito do estudo.
+
+E também sobre as características técnicas pretendidas:
+
+- frequência de operação (MHz);
+
+- nº do canal;
+
+- classe;
+
+- tipo de sistema irradiante;
+
+- coordenadas geográficas de instalação
+
 \subsection{Cálculo de Viabilidade}
+
+ Para cada emissora da lista elaborada como indicado no item anterior (informações básicas), verificar se há o atendimento às distâncias mínimas exigidas entre duas estações.
+ Como já mencionado anteriormente, a resolução informa que, no caso do sistema irradiante estar fixado próximo das coordenadas informadas no PBFM para este canal, o estudo 
+de interferências torna-se dispensável. Então, para esta emissora não se aplica este cálculo de viabilidade.
 
 \subsection{Parecer Conclusivo}
 
-
-\begin{quotation}
-9. ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS
-
-9.1 - ESTUDO DE VIABILIDADE TÉCNICA DE UMA EMISSORA
-
-O Estudo de Viabilidade Técnica de uma Emissora deverá conter, necessariamente, as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo.
-
-9.1.1 - INFORMAÇÕES BÁSICAS:
-
-a) Nome da entidade requerente.
-
-b) Localização da emissora objeto do estudo (cidade, UF).
-
-c) Propósito do estudo.
-
-9.1.1.1 ...
-
-9.1.1.2 Características técnicas pretendidas:(Redação dada pela Resolução nº 546, de 1º de setembro de 2010)
-
-a) frequência de operação (MHz);
-
-b) nº do canal;
-
-c) classe;
-
-d) tipo de sistema irradiante;
-
-e) coordenadas geográficas de instalação, para os casos previstos no subitem 8.1.3.
-
-OBS: Para fins de determinação das coordenadas geográficas de uma localidade, se utilizará a Listagem de Cidades e Vilas do Brasil, publicada 
-pelo Instituto Brasileiro de Geografia e Estatística - IBGE - Diretoria de Geociências/Departamento de Cartografia.
-
-...
-
-9.1.2 - CÁLCULOS DE VIABILIDADE
-
-9.1.2.1 Para cada emissora da lista elaborada como indicado no item anterior, verificar se há o atendimento às distâncias mínimas exigidas, estabelecidas na TABELA IV. 
-(Redação dada pela Resolução nº 546, de 1º de setembro de 2010)
-
-9.1.2.1.1 ...
-
-9.1.2.2 Verificar o atendimento ao disposto no subitem 3.6.2.(Redação dada pela Resolução nº 546, de 1º de setembro de 2010)
-
-9.1.2.3 ...
-
-9.1.3 ANEXOS
-
-9.1.3.1 ...
-
-9.1.3.2 ...
-
-9.1.4 - PARECER CONCLUSIVO
-
 Resumir os tópicos importantes do estudo e emitir parecer conclusivo sobre a viabilidade do propósito do mesmo.
+
+*** que resumo? falar sobre os itens distindos, exceções que foram usadas neste projeto?
 
 9.1.4.1 - Profissional habilitado
 
@@ -1146,11 +1118,207 @@ Resumir os tópicos importantes do estudo e emitir parecer conclusivo sobre a via
 
 - Data e assinatura.
 
+*********************?????????????????????
+
+\section{PROJETO DE INSTALAÇÃO DE UMA EMISSORA}
+
+Agora é solicitado as informações técnicas (projeto) sobre a instalação da emissora, conforme trecho da resolução. 
+
+\begin{quotation}
+Este projeto deverá conter as seguintes partes: Memória Descritiva, Situação Geral, Nível Médio do Terreno, Parecer Conclusivo e Anexos, conforme especificado a seguir.
+~\cite{ref1}.
 \end{quotation}
-
-
  
+\subsection{Memória Descritiva}
 
+A memória descritiva é um resumo das caracteristicas da emissora, juntamente com as características técnicas do sistema irradiente e linha de transmissão.
+
+\subsubsection{Resumo das características da emissora}
+
+a) nome da entidade requerente;
+
+b) endereço completo da sede (rua, nº, localidade, município, estado, código de endereçamento postal, CEP e telefone);
+
+c) espécie e data do ato de outorga da autorização e a data do Diário Oficial da União que o publicou;
+
+d) frequência de operação (MHz);
+
+e) nº do canal;
+
+f) potência de operação do transmissor (kW);
+
+g) classe;
+
+h) modo de operação (monofônico, estereofônico, com ou sem canal secundário).
+
+\subsubsection{Sistema irradiante}
+
+a) tipo de antena (onidirecional ou diretiva);
+
+b) fabricante e modelo da antena;
+
+c) polarização (horizontal, vertical, circular ou elíptica); se elíptica, dar a razão entre a componente horizontal e vertical;
+
+d) ganho máximo em relação ao dipolo de meia-onda;
+
+e) tipo da estrutura de sustentação (auto-suportada ou estaiada);
+
+f) altura física total da estrutura de sustentação em relação à sua base (solo);
+
+g) altura do centro geométrico da antena em relação à base da estrutura de sustentação (solo);
+
+h) altitude da base da estrutura de sustentação (solo) sobre o nível do mar;
+
+i) altura do centro geométrico da antena sobre o nível médio do terreno.
+
+\subsubsection{Linha de transmissão de RF}
+
+a) fabricante e modelo;
+
+b) impedância característica;
+
+c) comprimento total;
+
+d) atenuação em dB por 100 metros;
+
+e) eficiência.
+
+\subsubsection{Informações sobre ERPmax e ERPaz}
+
+a) ERP máxima (kW)
+
+b) ERP, por radial (kW).
+
+\subsubsection{Enquadramento na classe}
+
+a) ERP máxima proposta para cada radial;
+
+b) ERP máxima proposta para cada radial, corrigida para a altura de referência sobre o nível médio do terreno por radial, para a classe da emissora, estabelecida na Tabela 1;
+
+c) Distância ao contorno de 66 dBm para cada radial;
+
+d) Média aritmética das distâncias ao contorno de 66 dBm .
+
+\subsection{Situação Geral}
+
+\subsubsection{Estação transmissora}
+
+a) endereço completo do local do transmissor (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
+
+b) coordenadas geográficas do local do sistema irradiante;
+
+c) em se tratando de mudança do local, indicar separadamente os endereços do local atual e do proposto.
+
+\subsubsection{Endereços dos estúdios}
+
+a) principal (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
+
+b) auxiliar (rua, nº, localidade, município, estado e código de endereçamento postal - CEP).
+
+\subsubsection{Distâncias aos contornos das diversas áreas de serviço, segundo cada radial, de acordo com}
+
+a) azimute de orientação em relação ao Norte Verdadeiro;
+
+b) altura do centro geométrico da antena com relação ao nível médio de cada radial;
+
+c) intensidade de campo (dBm);
+
+d) distância aos contornos 1, 2 e 3, em cada radial.
+
+\subsection{Nível Médio do Terreno}
+
+\subsubsection{Cartas utilizadas}
+
+a) denominação;
+
+b) procedência;
+
+c) escala;
+
+d) equidistância das curvas de nível;
+
+e) data de publicação.
+
+\subsubsection{ Nível médio}
+
+a) azimute de orientação de cada radial, em relação ao Norte Verdadeiro;
+
+b) nível médio de cada radial;
+
+c) nível médio do terreno.
+
+\subsection{Parecer Conclusivo}
+
+Emitir parecer conclusivo sobre o projeto, declarando que o mesmo atende a todas as exigências da regulamentação técnica aplicável.
+
+\subsubsection{Profissional habilitado}
+
+-nome por extenso;
+
+-número de inscrição no CREA;
+
+-nº do CPF;
+
+-data e assinatura.
+
+\subsection{Anexos ao projeto de instalação}
+
+\subsubsection{Planta da Situação Geral}
+
+A planta ou carta topográfica da situação geral, deverá ser, de preferência, em escala 1:50.000 e editada por órgãos oficiais ou oficializados.
+ Não precisará indicar, obrigatoriamente, detalhes de altimetria. Quando não houver disponibilidade de plantas nas condições mencionadas, será 
+permitida a utilização de cartas ou croquis de levantamentos aerofotogramétricos, nos quais constem a escala e o órgão responsável pelo levantamento.
+ A planta da situação geral deverá ser apresentada em uma via, assinada por profissional habilitado. Nela deverão ser assinalados:
+
+a) a localização exata do sistema irradiante por um círculo, junto ao qual constará o número-código 1. No caso de mudança, o local proposto, pelo código 1B;
+
+b) a localização exata do estúdio principal, por um retângulo, junto ao qual constará o número-código 2;
+
+c) a localização exata do estúdio auxiliar por um retângulo, junto ao qual constará o número-código 3;
+
+d) por círculos, cada um dos sistemas irradiantes de que trata o subitem 9.2.2.5 e cada uma das estações do subitem 9.2.2.4, junto aos quais deverá constar o código
+ alfanumérico correspondente;
+
+OBS.: Nos casos do subitem 9.2.2.4, assinalar, também, as direções exatas dos enlaces;
+
+e) os contornos 1, 2 e 3, de acordo com os valores calculados no subitem 9.2.2.5. Esta planta deverá comprovar o atendimento, pela emissora, do disposto no subitem 5.1.1.2,
+ dentro das características técnicas fixadas pelo PBFM, da maior parte possível da população da localidade para a qual a permissão para exploração do serviço foi outorgada.
+ Não sendo possível indicar estes contornos na mesma planta, indicá-los em planta separada, com escala adequada.
+
+\subsubsection{Planta das Instalações de Campo}
+
+Deve ser apresentado croquis, em escala adequada, indicando:
+
+a) casa do transmissor;
+
+b) antena e sua estrutura de sustentação;
+
+c) altura do centro geométrico da antena em relação à base da estrutura de sustentação(solo);
+
+d) indicação da altitude da base da estrutura de sustentação(solo) sobre o nível do mar.
+
+\subsubsection{Documentos diversos}
+
+9.2.5.3.1 - Declaração do profissional habilitado atestando que a instalação não excede os gabaritos da zona de proteção dos aeródromos,
+ de acordo com a legislação específica vigente, ou que não existem aeródromos.
+
+9.2.5.3.2 - Documento de aprovação expedido pelo órgão competente do Ministério da Aeronáutica, quanto à localização proposta para o sistema irradiante da emissora,
+ no caso de exceder os gabaritos previstos na legislação específica em vigor.
+
+9.2.5.3.3 - Declaração de concordância com a instalação proposta, firmada pelos responsáveis pelas estações mencionadas no subitem 9.2.2.4,
+ quando a instalação não se enquadrar no que dispõe este subitem.
+
+9.2.5.3.4 - Comprovação de que a instalação proposta não criará problemas de deformação dos diagramas de irradiação, como previsto na observação do subitem 9.2.2.3.
+
+9.2.5.3.5 - Diagrama de irradiação horizontal do sistema irradiante, orientado em relação ao Norte Verdadeiro e diagrama de irradiação vertical.
+
+9.2.5.3.6 - Para emissoras ainda não licenciadas, as especificações técnicas dos transmissores que serão utilizados, ou se for o caso, seus códigos de certificação na ANATEL.
+
+9.2.5.3.7 - Estudo de viabilidade técnica específica, nos seguintes casos:
+
+a) multiplexação de estações em antena de uso comum;
+
+b) emprego de método de cálculo de cobertura diverso daquele utilizado na elaboração do PBFM, tal como, por exemplo, o sugerido em 8.1.5.1 ou 8.1.6.
 
 \begin{comment}
 

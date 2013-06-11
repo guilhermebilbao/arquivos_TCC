@@ -53,7 +53,7 @@
 
 \usepackage{./arquivos_para_alterar/a00-personalizar}
 \usepackage{./arquivos_para_alterar/a01-folhaderosto}
-\usepackage{./arquivos_para_alterar/a99-capa}
+
 
 \renewcommand{\ABNTbibliographyname}{Referências}
 \begin{document}
@@ -302,6 +302,11 @@
 \chapter{Mapa de Macrozoneamento de São Pedro de Alcântara}
 
 \input{./arquivos_para_alterar/a17-anexo}
+
+\chapter{Gráficos representando o relevo das 12 Radias ao redor da emissora.}
+
+\input{./arquivos_para_alterar/a18-anexo}
+
 
 }{}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  9 JUN 2013 18:27
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  10 JUN 2013 23:26
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -816,30 +816,36 @@ Overfull \hbox (40.16112pt too wide) in paragraph at lines 1048--1049
 [45] [46 <./figuras/contornoAreaUrbana.png>]
 Cap\'{\i }tulo 8.
 
-Overfull \hbox (9.76807pt too wide) in paragraph at lines 1071--1071
+Overfull \hbox (9.76807pt too wide) in paragraph at lines 1068--1068
 []\OT1/ptm/b/n/17.28 ESTUDO DE VI-A-BI-LI-DADE T[]ECNICA DE UMA EMIS-
  []
 
 [47
 
-]
-Overfull \hbox (7.52774pt too wide) in paragraph at lines 1118--1120
-\OT1/ptm/m/n/12 Bra-si-leiro de Ge-o-gra-fia e Es-tat[]^^Pstica - IBGE - Di-re-
-to-ria de Ge-oci[]encias/Departamento
+] [48]
+Overfull \hbox (13.96904pt too wide) in paragraph at lines 1140--1141
+[]\OT1/ptm/m/n/12 b) endere[]o com-pleto da sede (rua, n$[]$, lo-ca-li-dade, mu
+-nic[]^^Ppio, es-tado, c[]odigo de endere[]amento
  []
 
-[48]) [49]
+[49] [50] [51] [52]
+Overfull \hbox (6.59297pt too wide) in paragraph at lines 1308--1310
+[]\OT1/ptm/m/n/12 9.2.5.3.3 - Declara[][]ao de con-cord[]ancia com a instala[][
+]ao pro-posta, fir-mada pe-los res-pons[]aveis
+ []
+
+[53]) [54]
 Cap\'{\i }tulo 9.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [50
+(./modeloTCC-2009.04.03.autordata.bbl [55
 
-]) [51
+]) [56
 
 ]
 Anexo A.
 (./arquivos_para_alterar/a14-anexo.tex
-<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=194, 615.0177pt x 862.9038pt>
+<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=210, 615.0177pt x 862.9038pt>
 File: ./figuras/1pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/1pdfantenadipolodemeiaondafm.jpg>
@@ -847,7 +853,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=195, 615.0177pt x 862.9038pt>
+<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=211, 615.0177pt x 862.9038pt>
 File: ./figuras/2pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/2pdfantenadipolodemeiaondafm.jpg>
@@ -855,7 +861,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=196, 615.0177pt x 862.9038pt>
+<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=212, 615.0177pt x 862.9038pt>
 File: ./figuras/3pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/3pdfantenadipolodemeiaondafm.jpg>
@@ -863,7 +869,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=197, 615.0177pt x 862.9038pt>
+<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=213, 615.0177pt x 862.9038pt>
 File: ./figuras/4pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/4pdfantenadipolodemeiaondafm.jpg>
@@ -871,22 +877,22 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [52
+) [57
 
-] [53 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [54 <./figuras/2pdfantenadi
-polodemeiaondafm.jpg>] [55 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
-[56 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
+] [58 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [59 <./figuras/2pdfantenadi
+polodemeiaondafm.jpg>] [60 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
+[61 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
 Anexo B.
 (./arquivos_para_alterar/a16-anexo.tex
-<./figuras/LCF158-50JFNL.pdf, id=214, 596.2275pt x 794.97pt>
+<./figuras/LCF158-50JFNL.pdf, id=230, 596.2275pt x 794.97pt>
 File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
-<use ./figuras/LCF158-50JFNL.pdf>) [57
+<use ./figuras/LCF158-50JFNL.pdf>) [62
 
-] [58 <./figuras/LCF158-50JFNL.pdf>]
+] [63 <./figuras/LCF158-50JFNL.pdf>]
 Anexo C.
 (./arquivos_para_alterar/a17-anexo.tex
-<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=240, 1195.46625pt x 845.1575pt>
+<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=256, 1195.46625pt x 845.1575pt>
 File: ./figuras/1757_MAPA_MACROZONEAMENTO.pdf Graphic file (type pdf)
 
 <use ./figuras/1757_MAPA_MACROZONEAMENTO.pdf>
@@ -897,24 +903,81 @@ Overfull \hbox (51.85431pt too wide) in paragraph at lines 7--8
 
 LaTeX Warning: Float too large for page by 23.19267pt on input line 8.
 
-)
+) [64
+
+] [65 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>]
+Anexo D.
+(./arquivos_para_alterar/a18-anexo.tex
+File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
+ <use ./figuras/nmt1_v2.pdf>
+<./figuras/nmt2_v2.pdf, id=267, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt2_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt2_v2.pdf>
+<./figuras/nmt3_v2.pdf, id=268, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt3_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt3_v2.pdf>
+<./figuras/nmt4_v2.pdf, id=269, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt4_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt4_v2.pdf>
+<./figuras/nmt5_v2.pdf, id=270, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt5_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt5_v2.pdf>
+<./figuras/nmt6_v2.pdf, id=271, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt6_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt6_v2.pdf>
+<./figuras/nmt7_v2.pdf, id=272, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt7_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt7_v2.pdf>
+<./figuras/nmt8_v2.pdf, id=273, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt8_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt8_v2.pdf>
+<./figuras/nmt9_v2.pdf, id=274, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt9_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt9_v2.pdf>
+<./figuras/nmt10_v2.pdf, id=275, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt10_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt10_v2.pdf>
+<./figuras/nmt11_v2.pdf, id=276, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt11_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt11_v2.pdf>
+<./figuras/nmt12_v2.pdf, id=277, 845.1575pt x 597.23125pt>
+File: ./figuras/nmt12_v2.pdf Graphic file (type pdf)
+
+<use ./figuras/nmt12_v2.pdf>)
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[59
+[66
 
-] [60 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>] (
-./modeloTCC-2009.04.03.autordata.aux)
+] [67 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
+f, page is rotated 90 degrees>] [68 <./figuras/nmt4_v2.pdf, page is rotated 90 
+degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [69 <./figuras/nm
+t6_v2.pdf, page is rotated 90 degrees> <./figuras/nmt7_v2.pdf, page is rotated 
+90 degrees>] [70 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
+/nmt9_v2.pdf, page is rotated 90 degrees>] [71 <./figuras/nmt10_v2.pdf, page is
+ rotated 90 degrees> <./figuras/nmt11_v2.pdf, page is rotated 90 degrees>]
+[72 <./figuras/nmt12_v2.pdf, page is rotated 90 degrees>]
+(./modeloTCC-2009.04.03.autordata.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3339 strings out of 495041
- 48499 string characters out of 1181898
- 151713 words of memory out of 3000000
- 6323 multiletter control sequences out of 15000+50000
+ 3408 strings out of 495041
+ 49907 string characters out of 1181898
+ 151821 words of memory out of 3000000
+ 6378 multiletter control sequences out of 15000+50000
  65672 words of font info for 148 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  32i,12n,41p,395b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -926,10 +989,10 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (61 pages, 13026341 bytes)
+Output written on modeloTCC-2009.04.03.autordata.pdf (73 pages, 13307779 bytes)
 .
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
+ 397 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
