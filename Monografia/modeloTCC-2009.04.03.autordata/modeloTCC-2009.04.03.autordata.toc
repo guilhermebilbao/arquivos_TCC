@@ -12,55 +12,50 @@
 \contentsline {section}{\numberline {3.1}ROTEIRO PARA ELABORA\c C\~AO DE ESTUDOS T\'ECNICOS}{17}
 \contentsline {subsection}{\numberline {3.1.1}ESTUDO DE VIABILIDADE T\'ECNICA DE UMA EMISSORA}{18}
 \contentsline {subsubsection}{Informa\c c\~oes b\'asicas}{18}
-\contentsline {subsubsection}{C\'alculo de Viabilidade}{18}
-\contentsline {subsubsection}{Parecer Conclusivo}{19}
 \contentsline {subsection}{\numberline {3.1.2}PROJETO DE INSTALA\c C\~AO DE UMA EMISSORA}{19}
 \contentsline {subsubsection}{Mem\'oria Descritiva}{19}
-\contentsline {subsubsection}{Situa\c c\~ao Geral}{21}
+\contentsline {subsubsection}{Situa\c c\~ao Geral}{20}
 \contentsline {subsubsection}{N\IeC {\'\i }vel M\'edio do Terreno}{21}
-\contentsline {subsubsection}{Parecer Conclusivo}{22}
-\contentsline {subsubsection}{Anexos ao projeto de instala\c c\~ao}{22}
-\contentsline {section}{\numberline {3.2}RECOMENDA\c C\~AO UIT-R P.1546}{24}
-\contentsline {subsection}{\numberline {3.2.1}Conceitos B\'asicos}{24}
-\contentsline {subsubsection}{Altura acima do n\IeC {\'\i }vel m\'edio do terreno}{24}
-\contentsline {subsubsection}{Curvas E(L,T)}{25}
-\contentsline {section}{\numberline {3.3}ADAPTA\c C\~OES DA RECOMENDA\c C\~AO}{25}
-\contentsline {subsection}{\numberline {3.3.1}N\IeC {\'\i }vel M\'edio do Terreno}{25}
-\contentsline {subsection}{\numberline {3.3.2}Altura da antena transmissora}{25}
-\contentsline {section}{\numberline {3.4}PAR\^AMETROS NECESS\'ARIOS PARA O C\'ALCULO DE VIABILIDADE T\'ECNICA}{26}
-\contentsline {subsection}{\numberline {3.4.1}Contorno protegido}{26}
-\contentsline {chapter}{\numberline {4}CANAL PROPOSTO}{27}
-\contentsline {section}{\numberline {4.1}CARACTER\'ISTICAS B\'ASICAS}{27}
-\contentsline {subsection}{\numberline {4.1.1}Enquadramento na classe}{28}
-\contentsline {section}{\numberline {4.2}N\'IVEL MEDIO DO TERRENO E ALTURA ACIMA DO N\'IVEL M\'EDIO DO TERRENO}{29}
-\contentsline {subsection}{\numberline {4.2.1}N\IeC {\'\i }vel m\'edio da Radial (NMR) e N\IeC {\'\i }vel m\'edio do Terreno (NMT)}{29}
-\contentsline {subsection}{\numberline {4.2.2}Altura Acima do n\IeC {\'\i }vel m\'edio do Terreno}{32}
-\contentsline {section}{\numberline {4.3}CONTORNO PROTEGIDO}{35}
-\contentsline {subsection}{\numberline {4.3.1}Interfer\^encias}{36}
-\contentsline {chapter}{\numberline {5}DEFINI\c C\~OES DO SISTEMA IRRADIANTE}{38}
-\contentsline {section}{\numberline {5.1}SISTEMA IRRADIANTE}{38}
-\contentsline {subsection}{\numberline {5.1.1}Antena}{38}
-\contentsline {subsection}{\numberline {5.1.2}Guia de onda e conectores}{39}
-\contentsline {subsection}{\numberline {5.1.3}Transmissor}{39}
-\contentsline {subsection}{\numberline {5.1.4}C\'alculos de ERPmax, ERPaz e a orienta\c c\~ao da antena}{40}
-\contentsline {subsubsection}{Pot\^encia efetiva irradiada m\'axima (ERPmax)}{40}
-\contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERPaz)}{41}
-\contentsline {subsubsection}{Orienta\c c\~ao da antena}{41}
-\contentsline {chapter}{\numberline {6}DESENVOLVENDO A EMISSORA FM}{43}
-\contentsline {section}{\numberline {6.1}ESPECIFICA\c C\~OES DEFINIDAS}{43}
-\contentsline {section}{\numberline {6.2}DEFININDO AS POT\^ENCIAS ERPmax E ERPaz}{44}
-\contentsline {section}{\numberline {6.3}DEFININDO OS CONTORNOS DAS \`AREAS DE SERVI\c COS}{45}
-\contentsline {subsection}{\numberline {6.3.1}\`Area de Servi\c co Urbana (66dBm)}{46}
-\contentsline {subsubsection}{Cobertura da \'Area de Servi\c co Urbana}{47}
-\contentsline {subsection}{\numberline {6.3.2}\`Areas de Servi\c co Prim\'ario e Rural (74dBm e 54dBm)}{48}
-\contentsline {subsection}{\numberline {6.3.3}O tra\c cado dos contornos}{48}
-\contentsline {chapter}{\numberline {7}RESULTADOS OBTIDOS COM O PROJETO}{51}
-\contentsline {section}{\numberline {7.1}CONSIDERA\c C\~OES SOBRE OS CONTORNOS ENCONTRADOS}{51}
-\contentsline {subsection}{\numberline {7.1.1}Analisando a cobertura da \`Area de Servi\c co Urbana em S\~ao Pedro de Alc\^antara}{51}
-\contentsline {subsubsection}{As outras \'Areas}{53}
-\contentsline {chapter}{\numberline {8}CONCLUS\~OES E TRABALHOS FUTUROS}{54}
-\contentsline {chapter}{Refer\^encias}{55}
-\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{56}
-\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{61}
-\contentsline {chapter}{Anexo{} C{} -$\mskip -\thinmuskip $-{} Mapa de Macrozoneamento de S\~ao Pedro de Alc\^antara}{63}
-\contentsline {chapter}{Anexo{} D{} -$\mskip -\thinmuskip $-{} Gr\'aficos do perfil de terreno das 12 Radias ao redor da emissora.}{65}
+\contentsline {section}{\numberline {3.2}RECOMENDA\c C\~AO UIT-R P.1546}{21}
+\contentsline {subsection}{\numberline {3.2.1}Conceitos B\'asicos}{21}
+\contentsline {subsubsection}{Altura acima do n\IeC {\'\i }vel m\'edio do terreno}{21}
+\contentsline {subsubsection}{Curvas E(L,T)}{22}
+\contentsline {section}{\numberline {3.3}ADAPTA\c C\~OES DA RECOMENDA\c C\~AO}{22}
+\contentsline {subsection}{\numberline {3.3.1}N\IeC {\'\i }vel M\'edio do Terreno}{22}
+\contentsline {subsection}{\numberline {3.3.2}Altura da antena transmissora}{23}
+\contentsline {chapter}{\numberline {4}CANAL PROPOSTO}{24}
+\contentsline {section}{\numberline {4.1}CARACTER\'ISTICAS B\'ASICAS}{24}
+\contentsline {subsection}{\numberline {4.1.1}Enquadramento na classe}{25}
+\contentsline {section}{\numberline {4.2}N\'IVEL MEDIO DO TERRENO E ALTURA ACIMA DO N\'IVEL M\'EDIO DO TERRENO}{26}
+\contentsline {subsection}{\numberline {4.2.1}N\IeC {\'\i }vel m\'edio da Radial (NMR) e N\IeC {\'\i }vel m\'edio do Terreno (NMT)}{26}
+\contentsline {subsection}{\numberline {4.2.2}Altura Acima do n\IeC {\'\i }vel m\'edio do Terreno}{29}
+\contentsline {section}{\numberline {4.3}CONTORNO PROTEGIDO}{32}
+\contentsline {subsection}{\numberline {4.3.1}Interfer\^encias}{33}
+\contentsline {chapter}{\numberline {5}EQUIPAMENTOS B\'ASICOS QUE COMP\~OE A EMISSORA}{35}
+\contentsline {section}{\numberline {5.1}SISTEMA IRRADIANTE}{35}
+\contentsline {subsection}{\numberline {5.1.1}Antena}{35}
+\contentsline {subsection}{\numberline {5.1.2}Guia de onda e conectores}{36}
+\contentsline {subsection}{\numberline {5.1.3}Transmissor}{36}
+\contentsline {subsection}{\numberline {5.1.4}C\'alculos de ERPmax, ERPaz e orienta\c c\~ao da antena}{37}
+\contentsline {subsubsection}{Pot\^encia efetiva irradiada m\'axima (ERPmax)}{37}
+\contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERPaz)}{38}
+\contentsline {subsubsection}{Orienta\c c\~ao da antena}{38}
+\contentsline {chapter}{\numberline {6}DESENVOLVENDO A EMISSORA FM}{40}
+\contentsline {section}{\numberline {6.1}ESPECIFICA\c C\~OES DEFINIDAS}{40}
+\contentsline {section}{\numberline {6.2}DEFININDO AS POT\^ENCIAS ERPmax E ERPaz}{41}
+\contentsline {section}{\numberline {6.3}DEFININDO OS CONTORNOS DAS \`AREAS DE SERVI\c COS}{42}
+\contentsline {subsection}{\numberline {6.3.1}\`Area de Servi\c co Urbana ($66dBm$)}{43}
+\contentsline {subsubsection}{Cobertura da \'Area de Servi\c co Urbana}{44}
+\contentsline {subsection}{\numberline {6.3.2}\`Areas de Servi\c co Prim\'ario e Rural ($74dBm$ e $54dBm$)}{45}
+\contentsline {subsection}{\numberline {6.3.3}Os tra\c cados dos contornos}{45}
+\contentsline {chapter}{\numberline {7}RESULTADOS OBTIDOS COM O PROJETO}{48}
+\contentsline {section}{\numberline {7.1}CONSIDERA\c C\~OES SOBRE OS CONTORNOS ENCONTRADOS}{48}
+\contentsline {subsection}{\numberline {7.1.1}Analisando a cobertura da \`Area de Servi\c co Urbana em S\~ao Pedro de Alc\^antara}{48}
+\contentsline {subsubsection}{As outras \'Areas}{49}
+\contentsline {section}{\numberline {7.2}APRESENTANDO AS INFORMA\c C\~OES CONFORME O ROTEIRO PARA ELABORA\c C\~AO DE ESTUDOS T\'ECNICOS}{50}
+\contentsline {chapter}{\numberline {8}CONCLUS\~OES E TRABALHOS FUTUROS}{51}
+\contentsline {chapter}{Refer\^encias}{52}
+\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{53}
+\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{58}
+\contentsline {chapter}{Anexo{} C{} -$\mskip -\thinmuskip $-{} Mapa de Macrozoneamento de S\~ao Pedro de Alc\^antara}{60}
+\contentsline {chapter}{Anexo{} D{} -$\mskip -\thinmuskip $-{} Gr\'aficos do perfil de terreno das 12 Radias ao redor da emissora.}{62}

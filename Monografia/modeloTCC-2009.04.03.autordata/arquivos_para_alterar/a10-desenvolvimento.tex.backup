@@ -130,6 +130,360 @@ vindos da Recomendação UIT-R P.1546.
  
 As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
 
+\section{ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
+
+A resolução contém um capítulo inteiro (indicar a referencia)que aborda um roteiro para elaboração de estudos técnicos, 
+indicando diversos parâmetros técnicos que devem ser informados sobre a emissora para as diversas e possíveis situações.
+
+Neste capítulo vamos abordar apenas as informações solicitadas que, particularmente, são necessárias para a homologação da emissora proposta neste estudo,
+ pois o roteiro, apresentado na integra na resolução, apresenta diversas outras solicitações que cabem à cenários diferentes do nosso.
+
+Existem também algumas documentações, anexos e outras informações, que em casos reais devem ser apresentados (como exemplo: croquis da casa de equipamentos e da torre,
+ endereçamentos detalhados, e informações sobre o engenheiro responsável pelo projeto), mas que não foram necessários suas descrições aqui neste momento devido à 
+ estarmos tratando de um estudo didático, com foco no desenvolvimento técnico do projeto.
+
+Sendo assim, seguindo as orientações apresentadas no roteiro para a elaboração
+de estudos técnicos, vamos às informações que precisamos encontrar e definir no decorrer deste projeto.
+
+
+\subsection{ESTUDO DE VIABILIDADE TÉCNICA DE UMA EMISSORA}
+
+A primeira lista de informações que é solicitada faz referência ao estudo de viabilidade técnica da emissora. 
+
+\begin{comment}
+
+\begin{quotation}
+O Estudo de Viabilidade Técnica de uma Emissora deverá conter, necessariamente, as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo
+~\cite{ref1}.
+\end{quotation}
+
+\end{comment}
+
+\subsubsection{Informações básicas}
+
+Conforme apresentado na resolução, as informações básicas para este estudo são respostas dos seguintes questionamentos:
+
+\begin{itemize}
+
+\item Nome da entidade requerente.
+
+\item Localização da emissora objeto do estudo (cidade, UF).
+
+\item Propósito do estudo.
+
+\end{itemize}
+
+E também sobre as características técnicas pretendidas:
+
+\begin{itemize}
+
+
+\item  Frequência de operação (MHz);
+
+\item  nº do canal;
+
+\item  classe;
+
+\item  tipo de sistema irradiante;
+
+\item  coordenadas geográficas de instalação.
+
+
+\end{itemize}
+
+\begin{comment}
+
+\subsubsection{Cálculo de Viabilidade}
+
+Para cada emissora da lista elaborada como indicado no item anterior (informações básicas), verificar se há o atendimento às distâncias mínimas exigidas entre duas estações.
+ Como já mencionado anteriormente, a resolução informa que, no caso do sistema irradiante estar fixado próximo das coordenadas informadas no PBFM para este canal, o estudo 
+de interferências torna-se dispensável. Então, para esta emissora não se aplica este cálculo de viabilidade.
+
+\end{comment}
+
+
+\begin{comment}
+
+\subsubsection{Parecer Conclusivo}
+
+Resumir os tópicos importantes do estudo e emitir parecer conclusivo sobre a viabilidade do propósito do mesmo.
+
+*** que resumo? falar sobre os itens distindos, exceções que foram usadas neste projeto?
+
+ Deve ser identificado o profissional habilitado responsável pelo projeto, informando:
+
+\begin{itemize}
+
+\item Nome por extenso;
+
+\item número da inscrição no CREA;
+
+\item CPF;
+
+\item data e assinatura.
+
+\end{itemize}
+
+\end{comment}
+
+
+\subsection{PROJETO DE INSTALAÇÃO DE UMA EMISSORA}
+
+Neste momento é solicitado as informações técnicas sobre a instalação da emissora.
+
+\subsubsection{Memória Descritiva}
+
+A memória descritiva é um resumo das caracteristicas da emissora, juntamente com as características técnicas do sistema irradiante e linha de transmissão.
+
+\textbf{Resumo das características da emissora:}
+
+\begin{enumerate}
+
+\item frequência de operação (MHz);
+
+\item nº do canal;
+
+\item potência de operação do transmissor (kW);
+
+\item classe;
+
+\item modo de operação (monofônico, estereofônico, com ou sem canal secundário).
+
+\end{enumerate}
+
+\textbf{Sistema irradiante:}
+
+\begin{enumerate}
+
+\item tipo de antena (onidirecional ou diretiva);
+
+\item fabricante e modelo da antena;
+
+\item polarização (horizontal, vertical, circular ou elíptica); se elíptica, dar a razão entre a componente horizontal e vertical;
+
+\item ganho máximo em relação ao dipolo de meia-onda;
+
+\item tipo da estrutura de sustentação (auto-suportada ou estaiada);
+
+\item altura física total da estrutura de sustentação em relação à sua base (solo);
+
+\item altura do centro geométrico da antena em relação à base da estrutura de sustentação (solo);
+
+\item altitude da base da estrutura de sustentação (solo) sobre o nível do mar;
+
+\item altura do centro geométrico da antena sobre o nível médio do terreno.
+
+\end{enumerate}
+
+\textbf{Linha de transmissão de radiofrequência:}
+
+\begin{enumerate}
+
+\item fabricante e modelo;
+
+\item impedância característica;
+
+\item comprimento total;
+
+\item atenuação em dB por 100 metros;
+
+\item eficiência.
+
+\end{enumerate}
+
+\textbf{Informações sobre ERPmax e ERPaz:}
+
+\begin{enumerate}
+
+\item ERP máxima (kW)
+
+\item ERP, por radial (kW).
+
+\end{enumerate}
+
+\textbf{Enquadramento na classe:}
+
+\begin{enumerate}
+
+\item ERP máxima proposta para cada radial;
+
+\item ERP máxima proposta para cada radial, corrigida para a altura de referência sobre o nível médio do terreno por radial, para a classe da emissora, estabelecida na Tabela 1;
+
+\item Distância ao contorno de 66 dBm para cada radial;
+
+\item Média aritmética das distâncias ao contorno de 66 dBm .
+
+\end{enumerate}
+
+\subsubsection{Situação Geral}
+
+\begin{comment}
+
+Estação transmissora:
+
+\begin{enumerate}
+
+\item endereço completo do local do transmissor (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
+
+\item coordenadas geográficas do local do sistema irradiante;
+
+\item em se tratando de mudança do local, indicar separadamente os endereços do local atual e do proposto.
+
+\end{enumerate}
+
+Endereços dos estúdios:
+
+\begin{enumerate}
+
+\item principal (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
+
+\item auxiliar (rua, nº, localidade, município, estado e código de endereçamento postal - CEP).
+
+\end{enumerate
+
+\end{comment}
+
+Distâncias aos contornos das diversas áreas de serviço, segundo cada radial, de acordo com:
+
+\begin{enumerate}
+
+\item azimute de orientação em relação ao Norte Verdadeiro;
+
+\item altura do centro geométrico da antena com relação ao nível médio de cada radial;
+
+\item intensidade de campo (dBm);
+
+\item distância aos contornos 1, 2 e 3, em cada radial.
+
+\end{enumerate}
+
+\subsubsection{Nível Médio do Terreno}
+
+\textbf{Cartas utilizadas:}
+
+\begin{enumerate}
+
+\item denominação;
+
+\item procedência;
+
+\item escala;
+
+\item equidistância das curvas de nível;
+
+\item data de publicação.
+
+\end{enumerate}
+
+\textbf{Nível médio:}
+
+\begin{enumerate}
+
+\item azimute de orientação de cada radial, em relação ao Norte Verdadeiro;
+
+\item nível médio de cada radial;
+
+\item nível médio do terreno.
+
+\end{enumerate}
+
+
+
+\begin{comment}
+
+\subsubsection{Parecer Conclusivo}
+
+Emitir parecer conclusivo sobre o projeto, declarando que o mesmo atende a todas as exigências da regulamentação técnica aplicável.
+
+Profissional habilitado:
+
+\begin{itemize}
+
+\item nome por extenso;
+
+\item número de inscrição no CREA;
+
+\item nº do CPF;
+
+\item data e assinatura.
+
+\end{itemize}
+
+\subsubsection{Anexos ao projeto de instalação}
+
+Planta da Situação Geral:
+
+A planta ou carta topográfica da situação geral, deverá ser, de preferência, em escala 1:50.000 e editada por órgãos oficiais ou oficializados.
+ Não precisará indicar, obrigatoriamente, detalhes de altimetria. Quando não houver disponibilidade de plantas nas condições mencionadas, será 
+permitida a utilização de cartas ou croquis de levantamentos aerofotogramétricos, nos quais constem a escala e o órgão responsável pelo levantamento.
+ A planta da situação geral deverá ser apresentada em uma via, assinada por profissional habilitado. Nela deverão ser assinalados:
+
+\begin{enumerate}
+
+\item a localização exata do sistema irradiante por um círculo, junto ao qual constará o número-código 1. No caso de mudança, o local proposto, pelo código 1B;
+
+\item a localização exata do estúdio principal, por um retângulo, junto ao qual constará o número-código 2;
+
+\item a localização exata do estúdio auxiliar por um retângulo, junto ao qual constará o número-código 3;
+
+\item por círculos, cada um dos sistemas irradiantes de que trata o subitem 9.2.2.5 e cada uma das estações do subitem 9.2.2.4, junto aos quais deverá constar o código
+ alfanumérico correspondente;
+
+\item os contornos 1, 2 e 3, de acordo com os valores calculados no subitem 9.2.2.5. Esta planta deverá comprovar o atendimento, pela emissora, do disposto no subitem 5.1.1.2,
+ dentro das características técnicas fixadas pelo PBFM, da maior parte possível da população da localidade para a qual a permissão para exploração do serviço foi outorgada.
+ Não sendo possível indicar estes contornos na mesma planta, indicá-los em planta separada, com escala adequada.
+
+\end{enumerate}
+
+Planta das Instalações de Campo:
+
+Deve ser apresentado croquis, em escala adequada, indicando:
+
+\begin{enumerate}
+
+\item casa do transmissor;
+
+\item antena e sua estrutura de sustentação;
+
+\item altura do centro geométrico da antena em relação à base da estrutura de sustentação(solo);
+
+\item indicação da altitude da base da estrutura de sustentação(solo) sobre o nível do mar.
+
+\end{enumerate}
+
+Documentos diversos:
+
+\begin{enumerate}
+
+\item Declaração do profissional habilitado atestando que a instalação não excede os gabaritos da zona de proteção dos aeródromos,
+ de acordo com a legislação específica vigente, ou que não existem aeródromos.
+
+\item Documento de aprovação expedido pelo órgão competente do Ministério da Aeronáutica, quanto à localização proposta para o sistema irradiante da emissora,
+ no caso de exceder os gabaritos previstos na legislação específica em vigor.
+
+\item Declaração de concordância com a instalação proposta, firmada pelos responsáveis pelas estações mencionadas no subitem 9.2.2.4,
+ quando a instalação não se enquadrar no que dispõe este subitem.
+
+\item Comprovação de que a instalação proposta não criará problemas de deformação dos diagramas de irradiação, como previsto na observação do subitem 9.2.2.3.
+
+\item Diagrama de irradiação horizontal do sistema irradiante, orientado em relação ao Norte Verdadeiro e diagrama de irradiação vertical.
+
+\item Para emissoras ainda não licenciadas, as especificações técnicas dos transmissores que serão utilizados, ou se for o caso, seus códigos de certificação na ANATEL.
+
+\item Estudo de viabilidade técnica específica, nos seguintes casos:
+
+\begin{itemize}
+
+\item multiplexação de estações em antena de uso comum;
+
+\item emprego de método de cálculo de cobertura diverso daquele utilizado na elaboração do PBFM.
+
+\end{itemize}
+
+\end{enumerate}
+
+\end{comment}
+
 \section{RECOMENDAÇÃO UIT-R P.1546}
 A UIT-R, através da Recomendação UIT-R P.1546~\cite{ref4}, descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
 na faixa de 30 a 3000MHz. Os procedimentos que seguimos neste trabalho, principalmente para definir as áreas de serviços, foram
@@ -298,7 +652,7 @@ Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejad
 inicial e final de cada radial (3km e 15km) e o passo, em metros, desejado para a construção da curva (12km/quantidade de passos). 
 
 O gráfico Figura~\ref{nmt} apresenta um exemplo do retorno que a aplicação nos disponibiliza. Note que usei um passo de 240 metros para cada 
-medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial.
+medição, este é o valor mínimo exigido pela resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial (ANEXO~\ref{nmt1}).
 
 
 \begin{figure}[!htb]
@@ -554,11 +908,10 @@ conforme apresentado na Figura~\ref{proximidadePBMF}.
 \label{proximidadePBMF}
 \end{figure}
 
-\chapter{DEFINIÇÕES DO SISTEMA IRRADIANTE}
+\chapter{EQUIPAMENTOS BÁSICOS QUE COMPÕE A EMISSORA}
 
 Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos técnicos primários
- necessários, vamos para a construção do conjunto de equipamentos que formará o sistema irradiante, além de realizar os cálculos necessários para
-deixar a emissora enquadrada conforme a resolução.
+ necessários, vamos para a construção do conjunto de equipamentos que formará a emissora.
 
 
 \section{SISTEMA IRRADIANTE}
@@ -566,7 +919,8 @@ deixar a emissora enquadrada conforme a resolução.
 Um sistema irradiante é composto basicamente de uma antena, um guia de onda, e um transmissor. Cada um dos componentes apresenta características próprias, 
 variando de fabricante. No levantamento das informações são apresentadas as características que influenciam diretamente nos cálculos.
 
-A seguir serão apresentados as características do sistema irradiante, bem como os critérios usados para a utilização de cada um dos equipamentos.
+A seguir serão apresentados as características do sistema irradiante, bem como os critérios usados para a utilização de cada um dos equipamentos. 
+ Também apresentaremos os cálculos que serão usados para encontrar os valores das potências irradiadas pelo sistema.
 
 
 \subsection{Antena}
@@ -611,7 +965,7 @@ eficiência da linha de transmissão, terá que resultar numa potência $P(erp) <= 3
 
 link \url{http://www.videolinkpro.com.br/transmissor_fm_ex150.shtml}
 
-\subsection{Cálculos de ERPmax, ERPaz e a orientação da antena}
+\subsection{Cálculos de ERPmax, ERPaz e orientação da antena}
 
 A seguir serão mostrados os ajustes e cálculos necessários para obter o resultado mais
 eficiente e dentro da norma.
@@ -788,7 +1142,7 @@ $$ERPaz(0°) = 0,1557kW$$
 Convertendo para dBk ($10\times\log$):
 $$ERPaz(0°) = -8,07dBk$$
 
-Repete-se este procedimento para todos os outros 11 angulos. Segue tabela completa~\ref{tabelaERPaz}, com os valores de $E/Emax$ e $ERPaz$:
+Repete-se este procedimento para todos os outros 11 angulos. A tabela~\ref{tabelaERPaz} está completa, com todos os valores de $E/Emax$ e $ERPaz$ para todas as radiais.
 
 \def\tablename{Tabela}
 \begin{table}
@@ -1058,267 +1412,7 @@ As Àreas de Serviço Primário e Rural (74dBm e 54dBm) não são tratadas com tanto 
 Àrea Urbana está dentro da cobertura estabelecida, as outras duas Áreas estão ''amarradas'' nesta situação, ou seja, se o contorno
 protegido está cumprindo os requisitos as outras duas Áreas, automaticamente, também estão.
 
-\chapter{ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
 
-A resolução contém um capítulo inteiro que aborda um roteiro para elaboração de estudos técnicos, 
-indicando diversos parâmetros técnicos que devem ser informados sobre a emissora para as diversas e possíveis situações.
-
-Neste capítulo vamos abordar e informar apenas as especificações e dados pertinentes ao sistema apresentado neste estudo.
-
-\section{ESTUDO DE VIABILIDADE TÉCNICA DE UMA EMISSORA}
-
-A primeira lista de informações que é solicitada faz referencia ao estudo de viabilidade técnica da emissora, conforme trecho da resolução: 
-
-\begin{quotation}
-O Estudo de Viabilidade Técnica de uma Emissora deverá conter, necessariamente, as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo
-~\cite{ref1}.
-\end{quotation}
-
-\subsection{Informações básicas}
-
-Conforme apresentado na resolução, as informações básicas para este estudo são respostas dos seguintes questionamentos:
-
-- Nome da entidade requerente
-
-- Localização da emissora objeto do estudo (cidade, UF).
-
-- Propósito do estudo.
-
-E também sobre as características técnicas pretendidas:
-
-- frequência de operação (MHz);
-
-- nº do canal;
-
-- classe;
-
-- tipo de sistema irradiante;
-
-- coordenadas geográficas de instalação
-
-\subsection{Cálculo de Viabilidade}
-
- Para cada emissora da lista elaborada como indicado no item anterior (informações básicas), verificar se há o atendimento às distâncias mínimas exigidas entre duas estações.
- Como já mencionado anteriormente, a resolução informa que, no caso do sistema irradiante estar fixado próximo das coordenadas informadas no PBFM para este canal, o estudo 
-de interferências torna-se dispensável. Então, para esta emissora não se aplica este cálculo de viabilidade.
-
-\subsection{Parecer Conclusivo}
-
-Resumir os tópicos importantes do estudo e emitir parecer conclusivo sobre a viabilidade do propósito do mesmo.
-
-*** que resumo? falar sobre os itens distindos, exceções que foram usadas neste projeto?
-
-9.1.4.1 - Profissional habilitado
-
-- nome por extenso;
-
-- número da inscrição no CREA;
-
-- CPF;
-
-- Data e assinatura.
-
-*********************?????????????????????
-
-\section{PROJETO DE INSTALAÇÃO DE UMA EMISSORA}
-
-Agora é solicitado as informações técnicas (projeto) sobre a instalação da emissora, conforme trecho da resolução. 
-
-\begin{quotation}
-Este projeto deverá conter as seguintes partes: Memória Descritiva, Situação Geral, Nível Médio do Terreno, Parecer Conclusivo e Anexos, conforme especificado a seguir.
-~\cite{ref1}.
-\end{quotation}
- 
-\subsection{Memória Descritiva}
-
-A memória descritiva é um resumo das caracteristicas da emissora, juntamente com as características técnicas do sistema irradiente e linha de transmissão.
-
-\subsubsection{Resumo das características da emissora}
-
-a) nome da entidade requerente;
-
-b) endereço completo da sede (rua, nº, localidade, município, estado, código de endereçamento postal, CEP e telefone);
-
-c) espécie e data do ato de outorga da autorização e a data do Diário Oficial da União que o publicou;
-
-d) frequência de operação (MHz);
-
-e) nº do canal;
-
-f) potência de operação do transmissor (kW);
-
-g) classe;
-
-h) modo de operação (monofônico, estereofônico, com ou sem canal secundário).
-
-\subsubsection{Sistema irradiante}
-
-a) tipo de antena (onidirecional ou diretiva);
-
-b) fabricante e modelo da antena;
-
-c) polarização (horizontal, vertical, circular ou elíptica); se elíptica, dar a razão entre a componente horizontal e vertical;
-
-d) ganho máximo em relação ao dipolo de meia-onda;
-
-e) tipo da estrutura de sustentação (auto-suportada ou estaiada);
-
-f) altura física total da estrutura de sustentação em relação à sua base (solo);
-
-g) altura do centro geométrico da antena em relação à base da estrutura de sustentação (solo);
-
-h) altitude da base da estrutura de sustentação (solo) sobre o nível do mar;
-
-i) altura do centro geométrico da antena sobre o nível médio do terreno.
-
-\subsubsection{Linha de transmissão de RF}
-
-a) fabricante e modelo;
-
-b) impedância característica;
-
-c) comprimento total;
-
-d) atenuação em dB por 100 metros;
-
-e) eficiência.
-
-\subsubsection{Informações sobre ERPmax e ERPaz}
-
-a) ERP máxima (kW)
-
-b) ERP, por radial (kW).
-
-\subsubsection{Enquadramento na classe}
-
-a) ERP máxima proposta para cada radial;
-
-b) ERP máxima proposta para cada radial, corrigida para a altura de referência sobre o nível médio do terreno por radial, para a classe da emissora, estabelecida na Tabela 1;
-
-c) Distância ao contorno de 66 dBm para cada radial;
-
-d) Média aritmética das distâncias ao contorno de 66 dBm .
-
-\subsection{Situação Geral}
-
-\subsubsection{Estação transmissora}
-
-a) endereço completo do local do transmissor (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
-
-b) coordenadas geográficas do local do sistema irradiante;
-
-c) em se tratando de mudança do local, indicar separadamente os endereços do local atual e do proposto.
-
-\subsubsection{Endereços dos estúdios}
-
-a) principal (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
-
-b) auxiliar (rua, nº, localidade, município, estado e código de endereçamento postal - CEP).
-
-\subsubsection{Distâncias aos contornos das diversas áreas de serviço, segundo cada radial, de acordo com}
-
-a) azimute de orientação em relação ao Norte Verdadeiro;
-
-b) altura do centro geométrico da antena com relação ao nível médio de cada radial;
-
-c) intensidade de campo (dBm);
-
-d) distância aos contornos 1, 2 e 3, em cada radial.
-
-\subsection{Nível Médio do Terreno}
-
-\subsubsection{Cartas utilizadas}
-
-a) denominação;
-
-b) procedência;
-
-c) escala;
-
-d) equidistância das curvas de nível;
-
-e) data de publicação.
-
-\subsubsection{ Nível médio}
-
-a) azimute de orientação de cada radial, em relação ao Norte Verdadeiro;
-
-b) nível médio de cada radial;
-
-c) nível médio do terreno.
-
-\subsection{Parecer Conclusivo}
-
-Emitir parecer conclusivo sobre o projeto, declarando que o mesmo atende a todas as exigências da regulamentação técnica aplicável.
-
-\subsubsection{Profissional habilitado}
-
--nome por extenso;
-
--número de inscrição no CREA;
-
--nº do CPF;
-
--data e assinatura.
-
-\subsection{Anexos ao projeto de instalação}
-
-\subsubsection{Planta da Situação Geral}
-
-A planta ou carta topográfica da situação geral, deverá ser, de preferência, em escala 1:50.000 e editada por órgãos oficiais ou oficializados.
- Não precisará indicar, obrigatoriamente, detalhes de altimetria. Quando não houver disponibilidade de plantas nas condições mencionadas, será 
-permitida a utilização de cartas ou croquis de levantamentos aerofotogramétricos, nos quais constem a escala e o órgão responsável pelo levantamento.
- A planta da situação geral deverá ser apresentada em uma via, assinada por profissional habilitado. Nela deverão ser assinalados:
-
-a) a localização exata do sistema irradiante por um círculo, junto ao qual constará o número-código 1. No caso de mudança, o local proposto, pelo código 1B;
-
-b) a localização exata do estúdio principal, por um retângulo, junto ao qual constará o número-código 2;
-
-c) a localização exata do estúdio auxiliar por um retângulo, junto ao qual constará o número-código 3;
-
-d) por círculos, cada um dos sistemas irradiantes de que trata o subitem 9.2.2.5 e cada uma das estações do subitem 9.2.2.4, junto aos quais deverá constar o código
- alfanumérico correspondente;
-
-OBS.: Nos casos do subitem 9.2.2.4, assinalar, também, as direções exatas dos enlaces;
-
-e) os contornos 1, 2 e 3, de acordo com os valores calculados no subitem 9.2.2.5. Esta planta deverá comprovar o atendimento, pela emissora, do disposto no subitem 5.1.1.2,
- dentro das características técnicas fixadas pelo PBFM, da maior parte possível da população da localidade para a qual a permissão para exploração do serviço foi outorgada.
- Não sendo possível indicar estes contornos na mesma planta, indicá-los em planta separada, com escala adequada.
-
-\subsubsection{Planta das Instalações de Campo}
-
-Deve ser apresentado croquis, em escala adequada, indicando:
-
-a) casa do transmissor;
-
-b) antena e sua estrutura de sustentação;
-
-c) altura do centro geométrico da antena em relação à base da estrutura de sustentação(solo);
-
-d) indicação da altitude da base da estrutura de sustentação(solo) sobre o nível do mar.
-
-\subsubsection{Documentos diversos}
-
-9.2.5.3.1 - Declaração do profissional habilitado atestando que a instalação não excede os gabaritos da zona de proteção dos aeródromos,
- de acordo com a legislação específica vigente, ou que não existem aeródromos.
-
-9.2.5.3.2 - Documento de aprovação expedido pelo órgão competente do Ministério da Aeronáutica, quanto à localização proposta para o sistema irradiante da emissora,
- no caso de exceder os gabaritos previstos na legislação específica em vigor.
-
-9.2.5.3.3 - Declaração de concordância com a instalação proposta, firmada pelos responsáveis pelas estações mencionadas no subitem 9.2.2.4,
- quando a instalação não se enquadrar no que dispõe este subitem.
-
-9.2.5.3.4 - Comprovação de que a instalação proposta não criará problemas de deformação dos diagramas de irradiação, como previsto na observação do subitem 9.2.2.3.
-
-9.2.5.3.5 - Diagrama de irradiação horizontal do sistema irradiante, orientado em relação ao Norte Verdadeiro e diagrama de irradiação vertical.
-
-9.2.5.3.6 - Para emissoras ainda não licenciadas, as especificações técnicas dos transmissores que serão utilizados, ou se for o caso, seus códigos de certificação na ANATEL.
-
-9.2.5.3.7 - Estudo de viabilidade técnica específica, nos seguintes casos:
-
-a) multiplexação de estações em antena de uso comum;
-
-b) emprego de método de cálculo de cobertura diverso daquele utilizado na elaboração do PBFM, tal como, por exemplo, o sugerido em 8.1.5.1 ou 8.1.6.
 
 \begin{comment}
 
@@ -1592,127 +1686,6 @@ b) emprego de método de cálculo de cobertura diverso daquele utilizado na elabor
 \chapter{Figuras}
 
 Esta seção é destinadas á figuras usadas no trabalho.
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt1_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 1}
-
-\end{center}
-\label{nmt1}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt2_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 2}
-
-\end{center}
-\label{nmt2}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt3_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 3}
-
-\end{center}
-\label{nmt3}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt4_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 4}
-
-\end{center}
-\label{nmt4}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt5_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 5}
-
-\end{center}
-\label{nmt5}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt6_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 6}
-
-\end{center}
-\label{nmt6}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt7_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 7}
-
-\end{center}
-\label{nmt7}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt8_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 8}
-
-\end{center}
-\label{nmt8}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt9_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 9}
-
-\end{center}
-\label{nmt9}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt10_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 10}
-
-\end{center}
-\label{nmt10}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt11_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 11}
-
-\end{center}
-\label{nmt11}
-\end{figure}
-
-\begin{figure}[ht] % [especificador de posições]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.5]{./figuras/nmt12_v2.pdf} %Opções width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
-
-\caption[Radiais (aparece na Lista de Figuras)]{Radial 12}
-
-\end{center}
-\label{nmt12}
-\end{figure}
-
 
 \end{comment}
 

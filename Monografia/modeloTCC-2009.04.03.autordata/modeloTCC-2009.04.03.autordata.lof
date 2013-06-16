@@ -1,11 +1,11 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Consulta de canais dispon\IeC {\'\i }veis para uso - Portal da ANATEL}}{27}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Classifica\c c\~ao das emissoras em fun\c c\~ao de seus requisitos m\'aximos (tabela retirada da resolu\c c\~ao).}}{28}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Demonstra\c c\~ao do layout do aplicativo da SIGANATEL.}}{30}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Tra\c cado das 12 radias partindo da base da emissora.}}{30}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Gr\'afico do NMR da Radial 1 usando o aplicativo da SIGANATEL}}{31}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Proximidade entre a base do sistema e a coordenada indicada no PBFM, para o canal proposto~\cite {google}.}}{37}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Irradia\c c\~ao da Antena Dipolo $1/2$ Onda para FM}}{39}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Utilizando as curvas E(50,50) para encontrar as dist\^ancias do contorno protegido.}}{47}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Proje\c c\~ao da cobertura das \'areas de servi\c cos utilizando a ferramenta SIGANATEL.}}{50}
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Proje\c c\~ao da cobertura das \`Area de Servi\c co Urbana sobre a zona urbana do munic\IeC {\'\i }pio.}}{53}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Consulta de canais dispon\IeC {\'\i }veis para uso - Portal da ANATEL}}{24}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Classifica\c c\~ao das emissoras em fun\c c\~ao de seus requisitos m\'aximos (tabela retirada da resolu\c c\~ao).}}{25}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Demonstra\c c\~ao do layout do aplicativo da SIGANATEL.}}{27}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Tra\c cado das 12 radias partindo da base da emissora.}}{27}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Gr\'afico do NMR da Radial 1 usando o aplicativo da SIGANATEL}}{28}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Proximidade entre a base do sistema e a coordenada indicada no PBFM, para o canal proposto~\cite {google}.}}{34}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Diagrama de Irradia\c c\~ao da Antena Dipolo $1/2$ Onda para FM}}{36}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Utilizando as curvas E(50,50) para encontrar as dist\^ancias do contorno protegido.}}{44}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Proje\c c\~ao da cobertura das \'areas de servi\c cos utilizando a ferramenta SIGANATEL.}}{47}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Proje\c c\~ao da cobertura das \`Area de Servi\c co Urbana sobre a zona urbana do munic\IeC {\'\i }pio.}}{50}

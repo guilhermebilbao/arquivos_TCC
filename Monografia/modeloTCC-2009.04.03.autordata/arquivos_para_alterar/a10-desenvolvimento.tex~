@@ -130,267 +130,359 @@ vindos da Recomendação UIT-R P.1546.
  
 As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
 
-\chapter{ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
+\section{ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
 
-A resolução contém um capítulo inteiro que aborda um roteiro para elaboração de estudos técnicos, 
+A resolução contém um capítulo inteiro (indicar a referencia)que aborda um roteiro para elaboração de estudos técnicos, 
 indicando diversos parâmetros técnicos que devem ser informados sobre a emissora para as diversas e possíveis situações.
 
-Neste capítulo vamos abordar e informar apenas as especificações e dados pertinentes ao sistema apresentado neste estudo.
+Neste capítulo vamos abordar apenas as informações solicitadas que, particularmente, são necessárias para a homologação da emissora proposta neste estudo,
+ pois o roteiro, apresentado na integra na resolução, apresenta diversas outras solicitações que cabem à cenários diferentes do nosso.
 
-\section{ESTUDO DE VIABILIDADE TÉCNICA DE UMA EMISSORA}
+Existem também algumas documentações, anexos e outras informações, que em casos reais devem ser apresentados (como exemplo: croquis da casa de equipamentos e da torre,
+ endereçamentos detalhados, e informações sobre o engenheiro responsável pelo projeto), mas que não foram necessários suas descrições aqui neste momento devido à 
+ estarmos tratando de um estudo didático, com foco no desenvolvimento técnico do projeto.
 
-A primeira lista de informações que é solicitada faz referencia ao estudo de viabilidade técnica da emissora, conforme trecho da resolução: 
+Sendo assim, seguindo as orientações apresentadas no roteiro para a elaboração
+de estudos técnicos, vamos às informações que precisamos encontrar e definir no decorrer deste projeto.
+
+
+\subsection{ESTUDO DE VIABILIDADE TÉCNICA DE UMA EMISSORA}
+
+A primeira lista de informações que é solicitada faz referência ao estudo de viabilidade técnica da emissora. 
+
+\begin{comment}
 
 \begin{quotation}
 O Estudo de Viabilidade Técnica de uma Emissora deverá conter, necessariamente, as seguintes partes: Informações Básicas, Cálculo de Viabilidade e Parecer Conclusivo
 ~\cite{ref1}.
 \end{quotation}
 
-\subsection{Informações básicas}
+\end{comment}
+
+\subsubsection{Informações básicas}
 
 Conforme apresentado na resolução, as informações básicas para este estudo são respostas dos seguintes questionamentos:
 
-- Nome da entidade requerente
+\begin{itemize}
 
-- Localização da emissora objeto do estudo (cidade, UF).
+\item Nome da entidade requerente.
 
-- Propósito do estudo.
+\item Localização da emissora objeto do estudo (cidade, UF).
+
+\item Propósito do estudo.
+
+\end{itemize}
 
 E também sobre as características técnicas pretendidas:
 
-- frequência de operação (MHz);
+\begin{itemize}
 
-- nº do canal;
 
-- classe;
+\item  Frequência de operação (MHz);
 
-- tipo de sistema irradiante;
+\item  nº do canal;
 
-- coordenadas geográficas de instalação
+\item  classe;
 
-\subsection{Cálculo de Viabilidade}
+\item  tipo de sistema irradiante;
 
- Para cada emissora da lista elaborada como indicado no item anterior (informações básicas), verificar se há o atendimento às distâncias mínimas exigidas entre duas estações.
+\item  coordenadas geográficas de instalação.
+
+
+\end{itemize}
+
+\begin{comment}
+
+\subsubsection{Cálculo de Viabilidade}
+
+Para cada emissora da lista elaborada como indicado no item anterior (informações básicas), verificar se há o atendimento às distâncias mínimas exigidas entre duas estações.
  Como já mencionado anteriormente, a resolução informa que, no caso do sistema irradiante estar fixado próximo das coordenadas informadas no PBFM para este canal, o estudo 
 de interferências torna-se dispensável. Então, para esta emissora não se aplica este cálculo de viabilidade.
 
-\subsection{Parecer Conclusivo}
+\end{comment}
+
+
+\begin{comment}
+
+\subsubsection{Parecer Conclusivo}
 
 Resumir os tópicos importantes do estudo e emitir parecer conclusivo sobre a viabilidade do propósito do mesmo.
 
 *** que resumo? falar sobre os itens distindos, exceções que foram usadas neste projeto?
 
-9.1.4.1 - Profissional habilitado
+ Deve ser identificado o profissional habilitado responsável pelo projeto, informando:
 
-- nome por extenso;
+\begin{itemize}
 
-- número da inscrição no CREA;
+\item Nome por extenso;
 
-- CPF;
+\item número da inscrição no CREA;
 
-- Data e assinatura.
+\item CPF;
 
-*********************?????????????????????
+\item data e assinatura.
 
-\section{PROJETO DE INSTALAÇÃO DE UMA EMISSORA}
+\end{itemize}
 
-Agora é solicitado as informações técnicas (projeto) sobre a instalação da emissora, conforme trecho da resolução. 
+\end{comment}
 
-\begin{quotation}
-Este projeto deverá conter as seguintes partes: Memória Descritiva, Situação Geral, Nível Médio do Terreno, Parecer Conclusivo e Anexos, conforme especificado a seguir.
-~\cite{ref1}.
-\end{quotation}
- 
-\subsection{Memória Descritiva}
 
-A memória descritiva é um resumo das caracteristicas da emissora, juntamente com as características técnicas do sistema irradiente e linha de transmissão.
+\subsection{PROJETO DE INSTALAÇÃO DE UMA EMISSORA}
 
-\subsubsection{Resumo das características da emissora}
+Neste momento é solicitado as informações técnicas sobre a instalação da emissora.
 
-a) nome da entidade requerente;
+\subsubsection{Memória Descritiva}
 
-b) endereço completo da sede (rua, nº, localidade, município, estado, código de endereçamento postal, CEP e telefone);
+A memória descritiva é um resumo das caracteristicas da emissora, juntamente com as características técnicas do sistema irradiante e linha de transmissão.
 
-c) espécie e data do ato de outorga da autorização e a data do Diário Oficial da União que o publicou;
+\textbf{Resumo das características da emissora:}
 
-d) frequência de operação (MHz);
+\begin{enumerate}
 
-e) nº do canal;
+\item frequência de operação (MHz);
 
-f) potência de operação do transmissor (kW);
+\item nº do canal;
 
-g) classe;
+\item potência de operação do transmissor (kW);
 
-h) modo de operação (monofônico, estereofônico, com ou sem canal secundário).
+\item classe;
 
-\subsubsection{Sistema irradiante}
+\item modo de operação (monofônico, estereofônico, com ou sem canal secundário).
 
-a) tipo de antena (onidirecional ou diretiva);
+\end{enumerate}
 
-b) fabricante e modelo da antena;
+\textbf{Sistema irradiante:}
 
-c) polarização (horizontal, vertical, circular ou elíptica); se elíptica, dar a razão entre a componente horizontal e vertical;
+\begin{enumerate}
 
-d) ganho máximo em relação ao dipolo de meia-onda;
+\item tipo de antena (onidirecional ou diretiva);
 
-e) tipo da estrutura de sustentação (auto-suportada ou estaiada);
+\item fabricante e modelo da antena;
 
-f) altura física total da estrutura de sustentação em relação à sua base (solo);
+\item polarização (horizontal, vertical, circular ou elíptica); se elíptica, dar a razão entre a componente horizontal e vertical;
 
-g) altura do centro geométrico da antena em relação à base da estrutura de sustentação (solo);
+\item ganho máximo em relação ao dipolo de meia-onda;
 
-h) altitude da base da estrutura de sustentação (solo) sobre o nível do mar;
+\item tipo da estrutura de sustentação (auto-suportada ou estaiada);
 
-i) altura do centro geométrico da antena sobre o nível médio do terreno.
+\item altura física total da estrutura de sustentação em relação à sua base (solo);
 
-\subsubsection{Linha de transmissão de RF}
+\item altura do centro geométrico da antena em relação à base da estrutura de sustentação (solo);
 
-a) fabricante e modelo;
+\item altitude da base da estrutura de sustentação (solo) sobre o nível do mar;
 
-b) impedância característica;
+\item altura do centro geométrico da antena sobre o nível médio do terreno.
 
-c) comprimento total;
+\end{enumerate}
 
-d) atenuação em dB por 100 metros;
+\textbf{Linha de transmissão de radiofrequência:}
 
-e) eficiência.
+\begin{enumerate}
 
-\subsubsection{Informações sobre ERPmax e ERPaz}
+\item fabricante e modelo;
 
-a) ERP máxima (kW)
+\item impedância característica;
 
-b) ERP, por radial (kW).
+\item comprimento total;
 
-\subsubsection{Enquadramento na classe}
+\item atenuação em dB por 100 metros;
 
-a) ERP máxima proposta para cada radial;
+\item eficiência.
 
-b) ERP máxima proposta para cada radial, corrigida para a altura de referência sobre o nível médio do terreno por radial, para a classe da emissora, estabelecida na Tabela 1;
+\end{enumerate}
 
-c) Distância ao contorno de 66 dBm para cada radial;
+\textbf{Informações sobre ERPmax e ERPaz:}
 
-d) Média aritmética das distâncias ao contorno de 66 dBm .
+\begin{enumerate}
 
-\subsection{Situação Geral}
+\item ERP máxima (kW)
 
-\subsubsection{Estação transmissora}
+\item ERP, por radial (kW).
 
-a) endereço completo do local do transmissor (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
+\end{enumerate}
 
-b) coordenadas geográficas do local do sistema irradiante;
+\textbf{Enquadramento na classe:}
 
-c) em se tratando de mudança do local, indicar separadamente os endereços do local atual e do proposto.
+\begin{enumerate}
 
-\subsubsection{Endereços dos estúdios}
+\item ERP máxima proposta para cada radial;
 
-a) principal (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
+\item ERP máxima proposta para cada radial, corrigida para a altura de referência sobre o nível médio do terreno por radial, para a classe da emissora, estabelecida na Tabela 1;
 
-b) auxiliar (rua, nº, localidade, município, estado e código de endereçamento postal - CEP).
+\item Distância ao contorno de $66 dBm$ para cada radial;
 
-\subsubsection{Distâncias aos contornos das diversas áreas de serviço, segundo cada radial, de acordo com}
+\item Média aritmética das distâncias ao contorno de $66 dBm$ .
 
-a) azimute de orientação em relação ao Norte Verdadeiro;
+\end{enumerate}
 
-b) altura do centro geométrico da antena com relação ao nível médio de cada radial;
+\subsubsection{Situação Geral}
 
-c) intensidade de campo (dBm);
+\begin{comment}
 
-d) distância aos contornos 1, 2 e 3, em cada radial.
+Estação transmissora:
 
-\subsection{Nível Médio do Terreno}
+\begin{enumerate}
 
-\subsubsection{Cartas utilizadas}
+\item endereço completo do local do transmissor (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
 
-a) denominação;
+\item coordenadas geográficas do local do sistema irradiante;
 
-b) procedência;
+\item em se tratando de mudança do local, indicar separadamente os endereços do local atual e do proposto.
 
-c) escala;
+\end{enumerate}
 
-d) equidistância das curvas de nível;
+Endereços dos estúdios:
 
-e) data de publicação.
+\begin{enumerate}
 
-\subsubsection{ Nível médio}
+\item principal (rua, nº, localidade, município, estado e código de endereçamento postal - CEP);
 
-a) azimute de orientação de cada radial, em relação ao Norte Verdadeiro;
+\item auxiliar (rua, nº, localidade, município, estado e código de endereçamento postal - CEP).
 
-b) nível médio de cada radial;
+\end{enumerate
 
-c) nível médio do terreno.
+\end{comment}
 
-\subsection{Parecer Conclusivo}
+Distâncias aos contornos das diversas áreas de serviço, segundo cada radial, de acordo com:
+
+\begin{enumerate}
+
+\item azimute de orientação em relação ao Norte Verdadeiro;
+
+\item altura do centro geométrico da antena com relação ao nível médio de cada radial;
+
+\item intensidade de campo ($dBm$);
+
+\item distância aos contornos 1, 2 e 3, em cada radial.
+
+\end{enumerate}
+
+\subsubsection{Nível Médio do Terreno}
+
+\textbf{Cartas utilizadas:}
+
+\begin{enumerate}
+
+\item denominação;
+
+\item procedência;
+
+\item escala;
+
+\item equidistância das curvas de nível;
+
+\item data de publicação.
+
+\end{enumerate}
+
+\textbf{Nível médio:}
+
+\begin{enumerate}
+
+\item azimute de orientação de cada radial, em relação ao Norte Verdadeiro;
+
+\item nível médio de cada radial;
+
+\item nível médio do terreno.
+
+\end{enumerate}
+
+
+
+\begin{comment}
+
+\subsubsection{Parecer Conclusivo}
 
 Emitir parecer conclusivo sobre o projeto, declarando que o mesmo atende a todas as exigências da regulamentação técnica aplicável.
 
-\subsubsection{Profissional habilitado}
+Profissional habilitado:
 
--nome por extenso;
+\begin{itemize}
 
--número de inscrição no CREA;
+\item nome por extenso;
 
--nº do CPF;
+\item número de inscrição no CREA;
 
--data e assinatura.
+\item nº do CPF;
 
-\subsection{Anexos ao projeto de instalação}
+\item data e assinatura.
 
-\subsubsection{Planta da Situação Geral}
+\end{itemize}
+
+\subsubsection{Anexos ao projeto de instalação}
+
+Planta da Situação Geral:
 
 A planta ou carta topográfica da situação geral, deverá ser, de preferência, em escala 1:50.000 e editada por órgãos oficiais ou oficializados.
  Não precisará indicar, obrigatoriamente, detalhes de altimetria. Quando não houver disponibilidade de plantas nas condições mencionadas, será 
 permitida a utilização de cartas ou croquis de levantamentos aerofotogramétricos, nos quais constem a escala e o órgão responsável pelo levantamento.
  A planta da situação geral deverá ser apresentada em uma via, assinada por profissional habilitado. Nela deverão ser assinalados:
 
-a) a localização exata do sistema irradiante por um círculo, junto ao qual constará o número-código 1. No caso de mudança, o local proposto, pelo código 1B;
+\begin{enumerate}
 
-b) a localização exata do estúdio principal, por um retângulo, junto ao qual constará o número-código 2;
+\item a localização exata do sistema irradiante por um círculo, junto ao qual constará o número-código 1. No caso de mudança, o local proposto, pelo código 1B;
 
-c) a localização exata do estúdio auxiliar por um retângulo, junto ao qual constará o número-código 3;
+\item a localização exata do estúdio principal, por um retângulo, junto ao qual constará o número-código 2;
 
-d) por círculos, cada um dos sistemas irradiantes de que trata o subitem 9.2.2.5 e cada uma das estações do subitem 9.2.2.4, junto aos quais deverá constar o código
+\item a localização exata do estúdio auxiliar por um retângulo, junto ao qual constará o número-código 3;
+
+\item por círculos, cada um dos sistemas irradiantes de que trata o subitem 9.2.2.5 e cada uma das estações do subitem 9.2.2.4, junto aos quais deverá constar o código
  alfanumérico correspondente;
 
-OBS.: Nos casos do subitem 9.2.2.4, assinalar, também, as direções exatas dos enlaces;
-
-e) os contornos 1, 2 e 3, de acordo com os valores calculados no subitem 9.2.2.5. Esta planta deverá comprovar o atendimento, pela emissora, do disposto no subitem 5.1.1.2,
+\item os contornos 1, 2 e 3, de acordo com os valores calculados no subitem 9.2.2.5. Esta planta deverá comprovar o atendimento, pela emissora, do disposto no subitem 5.1.1.2,
  dentro das características técnicas fixadas pelo PBFM, da maior parte possível da população da localidade para a qual a permissão para exploração do serviço foi outorgada.
  Não sendo possível indicar estes contornos na mesma planta, indicá-los em planta separada, com escala adequada.
 
-\subsubsection{Planta das Instalações de Campo}
+\end{enumerate}
+
+Planta das Instalações de Campo:
 
 Deve ser apresentado croquis, em escala adequada, indicando:
 
-a) casa do transmissor;
+\begin{enumerate}
 
-b) antena e sua estrutura de sustentação;
+\item casa do transmissor;
 
-c) altura do centro geométrico da antena em relação à base da estrutura de sustentação(solo);
+\item antena e sua estrutura de sustentação;
 
-d) indicação da altitude da base da estrutura de sustentação(solo) sobre o nível do mar.
+\item altura do centro geométrico da antena em relação à base da estrutura de sustentação(solo);
 
-\subsubsection{Documentos diversos}
+\item indicação da altitude da base da estrutura de sustentação(solo) sobre o nível do mar.
 
-9.2.5.3.1 - Declaração do profissional habilitado atestando que a instalação não excede os gabaritos da zona de proteção dos aeródromos,
+\end{enumerate}
+
+Documentos diversos:
+
+\begin{enumerate}
+
+\item Declaração do profissional habilitado atestando que a instalação não excede os gabaritos da zona de proteção dos aeródromos,
  de acordo com a legislação específica vigente, ou que não existem aeródromos.
 
-9.2.5.3.2 - Documento de aprovação expedido pelo órgão competente do Ministério da Aeronáutica, quanto à localização proposta para o sistema irradiante da emissora,
+\item Documento de aprovação expedido pelo órgão competente do Ministério da Aeronáutica, quanto à localização proposta para o sistema irradiante da emissora,
  no caso de exceder os gabaritos previstos na legislação específica em vigor.
 
-9.2.5.3.3 - Declaração de concordância com a instalação proposta, firmada pelos responsáveis pelas estações mencionadas no subitem 9.2.2.4,
+\item Declaração de concordância com a instalação proposta, firmada pelos responsáveis pelas estações mencionadas no subitem 9.2.2.4,
  quando a instalação não se enquadrar no que dispõe este subitem.
 
-9.2.5.3.4 - Comprovação de que a instalação proposta não criará problemas de deformação dos diagramas de irradiação, como previsto na observação do subitem 9.2.2.3.
+\item Comprovação de que a instalação proposta não criará problemas de deformação dos diagramas de irradiação, como previsto na observação do subitem 9.2.2.3.
 
-9.2.5.3.5 - Diagrama de irradiação horizontal do sistema irradiante, orientado em relação ao Norte Verdadeiro e diagrama de irradiação vertical.
+\item Diagrama de irradiação horizontal do sistema irradiante, orientado em relação ao Norte Verdadeiro e diagrama de irradiação vertical.
 
-9.2.5.3.6 - Para emissoras ainda não licenciadas, as especificações técnicas dos transmissores que serão utilizados, ou se for o caso, seus códigos de certificação na ANATEL.
+\item Para emissoras ainda não licenciadas, as especificações técnicas dos transmissores que serão utilizados, ou se for o caso, seus códigos de certificação na ANATEL.
 
-9.2.5.3.7 - Estudo de viabilidade técnica específica, nos seguintes casos:
+\item Estudo de viabilidade técnica específica, nos seguintes casos:
 
-a) multiplexação de estações em antena de uso comum;
+\begin{itemize}
 
-b) emprego de método de cálculo de cobertura diverso daquele utilizado na elaboração do PBFM, tal como, por exemplo, o sugerido em 8.1.5.1 ou 8.1.6.
+\item multiplexação de estações em antena de uso comum;
+
+\item emprego de método de cálculo de cobertura diverso daquele utilizado na elaboração do PBFM.
+
+\end{itemize}
+
+\end{enumerate}
+
+\end{comment}
 
 \section{RECOMENDAÇÃO UIT-R P.1546}
 A UIT-R, através da Recomendação UIT-R P.1546~\cite{ref4}, descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
@@ -399,7 +491,7 @@ baseados nestes métodos.
 
 \subsection{Conceitos Básicos}
 
-A seguir serão descritos parâmetros básicos muitos utilizados nos cálculos.
+A seguir serão descritos os parâmetros básicos muitos utilizados nos cálculos.
 
 \subsubsection{Altura acima do nível médio do terreno}
 
@@ -432,6 +524,10 @@ encontradas na resolução~\cite{ref1}.~\cite{paulo}
 
 \section{ADAPTAÇÕES DA RECOMENDAÇÃO}
 
+Apesar de a recomendação descrever métodos para obter valores precisos, a
+resolução introduz algumas adaptações, que facilitam os cálculos envolvidos. As adaptações
+necessárias para este estudo são descritas nesta sessão.
+
 \subsection{Nível Médio do Terreno}
 
 Para efeitos de cálculo, no Brasil o nível médio do terreno (NMT) é calculado
@@ -450,15 +546,20 @@ Apesar de ser possível calcular a intensidade de campo para valores fora da faix
 máximos. Ou seja, quando a HNMT da antena for interior a 10m, deve ser tomado o valor de
 10m, e quando exceder os 1200m, este valor que deve ser considerado.~\cite{paulo}
 
+\begin{comment}
+ 
 \section{PARÂMETROS NECESSÁRIOS PARA O CÁLCULO DE VIABILIDADE TÉCNICA}
 
-Utilizando os métodos mencionados, vamos calcular os valores necessários para que um canal de rádio FM possa ser viabilizado.
+Utilizando os métodos mencionados, podemos calcular e encontrar os valores necessários para que um canal de rádio FM possa ser viabilizado conforme é
+solicitado na resolução.
 
 \subsection{Contorno protegido}
 
 O contorno protegido é a distância entre a antena transmissora até o local geométrico onde a intensidade de campo E(50,50) apresenta o valor de 
-$66 dBm$, para um canal de rádio FM. A resolução define, através da ultima alteração (RESOLUÇÃO n° 546), que , para a classe C, a distância máxima ao
+$66 dBm$, para um canal de rádio FM. A resolução define, através da ultima alteração (****indicar referencia****), que , para a classe C, a distância máxima ao
 contorno protegido é de 7,5km, a partir da base da antena transmissora. 
+
+\end{comment}
 
 \chapter{CANAL PROPOSTO}
 
@@ -780,7 +881,7 @@ Radial & NMR & HSNMT \\ \hline
 
 \section{CONTORNO PROTEGIDO}
 
-Como mencionado anteriormente, o contorno protegido de uma estação de rádio FM corresponde ao lugar
+O contorno protegido de uma estação de rádio FM corresponde ao lugar
 geométrico onde a intensidade de campo do sinal apresentar o valor de $66dBm$ ($2mV/m$)(Contorno 2). 
 Este contorno tem como finalidade atender a área de serviço urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
 as demais áreas de serviços, a área de serviço primária (Contorno 1), limitada pelo contorno de $74dBm$ ($5mV/m$) e a área de serviço rural (Contorno 3),
@@ -816,11 +917,10 @@ conforme apresentado na Figura~\ref{proximidadePBMF}.
 \label{proximidadePBMF}
 \end{figure}
 
-\chapter{DEFINIÇÕES DO SISTEMA IRRADIANTE}
+\chapter{EQUIPAMENTOS BÁSICOS QUE COMPÕE A EMISSORA}
 
 Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos técnicos primários
- necessários, vamos para a construção do conjunto de equipamentos que formará o sistema irradiante, além de realizar os cálculos necessários para
-deixar a emissora enquadrada conforme a resolução.
+ necessários, vamos para a construção do conjunto de equipamentos que formará a emissora.
 
 
 \section{SISTEMA IRRADIANTE}
@@ -828,7 +928,8 @@ deixar a emissora enquadrada conforme a resolução.
 Um sistema irradiante é composto basicamente de uma antena, um guia de onda, e um transmissor. Cada um dos componentes apresenta características próprias, 
 variando de fabricante. No levantamento das informações são apresentadas as características que influenciam diretamente nos cálculos.
 
-A seguir serão apresentados as características do sistema irradiante, bem como os critérios usados para a utilização de cada um dos equipamentos.
+A seguir serão apresentados as características do sistema irradiante, bem como os critérios usados para a utilização de cada um dos equipamentos. 
+ Também apresentaremos os cálculos que serão usados para encontrar os valores das potências irradiadas pelo sistema.
 
 
 \subsection{Antena}
@@ -873,7 +974,7 @@ eficiência da linha de transmissão, terá que resultar numa potência $P(erp) <= 3
 
 link \url{http://www.videolinkpro.com.br/transmissor_fm_ex150.shtml}
 
-\subsection{Cálculos de ERPmax, ERPaz e a orientação da antena}
+\subsection{Cálculos de ERPmax, ERPaz e orientação da antena}
 
 A seguir serão mostrados os ajustes e cálculos necessários para obter o resultado mais
 eficiente e dentro da norma.
@@ -995,7 +1096,7 @@ Potência do transmissor & 0,150kW\\ \hline
 \end{table}
 
 Os próximos passos serão destinados à mostrar os valores que comprovarão que esta configuração do sistema 
-está respeitando todos os requisitos máximos, principalmente o contorno protegido de 66dBm.
+está respeitando todos os requisitos máximos, principalmente o contorno protegido de $66dBm$.
 
 \section{DEFININDO AS POTÊNCIAS ERPmax E ERPaz}
 
@@ -1080,14 +1181,14 @@ $330°$& 0,88 & 0,1985 & -7,02 \\\hline
 
 \section{DEFININDO OS CONTORNOS DAS ÀREAS DE SERVIÇOS}
 
-Definir a distância do contorno protegido, cobertura da Àrea de Serviço Urbana com potência mínima de 66dBm, 
+Definir a distância do contorno protegido, cobertura da Àrea de Serviço Urbana com potência mínima de $66dBm$, 
 é o principal objetivo deste estudo. 
 Esta distância é a média aritmética das distâncias a este contorno, segundo cada radial, 
  e é o que irá identificar a classe desta emissora. Para a classe C, o Contorno 2 
 não deve ultrapassar 7,5km, sendo este o resultado da média das 12 radiais. 
 
-A norma também solicita as definições das outras duas àreas de serviços, a Área de Serviço Primário (74dBm) 
-e a Àrea de Serviço Rural (54dBm), Contornos 1 e 3 respectivamente. O conjunto desses 3 contornos
+A norma também solicita as definições das outras duas àreas de serviços, a Área de Serviço Primário ($74dBm$) 
+e a Àrea de Serviço Rural ($54dBm$), Contornos 1 e 3 respectivamente. O conjunto desses 3 contornos
 compõem a àrea de serviço da emissora.
 
 Já temos o potencial de irradiação de cada uma das radias do sistema, a próxima etapa é
@@ -1097,7 +1198,7 @@ entre potência e relevo, necessárias para determinar as distâncias dos contornos
 Tais curvas baseiam-se em uma potencia efetiva de 1KW irradiado por um dipolo de 1/2 onda, em espaço livre,
  que produz uma intensidade de campo não atenuada, a 1km, de aproximadamente 107dBu.
 
-\subsection{Àrea de Serviço Urbana (66dBm)}
+\subsection{Àrea de Serviço Urbana ($66dBm$)}
 
 Como já mencionado, a Área de Serviço Urbana é o contorno principal do projeto. 
 Para identificar se a emissora está respeitando o contorno de 7,5km, temos que fazer uso das curvas de intensidade, 
@@ -1138,7 +1239,7 @@ Para os valores de HSMNT negativos é considerado a curva de menor valor como ref
 
 \begin{tabular}{|c|c|c|c|c|} \hline
 
-Radial& ERPaz(dBk) & HSMNT (m) & 66dBm & Contorno 2 (km)\\\hline\hline
+Radial& ERPaz(dBk) & HSMNT (m) & $66dBm$ & Contorno 2 (km)\\\hline\hline
 $0°$  & -8,07 &185,86 &74,07 &10,5\\\hline
 $30°$ & -9,13 &270,78 &75,13 &11  \\\hline
 $60°$ & -9,92 &175,10 &75,92 &9   \\\hline
@@ -1153,7 +1254,7 @@ $300°$& -6,35 &-67,85 &72,35 &3,4 \\\hline
 $330°$& -7,02 &-61,07 &73,02 &3,2 \\\hline
 
 \end{tabular}
-\caption{Distancias do contorno protegido (66dBm).} 
+\caption{Distancias do contorno protegido ($66dBm$).} 
 \label{tabelaContorno2}
 \end{table}
 
@@ -1166,15 +1267,15 @@ Encontramos no site de prefeitura um mapa do macrozoneamento de São Pedro de Alc
 as áreas conforme sua densidade populacional urbana ou rural (pesquisa realizada em 2010).
 
 A àrea em vermelho corresponde à àrea urbana atual, e a àrea um laranja é correspondente à àrea de expansão urbana. 
-O contorno de 66dBm deve cobrir ao menos 90\% dessas áreas para, assim, comprovar a cobertura da área urbana do 
+O contorno de $66dBm$ deve cobrir ao menos 90\% dessas áreas para, assim, comprovar a cobertura da área urbana do 
 município, conforme o estabelecido pela resolução.
 
 
-\subsection{Àreas de Serviço Primário e Rural (74dBm e 54dBm)} 
+\subsection{Àreas de Serviço Primário e Rural ($74dBm$ e $54dBm$)} 
 
-Os outros contornos de serviço, Àrea de Serviço Primário (74dBm) e Àrea de Serviço Rural (54dBm), tem como objetivos 
+Os outros contornos de serviço, Àrea de Serviço Primário ($74dBm$) e Àrea de Serviço Rural ($54dBm$), tem como objetivos 
 atender a àrea de maior densidade populacional e àrea rural, respectivamente, na localidade. 
-Os mesmos procedimentos usados para encontrar as distâncias do contorno de 66dBm são usados para esses dois outros contornos.
+Os mesmos procedimentos usados para encontrar as distâncias do contorno de $66dBm$ são usados para esses dois outros contornos.
 Os resultados estão na tabela~\ref{tabelaGeral}.
 
 \begin{center}
@@ -1254,16 +1355,20 @@ Cruzando as informações deste documento com os resultados do projeto, saberemos 
 
 \subsection{Analisando a cobertura da Àrea de Serviço Urbana em São Pedro de Alcântara}
 
-A Área de Serviço Urbana, correspondente ao contorno 2 ou contorno protegido (66dBm), entre as três, é a área referência para a homologação das coberturas.
+A Área de Serviço Urbana, correspondente ao contorno 2 ou contorno protegido ($66dBm$), entre as três, é a área referência para a homologação das coberturas.
 É este contorno que vai indicar se o sistema está devidamente enquadrado na classe correspondente, no caso classe C. 
 
-Os requisitos mínimos apresentados pela resolução para o contorno de 66dBm são os seguintes:
+Os requisitos mínimos apresentados pela resolução para o contorno de $66dBm$ são os seguintes:
 
-- a média aritmética das distancias a este contorno não pode ultrapassar 7,5km;
+\begin{itemize}
 
-- a média aritmética das distancias a este contorno não poderá ser menor do que a distância ao contorno máximo da classe imediatamente inferior;
+\item a média aritmética das distancias a este contorno não pode ultrapassar 7,5km;
 
-- o contorno de 66dBm deve cobrir ao menos 90\% dessa àrea urbana da localidade.
+\item a média aritmética das distancias a este contorno não poderá ser menor do que a distância ao contorno máximo da classe imediatamente inferior;
+
+\item o contorno de $66dBm$ deve cobrir ao menos 90\% dessa àrea urbana da localidade.
+
+\end{itemize}
 
 Primeiramente verificaremos a média aritmética das distancias do contorno protegido. Buscando os valores das distancias, apresentados na tabela~\ref{tabelaGeral},
 podemos encontrar esta média do contorno e saber se a emissora está respeitando este requisito. Segue o cálculo:
@@ -1275,7 +1380,7 @@ também pode ser considerado como alcançado, pois a classe C é a última dentro da
 
 Para verificar o último requisito, vamos utilizar o mapa de Macrozoneamento (ANEXO ~\ref{mapaMacrozoneamento}) e comparar com área de cobertura.	
 Comparando, um à um, os valores das distâncias do contorno protegido e do contorno da área urbana, sempre partindo da base da emissora e considerando os mesmos angulos que formam
-as 12 radias, podemos comprovar que a área urbana está inserida praticamente 100\% dentro do contorno de 66dBm, conforme representado na Figura~\ref{contornoAreaUrbana}. Os
+as 12 radias, podemos comprovar que a área urbana está inserida praticamente 100\% dentro do contorno de $66 dBm$, conforme representado na Figura~\ref{contornoAreaUrbana}. Os
 valores que foram comparados podem ser verificados na tabela~\ref{tabelaAreaUrbana}.
 
 \def\tablename{Tabela}
@@ -1312,14 +1417,15 @@ $330°$& 3,20  & 0,65  \\\hline
 \label{contornoAreaUrbana}
 \end{figure}
 
-Assim, comprovamos que a Área de serviço Urbana está devidamente coberta pelo contorno de 66dBm, conforme exige a resolução.
+Assim, comprovamos que a Área de serviço Urbana está devidamente coberta pelo contorno de $66dBm$, conforme exige a resolução.
 
 \subsubsection{As outras Áreas}
 
-As Àreas de Serviço Primário e Rural (74dBm e 54dBm) não são tratadas com tanto rigor quanto a Àrea Urbana. Uma vez que a 
+As Àreas de Serviço Primário e Rural ($74dBm$ e $54dBm$) não são tratadas com tanto rigor quanto a Àrea Urbana. Uma vez que a 
 Àrea Urbana está dentro da cobertura estabelecida, as outras duas Áreas estão ''amarradas'' nesta situação, ou seja, se o contorno
 protegido está cumprindo os requisitos as outras duas Áreas, automaticamente, também estão.
 
+\section{APRESENTANDO AS INFORMAÇÕES CONFORME O ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
 
 
 \begin{comment}
