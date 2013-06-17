@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  16 JUN 2013 01:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  16 JUN 2013 21:56
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -419,12 +419,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 2.
  [8
 
-] [9])
+] [9]
+Overfull \hbox (1.0973pt too wide) in paragraph at lines 55--55
+ [] []\OT1/ptm/b/n/12 APRESENTANDO AS INFORMA[][]OES T[]ECNICAS, CON-FORME O RO
+-TEIRO 
+ []
+
+)
 \tf@toc=\write3
 \openout3 = `modeloTCC-2009.04.03.autordata.toc'.
 
- [10]
-(./modeloTCC-2009.04.03.autordata.lof)
+ [10] (./modeloTCC-2009.04.03.autordata.lof)
 \tf@lof=\write4
 \openout4 = `modeloTCC-2009.04.03.autordata.lof'.
 
@@ -817,23 +822,28 @@ Overfull \hbox (40.16112pt too wide) in paragraph at lines 1415--1416
  [][] 
  []
 
+[49] [50 <./figuras/contornoAreaUrbana.png>]
+Cap\'{\i }tulo 8.
 
-Overfull \hbox (62.12643pt too wide) in paragraph at lines 1428--1428
-\OT1/ptm/b/n/17.28 O RO-TEIRO PARA ELABORA[][]AO DE ES-TU-DOS T[]ECNICOS 
+Overfull \hbox (39.82071pt too wide) in paragraph at lines 1430--1432
+[]\OT1/ptm/m/n/12 Ap[]os de-sen-vol-ver o pro-jeto res-pei-tando a resolu[][]ao
+, e tamb[]em uti-li-zando re-cur-sos da recomenda[][]ao,
  []
 
-) [49] [50 <./figuras/contornoAreaUrbana.png>]
-Cap\'{\i }tulo 8.
+[51
+
+] [52] [53]) [54]
+Cap\'{\i }tulo 9.
 (./arquivos_para_alterar/a11-conclusao.tex)
 (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [51
+(./modeloTCC-2009.04.03.autordata.bbl [55
 
-]) [52
+]) [56
 
 ]
 Anexo A.
 (./arquivos_para_alterar/a14-anexo.tex
-<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=197, 615.0177pt x 862.9038pt>
+<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=210, 615.0177pt x 862.9038pt>
 File: ./figuras/1pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/1pdfantenadipolodemeiaondafm.jpg>
@@ -841,7 +851,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=198, 615.0177pt x 862.9038pt>
+<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=211, 615.0177pt x 862.9038pt>
 File: ./figuras/2pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/2pdfantenadipolodemeiaondafm.jpg>
@@ -849,7 +859,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=199, 615.0177pt x 862.9038pt>
+<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=212, 615.0177pt x 862.9038pt>
 File: ./figuras/3pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/3pdfantenadipolodemeiaondafm.jpg>
@@ -857,7 +867,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=200, 615.0177pt x 862.9038pt>
+<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=213, 615.0177pt x 862.9038pt>
 File: ./figuras/4pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/4pdfantenadipolodemeiaondafm.jpg>
@@ -865,22 +875,22 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [53
+) [57
 
-] [54 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [55 <./figuras/2pdfantenadi
-polodemeiaondafm.jpg>] [56 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
-[57 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
+] [58 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [59 <./figuras/2pdfantenadi
+polodemeiaondafm.jpg>] [60 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
+[61 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
 Anexo B.
 (./arquivos_para_alterar/a16-anexo.tex
-<./figuras/LCF158-50JFNL.pdf, id=217, 596.2275pt x 794.97pt>
+<./figuras/LCF158-50JFNL.pdf, id=230, 596.2275pt x 794.97pt>
 File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
-<use ./figuras/LCF158-50JFNL.pdf>) [58
+<use ./figuras/LCF158-50JFNL.pdf>) [62
 
-] [59 <./figuras/LCF158-50JFNL.pdf>]
+] [63 <./figuras/LCF158-50JFNL.pdf>]
 Anexo C.
 (./arquivos_para_alterar/a17-anexo.tex
-<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=243, 1195.46625pt x 845.1575pt>
+<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=256, 1195.46625pt x 845.1575pt>
 File: ./figuras/1757_MAPA_MACROZONEAMENTO.pdf Graphic file (type pdf)
 
 <use ./figuras/1757_MAPA_MACROZONEAMENTO.pdf>
@@ -891,54 +901,54 @@ Overfull \hbox (51.85431pt too wide) in paragraph at lines 7--8
 
 LaTeX Warning: Float too large for page by 23.19267pt on input line 8.
 
-) [60
+) [64
 
-] [61 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>]
+] [65 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>]
 Anexo D.
 (./arquivos_para_alterar/a18-anexo.tex
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
  <use ./figuras/nmt1_v2.pdf>
-<./figuras/nmt2_v2.pdf, id=255, 845.1575pt x 597.23125pt>
+<./figuras/nmt2_v2.pdf, id=267, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt2_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt2_v2.pdf>
-<./figuras/nmt3_v2.pdf, id=256, 845.1575pt x 597.23125pt>
+<./figuras/nmt3_v2.pdf, id=268, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt3_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt3_v2.pdf>
-<./figuras/nmt4_v2.pdf, id=257, 845.1575pt x 597.23125pt>
+<./figuras/nmt4_v2.pdf, id=269, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt4_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt4_v2.pdf>
-<./figuras/nmt5_v2.pdf, id=258, 845.1575pt x 597.23125pt>
+<./figuras/nmt5_v2.pdf, id=270, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt5_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt5_v2.pdf>
-<./figuras/nmt6_v2.pdf, id=259, 845.1575pt x 597.23125pt>
+<./figuras/nmt6_v2.pdf, id=271, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt6_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt6_v2.pdf>
-<./figuras/nmt7_v2.pdf, id=260, 845.1575pt x 597.23125pt>
+<./figuras/nmt7_v2.pdf, id=272, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt7_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt7_v2.pdf>
-<./figuras/nmt8_v2.pdf, id=261, 845.1575pt x 597.23125pt>
+<./figuras/nmt8_v2.pdf, id=273, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt8_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt8_v2.pdf>
-<./figuras/nmt9_v2.pdf, id=262, 845.1575pt x 597.23125pt>
+<./figuras/nmt9_v2.pdf, id=274, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt9_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt9_v2.pdf>
-<./figuras/nmt10_v2.pdf, id=263, 845.1575pt x 597.23125pt>
+<./figuras/nmt10_v2.pdf, id=275, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt10_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt10_v2.pdf>
-<./figuras/nmt11_v2.pdf, id=264, 845.1575pt x 597.23125pt>
+<./figuras/nmt11_v2.pdf, id=276, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt11_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt11_v2.pdf>
-<./figuras/nmt12_v2.pdf, id=265, 845.1575pt x 597.23125pt>
+<./figuras/nmt12_v2.pdf, id=277, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt12_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt12_v2.pdf>)
@@ -946,27 +956,27 @@ File: ./figuras/nmt12_v2.pdf Graphic file (type pdf)
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[62
+[66
 
-] [63 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
-f, page is rotated 90 degrees>] [64 <./figuras/nmt4_v2.pdf, page is rotated 90 
-degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [65 <./figuras/nm
+] [67 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
+f, page is rotated 90 degrees>] [68 <./figuras/nmt4_v2.pdf, page is rotated 90 
+degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [69 <./figuras/nm
 t6_v2.pdf, page is rotated 90 degrees> <./figuras/nmt7_v2.pdf, page is rotated 
-90 degrees>] [66 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
-/nmt9_v2.pdf, page is rotated 90 degrees>] [67 <./figuras/nmt10_v2.pdf, page is
+90 degrees>] [70 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
+/nmt9_v2.pdf, page is rotated 90 degrees>] [71 <./figuras/nmt10_v2.pdf, page is
  rotated 90 degrees> <./figuras/nmt11_v2.pdf, page is rotated 90 degrees>]
-[68 <./figuras/nmt12_v2.pdf, page is rotated 90 degrees>]
+[72 <./figuras/nmt12_v2.pdf, page is rotated 90 degrees>]
 (./modeloTCC-2009.04.03.autordata.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3412 strings out of 495041
- 49934 string characters out of 1181898
+ 3413 strings out of 495041
+ 49940 string characters out of 1181898
  151995 words of memory out of 3000000
  6378 multiletter control sequences out of 15000+50000
- 68166 words of font info for 153 fonts, out of 3000000 for 9000
+ 69273 words of font info for 154 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  32i,12n,41p,395b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
@@ -977,10 +987,10 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (69 pages, 13300338 bytes)
+Output written on modeloTCC-2009.04.03.autordata.pdf (73 pages, 13307486 bytes)
 .
 PDF statistics:
- 383 PDF objects out of 1000 (max. 8388607)
+ 397 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

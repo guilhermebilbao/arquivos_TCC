@@ -52,10 +52,14 @@
 \contentsline {section}{\numberline {7.1}CONSIDERA\c C\~OES SOBRE OS CONTORNOS ENCONTRADOS}{48}
 \contentsline {subsection}{\numberline {7.1.1}Analisando a cobertura da \`Area de Servi\c co Urbana em S\~ao Pedro de Alc\^antara}{48}
 \contentsline {subsubsection}{As outras \'Areas}{49}
-\contentsline {section}{\numberline {7.2}APRESENTANDO AS INFORMA\c C\~OES CONFORME O ROTEIRO PARA ELABORA\c C\~AO DE ESTUDOS T\'ECNICOS}{50}
-\contentsline {chapter}{\numberline {8}CONCLUS\~OES E TRABALHOS FUTUROS}{51}
-\contentsline {chapter}{Refer\^encias}{52}
-\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{53}
-\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{58}
-\contentsline {chapter}{Anexo{} C{} -$\mskip -\thinmuskip $-{} Mapa de Macrozoneamento de S\~ao Pedro de Alc\^antara}{60}
-\contentsline {chapter}{Anexo{} D{} -$\mskip -\thinmuskip $-{} Gr\'aficos do perfil de terreno das 12 Radias ao redor da emissora.}{62}
+\contentsline {chapter}{\numberline {8}APRESENTANDO AS INFORMA\c C\~OES T\'ECNICAS, CONFORME O ROTEIRO PARA ELABORA\c C\~AO DE ESTUDOS T\'ECNICOS}{51}
+\contentsline {section}{\numberline {8.1}Informa\c c\~oes b\'asicas}{51}
+\contentsline {section}{\numberline {8.2}Mem\'oria Descritiva}{52}
+\contentsline {section}{\numberline {8.3}Situa\c c\~ao Geral}{53}
+\contentsline {section}{\numberline {8.4}N\IeC {\'\i }vel M\'edio do Terreno}{54}
+\contentsline {chapter}{\numberline {9}CONCLUS\~OES E TRABALHOS FUTUROS}{55}
+\contentsline {chapter}{Refer\^encias}{56}
+\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{57}
+\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{62}
+\contentsline {chapter}{Anexo{} C{} -$\mskip -\thinmuskip $-{} Mapa de Macrozoneamento de S\~ao Pedro de Alc\^antara}{64}
+\contentsline {chapter}{Anexo{} D{} -$\mskip -\thinmuskip $-{} Gr\'aficos do perfil de terreno das 12 Radias ao redor da emissora.}{66}

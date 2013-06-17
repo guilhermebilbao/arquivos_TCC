@@ -309,9 +309,9 @@ A memória descritiva é um resumo das caracteristicas da emissora, juntamente com
 
 \item ERP máxima proposta para cada radial, corrigida para a altura de referência sobre o nível médio do terreno por radial, para a classe da emissora, estabelecida na Tabela 1;
 
-\item Distância ao contorno de 66 dBm para cada radial;
+\item Distância ao contorno de $66 dBm$ para cada radial;
 
-\item Média aritmética das distâncias ao contorno de 66 dBm .
+\item Média aritmética das distâncias ao contorno de $66 dBm$ .
 
 \end{enumerate}
 
@@ -351,7 +351,7 @@ Distâncias aos contornos das diversas áreas de serviço, segundo cada radial, de 
 
 \item altura do centro geométrico da antena com relação ao nível médio de cada radial;
 
-\item intensidade de campo (dBm);
+\item intensidade de campo ($dBm$);
 
 \item distância aos contornos 1, 2 e 3, em cada radial.
 
@@ -491,7 +491,7 @@ baseados nestes métodos.
 
 \subsection{Conceitos Básicos}
 
-A seguir serão descritos parâmetros básicos muitos utilizados nos cálculos.
+A seguir serão descritos os parâmetros básicos muitos utilizados nos cálculos.
 
 \subsubsection{Altura acima do nível médio do terreno}
 
@@ -524,6 +524,10 @@ encontradas na resolução~\cite{ref1}.~\cite{paulo}
 
 \section{ADAPTAÇÕES DA RECOMENDAÇÃO}
 
+Apesar de a recomendação descrever métodos para obter valores precisos, a
+resolução introduz algumas adaptações, que facilitam os cálculos envolvidos. As adaptações
+necessárias para este estudo são descritas nesta sessão.
+
 \subsection{Nível Médio do Terreno}
 
 Para efeitos de cálculo, no Brasil o nível médio do terreno (NMT) é calculado
@@ -542,15 +546,20 @@ Apesar de ser possível calcular a intensidade de campo para valores fora da faix
 máximos. Ou seja, quando a HNMT da antena for interior a 10m, deve ser tomado o valor de
 10m, e quando exceder os 1200m, este valor que deve ser considerado.~\cite{paulo}
 
+\begin{comment}
+ 
 \section{PARÂMETROS NECESSÁRIOS PARA O CÁLCULO DE VIABILIDADE TÉCNICA}
 
-Utilizando os métodos mencionados, vamos calcular os valores necessários para que um canal de rádio FM possa ser viabilizado.
+Utilizando os métodos mencionados, podemos calcular e encontrar os valores necessários para que um canal de rádio FM possa ser viabilizado conforme é
+solicitado na resolução.
 
 \subsection{Contorno protegido}
 
 O contorno protegido é a distância entre a antena transmissora até o local geométrico onde a intensidade de campo E(50,50) apresenta o valor de 
-$66 dBm$, para um canal de rádio FM. A resolução define, através da ultima alteração (RESOLUÇÃO n° 546), que , para a classe C, a distância máxima ao
+$66 dBm$, para um canal de rádio FM. A resolução define, através da ultima alteração (****indicar referencia****), que , para a classe C, a distância máxima ao
 contorno protegido é de 7,5km, a partir da base da antena transmissora. 
+
+\end{comment}
 
 \chapter{CANAL PROPOSTO}
 
@@ -820,7 +829,7 @@ Para definir a $HCGSI$, precisamos ainda obter o valor da altura do Centro de Fa
 antena Dipolo $1/2$ Onda para FM do fabricante IDEAL, conforme ANEXO~\ref{especificacaoAntena}, que será usada no projeto e varia conforme o número de elementos usados na estrutura
  do sistema irradiante. 
 De acordo com a especificação da antena, usando três elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de 
-$88,1MHz$, que é a frequência mais aproximado da que será propagada o sinal da nossa emissora ($91,5MHz$), o centro de fase do sistema fica em $4244,5mm$, ou $4,244m$.
+$88,1MHz$, que é a frequência que mais se aproxima da que será propagada pela emissora ($91,5MHz$), o centro de fase do sistema fica em $4244,5mm$, ou $4,244m$.
  Efetuando-se a soma entre a altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor: 
 
 $$HCGSI = 55m + 4,244m = 59,244m$$ 
@@ -872,7 +881,7 @@ Radial & NMR & HSNMT \\ \hline
 
 \section{CONTORNO PROTEGIDO}
 
-Como mencionado anteriormente, o contorno protegido de uma estação de rádio FM corresponde ao lugar
+O contorno protegido de uma estação de rádio FM corresponde ao lugar
 geométrico onde a intensidade de campo do sinal apresentar o valor de $66dBm$ ($2mV/m$)(Contorno 2). 
 Este contorno tem como finalidade atender a área de serviço urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da resolução,
 as demais áreas de serviços, a área de serviço primária (Contorno 1), limitada pelo contorno de $74dBm$ ($5mV/m$) e a área de serviço rural (Contorno 3),
@@ -1087,7 +1096,7 @@ Potência do transmissor & 0,150kW\\ \hline
 \end{table}
 
 Os próximos passos serão destinados à mostrar os valores que comprovarão que esta configuração do sistema 
-está respeitando todos os requisitos máximos, principalmente o contorno protegido de 66dBm.
+está respeitando todos os requisitos máximos, principalmente o contorno protegido de $66dBm$.
 
 \section{DEFININDO AS POTÊNCIAS ERPmax E ERPaz}
 
@@ -1172,14 +1181,14 @@ $330°$& 0,88 & 0,1985 & -7,02 \\\hline
 
 \section{DEFININDO OS CONTORNOS DAS ÀREAS DE SERVIÇOS}
 
-Definir a distância do contorno protegido, cobertura da Àrea de Serviço Urbana com potência mínima de 66dBm, 
+Definir a distância do contorno protegido, cobertura da Àrea de Serviço Urbana com potência mínima de $66dBm$, 
 é o principal objetivo deste estudo. 
 Esta distância é a média aritmética das distâncias a este contorno, segundo cada radial, 
  e é o que irá identificar a classe desta emissora. Para a classe C, o Contorno 2 
 não deve ultrapassar 7,5km, sendo este o resultado da média das 12 radiais. 
 
-A norma também solicita as definições das outras duas àreas de serviços, a Área de Serviço Primário (74dBm) 
-e a Àrea de Serviço Rural (54dBm), Contornos 1 e 3 respectivamente. O conjunto desses 3 contornos
+A norma também solicita as definições das outras duas àreas de serviços, a Área de Serviço Primário ($74dBm$) 
+e a Àrea de Serviço Rural ($54dBm$), Contornos 1 e 3 respectivamente. O conjunto desses 3 contornos
 compõem a àrea de serviço da emissora.
 
 Já temos o potencial de irradiação de cada uma das radias do sistema, a próxima etapa é
@@ -1189,7 +1198,7 @@ entre potência e relevo, necessárias para determinar as distâncias dos contornos
 Tais curvas baseiam-se em uma potencia efetiva de 1KW irradiado por um dipolo de 1/2 onda, em espaço livre,
  que produz uma intensidade de campo não atenuada, a 1km, de aproximadamente 107dBu.
 
-\subsection{Àrea de Serviço Urbana (66dBm)}
+\subsection{Àrea de Serviço Urbana ($66dBm$)}
 
 Como já mencionado, a Área de Serviço Urbana é o contorno principal do projeto. 
 Para identificar se a emissora está respeitando o contorno de 7,5km, temos que fazer uso das curvas de intensidade, 
@@ -1230,7 +1239,7 @@ Para os valores de HSMNT negativos é considerado a curva de menor valor como ref
 
 \begin{tabular}{|c|c|c|c|c|} \hline
 
-Radial& ERPaz(dBk) & HSMNT (m) & 66dBm & Contorno 2 (km)\\\hline\hline
+Radial& ERPaz(dBk) & HSMNT (m) & $66dBm$ & Contorno 2 (km)\\\hline\hline
 $0°$  & -8,07 &185,86 &74,07 &10,5\\\hline
 $30°$ & -9,13 &270,78 &75,13 &11  \\\hline
 $60°$ & -9,92 &175,10 &75,92 &9   \\\hline
@@ -1245,7 +1254,7 @@ $300°$& -6,35 &-67,85 &72,35 &3,4 \\\hline
 $330°$& -7,02 &-61,07 &73,02 &3,2 \\\hline
 
 \end{tabular}
-\caption{Distancias do contorno protegido (66dBm).} 
+\caption{Distancias do contorno protegido ($66dBm$).} 
 \label{tabelaContorno2}
 \end{table}
 
@@ -1258,15 +1267,15 @@ Encontramos no site de prefeitura um mapa do macrozoneamento de São Pedro de Alc
 as áreas conforme sua densidade populacional urbana ou rural (pesquisa realizada em 2010).
 
 A àrea em vermelho corresponde à àrea urbana atual, e a àrea um laranja é correspondente à àrea de expansão urbana. 
-O contorno de 66dBm deve cobrir ao menos 90\% dessas áreas para, assim, comprovar a cobertura da área urbana do 
+O contorno de $66dBm$ deve cobrir ao menos 90\% dessas áreas para, assim, comprovar a cobertura da área urbana do 
 município, conforme o estabelecido pela resolução.
 
 
-\subsection{Àreas de Serviço Primário e Rural (74dBm e 54dBm)} 
+\subsection{Àreas de Serviço Primário e Rural ($74dBm$ e $54dBm$)} 
 
-Os outros contornos de serviço, Àrea de Serviço Primário (74dBm) e Àrea de Serviço Rural (54dBm), tem como objetivos 
+Os outros contornos de serviço, Àrea de Serviço Primário ($74dBm$) e Àrea de Serviço Rural ($54dBm$), tem como objetivos 
 atender a àrea de maior densidade populacional e àrea rural, respectivamente, na localidade. 
-Os mesmos procedimentos usados para encontrar as distâncias do contorno de 66dBm são usados para esses dois outros contornos.
+Os mesmos procedimentos usados para encontrar as distâncias do contorno de $66dBm$ são usados para esses dois outros contornos.
 Os resultados estão na tabela~\ref{tabelaGeral}.
 
 \begin{center}
@@ -1310,10 +1319,10 @@ Contorno&54dBm&62,07&61,02&60,35&59,91&60,35&61,02\\\cline{2-8}
 \end{table}
 \end{center}  
 
-\subsection{O traçado dos contornos}
+\subsection{Os traçados dos contornos}
 
 Já sabemos todas as distancias, em todas as radias, para cada intensidade do sinal (área de serviço), que juntos formam os 3 contornos
-do sistema. Utilizando a ferramenta SIGANATEL, podemos visualizar estes contornos, projetados no mapa da localidade, e assim analisar,
+do sistema(tabela~\ref{tabelaGeral}). Utilizando a ferramenta SIGANATEL, podemos visualizar estes contornos, projetados no mapa da localidade, e assim analisar,
  num primeiro momento, se os efeitos destas coberturas estão dentro do esperado.
 
 A figura~\ref{todososcontornos} apresenta as projeções das áreas de serviço da emissora em São Pedro de Alcântara.
@@ -1346,16 +1355,20 @@ Cruzando as informações deste documento com os resultados do projeto, saberemos 
 
 \subsection{Analisando a cobertura da Àrea de Serviço Urbana em São Pedro de Alcântara}
 
-A Área de Serviço Urbana, correspondente ao contorno 2 ou contorno protegido (66dBm), entre as três, é a área referência para a homologação das coberturas.
+A Área de Serviço Urbana, correspondente ao contorno 2 ou contorno protegido ($66dBm$), entre as três, é a área referência para a homologação das coberturas.
 É este contorno que vai indicar se o sistema está devidamente enquadrado na classe correspondente, no caso classe C. 
 
-Os requisitos mínimos apresentados pela resolução para o contorno de 66dBm são os seguintes:
+Os requisitos mínimos apresentados pela resolução para o contorno de $66dBm$ são os seguintes:
 
-- a média aritmética das distancias a este contorno não pode ultrapassar 7,5km;
+\begin{itemize}
 
-- a média aritmética das distancias a este contorno não poderá ser menor do que a distância ao contorno máximo da classe imediatamente inferior;
+\item a média aritmética das distancias a este contorno não pode ultrapassar 7,5km;
 
-- o contorno de 66dBm deve cobrir ao menos 90\% dessa àrea urbana da localidade.
+\item a média aritmética das distancias a este contorno não poderá ser menor do que a distância ao contorno máximo da classe imediatamente inferior;
+
+\item o contorno de $66dBm$ deve cobrir ao menos 90\% dessa àrea urbana da localidade.
+
+\end{itemize}
 
 Primeiramente verificaremos a média aritmética das distancias do contorno protegido. Buscando os valores das distancias, apresentados na tabela~\ref{tabelaGeral},
 podemos encontrar esta média do contorno e saber se a emissora está respeitando este requisito. Segue o cálculo:
@@ -1367,7 +1380,7 @@ também pode ser considerado como alcançado, pois a classe C é a última dentro da
 
 Para verificar o último requisito, vamos utilizar o mapa de Macrozoneamento (ANEXO ~\ref{mapaMacrozoneamento}) e comparar com área de cobertura.	
 Comparando, um à um, os valores das distâncias do contorno protegido e do contorno da área urbana, sempre partindo da base da emissora e considerando os mesmos angulos que formam
-as 12 radias, podemos comprovar que a área urbana está inserida praticamente 100\% dentro do contorno de 66dBm, conforme representado na Figura~\ref{contornoAreaUrbana}. Os
+as 12 radias, podemos comprovar que a área urbana está inserida praticamente 100\% dentro do contorno de $66 dBm$, conforme representado na Figura~\ref{contornoAreaUrbana}. Os
 valores que foram comparados podem ser verificados na tabela~\ref{tabelaAreaUrbana}.
 
 \def\tablename{Tabela}
@@ -1404,15 +1417,177 @@ $330°$& 3,20  & 0,65  \\\hline
 \label{contornoAreaUrbana}
 \end{figure}
 
-Assim, comprovamos que a Área de serviço Urbana está devidamente coberta pelo contorno de 66dBm, conforme exige a resolução.
+Assim, comprovamos que a Área de serviço Urbana está devidamente coberta pelo contorno de $66dBm$, conforme exige a resolução.
 
 \subsubsection{As outras Áreas}
 
-As Àreas de Serviço Primário e Rural (74dBm e 54dBm) não são tratadas com tanto rigor quanto a Àrea Urbana. Uma vez que a 
+As Àreas de Serviço Primário e Rural ($74dBm$ e $54dBm$) não são tratadas com tanto rigor quanto a Àrea Urbana. Uma vez que a 
 Àrea Urbana está dentro da cobertura estabelecida, as outras duas Áreas estão ''amarradas'' nesta situação, ou seja, se o contorno
 protegido está cumprindo os requisitos as outras duas Áreas, automaticamente, também estão.
 
+\chapter{APRESENTANDO AS INFORMAÇÕES TÉCNICAS, CONFORME O ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
 
+Após desenvolver o projeto respeitando a resolução, e também utilizando recursos da recomendação, apresentaremos agora as informações que são solicitadas
+no roteiro para elaboração de estudos técnicos.
+
+Todas estas informações foram definidas e detalhadas no decorrer deste estudo e agora serão organizadas por tópicos, conforme é apresentado no roteiro.
+Seguem as informações técnicas necessárias, para que a ANATEL autorize a utilização do canal 218, classe C, disponível no município de São Pedro de Alcântara.
+
+\section{Informações básicas}
+
+\begin{itemize}
+
+\item \textbf{nome da entidade requerente:} Não se aplica, projeto com objetivos didáticos.
+
+\item \textbf{localização da emissora objeto do estudo (cidade, UF):} São Pedro de Alcântara, SC.
+
+\item \textbf{propósito do estudo:} Projetar emissora de radiofrequência, com canal já definido no plano básico.
+
+\end{itemize}
+
+\textbf{Características técnicas pretendidas}
+
+\begin{itemize}
+
+\item  \textbf{frequência de operação (MHz):} 91,5.
+
+\item  \textbf{nº do canal:} 218.
+
+\item  \textbf{classe:} C.
+
+\item  \textbf{tipo de sistema irradiante:} Dipolo 1/2 onda, polarizacao vertical.
+
+\item  \textbf{coordenadas geográficas de instalação:} 27° 34 02.72 S / 48° 48 33.71 O.
+
+\end{itemize}
+
+\section{Memória Descritiva}
+
+\textbf{Resumo das características da emissora}
+
+\begin{enumerate}
+
+\item \textbf{frequência de operação (MHz):}
+
+\item \textbf{nº do canal:}
+
+\item \textbf{potência de operação do transmissor (kW):}
+
+\item \textbf{classe:}
+
+\item \textbf{modo de operação (monofônico, estereofônico, com ou sem canal secundário):}
+
+\end{enumerate}
+
+\textbf{Sistema irradiante}
+
+\begin{enumerate}
+
+\item \textbf{tipo de antena (onidirecional ou diretiva):}
+
+\item \textbf{fabricante e modelo da antena:}
+
+\item \textbf{polarização (horizontal, vertical, circular ou elíptica); se elíptica, dar a razão entre a componente horizontal e vertical:}
+
+\item \textbf{ganho máximo em relação ao dipolo de meia-onda:}
+
+\item \textbf{tipo da estrutura de sustentação (auto-suportada ou estaiada):}
+
+\item \textbf{altura física total da estrutura de sustentação em relação à sua base (solo):}
+
+\item \textbf{altura do centro geométrico da antena em relação à base da estrutura de sustentação (solo):}
+
+\item \textbf{altitude da base da estrutura de sustentação (solo) sobre o nível do mar:}
+
+\item \textbf{altura do centro geométrico da antena sobre o nível médio do terreno:}
+
+\end{enumerate}
+
+\textbf{Linha de transmissão de radiofrequência}
+
+\begin{enumerate}
+
+\item \textbf{fabricante e modelo:}
+
+\item \textbf{impedância característica:}
+
+\item \textbf{comprimento total:}
+
+\item \textbf{atenuação em dB por 100 metros:}
+
+\item \textbf{eficiência:}
+
+\end{enumerate}
+
+\textbf{Informações sobre ERPmax e ERPaz}
+
+\begin{enumerate}
+
+\item \textbf{ERP máxima (kW):}
+
+\item \textbf{ERP, por radial (kW):}
+
+\end{enumerate}
+
+\textbf{Enquadramento na classe}
+
+\begin{enumerate}
+
+\item \textbf{ERP máxima proposta para cada radial:}
+
+\item \textbf{ERP máxima proposta para cada radial, corrigida para a altura de referência sobre o nível médio do terreno por radial, para a classe da emissora:}
+
+\item \textbf{Distância ao contorno de $66 dBm$ para cada radial:}
+
+\item \textbf{Média aritmética das distâncias ao contorno de $66 dBm$ :}
+
+\end{enumerate}
+
+\section{Situação Geral}
+
+\textbf{Distâncias aos contornos das diversas áreas de serviço, segundo cada radial, de acordo com:}
+
+\begin{enumerate}
+
+\item \textbf{azimute de orientação em relação ao Norte Verdadeiro:}
+
+\item \textbf{altura do centro geométrico da antena com relação ao nível médio de cada radial:}
+
+\item \textbf{intensidade de campo ($dBm$):}
+
+\item \textbf{distância aos contornos 1, 2 e 3, em cada radial:}
+
+\end{enumerate}
+
+\section{Nível Médio do Terreno}
+
+\textbf{Cartas utilizadas}
+
+\begin{enumerate}
+
+\item \textbf{denominação:}
+
+\item \textbf{procedência:}
+
+\item \textbf{escala:}
+
+\item \textbf{equidistância das curvas de nível:}
+
+\item \textbf{data de publicação:}
+
+\end{enumerate}
+
+\textbf{Nível médio}
+
+\begin{enumerate}
+
+\item \textbf{azimute de orientação de cada radial, em relação ao Norte Verdadeiro:}
+
+\item \textbf{nível médio de cada radial:}
+
+\item \textbf{nível médio do terreno:}
+
+\end{enumerate}
 
 \begin{comment}
 
