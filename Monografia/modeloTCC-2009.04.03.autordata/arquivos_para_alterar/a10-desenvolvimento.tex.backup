@@ -689,13 +689,16 @@ Radial & Latitude(3Km) & Longitude(3Km) & Latitude(15Km) & Longitude(15Km)\\\hli
 0° & 27° 32' 23,51'' S & 48° 48' 33,71'' O & 27° 25' 53,51'' S & 48° 48' 33,71'' O \\\hline
 30° & 27° 32' 42,16'' S & 48° 47' 38,18'' O & 27° 27' 04,86'' S & 48° 44' 00,00'' O \\\hline
 60° & 27° 33' 15,40'' S & 48° 47' 00,00'' O & 27° 30' 00,00'' S & 48° 40' 38,18'' O \\\hline
-90° & 27° 34' 02,72'' S & 48° 46' 45,45'' O & 27° 34' 02,73'' S & 48° 39' 33,64'' O \\\hline
+90° & 27° 34' 02,72'' S & 48° 46' 45,45'' O & 27° 34' 02,72'' S & 48° 39' 33,64'' O \\\hline
 120° & 27° 34' 52,37'' S & 48° 47' 00,00'' O & 27° 38' 05,67'' S & 48° 44' 00,00'' O \\\hline
-180° & 27° 35' 38,11'' S & 48° 48' 33,71'' O & 27° 42' 10,54'' S & 48° 48' 33,71'' O \\\hline
-210° & 27° 35' 25,46'' S & 48° 49' 29,09'' O & 27° 41' 05,67'' S & 48° 53' 05,45'' O \\\hline
-240° & 27° 34' 52,37'' S & 48° 50' 09,09'' O & 27° 38' 07,78'' S & 48° 56' 29,09'' O \\\hline
-270° & 27° 34' 02,72'' S & 48° 50' 25,63'' O & 27° 34' 02,73'' S & 48° 57' 40,00'' O \\\hline
-300° & 27° 33' 15,40'' S & 48° 50' 09,09'' O & 27° 30' 00,00'' S & 48° 56' 29,09'' O \\\hline
+150° & 27° 33' 15,40'' S & 48° 50' 09,09'' O & 27° 30' 00,00'' S & 48° 56' 29,09'' O \\\hline
+180° & 27° 33' 15,40'' S & 48° 50' 09,09'' O & 27° 30' 00,00'' S & 48° 56' 29,09'' O \\\hline
+210° & 27° 35' 38,11'' S & 48° 48' 33,71'' O & 27° 42' 10,54'' S & 48° 48' 33,71'' O \\\hline
+240° & 27° 35' 25,46'' S & 48° 49' 29,09'' O & 27° 41' 05,67'' S & 48° 53' 05,45'' O \\\hline
+270° & 27° 34' 52,37'' S & 48° 50' 09,09'' O & 27° 38' 07,78'' S & 48° 56' 29,09'' O \\\hline
+300° & 27° 34' 02,72'' S & 48° 50' 25,63'' O & 27° 34' 02,72'' S & 48° 57' 40,00'' O \\\hline
+330° & 27° 33' 15,40'' S & 48° 50' 09,09'' O & 27° 30' 00,00'' S & 48° 56' 29,09'' O \\\hline
+
 
 \end{tabular}
 \caption{Coordenadas indicando as referências latitudinais e longitudinais de cada radial.}
@@ -912,7 +915,7 @@ conforme apresentado na Figura~\ref{proximidadePBMF}.
 \begin{figure}[!htb]
 \centering
 \large
-\includegraphics[scale=0.45]{./figuras/proximidadePBMF.png} 
+\includegraphics[scale=0.6]{./figuras/aproximidadePBMF.png} 
 \caption{Proximidade entre a base do sistema e a coordenada indicada no PBFM, para o canal proposto~\cite{google}.}
 \label{proximidadePBMF}
 \end{figure}
@@ -1467,33 +1470,32 @@ Seguem as informações técnicas necessárias, para que a ANATEL autorize a utiliza
 
 \begin{enumerate}
 
-\item \textbf{frequência de operação (MHz):}
+\item \textbf{frequência de operação (MHz):} 91,5.
 
-\item \textbf{nº do canal:}
+\item \textbf{nº do canal:} 218.
 
-\item \textbf{potência de operação do transmissor (kW):}
+\item \textbf{potência de operação do transmissor (kW):}0,150kWrms
 
-\item \textbf{classe:}
+\item \textbf{classe:} C
 
-\item \textbf{modo de operação (monofônico, estereofônico, com ou sem canal secundário):}
-
+\item \textbf{modo de operação (monofônico, estereofônico, com ou sem canal secundário):} estereofônico
 \end{enumerate}
 
 \textbf{Sistema irradiante}
 
 \begin{enumerate}
 
-\item \textbf{tipo de antena (onidirecional ou diretiva):}
+\item \textbf{tipo de antena (onidirecional ou diretiva):} onidirecional
 
-\item \textbf{fabricante e modelo da antena:}
+\item \textbf{fabricante e modelo da antena:} 
 
-\item \textbf{polarização (horizontal, vertical, circular ou elíptica); se elíptica, dar a razão entre a componente horizontal e vertical:}
+\item \textbf{polarização (horizontal, vertical, circular ou elíptica:)} vertical
 
-\item \textbf{ganho máximo em relação ao dipolo de meia-onda:}
+\item \textbf{ganho máximo em relação ao dipolo de meia-onda:} 
 
-\item \textbf{tipo da estrutura de sustentação (auto-suportada ou estaiada):}
+\item \textbf{tipo da estrutura de sustentação (auto-suportada ou estaiada):} auto-suportada
 
-\item \textbf{altura física total da estrutura de sustentação em relação à sua base (solo):}
+\item \textbf{altura física total da estrutura de sustentação em relação à sua base (solo):} 
 
 \item \textbf{altura do centro geométrico da antena em relação à base da estrutura de sustentação (solo):}
 
