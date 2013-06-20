@@ -1,0 +1,33 @@
+Uma emissora de radiodifusão sonora em frequência modulada pode ser projetada utilizando diversas configurações diferentes, mesmo nesses casos onde já existem os requisitos
+ definidos pela classe (como acontece com os canais definidos no plano básico, são disponibilizados já enquadrados numa classe). O importante é que o projeto, independentemente da 
+combinação de recursos e equipamentos usados, apresente a resposta desejada e respeite as normas solicitadas pela resolução.
+
+Os contornos formados pela emissora são oriundos da combinação dos elementos que às compõe, juntamente com as implicações causadas pelo relevo da localidade. A potência utilizada
+ no transmissor, as atenuações da linha de transmissão, os ganhos do sistema irradiante, entre outros fatores, devem ser trabalhados e pensados em conjunto, pois a alteração
+ de um elemento já pode modificar a saída completamente.
+Ao alterar, por exemplo, a potência do transmissor usado, todos os outros componentes precisarão ser analisados e ajustados,
+ para que este conjunto continue respondendo às adequações e requisitos, conforme a resolução, para a emissora em questão.
+
+A configuração do projeto da emissora de radiodifusão, apresentado neste estudo, teve como foco, além de atender à todas as solicitações e regras informadas pela resolução e recomendação,
+ diminuir os custos de manutenção e gastos fixos (aumentando a altura da torre e diminuindo a potência do transmissor), junto com o máximo aproveitamento das áreas dos contornos previstos 
+para a classe.
+O desfexo do projeto se mostrou satisfatório, levando em consideração o perfil acidentado do terreno da região, dificultando a definição dos contornos, pois para determinadas 
+direções existiam os obstáculos naturais que acabam atenuando demais o sinal irradiado, forçando à direcionar os maiores ganhos do sistema irradiante para as direções de maiores obstruções,  
+ assim distribuindo a potência efetiva irradiada para as 12 direções do modo mais eficiente possível.
+
+ Como resultado, o projeto apresenta a cobertura da área urbana quase por completa pelo contorno protegido. Este é o ponto positivo principal do sistema em relação à norma, pois 
+esta informação, juntamente com o respeito aos requisitos máximos, é o que define o enquadramento da emissora na sua classe do plano básico.
+Outro fator positivo foi a comprovação da viabilidade técnica com o que foi definido no plano básico. 
+A classe C, definida para o caso de uso do canal 218 em São Pedro de Alcântara, informada no plano básico,
+ é realmente viável, conforme os resultados apresentados neste documento, e foi possivelmente definida levando em consideração o relevo da região (montanhoso aos arredores) e a 
+área urbana pequena (com uma área longitudinal máxima de aproximadamente $10km$).
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modelo para escrever TCCs, dissertações e teses utilizando LaTeX, ABNTeX e BibTeX
+% Autor/E-Mail: Robinson Alves Lemos/contato@robinson.mat.br/robinson.a.l@bol.com.br
+% Data: 19/04/2008 
+% Colaboradore(s)/E-Mail(s):
+% Caso queira colaborar, entre em contato pelo e-mail e informe alterações que realizou.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

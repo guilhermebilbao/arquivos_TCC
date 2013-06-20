@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  19 JUN 2013 00:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  19 JUN 2013 23:48
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -834,16 +834,16 @@ Overfull \hbox (39.82071pt too wide) in paragraph at lines 1432--1434
 
 ] [52] [53]) [54]
 Cap\'{\i }tulo 9.
-(./arquivos_para_alterar/a11-conclusao.tex)
-(./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [55
+(./arquivos_para_alterar/a11-conclusao.tex [55
 
-]) [56
+])
+(./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
+(./modeloTCC-2009.04.03.autordata.bbl [56]) [57
 
 ]
 Anexo A.
 (./arquivos_para_alterar/a14-anexo.tex
-<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=210, 615.0177pt x 862.9038pt>
+<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=213, 615.0177pt x 862.9038pt>
 File: ./figuras/1pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/1pdfantenadipolodemeiaondafm.jpg>
@@ -851,7 +851,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=211, 615.0177pt x 862.9038pt>
+<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=214, 615.0177pt x 862.9038pt>
 File: ./figuras/2pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/2pdfantenadipolodemeiaondafm.jpg>
@@ -859,7 +859,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=212, 615.0177pt x 862.9038pt>
+<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=215, 615.0177pt x 862.9038pt>
 File: ./figuras/3pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/3pdfantenadipolodemeiaondafm.jpg>
@@ -867,7 +867,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=213, 615.0177pt x 862.9038pt>
+<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=216, 615.0177pt x 862.9038pt>
 File: ./figuras/4pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/4pdfantenadipolodemeiaondafm.jpg>
@@ -875,22 +875,22 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [57
+) [58
 
-] [58 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [59 <./figuras/2pdfantenadi
-polodemeiaondafm.jpg>] [60 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
-[61 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
+] [59 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [60 <./figuras/2pdfantenadi
+polodemeiaondafm.jpg>] [61 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
+[62 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
 Anexo B.
 (./arquivos_para_alterar/a16-anexo.tex
-<./figuras/LCF158-50JFNL.pdf, id=230, 596.2275pt x 794.97pt>
+<./figuras/LCF158-50JFNL.pdf, id=233, 596.2275pt x 794.97pt>
 File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
-<use ./figuras/LCF158-50JFNL.pdf>) [62
+<use ./figuras/LCF158-50JFNL.pdf>) [63
 
-] [63 <./figuras/LCF158-50JFNL.pdf>]
+] [64 <./figuras/LCF158-50JFNL.pdf>]
 Anexo C.
 (./arquivos_para_alterar/a17-anexo.tex
-<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=256, 1195.46625pt x 845.1575pt>
+<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=259, 1195.46625pt x 845.1575pt>
 File: ./figuras/1757_MAPA_MACROZONEAMENTO.pdf Graphic file (type pdf)
 
 <use ./figuras/1757_MAPA_MACROZONEAMENTO.pdf>
@@ -901,54 +901,54 @@ Overfull \hbox (51.85431pt too wide) in paragraph at lines 7--8
 
 LaTeX Warning: Float too large for page by 23.19267pt on input line 8.
 
-) [64
+) [65
 
-] [65 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>]
+] [66 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>]
 Anexo D.
 (./arquivos_para_alterar/a18-anexo.tex
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
  <use ./figuras/nmt1_v2.pdf>
-<./figuras/nmt2_v2.pdf, id=267, 845.1575pt x 597.23125pt>
+<./figuras/nmt2_v2.pdf, id=271, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt2_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt2_v2.pdf>
-<./figuras/nmt3_v2.pdf, id=268, 845.1575pt x 597.23125pt>
+<./figuras/nmt3_v2.pdf, id=272, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt3_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt3_v2.pdf>
-<./figuras/nmt4_v2.pdf, id=269, 845.1575pt x 597.23125pt>
+<./figuras/nmt4_v2.pdf, id=273, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt4_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt4_v2.pdf>
-<./figuras/nmt5_v2.pdf, id=270, 845.1575pt x 597.23125pt>
+<./figuras/nmt5_v2.pdf, id=274, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt5_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt5_v2.pdf>
-<./figuras/nmt6_v2.pdf, id=271, 845.1575pt x 597.23125pt>
+<./figuras/nmt6_v2.pdf, id=275, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt6_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt6_v2.pdf>
-<./figuras/nmt7_v2.pdf, id=272, 845.1575pt x 597.23125pt>
+<./figuras/nmt7_v2.pdf, id=276, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt7_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt7_v2.pdf>
-<./figuras/nmt8_v2.pdf, id=273, 845.1575pt x 597.23125pt>
+<./figuras/nmt8_v2.pdf, id=277, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt8_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt8_v2.pdf>
-<./figuras/nmt9_v2.pdf, id=274, 845.1575pt x 597.23125pt>
+<./figuras/nmt9_v2.pdf, id=278, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt9_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt9_v2.pdf>
-<./figuras/nmt10_v2.pdf, id=275, 845.1575pt x 597.23125pt>
+<./figuras/nmt10_v2.pdf, id=279, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt10_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt10_v2.pdf>
-<./figuras/nmt11_v2.pdf, id=276, 845.1575pt x 597.23125pt>
+<./figuras/nmt11_v2.pdf, id=280, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt11_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt11_v2.pdf>
-<./figuras/nmt12_v2.pdf, id=277, 845.1575pt x 597.23125pt>
+<./figuras/nmt12_v2.pdf, id=281, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt12_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt12_v2.pdf>)
@@ -956,16 +956,16 @@ File: ./figuras/nmt12_v2.pdf Graphic file (type pdf)
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[66
+[67
 
-] [67 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
-f, page is rotated 90 degrees>] [68 <./figuras/nmt4_v2.pdf, page is rotated 90 
-degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [69 <./figuras/nm
+] [68 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
+f, page is rotated 90 degrees>] [69 <./figuras/nmt4_v2.pdf, page is rotated 90 
+degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [70 <./figuras/nm
 t6_v2.pdf, page is rotated 90 degrees> <./figuras/nmt7_v2.pdf, page is rotated 
-90 degrees>] [70 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
-/nmt9_v2.pdf, page is rotated 90 degrees>] [71 <./figuras/nmt10_v2.pdf, page is
+90 degrees>] [71 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
+/nmt9_v2.pdf, page is rotated 90 degrees>] [72 <./figuras/nmt10_v2.pdf, page is
  rotated 90 degrees> <./figuras/nmt11_v2.pdf, page is rotated 90 degrees>]
-[72 <./figuras/nmt12_v2.pdf, page is rotated 90 degrees>]
+[73 <./figuras/nmt12_v2.pdf, page is rotated 90 degrees>]
 (./modeloTCC-2009.04.03.autordata.aux)
 
 LaTeX Warning: There were multiply-defined labels.
@@ -987,10 +987,10 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (73 pages, 12675289 bytes)
+Output written on modeloTCC-2009.04.03.autordata.pdf (74 pages, 12679212 bytes)
 .
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
+ 400 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
