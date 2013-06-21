@@ -359,24 +359,6 @@ Distâncias aos contornos das diversas áreas de serviço, segundo cada radial, de 
 
 \subsubsection{Nível Médio do Terreno}
 
-\textbf{Cartas utilizadas:}
-
-\begin{enumerate}
-
-\item denominação;
-
-\item procedência;
-
-\item escala;
-
-\item equidistância das curvas de nível;
-
-\item data de publicação.
-
-\end{enumerate}
-
-\textbf{Nível médio:}
-
 \begin{enumerate}
 
 \item azimute de orientação de cada radial, em relação ao Norte Verdadeiro;
@@ -1393,18 +1375,18 @@ valores que foram comparados podem ser verificados na tabela~\ref{tabelaAreaUrba
 \begin{tabular}{|c|c|c|} \hline
 
 Radial& Contorno 66dBm(km) & Distancias zona urbana  \\\hline\hline
-$0°$  & 10,50 & 1,05  \\\hline
-$30°$ & 11,00 & 1,85  \\\hline
-$60°$ & 9,00  & 4,00  \\\hline
-$90°$ & 9,00  & 7,70  \\\hline
-$120°$& 7,00  & 1,40  \\\hline
-$150°$& 9,00  & 1,60  \\\hline
-$180°$& 11,00 & 1,50  \\\hline
-$210°$& 3,20  & 1,00  \\\hline
-$240°$& 3,40  & 1,20  \\\hline
-$270°$& 3,60  & 0,75  \\\hline
-$300°$& 3,40  & 0,65  \\\hline
-$330°$& 3,20  & 0,65  \\\hline
+0°  & 10,50 & 1,05  \\\hline
+30° & 11,00 & 1,85  \\\hline
+60° & 9,00  & 4,00  \\\hline
+90° & 9,00  & 7,70  \\\hline
+120°& 7,00  & 1,40  \\\hline
+150°& 9,00  & 1,60  \\\hline
+180°& 11,00 & 1,50  \\\hline
+210°& 3,20  & 1,00  \\\hline
+240°& 3,40  & 1,20  \\\hline
+270°& 3,60  & 0,75  \\\hline
+300°& 3,40  & 0,65  \\\hline
+330°& 3,20  & 0,65  \\\hline
 
 \end{tabular}
 \caption{Comparando os valores de Contorno Protegido com as distancias da Zona Urbana.} 
@@ -1426,6 +1408,11 @@ Assim, comprovamos que a Área de serviço Urbana está devidamente coberta pelo co
 As Àreas de Serviço Primário e Rural ($74dBm$ e $54dBm$) não são tratadas com tanto rigor quanto a Àrea Urbana. Uma vez que a 
 Àrea Urbana está dentro da cobertura estabelecida, as outras duas Áreas estão ''amarradas'' nesta situação, ou seja, se o contorno
 protegido está cumprindo os requisitos as outras duas Áreas, automaticamente, também estão.
+
+\section{Comparação dos resultados finais com os valores calculados pela aplicação do SIGANATEL}
+
+
+
 
 \chapter{APRESENTANDO AS INFORMAÇÕES TÉCNICAS, CONFORME O ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
 
@@ -1473,34 +1460,35 @@ Seguem as informações técnicas necessárias, para que a ANATEL autorize a utiliza
 
 \item \textbf{nº do canal:} 218.
 
-\item \textbf{potência de operação do transmissor (kW):}0,150kWrms
+\item \textbf{potência de operação do transmissor (kW):}0,150kWrms.
 
-\item \textbf{classe:} C
+\item \textbf{classe:} C.
 
-\item \textbf{modo de operação (monofônico, estereofônico, com ou sem canal secundário):} estereofônico
+\item \textbf{modo de operação (monofônico, estereofônico, com ou sem canal secundário):} estereofônico.
+
 \end{enumerate}
 
 \textbf{Sistema irradiante}
 
 \begin{enumerate}
 
-\item \textbf{tipo de antena (onidirecional ou diretiva):} onidirecional
+\item \textbf{tipo de antena (onidirecional ou diretiva):} onidirecional.
 
-\item \textbf{fabricante e modelo da antena:} 
+\item \textbf{fabricante e modelo da antena:} IDEAL Antenas Profissionais - Dipolo 1/2 Onda para FM.
 
-\item \textbf{polarização (horizontal, vertical, circular ou elíptica:)} vertical
+\item \textbf{polarização (horizontal, vertical, circular ou elíptica:)} vertical.
 
-\item \textbf{ganho máximo em relação ao dipolo de meia-onda:} 
+\item \textbf{ganho máximo em relação ao dipolo de meia-onda:} 4,77 dBd (3 elementos).
 
-\item \textbf{tipo da estrutura de sustentação (auto-suportada ou estaiada):} auto-suportada
+\item \textbf{tipo da estrutura de sustentação (auto-suportada ou estaiada):} auto-suportada.
 
-\item \textbf{altura física total da estrutura de sustentação em relação à sua base (solo):} 
+\item \textbf{altura física total da estrutura de sustentação em relação à sua base (solo):} 55 metros.
 
-\item \textbf{altura do centro geométrico da antena em relação à base da estrutura de sustentação (solo):}
+\item \textbf{altura do centro geométrico da antena em relação à base da estrutura de sustentação (solo):} 59,244m.
 
-\item \textbf{altitude da base da estrutura de sustentação (solo) sobre o nível do mar:}
+\item \textbf{altitude da base da estrutura de sustentação (solo) sobre o nível do mar:} 285m.
 
-\item \textbf{altura do centro geométrico da antena sobre o nível médio do terreno:}
+\item \textbf{altura do centro geométrico da antena sobre o nível médio do terreno:} 55,914m.
 
 \end{enumerate}
 
@@ -1508,15 +1496,15 @@ Seguem as informações técnicas necessárias, para que a ANATEL autorize a utiliza
 
 \begin{enumerate}
 
-\item \textbf{fabricante e modelo:}
+\item \textbf{fabricante e modelo:} RFS - 1-5/8'' CELLFLEX° Lite-loss Foam-Dieletric Coaxial Cable.
 
-\item \textbf{impedância característica:}
+\item \textbf{impedância característica:} 50 +/- 1.
 
-\item \textbf{comprimento total:}
+\item \textbf{comprimento total:} 65m.
 
-\item \textbf{atenuação em dB por 100 metros:}
+\item \textbf{atenuação em dB por 100 metros:} 0.68 dB/100m.
 
-\item \textbf{eficiência:}
+\item \textbf{eficiência:} 0,569.
 
 \end{enumerate}
 
@@ -1524,9 +1512,12 @@ Seguem as informações técnicas necessárias, para que a ANATEL autorize a utiliza
 
 \begin{enumerate}
 
-\item \textbf{ERP máxima (kW):}
+\item \textbf{ERP máxima (kW):} 0, 256kW.
 
-\item \textbf{ERP, por radial (kW):}
+\item \textbf{ERP, por radial (kW):} 
+
+Azimute/dBk: 0°/-8,07; 30°/-9,13; 60°/-9,92; 90°/-10,06; 120°/-9,92; 150°/-9,13; 180°/-8,07; 210°/-7,02; 240°/-6,35; 270°/-5,91; 300°/-6,35; 330°/-7,02.
+
 
 \end{enumerate}
 
@@ -1536,11 +1527,17 @@ Seguem as informações técnicas necessárias, para que a ANATEL autorize a utiliza
 
 \item \textbf{ERP máxima proposta para cada radial:}
 
+Azimute/dBk: 0°/-8,07; 30°/-9,13; 60°/-9,92; 90°/-10,06; 120°/-9,92; 150°/-9,13; 180°/-8,07; 210°/-7,02; 240°/-6,35; 270°/-5,91; 300°/-6,35; 330°/-7,02.
+
 \item \textbf{ERP máxima proposta para cada radial, corrigida para a altura de referência sobre o nível médio do terreno por radial, para a classe da emissora:}
+
+Azimute/dBk: 0°/-8,07; 30°/-9,13; 60°/-9,92; 90°/-10,06; 120°/-9,92; 150°/-9,13; 180°/-8,07; 210°/-7,02; 240°/-6,35; 270°/-5,91; 300°/-6,35; 330°/-7,02.
 
 \item \textbf{Distância ao contorno de $66 dBm$ para cada radial:}
 
-\item \textbf{Média aritmética das distâncias ao contorno de $66 dBm$ :}
+Azimute/Km: 0°/10,5; 30°/11; 60°/9; 90°/9; 120°/7; 150°/9; 180°/11; 210°/3,2; 240°/3,4; 270°/3,6; 300°/3,4; 330°/3,2.
+
+\item \textbf{Média aritmética das distâncias ao contorno de 66 dBm :} Aproximadamente 7 km.
 
 \end{enumerate}
 
@@ -1550,43 +1547,32 @@ Seguem as informações técnicas necessárias, para que a ANATEL autorize a utiliza
 
 \begin{enumerate}
 
-\item \textbf{azimute de orientação em relação ao Norte Verdadeiro:}
+\item \textbf{azimute de orientação em relação ao Norte Verdadeiro:} 270°.
 
 \item \textbf{altura do centro geométrico da antena com relação ao nível médio de cada radial:}
 
-\item \textbf{intensidade de campo ($dBm$):}
+Azimute/HMNT(m): 0°/185,86; 30°/270,78; 60°/175,10; 90°/178,04; 120°/93,78; 150°/147,38; 180°/192,66; 210°/-50,55; 240°/-157,85; 270°/-235,35; 300°/-67,85; 330°/-61,07.
 
-\item \textbf{distância aos contornos 1, 2 e 3, em cada radial:}
+\item \textbf{intensidade de campo (dBm):} informações disponibilizadas da tabela~\ref{tabelaGeral}
 
-\end{enumerate}
-
-\section{Nível Médio do Terreno}
-
-\textbf{Cartas utilizadas}
-
-\begin{enumerate}
-
-\item \textbf{denominação:}
-
-\item \textbf{procedência:}
-
-\item \textbf{escala:}
-
-\item \textbf{equidistância das curvas de nível:}
-
-\item \textbf{data de publicação:}
+\item \textbf{distância aos contornos 1, 2 e 3, em cada radial:} informações disponibilizadas da tabela~\ref{tabelaGeral}
 
 \end{enumerate}
 
-\textbf{Nível médio}
+\subsubsection{Nível Médio do Terreno}
 
 \begin{enumerate}
 
 \item \textbf{azimute de orientação de cada radial, em relação ao Norte Verdadeiro:}
 
+Radial/Azimute: 1/0°; 2/30°; 3/60°; 4/90°; 5/120°; 6/150°; 7/180°; 8/210°; 9/240°; 10/270°; 11/300°; 12/330°.
+
 \item \textbf{nível médio de cada radial:}
 
-\item \textbf{nível médio do terreno:}
+Radial/NMT(m): 1/158,38; 2/73,46; 3/169,14; 4/166,2; 5/250,46; 6/196,86; 7/151,58; 8/394,8; 9/502,1; 10/579,6; 11/412,1; 12/405,32
+
+\item \textbf{nível médio do terreno:} 288,33m
+
 
 \end{enumerate}
 

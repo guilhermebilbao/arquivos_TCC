@@ -22,9 +22,13 @@ A classe C, definida para o caso de uso do canal 218 em São Pedro de Alcântara, 
  é realmente viável, conforme os resultados apresentados neste documento, e foi possivelmente definida levando em consideração o relevo da região (montanhoso aos arredores) e a 
 área urbana pequena (com uma área longitudinal máxima de aproximadamente $10km$).
 
+\begin{comment}
+
 Para continuidade deste trabalho, sugere-se o desenvolvimento de um sistema que execute os cáculos necessários neste projeto, utilizando como parâmetros de entrada as
 especificações dos equipamentos que poderão ser usados e informações do terreno do local escolhido, dependendo dos resultados gerados o sistema informará se o projeto está 
 respeitando a resolução ou não, como o resultado do contorno protegido formado e as potências efetivas irradiadas em cada radial.
+
+\end{comment}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Modelo para escrever TCCs, dissertações e teses utilizando LaTeX, ABNTeX e BibTeX
