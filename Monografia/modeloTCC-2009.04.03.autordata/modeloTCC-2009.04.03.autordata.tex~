@@ -303,9 +303,13 @@
 
 \input{./arquivos_para_alterar/a17-anexo}
 
-\chapter{Gráficos representando o relevo das 12 Radias ao redor da emissora.}
+\chapter{Gráficos do perfil de terreno das 12 Radias ao redor da emissora.}
 
 \input{./arquivos_para_alterar/a18-anexo}
+
+\chapter{Relatório Siganatel - Análise Técnica FM.}
+
+\input{./arquivos_para_alterar/a19-anexo}
 
 
 }{}

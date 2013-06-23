@@ -1,7 +1,7 @@
 Monografia
  % Altere para o tipo de trabalho que estiver realizando.
  sob o título \textit{``
-Emissora Fm em São Pedro de Alcântara % Altere o título do trabalho.
+Projeto de instalação de uma emissora de rádiodifusão sonora em frequência modulada, no município de São Pedro de Alcântara % Altere o título do trabalho.
 ''}, defendida por 
 Guilherme Bilbao Soares da Silva % Coloque seu nome.
 e aprovada 
@@ -12,8 +12,8 @@ Estado de Santa Catarina, % Estado...
 pela banca examinadora assim constituída: % utulize a palavra professores se algum dos professore for graduado, mestres se todos tiverem titulação minima de mestre ou doutores se todos possuirem doutorado.
 % Altere abaixo o nome dos professores e instituições.
 \assinatura{Prof. Jaci Destri\\ Orientador} 
-\assinatura{Prof. Ederson Torresini \\ IFSC}
-\assinatura{Prof. INDEFINIDO \\ IFSC}
+\assinatura{Prof. André Luiz Alves \\ IFSC}
+\assinatura{Prof. Rubem Toledo Bergamo \\ IFSC}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Modelo para escrever TCCs,dissertações e teses utilizando LaTeX, ABNTeX e BibTeX

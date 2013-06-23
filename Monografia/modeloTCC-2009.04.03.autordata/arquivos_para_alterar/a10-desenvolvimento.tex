@@ -467,13 +467,14 @@ Documentos diversos:
 \end{comment}
 
 \section{RECOMENDAÇÃO UIT-R P.1546}
-A UIT-R, através da Recomendação UIT-R P.1546~\cite{ref4}, descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
+A UIT-R (UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES - RADIOCOMUNICAÇÕES), através da Recomendação UIT-R P.1546~\cite{ref4},
+ descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
 na faixa de 30 a 3000MHz. Os procedimentos que seguimos neste trabalho, principalmente para definir as áreas de serviços, foram
 baseados nestes métodos. 
 
 \subsection{Conceitos Básicos}
 
-A seguir serão descritos os parâmetros básicos muitos utilizados nos cálculos.
+A seguir serão descritos os parâmetros básicos muitos utilizados nos cálculos.~\cite{paulo}
 
 \subsubsection{Altura acima do nível médio do terreno}
 
@@ -513,20 +514,19 @@ necessárias para este estudo são descritas nesta sessão.
 \subsection{Nível Médio do Terreno}
 
 Para efeitos de cálculo, no Brasil o nível médio do terreno (NMT) é calculado
-obtendo-se 12 valores de nível médio da radial (NMR). O NMR por sua vez é obtido
-calculando a média aritmética de pelo menos 50 cotas igualmente espaçadas,
+obtendo-se a média aritmética dos valores de nível médio radial (NMR) de, no mínimo, 12 radias.
+ O NMR por sua vez é obtido calculando a média aritmética de pelo menos 50 cotas igualmente espaçadas,
 compreendidas entre as distâncias de 3 a 15km da antena transmissora.
 
-As 12 radiais devem ser também igualmente espaçadas de 30 em 30 graus, e deve
-incluir a radial do norte verdadeiro. O NMT é então obtido, fazendo-se também uma média
-aritmética, dos NMR.~\cite{paulo}
+As 12 radiais devem ser igualmente espaçada,s de 30 em 30 graus, e deve
+incluir a radial do norte verdadeiro.~\cite{paulo}
 
 \subsection{Altura da antena transmissora}
 
 Apesar de ser possível calcular a intensidade de campo para valores fora da faixa de
-10 a 1200m para altura da antena transmissora, a RESOLUÇÃO considera esses os valores
+10 a 1200m para altura da antena transmissora, a recomentação considera esses os valores
 máximos. Ou seja, quando a HNMT da antena for interior a 10m, deve ser tomado o valor de
-10m, e quando exceder os 1200m, este valor que deve ser considerado.~\cite{paulo}
+10m, e quando exceder os 1200m, este é o valor que deve ser considerado.~\cite{paulo}
 
 \begin{comment}
  
@@ -932,17 +932,20 @@ Como podemos ver na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta um a
 
 O ANEXO~\ref{especificacaoAntena} contém o documento do fabricante na íntegra.
  
-\subsection{Guia de onda e conectores}
+\subsection{Linha de transmissão e conectores}
 
-Conforme a potência máxima irradiada e a antena escolhida, para o guia de onda deve ser usado o padrão EIA 1-5/8''.
+Conforme a potência máxima irradiada e a antena escolhida, fica definido, para o guia de onda, o uso do padrão EIA 1-5/8''.
 Optou-se pelo 1-5/8" CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable
 , da fabricante RFS, que apresenta uma atenuação de apenas $0.663dB/100m$,
- operando numa frequênciancia de $88MHz$; conforme especificações em ANEXO~\ref{especificacaoGuia}.
+ operando numa frequênciancia de $88MHz$, conforme especificações em ANEXO~\ref{especificacaoGuia}.
  Como a frequência do canal que está sendo projetado é de $91,5MHz$, adotaremos o valor de $0.680dB/100m$.
 
 Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 55m. Sendo assim, o comprimento do guia de onda será de 65m,
-visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada (já constrída no local). Portanto, a atenuação
+visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada (casa do trasmissor). Portanto, a atenuação
  introduzida pelo cabo será de $0,442dB$. 
+
+Continuando com os elementos atenuantes, deve também ser considerado a perda causada pelos conectores. Para sistemas deste tipo, 
+é usualmente levado em consideração uma atenuação padronizada de 2 dB.
 
 \subsection{Transmissor}
 
@@ -1039,7 +1042,7 @@ especificações técnicas do fabricante.
 Como pode ser visto na tabela~\ref{tabelaHSNMT}, existem valores de $HSNMT$ negativos. Em locais onde o terreno é acidentado, o sinal transmitido apresentará
 mais dificuldades em propagar-se nas direções onde o terreno é mais alto que a antena, atenuando-o conforme vai se distanciando da origem.
 
-Na região onde está sendo projetado a emissora, o azimute $270°$ é a direção onde o NMR é o mais alto e, consequentemente, o HSMNT mais negativado. 
+Na região onde está sendo projetado a emissora, o azimute $270°$ é a direção onde o NMR é o mais alto e, consequentemente, o HMNT mais negativado. 
 Gradativamente, a altura terrena nesta região vai baixando junto com as outras direções das radiais. 
 Afim de amenizar a atenuação do sinal neste cenário, a antena será direcionada para o oeste, ou seja, o azimute $0°$ da antena,
 que conforme a especificação irradia o $ERPmax$ para esta direção, ficará apontado para o azimute $270°$ da base. Com esta atitude, o sinal está
@@ -1190,13 +1193,13 @@ combinadas com as potências ERPaz.
 Como as potências efetivas irradiadas, que encontramos anteriormente, são inferiores à 1KW, deve ser feito
 um ajuste, subtraindo estes valores em dBk do valor para o contorno desejado. O resultado será o valor referência 
 do eixo das ordenadas. 
-O ponto de intersecção será o valor de HSMNT correspondente à radial desta potência, que deverá ser encontrado
+O ponto de intersecção será o valor de HMNT correspondente à radial desta potência, que deverá ser encontrado
 entre as escalas apresentadas nas curvas de intensidade.
 
 Definido o ponto, busca-se o valor, em km, que está em escala logarítmica no eixo das abscissas. 
 A figura~\ref{curvaE5050Calc} mostra um exemplo deste procedimento para os valores referentes à radial 0°. 
 À esquerda está destacado o valor resultante da subração de $66dBm - 8,07dBk = 74,07dBm$ e , através do valor de
- HSMNT de 185,86m na radial 0°, utilizando a curva correspondente obtem-se o valor de 10,5km.
+ HMNT de 185,86m na radial 0°, utilizando a curva correspondente obtem-se o valor de 10,5km.
 
 Agora sabemos que à 10,5km da base da emissora, em direção ao norte verdadeiro, a intensidade do
 sinal apresenta uma potência de $66dbm$. Nota-se que esta distância ultrapassa o valor de limite de 7,5km, 
@@ -1205,7 +1208,7 @@ desde que a média geral não à ultrapasse. Para que esta exclusividade seja permi
 não podem estar excedendo os limites de 0,3 KW e 60 metros respectivamente, sendo este o nosso caso.
 
 Executando este procedimento em todas as 12 radias, obteve-se os resultados apresentados na tabela~\ref{tabelaContorno2}. 
-Para os valores de HSMNT negativos é considerado a curva de menor valor como referencia (10m). 
+Para os valores de HMNT negativos é considerado a curva de menor valor como referencia (10m). 
  
 \begin{figure}[!htb]
 \centering
@@ -1223,7 +1226,7 @@ Para os valores de HSMNT negativos é considerado a curva de menor valor como ref
 
 \begin{tabular}{|c|c|c|c|c|} \hline
 
-Radial& ERPaz(dBk) & HSMNT (m) & $66dBm$ & Contorno 2 (km)\\\hline\hline
+Radial& ERPaz(dBk) & HMNT (m) & $66dBm$ & Contorno 2 (km)\\\hline\hline
 $0°$  & -8,07 &185,86 &74,07 &10,5\\\hline
 $30°$ & -9,13 &270,78 &75,13 &11  \\\hline
 $60°$ & -9,92 &175,10 &75,92 &9   \\\hline
@@ -1272,7 +1275,7 @@ Os resultados estão na tabela~\ref{tabelaGeral}.
 
 Radiais&(graus)&0°&30°&60°&90°&120°&150°\\\hline
 NMT&(m)&158,38&73,46&169,20&166,20&250,46&196,86\\\hline
-HSMNT&(m)&185,86&270,78&175,10&178,04&93,78&147,38\\\hline
+HMNT&(m)&185,86&270,78&175,10&178,04&93,78&147,38\\\hline
 E/Emax&vezes&0,78&0,69&0,63&0,62&0,63&0,69\\\hline
 Potência&(KW)&0,1560&0,1220&0,1017&0,0985&0,1017&0,1220\\\cline{2-8}
 ERPaz&(dBk)&-8,07&-9,13&-9,92&-10,06&-9,92&-9,13\\\hline
@@ -1285,7 +1288,7 @@ Contorno&54dBm&62,07&63,13&63,92&64,06&63,92&63,13\\\cline{2-8}
 
 Radiais&(graus)&180°&210°&240°&270°&300°&330°\\\hline
 NMT&(m)&151,58&394,80&502,10&579,60&412,10&405,32\\\hline
-HSMNT&(m)&192,66&-50,55&-157,85&-235,35&-67,85&-61,07\\\hline
+HMNT&(m)&192,66&-50,55&-157,85&-235,35&-67,85&-61,07\\\hline
 E/Emax&vezes&0,78&0,88&0,95&1,00&0,95&0,88\\\hline
 Potência&(KW)&0,1560&0,1985&0,2314&0,2564&0,2314&0,1985\\\cline{2-8}
 ERPaz&(dBk)&-8,07&-7,02&-6,35&-5,91&-6,35&-7,02\\\hline
@@ -1332,7 +1335,7 @@ O objetivo é que o projeto apresente uma tendência em anular ou, ao menos, minim
 
 Uma verificação importante e indispensável é saber se as áreas de serviço, principalmente o contorno protegido, cobrem as zonas à que se destinam.
  Para isto, buscamos como referencia um mapeamento das zonas urbanas e rurais da cidade (ANEXO~\ref{mapaMacrozoneamento}), de 2010,
- publicado no portal da camara de São Pedro de Alcântara, no link:\url{http://camaraspa.sc.gov.br/}. 
+ publicado no portal da camara de São Pedro de Alcântara~\cite{ref6}.
 
 Cruzando as informações deste documento com os resultados do projeto, saberemos se as áreas de cobertura estão de acordo com o que
  estabelece à resolução.
@@ -1409,9 +1412,30 @@ As Àreas de Serviço Primário e Rural ($74dBm$ e $54dBm$) não são tratadas com ta
 Àrea Urbana está dentro da cobertura estabelecida, as outras duas Áreas estão ''amarradas'' nesta situação, ou seja, se o contorno
 protegido está cumprindo os requisitos as outras duas Áreas, automaticamente, também estão.
 
-\section{Comparação dos resultados finais com os valores calculados pela aplicação do SIGANATEL}
+\section{Comparando dos resultados finais com os valores calculados pela aplicação do SIGANATEL}
 
+A SIGNATEL é uma ferramenta que auxília os estudos e projetos de estações de radiocomunicação. Foi esta ferramenta que usamos para encontrar os gráficos de perfil do 
+terreno e também para a demostração da área de cobertura da emissora através da imagem de satélite. Além de disponibizar estes recursos, a ferramenta também pode ser usada 
+para comparar os resultados obtidos com o projeto. 
 
+No momento que já temos definidas as especificações técnicas, obtidas no decorrer do projeto e que apresentaram os resultados desejados, podemos conferir, através da
+ferramenta, se os resultados do estudo correspondem com os resultados originados pela aplicação. A figura~\ref{resultados_SIGANATEL} mostra a interface da aplicação e os resultados obtidos com as
+mesmas especificações definidas neste projeto. A ferramenta também pode gerar um relatório com estas informações, como mostra o ANEXO~\ref{relatorio_siganatel}. 
+
+\begin{figure}[!htb]
+\centering
+\large
+\includegraphics[scale=.48]{./figuras/resultado_siganatel.png} 
+\caption{Resultados SIGANATEL.}
+\label{resultados_SIGANATEL}
+\end{figure}
+
+Ao comparar os resultados da ferramenta com os resultados do estudo, pode-se considerar que as conclusões são semelhantes.
+As poucas diferenças são notas apenas nos valores que derivam do estudo do terreno, como NMT, HNMT e os contornos. Isto acontece devido à precisão da aplicação 
+contra o método manual que foi praticado no estudo, onde buscamos os valores de NMT através da observação dos gráficos de perfil de terreno e, no caso dos contornos,
+ encontramos os valores utilizando as curvas de intensidade de campo, tornando o resultado um pouco impreciso, mas não o suficiente para compromenter o projeto.
+
+De maneira geral, os resultados dos contornos ficaram bem próximos, afirmando que os cálculos foram conduzidos da forma correta e bem-sucedidas.
 
 \chapter{APRESENTANDO AS INFORMAÇÕES TÉCNICAS, CONFORME O ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
 

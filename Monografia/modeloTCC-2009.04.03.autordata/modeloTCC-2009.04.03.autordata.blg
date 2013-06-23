@@ -4,7 +4,23 @@ The style file: abnt-alf.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: abnt-options.bib
 Database file #2: ./arquivos_para_alterar/a15-referencias.bib
-I was expecting a `{' or a `('---line 267 of file ./arquivos_para_alterar/a15-referencias.bib
+Repeated entry---line 207 of file ./arquivos_para_alterar/a15-referencias.bib
+ : @book{ref5
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 225 of file ./arquivos_para_alterar/a15-referencias.bib
+ : @book{ref6
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 239 of file ./arquivos_para_alterar/a15-referencias.bib
+ : @book{ref7
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 251 of file ./arquivos_para_alterar/a15-referencias.bib
+ : @manual{ref8
+ :             ,
+I'm skipping whatever remains of this entry
+I was expecting a `{' or a `('---line 321 of file ./arquivos_para_alterar/a15-referencias.bib
  : 
  : % Data: 19/04/2008
 (Error may have been on previous line)
@@ -16,45 +32,45 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 8 entries,
+You've used 12 entries,
             6522 wiz_defined-function locations,
-            1197 strings with 10167 characters,
-and the built_in function-call counts, 4781 in all, are:
-= -- 543
+            1213 strings with 10702 characters,
+and the built_in function-call counts, 8002 in all, are:
+= -- 1005
 > -- 48
 < -- 1
-+ -- 61
++ -- 119
 - -- 15
-* -- 272
-:= -- 603
-add.period$ -- 32
-call.type$ -- 9
-change.case$ -- 45
-chr.to.int$ -- 10
-cite$ -- 7
-duplicate$ -- 217
-empty$ -- 489
+* -- 440
+:= -- 981
+add.period$ -- 48
+call.type$ -- 13
+change.case$ -- 68
+chr.to.int$ -- 14
+cite$ -- 11
+duplicate$ -- 333
+empty$ -- 717
 format.name$ -- 70
-if$ -- 1278
+if$ -- 2182
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 121
-newline$ -- 41
+missing$ -- 185
+newline$ -- 65
 num.names$ -- 10
-pop$ -- 140
+pop$ -- 224
 preamble$ -- 1
-purify$ -- 25
+purify$ -- 37
 quote$ -- 0
-skip$ -- 342
+skip$ -- 744
 stack$ -- 1
-substring$ -- 175
-swap$ -- 88
+substring$ -- 309
+swap$ -- 127
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 29
 warning$ -- 0
-while$ -- 19
+while$ -- 31
 width$ -- 0
-write$ -- 117
-(There was 1 error message)
+write$ -- 173
+(There were 5 error messages)

@@ -34,12 +34,12 @@
 \contentsline {chapter}{\numberline {5}EQUIPAMENTOS B\'ASICOS QUE COMP\~OE A EMISSORA}{34}
 \contentsline {section}{\numberline {5.1}SISTEMA IRRADIANTE}{34}
 \contentsline {subsection}{\numberline {5.1.1}Antena}{34}
-\contentsline {subsection}{\numberline {5.1.2}Guia de onda e conectores}{35}
-\contentsline {subsection}{\numberline {5.1.3}Transmissor}{35}
+\contentsline {subsection}{\numberline {5.1.2}Linha de transmiss\~ao e conectores}{35}
+\contentsline {subsection}{\numberline {5.1.3}Transmissor}{36}
 \contentsline {subsection}{\numberline {5.1.4}C\'alculos de ERPmax, ERPaz e orienta\c c\~ao da antena}{36}
 \contentsline {subsubsection}{Pot\^encia efetiva irradiada m\'axima (ERPmax)}{36}
 \contentsline {subsubsection}{Pot\^encia efetiva irradiada por azimute (ERPaz)}{37}
-\contentsline {subsubsection}{Orienta\c c\~ao da antena}{37}
+\contentsline {subsubsection}{Orienta\c c\~ao da antena}{38}
 \contentsline {chapter}{\numberline {6}DESENVOLVENDO A EMISSORA FM}{39}
 \contentsline {section}{\numberline {6.1}ESPECIFICA\c C\~OES DEFINIDAS}{39}
 \contentsline {section}{\numberline {6.2}DEFININDO AS POT\^ENCIAS ERPmax E ERPaz}{40}
@@ -52,15 +52,16 @@
 \contentsline {section}{\numberline {7.1}CONSIDERA\c C\~OES SOBRE OS CONTORNOS ENCONTRADOS}{47}
 \contentsline {subsection}{\numberline {7.1.1}Analisando a cobertura da \`Area de Servi\c co Urbana em S\~ao Pedro de Alc\^antara}{47}
 \contentsline {subsubsection}{As outras \'Areas}{48}
-\contentsline {section}{\numberline {7.2}Compara\c c\~ao dos resultados finais com os valores calculados pela aplica\c c\~ao do SIGANATEL}{49}
-\contentsline {chapter}{\numberline {8}APRESENTANDO AS INFORMA\c C\~OES T\'ECNICAS, CONFORME O ROTEIRO PARA ELABORA\c C\~AO DE ESTUDOS T\'ECNICOS}{50}
-\contentsline {section}{\numberline {8.1}Informa\c c\~oes b\'asicas}{50}
-\contentsline {section}{\numberline {8.2}Mem\'oria Descritiva}{51}
-\contentsline {section}{\numberline {8.3}Situa\c c\~ao Geral}{53}
-\contentsline {subsubsection}{N\IeC {\'\i }vel M\'edio do Terreno}{53}
-\contentsline {chapter}{\numberline {9}CONCLUS\~OES E TRABALHOS FUTUROS}{54}
-\contentsline {chapter}{Refer\^encias}{56}
-\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada}{57}
-\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado}{62}
-\contentsline {chapter}{Anexo{} C{} -$\mskip -\thinmuskip $-{} Mapa de Macrozoneamento de S\~ao Pedro de Alc\^antara}{64}
-\contentsline {chapter}{Anexo{} D{} -$\mskip -\thinmuskip $-{} Gr\'aficos do perfil de terreno das 12 Radias ao redor da emissora.}{66}
+\contentsline {section}{\numberline {7.2}Comparando dos resultados finais com os valores calculados pela aplica\c c\~ao do SIGANATEL}{49}
+\contentsline {chapter}{\numberline {8}APRESENTANDO AS INFORMA\c C\~OES T\'ECNICAS, CONFORME O ROTEIRO PARA ELABORA\c C\~AO DE ESTUDOS T\'ECNICOS}{51}
+\contentsline {section}{\numberline {8.1}Informa\c c\~oes b\'asicas}{51}
+\contentsline {section}{\numberline {8.2}Mem\'oria Descritiva}{52}
+\contentsline {section}{\numberline {8.3}Situa\c c\~ao Geral}{54}
+\contentsline {subsubsection}{N\IeC {\'\i }vel M\'edio do Terreno}{54}
+\contentsline {chapter}{\numberline {9}CONCLUS\~OES E TRABALHOS FUTUROS}{55}
+\contentsline {chapter}{Refer\^encias}{57}
+\contentsline {chapter}{Anexo{} A{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante da antena dipolo utilizada.}{58}
+\contentsline {chapter}{Anexo{} B{} -$\mskip -\thinmuskip $-{} Especifica\c c\~oes t\'ecnicas do fabricante do guia de onda utilizado (linha de transmiss\~ao).}{63}
+\contentsline {chapter}{Anexo{} C{} -$\mskip -\thinmuskip $-{} Mapa de Macrozoneamento de S\~ao Pedro de Alc\^antara.}{65}
+\contentsline {chapter}{Anexo{} D{} -$\mskip -\thinmuskip $-{} Gr\'aficos do perfil de terreno das 12 Radias ao redor da emissora.}{67}
+\contentsline {chapter}{Anexo{} E{} -$\mskip -\thinmuskip $-{} Relat\'orio Siganatel - An\'alise T\'ecnica FM.}{74}
