@@ -4,11 +4,11 @@
 
 \autor{Guilherme Bilbao Soares da Silva}
 
-\titulo{Projeto de instalação de uma emissora de rádiodifusão sonora em frequência modulada, no município de São Pedro de Alcântara.}
+\titulo{Projeto de instalação de uma emissora de radiodifusão sonora em frequência modulada, no município de São Pedro de Alcântara.}
 
 \comentario{Monografia apresentada à Coordenação do Curso Superior de
 Tecnologia em Sistemas de Telecomunicações do Instituto
-Federal de Educação, Ciência e Tecnologia do Estado de Santa
+Federal de Santa
 Catarina para a obtenção do diploma de Tecnólogo em Sistemas
 de Telecomunicações.
 % - \mbox{IFSC} 
@@ -19,7 +19,7 @@ de Telecomunicações.
 %\coorientador[Co-orientador:]{\par Profº. Diego Botelho}
 % Outros exemplos para o comando \orientador :
 % Modelo para mais de 1 orientador:
- \orientador[Orientador]{\par Prof. Jaci Destri}
+ \orientador[Orientador]{ Prof. Jaci Destri}
 % Modelo para apenas um orientador
 % \orientador[Orientador:]{Prof. Dr. Fulano de Tal}
 
@@ -28,13 +28,10 @@ de Telecomunicações.
 
 %\coorientador[Co-orientador:]{\par Prof. Dr. Beltrano Monomono}
 
-\instituicao{CURSO SUPERIOR DE TECNOLOGIA EM SISTEMAS DE TELECOMUNICAÇÕES
+\instituicao{Curso Superior de Tecnologia em Sistemas de Telecomunicações \par
+	Instituto Federal de Santa Catarina}
 
- INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO
-
- ESTADO DE SANTA CATARINA}  %NOME DA INSTITUIÇÃO É OPCIONAL
-
-\local{São José - SC}
+\local{São José -- SC}
 
 \data{Julho/ 2013} %SOMENTE o ano de defesa
 

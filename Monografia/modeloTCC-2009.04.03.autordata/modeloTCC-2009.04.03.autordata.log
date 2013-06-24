@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  23 JUN 2013 01:01
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  24 JUN 2013 00:13
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -309,19 +309,19 @@ LaTeX Warning: Label `especificacaoAntena' multiply defined.
 )
 \openout1 = `modeloTCC-2009.04.03.autordata.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
-LaTeX Font Info:    ... okay on input line 59.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 59.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 60.
  (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -341,50 +341,50 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 \everyMPtoPDFconversion=\toks29
 ) (./arquivos_para_alterar/a02-configurar.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 90
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 91
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 90
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 91
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 90
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 91
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 90
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 91
 .
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 91.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 90.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 91.
  [0
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 2990) in paragraph at lines 98--98
+Underfull \hbox (badness 2990) in paragraph at lines 99--99
 []\OT1/ptm/m/n/12 Monografia apre-sen-tada []a Coordena[][]ao do
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 98--98
+Underfull \hbox (badness 1231) in paragraph at lines 99--99
 \OT1/ptm/m/n/12 Curso Su-pe-rior de Tec-no-lo-gia em Sis-te-mas
  []
 
@@ -392,9 +392,9 @@ Underfull \hbox (badness 1231) in paragraph at lines 98--98
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 133.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 133.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 134.
 
 (./arquivos_para_alterar/a04-dedicatoria.tex) [3
 
@@ -406,11 +406,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24.88> not available
 (./arquivos_para_alterar/a06-epigrafe.tex) [5
 
 ]
-(./arquivos_para_alterar/a07-resumo.tex) [6
+(./arquivos_para_alterar/a07-resumo.tex
+Overfull \hbox (5.03447pt too wide) in paragraph at lines 18--20
+\OT1/ptm/m/n/12 t[]ecnicas ne-cess[]arias que com-pro-va-riam a vi-a-bi-li-dade
+ t[]ecnica desta emis-sora pe-rante as exig[]encias
+ []
+
+) [6
 
 
-]
-(./arquivos_para_alterar/a08-abstract.tex) [7
+] (./arquivos_para_alterar/a08-abstract.tex) [7
 
 
 ]
@@ -419,17 +424,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 2.
  [8
 
-] [9]
-Overfull \hbox (1.0973pt too wide) in paragraph at lines 56--56
- [] []\OT1/ptm/b/n/12 APRESENTANDO AS INFORMA[][]OES T[]ECNICAS, CON-FORME O RO
--TEIRO 
- []
-
-)
+] [9])
 \tf@toc=\write3
 \openout3 = `modeloTCC-2009.04.03.autordata.toc'.
 
- [10] (./modeloTCC-2009.04.03.autordata.lof)
+ [10]
+(./modeloTCC-2009.04.03.autordata.lof)
 \tf@lof=\write4
 \openout4 = `modeloTCC-2009.04.03.autordata.lof'.
 
@@ -475,15 +475,6 @@ Cap\'{\i }tulo 2.
 ] [16]
 Cap\'{\i }tulo 3.
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 115.
-
-
-Overfull \hbox (6.93105pt too wide) in paragraph at lines 115--121
-\OT1/ptm/m/n/12 telecomunica[][]oes re-gu-lar-mente au-to-ri-za-dos e re-du-zir
- pos-si-bi-li-da-des de da-nos f[]^^Psicos []a popula[][]ao.
- []
-
-
 Overfull \hbox (45.40059pt too wide) in paragraph at lines 133--133
 []\OT1/ptm/b/n/17.28 ROTEIRO PARA ELABORA[][]AO DE ES-TU-DOS T[]ECNICOS 
  []
@@ -499,13 +490,13 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 168.
  [18] [19] [20]
-Overfull \hbox (45.79373pt too wide) in paragraph at lines 470--474
+Overfull \hbox (45.79373pt too wide) in paragraph at lines 470--475
 []\OT1/ptm/m/n/12 A UIT-R (UNI[]AO IN-TER-NA-CI-O-NAL DE TELECOMUNICA[][]OES - 
 RADIOCOMUNICA[][]OES),
  []
 
 
-Overfull \hbox (28.56613pt too wide) in paragraph at lines 470--474
+Overfull \hbox (28.56613pt too wide) in paragraph at lines 470--475
 \OT1/ptm/m/n/12 atrav[]es da Recomenda[][]ao UIT-R P.1546 (UNI[]AO IN-TER-NA-CI
 -O-NAL DE TELECOMUNICA[][]OES:
  []
@@ -513,10 +504,10 @@ Overfull \hbox (28.56613pt too wide) in paragraph at lines 470--474
 [21] [22]
 Cap\'{\i }tulo 4.
 
-<./figuras/imagem_plano_basico_218_anatel.png, id=81, 618.81187pt x 355.3275pt>
+<./figuras/imagem_plano_basico_218_anatel.png, id=82, 618.81187pt x 355.3275pt>
 File: ./figuras/imagem_plano_basico_218_anatel.png Graphic file (type png)
 <use ./figuras/imagem_plano_basico_218_anatel.png>
-Overfull \hbox (19.20724pt too wide) in paragraph at lines 567--570
+Overfull \hbox (19.20724pt too wide) in paragraph at lines 563--566
 \OT1/ptm/m/n/12 forme apre-sen-tado no por-tal da ANA-TEL (Fi-gura 4.1[]) e, pa
 ra que o pro-jeto res-peite as especifica[][]oes
  []
@@ -525,9 +516,9 @@ ra que o pro-jeto res-peite as especifica[][]oes
 
  <./figuras/imagem_plano_basico_218_anatel.png (PNG copy)>]
 
-LaTeX Warning: Command \textdegree invalid in math mode on input line 572.
+LaTeX Warning: Command \textdegree invalid in math mode on input line 568.
 
-<./figuras/tabelaClassificacaoEmissoras.png, id=85, 861.2175pt x 412.54124pt>
+<./figuras/tabelaClassificacaoEmissoras.png, id=86, 861.2175pt x 412.54124pt>
 File: ./figuras/tabelaClassificacaoEmissoras.png Graphic file (type png)
 
 <use ./figuras/tabelaClassificacaoEmissoras.png>
@@ -542,7 +533,7 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 608.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 608.
 
-<./figuras/siganatel_radiais.png, id=92, 1201.48875pt x 674.52pt>
+<./figuras/siganatel_radiais.png, id=93, 1201.48875pt x 674.52pt>
 File: ./figuras/siganatel_radiais.png Graphic file (type png)
 
 <use ./figuras/siganatel_radiais.png>
@@ -550,7 +541,7 @@ Overfull \hbox (25.34288pt too wide) in paragraph at lines 630--631
  [][] 
  []
 
-[25] <./figuras/radiais_detalhado.png, id=96, 991.45406pt x 533.74406pt>
+[25] <./figuras/radiais_detalhado.png, id=97, 991.45406pt x 533.74406pt>
 File: ./figuras/radiais_detalhado.png Graphic file (type png)
 
 <use ./figuras/radiais_detalhado.png>
@@ -559,7 +550,7 @@ Overfull \hbox (20.64842pt too wide) in paragraph at lines 637--638
  []
 
 [26 <./figuras/siganatel_radiais.png (PNG copy)> <./figuras/radiais_detalhado.p
-ng (PNG copy)>] <./figuras/nmt1_v2.pdf, id=100, 845.1575pt x 597.23125pt>
+ng (PNG copy)>] <./figuras/nmt1_v2.pdf, id=101, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt1_v2.pdf>
@@ -597,17 +588,7 @@ Overfull \hbox (2.56006pt too wide) in paragraph at lines 994--997
 /n/12 re-pre-senta a atenua[][]ao
  []
 
-[37]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 1045.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 1047.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 1048.
-
-[38]
+[37] [38]
 Cap\'{\i }tulo 6.
 
 Overfull \hbox (5.31952pt too wide) in paragraph at lines 1066--1081
@@ -623,15 +604,6 @@ a-lo-res que com-pro-var[]ao que esta configura[][]ao
 [39
 
 ] [40]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 1128.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 1129.
-
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 1132.
-
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 1134.
 
@@ -691,12 +663,7 @@ Overfull \hbox (4.49336pt too wide) in paragraph at lines 1171--1176
 a []Area de Servi[]o Ur-bana com pot[]encia
  []
 
-[41]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1188.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1188.
- [42] <./figuras/e5050_calc.jpg, id=162, 597.23125pt x 643.40375pt>
+[41] [42] <./figuras/e5050_calc.jpg, id=162, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050_calc.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050_calc.jpg>
@@ -743,6 +710,11 @@ Overfull \hbox (0.86905pt too wide) in paragraph at lines 1253--1255
  []
 
 [43 <./figuras/e5050_calc.jpg>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1274.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1274.
+
 <./figuras/todososcontornos.png, id=166, 983.17313pt x 536.0025pt>
 File: ./figuras/todososcontornos.png Graphic file (type png)
 
@@ -754,9 +726,9 @@ Overfull \hbox (16.67363pt too wide) in paragraph at lines 1320--1321
 [44] [45] [46 <./figuras/todososcontornos.png (PNG copy)>]
 Cap\'{\i }tulo 7.
 
-Overfull \hbox (4.52827pt too wide) in paragraph at lines 1331--1333
+Overfull \hbox (8.53622pt too wide) in paragraph at lines 1331--1333
 []\OT1/ptm/m/n/12 Agora de-ve-mos ana-li-sar es-tes re-sul-ta-dos e ve-ri-fi-ca
-r se est[]a tudo con-forme ori-enta a resolu[][]ao,
+r se est[]a tudo con-forme ori-enta a Resolu[][]ao,
  []
 
 
@@ -788,9 +760,9 @@ File: ./figuras/resultado_siganatel.png Graphic file (type png)
 (PNG copy)>]
 Cap\'{\i }tulo 8.
 
-Overfull \hbox (39.82071pt too wide) in paragraph at lines 1442--1444
-[]\OT1/ptm/m/n/12 Ap[]os de-sen-vol-ver o pro-jeto res-pei-tando a resolu[][]ao
-, e tamb[]em uti-li-zando re-cur-sos da recomenda[][]ao,
+Overfull \hbox (13.48323pt too wide) in paragraph at lines 1442--1444
+\OT1/ptm/m/n/12 recomenda[][]ao, apre-sen-ta-re-mos agora as informa[][]oes que
+ s[]ao so-li-ci-ta-das no ro-teiro para elabora[][]ao
  []
 
 [51
@@ -966,13 +938,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3431 strings out of 495041
- 50477 string characters out of 1181898
- 153154 words of memory out of 3000000
- 6391 multiletter control sequences out of 15000+50000
- 69273 words of font info for 154 fonts, out of 3000000 for 9000
+ 3428 strings out of 495041
+ 50462 string characters out of 1181898
+ 154060 words of memory out of 3000000
+ 6392 multiletter control sequences out of 15000+50000
+ 67915 words of font info for 150 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 32i,12n,41p,395b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,14n,41p,395b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
@@ -981,7 +953,7 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/sha
 re/texmf-texlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fo
 nts/type1/urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (76 pages, 12937782 bytes)
+Output written on modeloTCC-2009.04.03.autordata.pdf (76 pages, 12947973 bytes)
 .
 PDF statistics:
  408 PDF objects out of 1000 (max. 8388607)
