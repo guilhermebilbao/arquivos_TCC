@@ -5,28 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
-\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil) 2010]{ref1}
-\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)}{AGÊNCIA NACIONAL DE
-  TELECOMUNICAÇÕES (BRASIL)}{2010}
-{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (BRASIL). \emph{Resolução nº 67, de 12 de
-  novembro de 1998.}
-[S.l.], 2010. Dispon{\'\i}vel em:
-  $<$http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67$>$.
-  Acesso em: 27 mai. 2013.}
-
 \bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil) 2013]{ref3}
 \abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)}{AGÊNCIA NACIONAL DE
-  TELECOMUNICAÇÕES (BRASIL)}{2013a}
+  TELECOMUNICAÇÕES (BRASIL)}{2013}
 {AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (BRASIL). \emph{Portal ANATEL.}
 [S.l.], 2013. Dispon{\'\i}vel em: $<$http://www.anatel.gov.br/Portal/$>$.
-  Acesso em: 27 mai. 2013.}
-
-\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil) 2013]{ref2}
-\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)}{AGÊNCIA NACIONAL DE
-  TELECOMUNICAÇÕES (BRASIL)}{2013b}
-{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (BRASIL). \emph{SRD - SISTEMA DE CONTROLE
-  DE RADIODIFUSÃO.}
-[S.l.], 2013. Dispon{\'\i}vel em: $<$http://sistemas.anatel.gov.br/srd$>$.
   Acesso em: 27 mai. 2013.}
 
 \bibitem[Google Maps. 2013]{google}
@@ -65,10 +48,36 @@ Dispon{\'\i}vel em:
   $<$http://www.rfsworld.com/dataxpress/DataSheets/?q=LCF158-50JFNL$>$. Acesso
   em: 22 jun. 2013.}
 
+\bibitem[Resolução nº 67, de 12 de novembro de 1998. 2010]{ref1}
+\abntrefinfo{Resolução nº 67, de 12 de novembro de 1998.}{RESOLUçãO Nº 67, DE
+  12 DE NOVEMBRO DE 1998.}{2010}
+{RESOLUçãO Nº 67, DE 12 DE NOVEMBRO DE 1998. \emph{AGÊNCIA NACIONAL DE
+  TELECOMUNICAÇÕES (Brasil)}.
+[S.l.], 2010. Dispon{\'\i}vel em:
+  $<$http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67$>$.
+  Acesso em: 27 mai. 2013.}
+
+\bibitem[Resolução nº546, de 1º de setembro de 2010. 2013]{ref9}
+\abntrefinfo{Resolução nº546, de 1º de setembro de 2010.}{RESOLUçãO Nº546, DE
+  1º DE SETEMBRO DE 2010.}{2013}
+{RESOLUçãO Nº546, DE 1º DE SETEMBRO DE 2010. \emph{AGÊNCIA NACIONAL DE
+  TELECOMUNICAÇÕES (Brasil)}.
+[S.l.], 2013. Dispon{\'\i}vel em:
+  $<$http://legislacao.anatel.gov.br/resolucoes/25-2010/14-resolucao-546$>$.
+  Acesso em: 27 mai. 2013.}
+
 \bibitem[RÉGIS 2010]{paulo}
 \abntrefinfo{RÉGIS}{RÉGIS}{2010}
 {RÉGIS, P.~A. \emph{Cálculo de Viabilidade Técnica de um Canal de Televisão
   Digital}. Blumenal: FURB, 2010.}
+
+\bibitem[SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO. 2013]{ref2}
+\abntrefinfo{SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO.}{SRD - SISTEMA DE
+  CONTROLE DE RADIODIFUSÃO.}{2013}
+{SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO. \emph{AGÊNCIA NACIONAL DE
+  TELECOMUNICAÇÕES (Brasil)}.
+[S.l.], 2013. Dispon{\'\i}vel em: $<$http://sistemas.anatel.gov.br/srd$>$.
+  Acesso em: 27 mai. 2013.}
 
 \bibitem[Transmissor de FM profissional/Excitador Ágil 150 watts 2013]{ref5}
 \abntrefinfo{Transmissor\ldots}{TRANSMISSOR\ldots}{2013}

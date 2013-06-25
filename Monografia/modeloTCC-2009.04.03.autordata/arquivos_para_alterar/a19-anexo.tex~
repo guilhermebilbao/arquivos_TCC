@@ -1,7 +1,7 @@
 \begin{figure}[!htb]
 \centering
 \large
-\includegraphics[scale=1]{./figuras/relatorio_siganatel.jpg} 
+\includegraphics[scale=.75]{./figuras/relatorio_siganatel.jpg} 
 
 \label{relatorio_siganatel}
 \end{figure}

@@ -14,15 +14,15 @@
 
 
 @manual{ref1,
-organization={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)},
-title={Resolução nº 67, de 12 de novembro de 1998.},
+organization={Resolução nº 67, de 12 de novembro de 1998.},
+title={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)},
 url={http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67},
 year={2010},
 urlaccessdate={27 mai. 2013}}
 
 @manual{ref2,
-organization={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)},
-title={SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO.},
+organization={SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO.},
+title={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)},
 url={http://sistemas.anatel.gov.br/srd},
 year={2013},
 urlaccessdate={27 mai. 2013}}
@@ -61,6 +61,27 @@ subtitle={\textbf{Antena Dipolo 1/2 Onda para FM.}},
 url={http://www.idealantenas.com.br/produtosport/fm/pdfantenadipolodemeiaondafm.pdf},
 year={2013},
 urlaccessdate={22 jun. 2013}}
+
+@article{ref8,
+title={RADIO FREQUENCY SYSTENS.},
+subtitle={\textbf{1-5/8" CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable.}},
+url={http://www.rfsworld.com/dataxpress/DataSheets/?q=LCF158-50JFNL},
+year={2013},
+urlaccessdate={22 jun. 2013}}
+
+@manual{ref9,
+organization={Resolução nº546, de 1º de setembro de 2010.},
+title={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)},
+url={http://legislacao.anatel.gov.br/resolucoes/25-2010/14-resolucao-546},
+year={2013},
+urlaccessdate={27 mai. 2013}}
+
+@manual{ref10,
+organization={SISTEMA DE INFORMAÇÕES GEOGRÁFICAS.},
+title={AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil).},
+url={http://sistemas.anatel.gov.br/siganatel/},
+year={2013},
+urlaccessdate={27 mai. 2013}}
 
 
 @manual{google,
