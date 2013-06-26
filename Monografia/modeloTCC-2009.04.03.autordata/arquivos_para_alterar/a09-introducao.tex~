@@ -1,40 +1,30 @@
 
-Estudo e compreensão das normas mais recentes em relação à transmissão de rádio FM, utilizando ferramentas livres oferecidas pela ANATEL
+\begin{itemize}
+ 
 
-Realizar um estudo de viabilidade técnica de um canal de rádio em frequência modulada, baseando-se num cenário real. Colocar em prática
-os conhecimentos obtidos das recomendações, aplicando em situação real e possível. Com os resultados obtidos, será elaborada uma solução para
-cada eventual problema que surgir.
 
-Este projeto tem como objetivo criar uma documentação técnica, que reuna todos os requisitos necessários para que uma emissora de rádio possa ser 
-homologada pela ANATEL, (de acordo com a Resolução N° 67) e, assim, ser utilizada comercialmente.
+\textbf{ANATEL} Agência Nacional de Telecomunicações
 
-O que definiu o local de São Pedro de Alcântara como o escolhido para desenvolver este projeto da emissora FM foi, principalmente, o fator "cenário real", proporcionado
-pela disponibilidade do canal 238,na frequência de XXX Mhz e enquadrado na classe C (classificação das emissoras), atráves do plano básico administrado pela ANATEl. A idéia de desenvolver um projeto que poderia ser realmente implantado, foi uma 
-motivação a mais. Todos os cálculos, ítens e materiais, que foram definidos e documentados neste projeto, foram pensados e analisados com os cuidados de uma possível execução no
- futuro.
+\item {\textbf{E(L,T)}} Intensidade de campo excedido em L por cento das localidades e T por cento do 
+                tempo
 
-Outro ponto, é a relativa facilidade de acesso (São Pedro de Alcântara é um município vizinhho à São José), isto foi importante para verificação e definição do ponto onde ficaria o sistema emissor.
-Ao visitar o local, verificamos que já existia uma antena (moradores informaram que trata-se de uma antena de transmissão de TV analógica) em um terreno no centro do município.
+\textbf{EIA} Eletronics Industries Association
 
-Constatando que existe espaço para uma construção de uma nova torre, partimos do princípio que o local, no centro do município, é o mais indicado para instalar nossa estrutura. Assim, definimos
- o ponto de origem da emissora, exatamente nas coordenadas (informar latitude e longitude).
+\textbf{FM} Modulação em Frequência (Frequency Modulation)
 
-\begin{figure}[ht] % [especificador de posição]:exemplos [htbp] - h:aqui, t:topo, b:baixo, p:página especial, !: desconsiderar parâmetros internos
-\begin{center}
-\includegraphics[scale=.25]{./figuras/google1.png} %Opções: width (largura em pt ou cm ou vezes se não houver unidade de medida), height (altura em pt, cm ou vezes se não houver unidade de medida), angle (rotação em graus), scale (escala em vezes 0.5= 50%,1.5=150%, etc )
+\textbf{NMR} Nível médio da radial
 
-\caption[Radiais (aparece na Lista de Figuras)]{Local da Antena}
+\textbf{NMT} Nível médio do terreno
 
-\end{center}
-\label{google1}
-\end{figure}
+\textbf{IBGE} Instituto Brasileiro de Geografia e Estatística
 
-Encontrado o ponto de partida, deu-se início aos cálculos, para definições dos equipamentos e materiais que vão compor a emissora FM.
+\textbf{PBFM} Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada
 
-Nos próximos capítulos, todas os procedimentos, que são necessários para homologar uma emissora junto a ANATEL, serão apresentados, de uma forma pratica e direta.
+\textbf{SIGAnatel} Sistema de Informações Geográficas da Anatel
 
-%\chapter{Projetando a Emissora Fm em São Pedro de Alcântara}
+\textbf{UIT-R} União Internacional de Telecomunicações-Radiopropagação
 
+\end{itemize}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

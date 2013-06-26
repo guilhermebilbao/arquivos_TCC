@@ -52,6 +52,7 @@
 \usepackage{url}
 \usepackage{verbatim}
 
+
 \usepackage{./arquivos_para_alterar/a00-personalizar}
 \usepackage{./arquivos_para_alterar/a01-folhaderosto}
 
@@ -198,6 +199,8 @@
 
 %\listofsymbols
 
+%\listadesimbolosname
+
 %\nomencl
 
 }{}
@@ -224,13 +227,13 @@
 
 
 %Introdução 
-%\ifthenelse{\boolean{InserirIntroducao}}{
+\ifthenelse{\boolean{InserirIntroducao}}{
 
-%\pretextualchapter{INTRODUÇÃO}
+\pretextualchapter{Lista de Abreviaturas e Siglas}
 
-%\input{./arquivos_para_alterar/a09-introducao}
+\input{./arquivos_para_alterar/a09-introducao}
 
-%}{}
+}{}
 
 
 %Desenvolvimento

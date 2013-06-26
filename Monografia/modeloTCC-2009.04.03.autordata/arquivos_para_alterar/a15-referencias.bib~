@@ -84,6 +84,13 @@ year={2013},
 urlaccessdate={27 mai. 2013}}
 
 
+@manual{ref11,
+organization={Mapas Estatisticos - SC - CENSO 2010.},
+title={Instituto Brasileiro de Geografia e Estatística - IBGE.},
+url={ftp://geoftp.ibge.gov.br/mapas_estatisticos},
+year={2013},
+urlaccessdate={25 jun. 2013}}
+
 @manual{google,
 organization={Google Maps.},
 title={Localização da base do sistema irradiante. São Pedro de Alcantara - 2013},
@@ -91,10 +98,27 @@ url={https://maps.google.com.br/},
 year={2013},
 urlaccessdate={03 jun. 2013}}
 
+%% sanches
+@book{sanches,
+  title = {Projetos de Sistemas de Rádio},
+  publisher = {Érica},
+  year = {2006},
+  author = {E. M. Miyoshi and C.A. Sanches},
+  address = {São Paulo},
+  edition = {3}}
+
+@book{paulo,
+  title = {Cálculo de Viabilidade Técnica de um Canal de Televisão Digital},
+  publisher = {FURB},
+  year = {2010},
+  author = {P. A. RÉGIS},
+  address = {Blumenal}}
+
+
 %% Exemplo de como colocar um artigo de jornal sem autor
 
 %% Exemplo de como colocar um artigo de jornal com autor
-@article{ref10,
+@article{ref21,
 author={Nome Autor},
 address={São Paulo},
 journal={A Folha de S.~Paulo},
@@ -115,7 +139,7 @@ title={T\'{\i}tulo do Artigo},
 year={1987}}
 
 %% Mais um exemplo de como colocar um livro, mas com subtítulo
-@book{ref5,
+@book{ref12,
 address={São Paulo},
 author={Nome Autor},
 publisher={Editora},
@@ -124,20 +148,20 @@ title={Título},
 year={1995}}
 
 %% Mais um exemplo de como colocar um livro, mas indicando as páginas.
-@book{ref6,
+@book{ref13,
 pages={101-114},
 author={Outro Nome},
 title={Algum nome},
 year={1978}}
 
 %% Mais um exemplo de como colocar um livro, mas com vários autores.
-@book{ref7,
+@book{ref17,
 author={X. Y. Z. Evans and Outro Autor and Mais Um and W. S. Caule},
 title={Exemplo de citação no texto},
 year={1987}}
 
 %% Um exemplo de como citar um manual de algum grupo ou organização, obtido na internet.
-@manual{ref8,
+@manual{ref18,
 author={X. Y. Silva},
 organization={Grupo de Desenvolvimento Imaginário},
 title={T\'{\i}tulo de exemplo},
@@ -146,27 +170,11 @@ year={2003},
 urlaccessdate={8 mar. 1999}}
 
 %% Um exemplo de como citar o texto de alguma página da internet sem autor
-@article{ref9,
+@article{ref19,
 title={Conceitos criados como exemplo},
 url={http://nomedodominio.com.br},
 year={2003},
 urlaccessdate={8 mar. 1999}}
-
-%% sanches
-@book{sanches,
-  title = {Projetos de Sistemas de Rádio},
-  publisher = {Érica},
-  year = {2006},
-  author = {E. M. Miyoshi and C.A. Sanches},
-  address = {São Paulo},
-  edition = {3}}
-
-@book{paulo,
-  title = {Cálculo de Viabilidade Técnica de um Canal de Televisão Digital},
-  publisher = {FURB},
-  year = {2010},
-  author = {P. A. RÉGIS},
-  address = {Blumenal}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

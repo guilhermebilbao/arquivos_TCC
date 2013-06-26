@@ -1,4 +1,5 @@
-\documentclass[tocpage=plain]{abnt}
+\documentclass[ruledheader]{abnt}
+%\documentclass[tocpage=plain]{abnt}
 %Opções para docmentclass: chapter=TITLE
 %Todas as linhas iniciadas com o símbolo de porcentagem ( % ) são comentários.
 %Estes comentários, normalmente irão informar sobre o documento ou instruir para alterar algo, se necessário.
@@ -50,6 +51,7 @@
 \usepackage{rotating}
 \usepackage{url}
 \usepackage{verbatim}
+
 
 \usepackage{./arquivos_para_alterar/a00-personalizar}
 \usepackage{./arquivos_para_alterar/a01-folhaderosto}
@@ -197,7 +199,9 @@
 
 %\listofsymbols
 
-%\nomencl
+%\listadesimbolosname
+
+\nomencl
 
 }{}
 %%%%%%%%% Fim Sumário
@@ -223,13 +227,13 @@
 
 
 %Introdução 
-%\ifthenelse{\boolean{InserirIntroducao}}{
+\ifthenelse{\boolean{InserirIntroducao}}{
 
-%\pretextualchapter{INTRODUÇÃO}
+\pretextualchapter{Lista de Abreviaturas e Siglas}
 
-%\input{./arquivos_para_alterar/a09-introducao}
+\input{./arquivos_para_alterar/a09-introducao}
 
-%}{}
+}{}
 
 
 %Desenvolvimento

@@ -44,7 +44,7 @@ Seguindo, aborda-se sobre o canal proposto. Depois começam as definições para o 
 Após, são apresentados as especificações definidas para o projeto da emissora. % e a documentação que deve ser apresentada junto a ANATEL.
 Ao final, são apresentadas as conclusões e novas propostas de trabalhos.
 
-\chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBMF)}
+\chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBFM)}
 
 O Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada é definido e gerenciado pela ANATEL, e nele constam os canais FM previstos para uso 
 em todo o território nacional. Os canais que ainda estão vagos podem ser consultados no portal da ANATEL~\cite{ref2}.
@@ -464,12 +464,16 @@ Documentos diversos:
 
 \end{enumerate}
 
+
+
+
 \end{comment}
+
 
 \section{RECOMENDAÇÃO UIT-R P.1546}
 A UIT-R (UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES - RADIOCOMUNICAÇÕES), através da Recomendação UIT-R P.1546~\cite{ref4},
  descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
-na faixa de 30 a 3000MHz, e foi adotada no lugar das curvas de nível de campo anteriormente utilizadas.
+na faixa de 30 a 3000 MHz, e foi adotada no lugar das curvas de nível de campo anteriormente utilizadas.
  Os procedimentos que seguimos neste trabalho, principalmente para definir as áreas de serviços, foram
 baseados nestes métodos. 
 
@@ -481,8 +485,8 @@ A seguir serão descritos os parâmetros básicos muitos utilizados nos cálculos.~\
 
 A altura acima do nível médio do terreno ($HNMT$) é um valor que representa o nível do terreno ao redor da base transmissora.
 
-Para encontrar o seu valor, deve-se obter cotas entre as distâncias de 3 e 15Km da antena e fazer uma média aritmética dos pontos obtidos.
-As alturas podem variar de 10 a 1200m, conforme a recomendação, porém o documento também descreve um método para, caso seja necessário, extrapolar 
+Para encontrar o seu valor, deve-se obter cotas entre as distâncias de 3 e 15 Km da antena e fazer uma média aritmética dos pontos obtidos.
+As alturas podem variar de 10 a 1200 m, conforme a recomendação, porém o documento também descreve um método para, caso seja necessário, extrapolar 
 esses valores.
 
 \subsubsection{Curvas E(L,T)}
@@ -602,17 +606,18 @@ Estes dados são de extrema importância para o sucesso do projeto.
 A Resolução exige que sejam tracejadas no mínimo 12 radiais com espaçamento angular de 30° e com o mínimo de 50 cotas, igualmente
  espaçadas.
 O ponto previamente definido, como sendo o local onde a antena será fixada, será a origem das radiais.
-Para tracejar estas radiais, usei os mapas disponíveis no site do IBGE (citar fonte)(edição de 08-10-2007), na escala $1:50.000$.
+Para tracejar estas radiais, usei os mapas disponíveis no site do IBGE~\cite{ref11}, na escala $1:50.000$.
 Através destas radiais vamos conseguir obter as altitudes do relevo ao redor da base da antena. 
 Esses valores servirão de base para definir todas as características do nosso sistema.
 As radiais foram tracejadas a partir das coordenadas $27°34'02.72''S$ com $48°48'33.71''O$ (ponto referente à base da torre da antena),
  e deve, obrigatoriamente, incluir a direção do Norte Verdadeiro. 
 
-Após os 12 raios tracejados, calcula-se o nível médio da Radial ($NMR$) para cada uma delas. O $NMR$ é definido pela média aritmética
+Após os 12 raios tracejados, calcula-se o Nível Médio da Radial ($NMR$) para cada uma delas. O $NMR$ é definido pela média aritmética
  de todas as cotas da radial, que, de acordo com a norma, devem ser compreendidas no trecho entre 3 e 15 quilômetros.
 Para obter esses valores das cotas, no caso os 50 valores correspondentes as altitudes do terreno dentro da cada radial, existe uma ferramenta
- disponível no portal online da ANATEL, o SIGANATEL (citar fonte).
-Mas, para conseguir usar esta ferramenta, é preciso obter as coordenadas das 12 radiais, nas distâncias de 3 km e 15 km partindo da base da emissora. 
+ muito útil no auxílio aos estudos de viabilidade, disponível no portal online da ANATEL, o SIGANATEL~\cite{ref10}. 
+Usaremos dos seus recursos para a identificação de perfil de terreno (projeção geográfica), através de gráficos gerados por ele.
+Mas, para conseguir usar a ferramenta, é preciso obter as coordenadas das 12 radiais, nas distâncias de 3 km e 15 km e partindo da base da emissora. 
 
 Para buscar estes valores temos que usar como referência os valores informados no mapa (referencias de coordenadas) e sua escala.
 Numa escala de $1:50.000$ cada centímetro no mapa equivale à 500 m, então, as radiais devem ter 30 centímetros para atingir o ponto equivalente
@@ -826,6 +831,7 @@ De acordo com a especificação da antena, usando três elementos para irradiar o s
 HCGSI = 55m + 4,244m = 59,244m
 \label{e_hcgsi}
 \end{equation}
+
 Agora já temos definidas todas as variáveis que compõem nossa equação, encontraremos o $HNMT$~\ref{e_hmnt2}, coforme resultado da equação~\ref{e_hmnt1}
 
 \begin{equation}
@@ -1185,7 +1191,7 @@ ERPmax -5,91dBk
 \label{d_erpmaxrdbk} 
 \end{equation}
 
-Este resultado atende o estabelecido pela Resolução, é menor que 300W, então podemos começar à
+Este resultado atende o estabelecido pela Resolução, é menor que 300 W, então podemos começar à
 calcular o ERPaz para cada um dos azimutes traçados. 
 
 Como já mencionado anteriormente, a antena ficou posicionada apontando o seu 90° em direção ao norte verdadeiro, 
@@ -1260,12 +1266,12 @@ identificar cada uma das distâncias que formarão os contornos. As curvas de inte
 $E(50,50)$ serão usadas para esta finalidade. Através destas curvas obtemos as relações 
 entre potência e relevo, necessárias para determinar as distâncias dos contornos das áreas de serviços.
 Tais curvas baseiam-se em uma potência efetiva de 1 KW irradiado por um dipolo de 1/2 onda, em espaço livre,
- que produz uma intensidade de campo não atenuada, a 1km, de aproximadamente 107dBu.
+ que produz uma intensidade de campo não atenuada, a 1 km, de aproximadamente 107dBu.
 
 \subsection{Àrea de Serviço Urbana (66 dBm)}
 
 Como já mencionado, a Área de Serviço Urbana é o contorno principal do projeto. 
-Para identificar se a emissora está respeitando o contorno de 7,5km, temos que fazer uso das curvas de intensidade, 
+Para identificar se a emissora está respeitando o contorno de 7,5 km, temos que fazer uso das curvas de intensidade, 
 combinadas com as potências ERPaz. 
 Como as potências efetivas irradiadas, que encontramos anteriormente, são inferiores à 1 KW, deve ser feito
 um ajuste, subtraindo estes valores em dBk do valor para o contorno desejado. O resultado será o valor referência 
@@ -1276,7 +1282,7 @@ entre as escalas apresentadas nas curvas de intensidade.
 Definido o ponto, busca-se o valor, em km, que está em escala logarítmica no eixo das abscissas. 
 A figura~\ref{curvaE5050Calc} mostra um exemplo deste procedimento para os valores referentes à radial 0°. 
 À esquerda está destacado o valor resultante da equação~\ref{e_curvas}, e através do valor de
- HMNT de 185,86m na radial 0°, utilizando a curva correspondente obtem-se o valor de 10,5 km.
+ HMNT de 185,86 m na radial 0°, utilizando a curva correspondente obtem-se o valor de 10,5 km.
 
 \begin{equation}
 66 dBm-8,07 dBk=74,07 dBm
@@ -1431,7 +1437,7 @@ Os requisitos mínimos apresentados pela Resolução para o contorno de 66 dBm são 
 áreas de serviço
 \begin{itemize}
 
-\item A média aritmética das distâncias a este contorno não pode ultrapassar 7,5km;
+\item A média aritmética das distâncias a este contorno não pode ultrapassar 7,5 km;
 
 \item A média aritmética das distâncias a este contorno não poderá ser menor do que a distância ao contorno máximo da classe imediatamente inferior;
 

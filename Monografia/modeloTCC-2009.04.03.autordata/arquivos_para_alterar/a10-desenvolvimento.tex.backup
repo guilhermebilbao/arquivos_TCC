@@ -464,12 +464,16 @@ Documentos diversos:
 
 \end{enumerate}
 
+
+
+
 \end{comment}
+
 
 \section{RECOMENDAÇÃO UIT-R P.1546}
 A UIT-R (UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES - RADIOCOMUNICAÇÕES), através da Recomendação UIT-R P.1546~\cite{ref4},
  descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
-na faixa de 30 a 3000MHz, e foi adotada no lugar das curvas de nível de campo anteriormente utilizadas.
+na faixa de 30 a 3000 MHz, e foi adotada no lugar das curvas de nível de campo anteriormente utilizadas.
  Os procedimentos que seguimos neste trabalho, principalmente para definir as áreas de serviços, foram
 baseados nestes métodos. 
 
@@ -481,8 +485,8 @@ A seguir serão descritos os parâmetros básicos muitos utilizados nos cálculos.~\
 
 A altura acima do nível médio do terreno ($HNMT$) é um valor que representa o nível do terreno ao redor da base transmissora.
 
-Para encontrar o seu valor, deve-se obter cotas entre as distâncias de 3 e 15Km da antena e fazer uma média aritmética dos pontos obtidos.
-As alturas podem variar de 10 a 1200m, conforme a recomendação, porém o documento também descreve um método para, caso seja necessário, extrapolar 
+Para encontrar o seu valor, deve-se obter cotas entre as distâncias de 3 e 15 Km da antena e fazer uma média aritmética dos pontos obtidos.
+As alturas podem variar de 10 a 1200 m, conforme a recomendação, porém o documento também descreve um método para, caso seja necessário, extrapolar 
 esses valores.
 
 \subsubsection{Curvas E(L,T)}
@@ -602,17 +606,18 @@ Estes dados são de extrema importância para o sucesso do projeto.
 A Resolução exige que sejam tracejadas no mínimo 12 radiais com espaçamento angular de 30° e com o mínimo de 50 cotas, igualmente
  espaçadas.
 O ponto previamente definido, como sendo o local onde a antena será fixada, será a origem das radiais.
-Para tracejar estas radiais, usei os mapas disponíveis no site do IBGE (citar fonte)(edição de 08-10-2007), na escala $1:50.000$.
+Para tracejar estas radiais, usei os mapas disponíveis no site do IBGE~\cite{ref11}, na escala $1:50.000$.
 Através destas radiais vamos conseguir obter as altitudes do relevo ao redor da base da antena. 
 Esses valores servirão de base para definir todas as características do nosso sistema.
 As radiais foram tracejadas a partir das coordenadas $27°34'02.72''S$ com $48°48'33.71''O$ (ponto referente à base da torre da antena),
  e deve, obrigatoriamente, incluir a direção do Norte Verdadeiro. 
 
-Após os 12 raios tracejados, calcula-se o nível médio da Radial ($NMR$) para cada uma delas. O $NMR$ é definido pela média aritmética
+Após os 12 raios tracejados, calcula-se o Nível Médio da Radial ($NMR$) para cada uma delas. O $NMR$ é definido pela média aritmética
  de todas as cotas da radial, que, de acordo com a norma, devem ser compreendidas no trecho entre 3 e 15 quilômetros.
 Para obter esses valores das cotas, no caso os 50 valores correspondentes as altitudes do terreno dentro da cada radial, existe uma ferramenta
- disponível no portal online da ANATEL, o SIGANATEL (citar fonte).
-Mas, para conseguir usar esta ferramenta, é preciso obter as coordenadas das 12 radiais, nas distâncias de 3 km e 15 km partindo da base da emissora. 
+ muito útil no auxílio aos estudos de viabilidade, disponível no portal online da ANATEL, o SIGANATEL~\cite{ref10}. 
+Usaremos dos seus recursos para a identificação de perfil de terreno (projeção geográfica), através de gráficos gerados por ele.
+Mas, para conseguir usar a ferramenta, é preciso obter as coordenadas das 12 radiais, nas distâncias de 3 km e 15 km e partindo da base da emissora. 
 
 Para buscar estes valores temos que usar como referência os valores informados no mapa (referencias de coordenadas) e sua escala.
 Numa escala de $1:50.000$ cada centímetro no mapa equivale à 500 m, então, as radiais devem ter 30 centímetros para atingir o ponto equivalente
@@ -820,9 +825,12 @@ antena Dipolo $1/2$ Onda para FM do fabricante IDEAL, conforme ANEXO~\ref{especi
  do sistema irradiante. 
 De acordo com a especificação da antena, usando três elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de 
 88,1 MHz, que é a frequência que mais se aproxima da que será propagada pela emissora (91,5 MHz), o centro de fase do sistema fica em 4244,5 mm ou 4,244 m.
- Efetuando-se a soma entre a altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor: 
+ Efetuando-se a soma entre a altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor
 
-$$HCGSI = 55m + 4,244m = 59,244m$$ 
+\begin{equation}
+HCGSI = 55m + 4,244m = 59,244m
+\label{e_hcgsi}
+\end{equation}
 
 Agora já temos definidas todas as variáveis que compõem nossa equação, encontraremos o $HNMT$~\ref{e_hmnt2}, coforme resultado da equação~\ref{e_hmnt1}
 
@@ -1116,39 +1124,72 @@ está respeitando todos os requisitos máximos, principalmente o contorno protegid
 \section{DEFININDO AS POTÊNCIAS ERPmax e ERPaz}
 
 O limite máximo da potência que o nosso sistema pode usar para irradiar o sinal está fixado em 0,300 kW. 
-Já temos todos os fatores necessários para saber o valor de $ERPmax$ da emissora. Vamos aos cálculos, começando pela perda da linha:
+Já temos todos os fatores necessários para saber o valor de $ERPmax$ da emissora. Vamos aos cálculos, começando pela perda da linha
 
-$$Pl = \frac{65 \times 0,680}{100}$$
+\begin{equation}
+Pl = \frac{65 \times 0,680}{100}
+\label{d_pl}
+\end{equation}
 
-$$Pl = 0,442dB$$
+\begin{equation}
+Pl = 0,442dB
+\label{d_plr}
+\end{equation}
 
-Soma-se este reultado à atenuação dos conectores:
+Soma-se este reultado à atenuação dos conectores
 
-$$Pd = 0,442 + 2$$
+\begin{equation}
+Pd = 0,442 + 2
+\label{d_pd}
+\end{equation}
 
-$$Pd = 2,442dB$$
+\begin{equation}
+Pd = 2,442dB
+\label{d_pdr}
+\end{equation}
 
-Convertendo para perdas totais em vezes ($Pv$): 
+Convertendo para perdas totais em vezes ($Pv$)
 
-$$Pv = 10^{0,1 \times 2,442}$$
+\begin{equation}
+Pv = 10^{0,1 \times 2,442}
+\label{d_pv}
+\end{equation}
 
-$$Pv = 1,754$$
+\begin{equation}
+Pv = 1,754
+\label{d_pvr}
+\end{equation}
 
-Inverte-se este resultado para obter a Eficiência da linha:
+Inverte-se este resultado para obter a Eficiência da linha
  
-$$Ef = 1 / 1,754$$
+\begin{equation}
+Ef = 1 / 1,754
+\label{d_ef}
+\end{equation}
 
-$$Ef = 0,569$$
+\begin{equation}
+Ef = 0,569
+\label{d_efr}
+\end{equation}
 
-Portanto, a potência de saída do sistema fica:
+Portanto, a potência de saída do sistema fica
 
-$$ERPmax = 0,15 \times 3 \times 0,569$$
+\begin{equation}
+ERPmax = 0,15 \times 3 \times 0,569
+\label{d_erpmax}
+\end{equation}
 
-$$ERPmax = 0,256kW$$
+\begin{equation}
+ERPmax = 0,256kW
+\label{d_erpmaxr}
+\end{equation}
 
-Se for usada a notação em dB:
+Se for usada a notação em dB
 
-$$ERPmax -5,91dBk$$ 
+\begin{equation}
+ERPmax -5,91dBk
+\label{d_erpmaxrdbk} 
+\end{equation}
 
 Este resultado atende o estabelecido pela Resolução, é menor que 300W, então podemos começar à
 calcular o ERPaz para cada um dos azimutes traçados. 
@@ -1157,14 +1198,29 @@ Como já mencionado anteriormente, a antena ficou posicionada apontando o seu 90°
 assim ficando de frente para o azimute 270° da emissora. 
 
 Considerando a posição da antena e os valores de $E/Emax$ (disponível na especificação da antena - ANEXO~\ref{especificacaoAntena}), 
-segue o cálculo para o azimute 0°:
+segue o cálculo para o azimute 0°
 
-$$ERPaz(0°) = 0,256kW \times (0,78)^2$$
-$$ERPaz(0°) = 0,256kW \times 0,6084$$
-$$ERPaz(0°) = 0,1557kW$$
+\begin{equation}
+ERPaz(0°) = 0,256kW \times (0,78)^2
+\label{erpmax_g}
+\end{equation}
+
+\begin{equation}
+ERPaz(0°) = 0,256kW \times 0,6084
+\label{erpmax_g2}
+\end{equation}
+
+\begin{equation}
+ERPaz(0°) = 0,1557kW
+\label{erpmax_g3}
+\end{equation}
 
 Convertendo para dBk ($10\times\log$):
-$$ERPaz(0°) = -8,07dBk$$
+
+\begin{equation}
+ERPaz(0°) = -8,07dBk
+\label{erpmax_g4}
+\end{equation}
 
 Repete-se este procedimento para todos os outros 11 ângulos. A tabela~\ref{tabelaERPaz} está completa, com todos os valores de $E/Emax$ e $ERPaz$ para todas as radiais.
 
