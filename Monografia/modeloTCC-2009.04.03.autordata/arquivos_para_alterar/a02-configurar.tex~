@@ -2,7 +2,7 @@
 %Colocar "false" para os elementos que não devem aparecer
 
 %Troque por true/false para inserir/não inserir: Capa
-\setboolean{InserirCapa}{false}
+\setboolean{InserirCapa}{true}
 
 %Troque por true/false para inserir/não inserir: Folha de Rosto (Elemento OBRIGATÓRIO)
 \setboolean{InserirFolhaRosto}{true}

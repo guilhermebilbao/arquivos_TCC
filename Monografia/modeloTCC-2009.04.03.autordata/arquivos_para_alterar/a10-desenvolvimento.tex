@@ -987,7 +987,7 @@ eficiente e dentro da norma.
 
 \subsubsection{Potência Efetiva Irradiada Máxima (ERPmax)}
 A Potência Efetiva Irradiada Máxima é a máxima potência que a emissora poderá transmitir o seu sinal, que é o resultado da combinação das especificações dos elementos que à compõe.
-A equação~\ref{e_erpmax} é usada para encontrar a $ERPmax$. Ela é composta de variáveis que correspondem aos equipamentos e suas características no sistema. 
+A equação~\ref{e_erpmax} é usada para encontrar a $ERPmax$. Ela é composta de variáveis que correspondem aos equipamentos e suas características no sistema(~\cite{paulo}). 
 
 \begin{equation}
 ERPmax = Pt \times Gtmax \times Ef
@@ -1252,23 +1252,23 @@ $330°$& 0,88 & 0,1985 & -7,02 \\\hline
 
 \section{DEFININDO OS CONTORNOS DAS ÁREAS DE SERVIÇOS}
 
-Definir a distância do contorno protegido, cobertura da Àrea de Serviço Urbana com potência mínima de 66 dBm, 
+Definir a distância do contorno protegido, cobertura da Área de Serviço Urbana com potência mínima de 66 dBm, 
 é o principal objetivo deste estudo. 
 Esta distância é a média aritmética das distâncias a este contorno, segundo cada radial, é o que irá identificar a classe desta emissora. 
 Para a classe C, o Contorno 2 não deve ultrapassar 7,5km, sendo este o resultado da média das 12 radiais. 
 
-A norma também solicita as definições das outras duas àreas de serviços, a Área de Serviço Primário (74 dBm) 
-e a Àrea de Serviço Rural (54 dBm), Contornos 1 e 3, respectivamente. O conjunto desses 3 contornos
-compõem a àrea de serviço da emissora.
+A norma também solicita as definições das outras duas áreas de serviços, a Área de Serviço Primário (74 dBm) 
+e a Área de Serviço Rural (54 dBm), Contornos 1 e 3, respectivamente. O conjunto desses 3 contornos
+compõem a área de serviço da emissora.
 
 Já temos o potencial de irradiação de cada uma das radiais do sistema, a próxima etapa é
 identificar cada uma das distâncias que formarão os contornos. As curvas de intensidade de campo 
 $E(50,50)$ serão usadas para esta finalidade. Através destas curvas obtemos as relações 
 entre potência e relevo, necessárias para determinar as distâncias dos contornos das áreas de serviços.
-Tais curvas baseiam-se em uma potência efetiva de 1 KW irradiado por um dipolo de 1/2 onda, em espaço livre,
- que produz uma intensidade de campo não atenuada, a 1 km, de aproximadamente 107dBu.
+Tais curvas baseiam-se em uma potência efetiva de 1 kW irradiado por um dipolo de 1/2 onda, em espaço livre,
+ que produz uma intensidade de campo não atenuada, a 1 km, de aproximadamente 107 dB$\mu$.
 
-\subsection{Àrea de Serviço Urbana (66 dBm)}
+\subsection{Área de Serviço Urbana (66 dBm)}
 
 Como já mencionado, a Área de Serviço Urbana é o contorno principal do projeto. 
 Para identificar se a emissora está respeitando o contorno de 7,5 km, temos que fazer uso das curvas de intensidade, 
@@ -1341,15 +1341,15 @@ está de acordo com a norma.
 Encontramos no site da Câmara Municipal de São Pedro de Alcântara~\cite{ref6} um mapa do macrozoneamento de São Pedro de Alcântara (ANEXO~\ref{mapaMacrozoneamento}), que delimita 
 as áreas conforme sua densidade populacional urbana ou rural (conforme pesquisa realizada em 2010~\cite{ref6}).
 
-A àrea em vermelho corresponde à àrea urbana atual, e a àrea um laranja é correspondente à àrea de expansão urbana. 
+A área em vermelho corresponde à área urbana atual, e a área um laranja é correspondente à área de expansão urbana. 
 O contorno de 66 dBm deve cobrir ao menos 90\% dessas áreas para, assim, comprovar a cobertura da área urbana do 
 município, conforme o estabelecido pela Resolução.
 
 
-\subsection{Àreas de Serviço Primário e Rural (74 dBm e 54 dBm)} 
+\subsection{Áreas de Serviço Primário e Rural (74 dBm e 54 dBm)} 
 
-Os outros contornos de serviço, Àrea de Serviço Primário (74 dBm) e Àrea de Serviço Rural (54 dBm), tem como objetivos 
-atender a àrea de maior densidade populacional e àrea rural, respectivamente, na localidade. 
+Os outros contornos de serviço, Área de Serviço Primário (74 dBm) e Área de Serviço Rural (54 dBm), tem como objetivos 
+atender a área de maior densidade populacional e área rural, respectivamente, na localidade. 
 Os mesmos procedimentos usados para encontrar as distâncias do contorno de 66 dBm são usados para esses dois outros contornos.
 Os resultados estão na tabela~\ref{tabelaGeral}.
 
@@ -1400,13 +1400,13 @@ Já sabemos todas as distâncias, em todas as radiais, para cada intensidade do si
 do sistema (tabela~\ref{tabelaGeral}). Utilizando a ferramenta SIGAnatel, podemos visualizar estes contornos, projetados no mapa da localidade, e assim analisar,
  num primeiro momento, se os efeitos destas coberturas estão dentro do esperado.
 
-A figura~\ref{todososcontornos} apresenta as projeções das Àreas de Serviço da emissora em São Pedro de Alcântara.
+A figura~\ref{todososcontornos} apresenta as projeções das Áreas de Serviço da emissora em São Pedro de Alcântara.
 
 \begin{figure}[!htb]
 \centering
 \large
 \includegraphics[scale=.48]{./figuras/todososcontornos.png} 
-\caption{Projeção da cobertura das Àreas de Serviços utilizando a ferramenta SIGAnatel.}
+\caption{Projeção da cobertura das Áreas de Serviços utilizando a ferramenta SIGAnatel.}
 \label{todososcontornos}
 \end{figure}
 
@@ -1421,14 +1421,14 @@ O objetivo é que o projeto apresente uma tendência em anular ou, ao menos, minim
 
 \section{CONSIDERAÇÕES SOBRE OS CONTORNOS ENCONTRADOS}
 
-Uma verificação importante e indispensável é saber se as Àreas de Serviço, principalmente o contorno protegido, cobrem as zonas à que se destinam.
+Uma verificação importante e indispensável é saber se as Áreas de Serviço, principalmente o contorno protegido, cobrem as zonas à que se destinam.
  Para isto, buscamos como referência um mapeamento das zonas urbanas e rurais da cidade (ANEXO~\ref{mapaMacrozoneamento}), de 2010,
  publicado no portal da Câmara de São Pedro de Alcântara~\cite{ref6}.
 
 Cruzando as informações deste documento com os resultados do projeto, saberemos se as áreas de cobertura estão de acordo com o que
  estabelece a Resolução.
 
-\subsection{Analisando a cobertura da Àrea de Serviço Urbana em São Pedro de Alcântara}
+\subsection{Analisando a cobertura da Área de Serviço Urbana em São Pedro de Alcântara}
 
 A Área de Serviço Urbana, correspondente ao contorno 2 ou contorno protegido (66 dBm), entre as três, é a área referência para a homologação das coberturas.
 É este contorno que vai indicar se o sistema está devidamente enquadrado na classe correspondente, no caso classe C. 
@@ -1441,7 +1441,7 @@ Os requisitos mínimos apresentados pela Resolução para o contorno de 66 dBm são 
 
 \item A média aritmética das distâncias a este contorno não poderá ser menor do que a distância ao contorno máximo da classe imediatamente inferior;
 
-\item O contorno de 66 dBm deve cobrir ao menos 90\% dessa àrea urbana da localidade.
+\item O contorno de 66 dBm deve cobrir ao menos 90\% dessa área urbana da localidade.
 
 \end{itemize}
 
@@ -1491,17 +1491,30 @@ Radial& Contorno 66dBm(km) & Distâncias zona urbana  \\\hline\hline
 \centering
 \large
 \includegraphics[scale=.48]{./figuras/contornoAreaUrbana.png} 
-\caption{Projeção da cobertura das Àrea de Serviço Urbana sobre a zona urbana do município.}
+\caption{Projeção da cobertura das Área de Serviço Urbana sobre a zona urbana do município.}
 \label{contornoAreaUrbana}
 \end{figure}
 
 Assim, comprovamos que a Área de Serviço Urbana está devidamente coberta pelo contorno de 66 dBm, conforme exige a Resolução.
 
-\subsubsection{As outras Áreas}
+\subsubsection{As outras áreas de serviços}
 
-As Àreas de Serviço Primário e Rural (74 dBm e 54 dBm) não são tratadas com tanto rigor quanto a Àrea Urbana. Uma vez que a 
-Àrea Urbana está dentro da cobertura estabelecida, as outras duas Áreas estão ''amarradas'' nesta situação, ou seja, se o contorno
-protegido está cumprindo os requisitos das outras duas Áreas, automaticamente, também estão.
+A resolução solicita, para a cobertura da Área de Serviço Primário, que atenda a maior parte possível da zona central do município, conforme 
+citado no trecho da Resolução: 
+
+\begin{quotation}
+
+``5.1.1.2 - O local do sistema irradiante deve ser escolhido de forma que o contorno de 74 dBm inclua a maior parte possível da zona central da localidade...''
+\label{trecho_5112}
+\end{quotation}
+
+Podemos verificar através da figura~\ref{contornoAreaUrbana} que o contorno de 74 dBm (área na cor laranja escuro) cobre aproximadamente 50\% da zona urbana da cidade.
+Considerando que a base da antena está fixada no centro de São Pedro de Alcântara, podemos concluir que este contorno esta cobrindo por completo a zona central da cidade.
+
+A Área de Serviço Rural (54 dBm) não é tratada com tanto rigor pela Resolução quanto as outras áreas. Uma vez que a 
+Área de Serviço Urbana e Primario estão cobrindo o que é estabelecido na resolução, a Área de Serviço Rural também é aprovada.
+
+Com base nessas informações, sabemos agora que estamos atendendo devidamente a cidade em relação às Áreas de Serviço. 
 
 \section{Comparando dos resultados finais com os valores calculados pela aplicação do SIGAnatel}
 

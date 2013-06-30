@@ -44,7 +44,7 @@ urlaccessdate={27 mai. 2013}}
 
 @article{ref5,
 title={Transmissor de FM profissional},
-subtitle={Excitador Ágil 150 watts, Certificado de Homologação Nº 2510-09-2884. },
+subtitle={Excitador Ágil 150 watts.},%Certificado de Homologação Nº 2510-09-2884. },
 url={http://www.videolinkpro.com.br/},
 year={2013},
 urlaccessdate={22 jun. 2013}}
@@ -100,99 +100,4 @@ urlaccessdate={27 mai. 2013}}
 
 @manual{matlab,
 organization={The MathWorks, Inc.},
-title={MATLAB, The Language of Technical Computing.},
-year={2004}}
-
-@manual{google,
-organization={Google Maps.},
-title={Localização da base do sistema irradiante. São Pedro de Alcantara - 2013},
-url={https://maps.google.com.br/},
-year={2013},
-urlaccessdate={03 jun. 2013}}
-
-%% sanches
-@book{sanches,
-  title = {Projetos de Sistemas de Rádio},
-  publisher = {Érica},
-  year = {2006},
-  author = {E. M. Miyoshi and C.A. Sanches},
-  address = {São Paulo},
-  edition = {3}}
-
-@book{paulo,
-  title = {Cálculo de Viabilidade Técnica de um Canal de Televisão Digital},
-  publisher = {FURB},
-  year = {2010},
-  author = {P. A. RÉGIS},
-  address = {Blumenal}}
-
-
-%% Exemplo de como colocar um artigo de jornal sem autor
-
-%% Exemplo de como colocar um artigo de jornal com autor
-@article{ref21,
-author={Nome Autor},
-address={São Paulo},
-journal={A Folha de S.~Paulo},
-month={7 set.},
-pages={11-23},
-title={Título do artigo},
-year={1995}
-}
-
-%% Exemplo de como colocar um artigo de revista sem autor
-@article{ref14,
-address={Rio de Janeiro},
-journal={Nome da revista},
-month={jan.},
-number={35},
-pages={51-60},
-title={T\'{\i}tulo do Artigo},
-year={1987}}
-
-%% Mais um exemplo de como colocar um livro, mas com subtítulo
-@book{ref22,
-address={São Paulo},
-author={Nome Autor},
-publisher={Editora},
-subtitle={Subtítudo, que vem depois de dois pontos},
-title={Título},
-year={1995}}
-
-%% Mais um exemplo de como colocar um livro, mas indicando as páginas.
-@book{ref13,
-pages={101-114},
-author={Outro Nome},
-title={Algum nome},
-year={1978}}
-
-%% Mais um exemplo de como colocar um livro, mas com vários autores.
-@book{ref17,
-author={X. Y. Z. Evans and Outro Autor and Mais Um and W. S. Caule},
-title={Exemplo de citação no texto},
-year={1987}}
-
-%% Um exemplo de como citar um manual de algum grupo ou organização, obtido na internet.
-@manual{ref18,
-author={X. Y. Silva},
-organization={Grupo de Desenvolvimento Imaginário},
-title={T\'{\i}tulo de exemplo},
-url={http://nomedodominio.com.br},
-year={2003},
-urlaccessdate={8 mar. 1999}}
-
-%% Um exemplo de como citar o texto de alguma página da internet sem autor
-@article{ref19,
-title={Conceitos criados como exemplo},
-url={http://nomedodominio.com.br},
-year={2003},
-urlaccessdate={8 mar. 1999}}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Modelo para escrever TCCs, dissertações e teses utilizando LaTeX, ABNTeX e BibTeX
-% Autor/E-Mail: Robinson Alves Lemos/contato@robinson.mat.br/robinson.a.l@bol.com.br
-% Data: 19/04/2008 
-% Colaboradore(s)/E-Mail(s):
-% Caso queira colaborar, entre em contato pelo e-mail e informe alterações que realizou.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+title={MATLAB

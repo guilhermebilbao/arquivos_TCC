@@ -4,7 +4,7 @@ The style file: abnt-alf.bst
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: abnt-options.bib
 Database file #2: ./arquivos_para_alterar/a15-referencias.bib
-I was expecting a `{' or a `('---line 365 of file ./arquivos_para_alterar/a15-referencias.bib
+I was expecting a `{' or a `('---line 389 of file ./arquivos_para_alterar/a15-referencias.bib
  : 
  : % Data: 19/04/2008
 (Error may have been on previous line)
@@ -16,45 +16,45 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 | Em caso de duvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 15 entries,
+You've used 16 entries,
             6522 wiz_defined-function locations,
-            1224 strings with 11035 characters,
-and the built_in function-call counts, 9430 in all, are:
-= -- 1151
+            1230 strings with 11117 characters,
+and the built_in function-call counts, 9849 in all, are:
+= -- 1185
 > -- 48
 < -- 1
 + -- 118
 - -- 15
-* -- 527
-:= -- 1122
-add.period$ -- 63
-call.type$ -- 16
-change.case$ -- 83
-chr.to.int$ -- 18
-cite$ -- 14
-duplicate$ -- 414
-empty$ -- 897
+* -- 550
+:= -- 1162
+add.period$ -- 66
+call.type$ -- 17
+change.case$ -- 88
+chr.to.int$ -- 19
+cite$ -- 15
+duplicate$ -- 439
+empty$ -- 955
 format.name$ -- 70
-if$ -- 2601
+if$ -- 2722
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 227
-newline$ -- 80
+missing$ -- 241
+newline$ -- 85
 num.names$ -- 10
-pop$ -- 260
+pop$ -- 274
 preamble$ -- 1
-purify$ -- 46
+purify$ -- 49
 quote$ -- 0
-skip$ -- 838
+skip$ -- 868
 stack$ -- 1
-substring$ -- 365
-swap$ -- 160
+substring$ -- 382
+swap$ -- 169
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 29
 warning$ -- 0
-while$ -- 34
+while$ -- 35
 width$ -- 0
-write$ -- 221
+write$ -- 235
 (There was 1 error message)

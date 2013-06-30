@@ -67,9 +67,11 @@
 \provideboolean{InserirEpigrafe}
 \provideboolean{InserirResumo}
 \provideboolean{InserirAbstract}
+\provideboolean{InserirListaSimbolos}
 \provideboolean{InserirSumario}
 \provideboolean{InserirListaIlustracoes}
 \provideboolean{InserirIntroducao}
+\provideboolean{InserirListaSimbolos}
 \provideboolean{InserirDesenvolvimento}
 \provideboolean{InserirConclusao}
 \provideboolean{InserirReferencias}
@@ -230,10 +232,80 @@
 \ifthenelse{\boolean{InserirIntroducao}}{
 
 \pretextualchapter{Lista de Abreviaturas e Siglas}
+~\ref{tabelaSiglas}
 
-\input{./arquivos_para_alterar/a09-introducao}
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll} 
+\textbf{ANATEL}&Agência Nacional de Telecomunicações\\
+&\\
+\textbf{E(L,T)}&Intensidade de campo excedido em L por cento das localidades e\\
+&T por cento do tempo\\
+&\\
+\textbf{EIA}&Eletronics Industries Association\\
+&\\
+\textbf{FM}&Modulação em Frequência (Frequency Modulation)\\
+&\\
+\textbf{NMR}&Nível médio da radial\\
+&\\
+\textbf{NMT}&Nível médio do terreno\\
+&\\
+\textbf{IBGE}&Instituto Brasileiro de Geografia e Estatística\\
+&\\
+\textbf{PBFM}&Plano Básico de Distribuição de Canais de Radiodifusão Sonora em \\
+&Frequência Modulada\\
+&\\
+\textbf{SIGAnatel}&Sistema de Informações Geográficas da Anatel\\
+&\\
+\textbf{UIT-R}&União Internacional de Telecomunicações-Radiopropagação\\
+&\\
+\end{tabular}
+\label{tabelaSiglas}
+\end{table}
+
+%\input{./arquivos_para_alterar/a09-introducao}
 
 }{}
+
+\ifthenelse{\boolean{InserirListaSimbolos}}{
+
+\pretextualchapter{Lista de Símbolos}
+%~\ref{tabelaSimbolos}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll} 
+\textbf{MHz}&megahertz\\
+\textbf{HNMT}&altura efetiva acima do nível médio\\
+\textbf{km}&quilômetros\\
+\textbf{m}&metros\\
+\textbf{\%}&por cento\\
+\textbf{dB$\mu$}&unidade que exprime o valor de potência, em dB, referida a 1$\mu$W\\
+\textbf{dB}&decibel\\
+\textbf{dBm}&unidade que exprime o valor de potência, em dB, referida a 1mW\\
+\textbf{dBk}&unidade que exprime o valor de potência, em dB, referida a 1kW\\
+\textbf{Wrms}&potência eficaz\\
+\textbf{ERPmax}&potência efetiva máxima irradiada\\
+\textbf{ERPaz}&potência efetiva máxima irradiada no azimute\\
+\textbf{Pt}&potência de saída do transmissor\\
+\textbf{Gtmax}&ganho máximo do sistema irradiante\\
+\textbf{Ef}&eficiência de linha\\
+\textbf{dBd}&ganho da antena, referido a uma antena dipolo\\
+\textbf{Pl}&perdas da linha\\
+\textbf{L}&comprimento da linha\\
+\textbf{Al}&atenuação em 100 metros\\
+\textbf{Pc}&perdas acessórias\\
+\textbf{Pd}&perdas totais da linha em dB\\
+\textbf{Pv}&perdas totais da linha em vezes\\
+
+\end{tabular}
+\label{tabelaSimbolos}
+\end{table}
+
+%\input{./arquivos_para_alterar/a09-introducao}
+
+}{}
+
 
 
 %Desenvolvimento
@@ -258,16 +330,62 @@
 %%%%%%%%% Fim Elementos Textuais
 %%%%%%%%%
 
+
+%%%%%%%%%
+%%%%%%%%% Elementos Pós-Textuais
+%%%%%%%%%
+
+\begin{comment}
+
+%Lista de siglas
+
+\ifthenelse{\boolean{InserirListaSiglas}}{
+
+\postextualchapter{Lista de Abreviaturas e Siglas}
+~\ref{tabelaSiglas}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ll} 
+\textbf{ANATEL}&Agência Nacional de Telecomunicações\\
+&\\
+\textbf{E(L,T)}&Intensidade de campo excedido em L por cento das localidades e\\
+&T por cento do tempo\\
+&\\
+\textbf{EIA}&Eletronics Industries Association\\
+&\\
+\textbf{FM}&Modulação em Frequência (Frequency Modulation)\\
+&\\
+\textbf{NMR}&Nível médio da radial\\
+&\\
+\textbf{NMT}&Nível médio do terreno\\
+&\\
+\textbf{IBGE}&Instituto Brasileiro de Geografia e Estatística\\
+&\\
+\textbf{PBFM}&Plano Básico de Distribuição de Canais de Radiodifusão Sonora em \\
+&Frequência Modulada\\
+&\\
+\textbf{SIGAnatel}&Sistema de Informações Geográficas da Anatel\\
+&\\
+\textbf{UIT-R}&União Internacional de Telecomunicações-Radiopropagação\\
+&\\
+\end{tabular}
+\label{tabelaSiglas}
+\end{table}
+
+%\input{./arquivos_para_alterar/a09-introducao}
+
+}{}
+
+%%%%%%%%% fim siglas
+
+\end{comment}
+
 \ifthenelse{\boolean{InserirReferencias}}{
 
 \input{./arquivos_para_alterar/a12-referenciasnaocidadas}
 
 }{}
-
-
-%%%%%%%%%
-%%%%%%%%% Elementos Pós-Textuais
-%%%%%%%%%
 
 %%%%%%%%% Referências
 \ifthenelse{\boolean{InserirReferencias}}{

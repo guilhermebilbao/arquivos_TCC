@@ -8,12 +8,13 @@ Os contornos formados pela emissora são oriundos da combinação dos elementos que
 Ao alterar, por exemplo, a potência do transmissor usado, todos os outros componentes precisarão ser analisados e ajustados,
  para que este conjunto continue respondendo às adequações e requisitos, conforme a resolução, para a emissora em questão.
 
-A configuração do projeto da emissora de radiodifusão, apresentado neste estudo, teve como foco, além de atender à todas as solicitações e regras informadas pela resolução e recomendação,
- diminuir os custos de manutenção e gastos fixos (aumentando a altura da torre e diminuindo a potência do transmissor), junto com o máximo aproveitamento das áreas dos contornos previstos 
-para a classe.
-O desfecho do projeto se mostrou satisfatório, levando em consideração o perfil acidentado do terreno da região, dificultando a definição dos contornos, pois para determinadas 
-direções existiam os obstáculos naturais que acabam atenuando demais o sinal irradiado, forçando à direcionar os maiores ganhos do sistema irradiante para as direções de maiores obstruções,  
- assim distribuindo a potência efetiva irradiada para as 12 direções do modo mais eficiente possível.
+A configuração do projeto da emissora de radiodifusão, apresentado neste estudo, teve como foco, além de atender à todas as solicitações e regras informadas pela resolução 
+e recomendação,
+ diminuir os custos de manutenção e gastos fixos (como exemplo, aumentando a altura da torre e diminuindo a potência do transmissor), junto com o máximo aproveitamento das áreas 
+de serviços previstos para a classe.
+O desfecho do projeto se mostrou satisfatório, levando em consideração o perfil acidentado do terreno da região, dificultando a definição dos contornos. Para determinadas 
+direções existiam os obstáculos naturais que acabam atenuando demais o sinal irradiado, forçando à direcionar os maiores ganhos do sistema irradiante para as direções de maiores 
+obstruções, assim distribuindo a potência efetiva irradiada para as 12 direções do modo mais eficiente possível.
 
  Como resultado, o projeto apresenta a cobertura da área urbana quase por completa pelo contorno protegido. Este é o ponto positivo principal do sistema em relação à norma, pois 
 esta informação, juntamente com o respeito aos requisitos máximos, é o que define o enquadramento da emissora na sua classe do plano básico.
@@ -21,6 +22,9 @@ Outro fator positivo foi a comprovação da viabilidade técnica com o que foi defi
 A classe C, definida para o caso de uso do canal 218 em São Pedro de Alcântara, informada no plano básico,
  é realmente viável, conforme os resultados apresentados neste documento, e foi possivelmente definida levando em consideração o relevo da região (montanhoso aos arredores) e a 
 área urbana pequena (com uma área longitudinal máxima de aproximadamente $10km$).
+
+Como sugestão de trabalhos futuros, pode ser feita uma simulação computacional de estudo de viabilidade técnica, para este ou um novo cenário, implementando os modelos e métodos
+apresentados na Recomendação UIT-R P.1546-1, implementados em linguagem Matlab®.
 
 \begin{comment}
 
