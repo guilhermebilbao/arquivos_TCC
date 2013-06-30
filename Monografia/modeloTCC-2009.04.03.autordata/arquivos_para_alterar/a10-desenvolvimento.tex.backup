@@ -1265,8 +1265,8 @@ Já temos o potencial de irradiação de cada uma das radiais do sistema, a próxima
 identificar cada uma das distâncias que formarão os contornos. As curvas de intensidade de campo 
 $E(50,50)$ serão usadas para esta finalidade. Através destas curvas obtemos as relações 
 entre potência e relevo, necessárias para determinar as distâncias dos contornos das áreas de serviços.
-Tais curvas baseiam-se em uma potência efetiva de 1 KW irradiado por um dipolo de 1/2 onda, em espaço livre,
- que produz uma intensidade de campo não atenuada, a 1 km, de aproximadamente 107dBu.
+Tais curvas baseiam-se em uma potência efetiva de 1 kW irradiado por um dipolo de 1/2 onda, em espaço livre,
+ que produz uma intensidade de campo não atenuada, a 1 km, de aproximadamente 107 dB$\mu$.
 
 \subsection{Área de Serviço Urbana (66 dBm)}
 
@@ -1508,12 +1508,13 @@ citado no trecho da Resolução:
 \label{trecho_5112}
 \end{quotation}
 
-Podemos verificar através da figura~\ref{contornoAreaUrbana} que o contorno de 74 dBm (área na cor laranja) cobre aproximadamente 50\% da zona urbana da cidade,
-e considerando que a base da antena está fixada no centro da cidade, podemos concluir que este contorno esta cobrindo por completo a zona central da cidade.
+Podemos verificar através da figura~\ref{contornoAreaUrbana} que o contorno de 74 dBm (área na cor laranja escuro) cobre aproximadamente 50\% da zona urbana da cidade.
+Considerando que a base da antena está fixada no centro de São Pedro de Alcântara, podemos concluir que este contorno esta cobrindo por completo a zona central da cidade.
 
-Áreas de Serviço Primário e Rural (74 dBm e 54 dBm) não são tratadas com tanto rigor quanto a Área Urbana. Uma vez que a 
-Área Urbana está dentro da cobertura estabelecida, as outras duas Áreas estão ''amarradas'' nesta situação, ou seja, se o contorno
-protegido está cumprindo os requisitos das outras duas Áreas, automaticamente, também estão.
+A Área de Serviço Rural (54 dBm) não é tratada com tanto rigor pela Resolução quanto as outras áreas. Uma vez que a 
+Área de Serviço Urbana e Primario estão cobrindo o que é estabelecido na resolução, a Área de Serviço Rural também é aprovada.
+
+Com base nessas informações, sabemos agora que estamos atendendo devidamente a cidade em relação às Áreas de Serviço. 
 
 \section{Comparando dos resultados finais com os valores calculados pela aplicação do SIGAnatel}
 

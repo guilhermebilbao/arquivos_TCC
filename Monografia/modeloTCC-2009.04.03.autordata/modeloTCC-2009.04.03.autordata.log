@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  29 JUN 2013 23:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  30 JUN 2013 16:26
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -500,10 +500,10 @@ Overfull \hbox (28.56613pt too wide) in paragraph at lines 474--479
 -O-NAL DE TELECOMUNICA[][]OES:
  []
 
-[23] [24] [25]
+[23] [24]
 Cap\'{\i }tulo 4.
 
-<./figuras/imagem_plano_basico_218_anatel.png, id=93, 618.81187pt x 355.3275pt>
+<./figuras/imagem_plano_basico_218_anatel.png, id=90, 618.81187pt x 355.3275pt>
 File: ./figuras/imagem_plano_basico_218_anatel.png Graphic file (type png)
 <use ./figuras/imagem_plano_basico_218_anatel.png>
 Overfull \hbox (19.20724pt too wide) in paragraph at lines 567--570
@@ -511,13 +511,10 @@ Overfull \hbox (19.20724pt too wide) in paragraph at lines 567--570
 ra que o pro-jeto res-peite as especifica[][]oes
  []
 
-[26
+[25
 
  <./figuras/imagem_plano_basico_218_anatel.png (PNG copy)>]
-
-LaTeX Warning: Command \textdegree invalid in math mode on input line 572.
-
-<./figuras/tabelaClassificacaoEmissoras.png, id=97, 861.2175pt x 412.54124pt>
+<./figuras/tabelaClassificacaoEmissoras.png, id=94, 861.2175pt x 412.54124pt>
 File: ./figuras/tabelaClassificacaoEmissoras.png Graphic file (type png)
 
 <use ./figuras/tabelaClassificacaoEmissoras.png>
@@ -525,14 +522,14 @@ Overfull \hbox (1.50768pt too wide) in paragraph at lines 599--599
 []\OT1/ptm/b/n/17.28 N[]IVEL ME-DIO DO TER-RENO E AL-TURA ACIMA DO
  []
 
-[27 <./figuras/tabelaClassificacaoEmissoras.png>]
+[26 <./figuras/tabelaClassificacaoEmissoras.png>]
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 612.
 
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 612.
 
-[28] <./figuras/siganatel_radiais.png, id=106, 1201.48875pt x 674.52pt>
+[27] <./figuras/siganatel_radiais.png, id=103, 1201.48875pt x 674.52pt>
 File: ./figuras/siganatel_radiais.png Graphic file (type png)
 
 <use ./figuras/siganatel_radiais.png>
@@ -540,7 +537,7 @@ Overfull \hbox (25.34288pt too wide) in paragraph at lines 635--636
  [][] 
  []
 
-<./figuras/radiais_detalhado.png, id=107, 991.45406pt x 533.74406pt>
+<./figuras/radiais_detalhado.png, id=104, 991.45406pt x 533.74406pt>
 File: ./figuras/radiais_detalhado.png Graphic file (type png)
 
 <use ./figuras/radiais_detalhado.png>
@@ -548,8 +545,8 @@ Overfull \hbox (20.64842pt too wide) in paragraph at lines 642--643
  [][] 
  []
 
-[29 <./figuras/siganatel_radiais.png (PNG copy)> <./figuras/radiais_detalhado.p
-ng (PNG copy)>] <./figuras/nmt1_v2.pdf, id=111, 845.1575pt x 597.23125pt>
+[28 <./figuras/siganatel_radiais.png (PNG copy)> <./figuras/radiais_detalhado.p
+ng (PNG copy)>] <./figuras/nmt1_v2.pdf, id=108, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt1_v2.pdf>
@@ -557,20 +554,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 702.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 702.
- [30 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>]
+ [29 <./figuras/nmt1_v2.pdf, page is rotated 90 degrees>]
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 795.
 
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 795.
 
-[31] [32] [33] [34]
-<./figuras/aproximidadePBMF.png, id=134, 696.6025pt x 377.41pt>
+[30] [31] [32] [33]
+<./figuras/aproximidadePBMF.png, id=131, 696.6025pt x 377.41pt>
 File: ./figuras/aproximidadePBMF.png Graphic file (type png)
 
-<use ./figuras/aproximidadePBMF.png> [35] [36 <./figuras/aproximidadePBMF.png>]
+<use ./figuras/aproximidadePBMF.png> [34] [35 <./figuras/aproximidadePBMF.png>]
 Cap\'{\i }tulo 5.
-<./figuras/diagrama_de_irradiacao.jpg, id=143, 307.8702pt x 280.4076pt>
+<./figuras/diagrama_de_irradiacao.jpg, id=139, 307.8702pt x 280.4076pt>
 File: ./figuras/diagrama_de_irradiacao.jpg Graphic file (type jpg)
 
 <use ./figuras/diagrama_de_irradiacao.jpg>
@@ -580,16 +577,16 @@ dB=\OT1/ztmcm/m/n/12 100\OML/ztmcm/m/it/12 m$\OT1/ptm/m/n/12 , ope-rando numa f
 requ[]enciancia de 88 MHz, con-forme especifica[][]oes em ANEXO B[].
  []
 
-[37
+[36
 
-] [38 <./figuras/diagrama_de_irradiacao.jpg>] [39]
+] [37 <./figuras/diagrama_de_irradiacao.jpg>] [38]
 Overfull \hbox (2.56006pt too wide) in paragraph at lines 1018--1021
 []\OT1/ptm/m/n/12 O par[]ametro $\OML/ztmcm/m/it/12 L$ \OT1/ptm/m/n/12 in-forma
  o com-pri-mento do guia de onda em me-tros, $\OML/ztmcm/m/it/12 Al$ \OT1/ptm/m
 /n/12 re-pre-senta a atenua[][]ao
  []
 
-[40] [41]
+[39] [40]
 Cap\'{\i }tulo 6.
 
 Overfull \hbox (5.31952pt too wide) in paragraph at lines 1102--1117
@@ -602,9 +599,9 @@ Overfull \hbox (25.4327pt too wide) in paragraph at lines 1121--1123
 a-lo-res que com-pro-var[]ao que esta configura[][]ao
  []
 
-[42
+[41
 
-] [43]
+] [42]
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 1204.
 
@@ -664,7 +661,7 @@ Overfull \hbox (4.49336pt too wide) in paragraph at lines 1255--1259
 a []Area de Servi[]o Ur-bana com pot[]encia
  []
 
-[44] [45] <./figuras/e5050_calc.jpg, id=172, 597.23125pt x 643.40375pt>
+[43] [44] <./figuras/e5050_calc.jpg, id=169, 597.23125pt x 643.40375pt>
 File: ./figuras/e5050_calc.jpg Graphic file (type jpg)
 
 <use ./figuras/e5050_calc.jpg>
@@ -704,80 +701,82 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 1328.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 1329.
 
-[46 <./figuras/e5050_calc.jpg>]
-Overfull \hbox (22.29218pt too wide) in paragraph at lines 1341--1343
+
+Overfull \hbox (22.29218pt too wide) in paragraph at lines 1338--1340
 \OT1/ptm/m/n/12 forme sua den-si-dade po-pu-la-ci-o-nal ur-bana ou ru-ral (con-
 forme pes-quisa re-a-li-zada em 2010 (MAPA...,
  []
 
+[45 <./figuras/e5050_calc.jpg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1362.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1359.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1362.
-[47] [48] <./figuras/todososcontornos.png, id=183, 983.17313pt x 536.0025pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1359.
+ [46] [47]
+<./figuras/todososcontornos.png, id=179, 983.17313pt x 536.0025pt>
 File: ./figuras/todososcontornos.png Graphic file (type png)
 
 <use ./figuras/todososcontornos.png>
-Overfull \hbox (16.67363pt too wide) in paragraph at lines 1408--1409
+Overfull \hbox (16.67363pt too wide) in paragraph at lines 1405--1406
  [][] 
  []
 
-[49 <./figuras/todososcontornos.png (PNG copy)>]
+[48 <./figuras/todososcontornos.png (PNG copy)>]
 Cap\'{\i }tulo 7.
 
-Overfull \hbox (8.53622pt too wide) in paragraph at lines 1419--1421
+Overfull \hbox (8.53622pt too wide) in paragraph at lines 1416--1418
 []\OT1/ptm/m/n/12 Agora de-ve-mos ana-li-sar es-tes re-sul-ta-dos e ve-ri-fi-ca
 r se est[]a tudo con-forme ori-enta a Resolu[][]ao,
  []
 
 
-Overfull \hbox (8.33595pt too wide) in paragraph at lines 1422--1422
+Overfull \hbox (8.33595pt too wide) in paragraph at lines 1419--1419
 []\OT1/ptm/b/n/17.28 CONSIDERA[][]OES SO-BRE OS CON-TOR-NOS EN-CON-
  []
 
-[50
+[49
 
-] <./figuras/contornoAreaUrbana.png, id=190, 1032.10594pt x 535.2497pt>
+] <./figuras/contornoAreaUrbana.png, id=187, 1032.10594pt x 535.2497pt>
 File: ./figuras/contornoAreaUrbana.png Graphic file (type png)
 
 <use ./figuras/contornoAreaUrbana.png>
-Overfull \hbox (40.16112pt too wide) in paragraph at lines 1493--1494
+Overfull \hbox (40.16112pt too wide) in paragraph at lines 1490--1491
  [][] 
  []
 
-[51] [52 <./figuras/contornoAreaUrbana.png>]
-Overfull \hbox (34.38306pt too wide) in paragraph at lines 1521--1524
+[50] [51 <./figuras/contornoAreaUrbana.png>]
+Overfull \hbox (34.38306pt too wide) in paragraph at lines 1518--1521
 []\OT1/ptm/m/n/12 A SIG-NA-TEL []e uma fer-ra-menta que aux[]^^Plia os es-tu-do
 s e pro-je-tos de esta[][]oes de radiocomunica[][]ao.
  []
 
-<./figuras/resultado_siganatel.png, id=198, 579.66562pt x 534.49687pt>
+<./figuras/resultado_siganatel.png, id=195, 579.66562pt x 534.49687pt>
 File: ./figuras/resultado_siganatel.png Graphic file (type png)
 
 <use ./figuras/resultado_siganatel.png>
-Overfull \hbox (8.48901pt too wide) in paragraph at lines 1532--1533
+Overfull \hbox (8.48901pt too wide) in paragraph at lines 1529--1530
  [][] 
  []
 
-[53] [54 <./figuras/resultado_siganatel.png (PNG copy)>]
+[52] [53 <./figuras/resultado_siganatel.png (PNG copy)>]
 Cap\'{\i }tulo 8.
 
-Overfull \hbox (13.48323pt too wide) in paragraph at lines 1546--1548
+Overfull \hbox (13.48323pt too wide) in paragraph at lines 1543--1545
 \OT1/ptm/m/n/12 recomenda[][]ao, apre-sen-ta-re-mos agora as informa[][]oes que
  s[]ao so-li-ci-ta-das no ro-teiro para elabora[][]ao
  []
 
-[55
+[54
 
-] [56] [57]
-Overfull \hbox (30.77594pt too wide) in paragraph at lines 1681--1682
+] [55] [56]
+Overfull \hbox (30.77594pt too wide) in paragraph at lines 1678--1679
 []\OT1/ptm/m/n/12 Azimute/HMNT(m): 0$[]$/185,86; 30$[]$/270,78; 60$[]$/175,10; 
 90$[]$/178,04; 120$[]$/93,78; 150$[]$/147,38;
  []
 
-) [58]
+) [57]
 Cap\'{\i }tulo 9.
-(./arquivos_para_alterar/a11-conclusao.tex [59
+(./arquivos_para_alterar/a11-conclusao.tex [58
 
 ]
 Overfull \hbox (0.23544pt too wide) in paragraph at lines 26--28
@@ -786,7 +785,7 @@ a-dos em lin-gua-gem Matlab[] (THE
  []
 
 ) (./arquivos_para_alterar/a12-referenciasnaocidadas.tex)
-(./modeloTCC-2009.04.03.autordata.bbl [60]
+(./modeloTCC-2009.04.03.autordata.bbl [59]
 
 LaTeX Font Warning: Font shape `OMS/ptm/bx/n' undefined
 (Font)              using `OMS/ptm/m/n' instead on input line 53.
@@ -799,12 +798,12 @@ Underfull \hbox (badness 1077) in paragraph at lines 52--58
 Lite 
  []
 
-[61
+[60
 
-]) [62]
+]) [61]
 Anexo A.
 (./arquivos_para_alterar/a14-anexo.tex
-<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=231, 615.0177pt x 862.9038pt>
+<./figuras/1pdfantenadipolodemeiaondafm.jpg, id=228, 615.0177pt x 862.9038pt>
 File: ./figuras/1pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/1pdfantenadipolodemeiaondafm.jpg>
@@ -812,7 +811,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 4--5
  [][] 
  []
 
-<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=232, 615.0177pt x 862.9038pt>
+<./figuras/2pdfantenadipolodemeiaondafm.jpg, id=229, 615.0177pt x 862.9038pt>
 File: ./figuras/2pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/2pdfantenadipolodemeiaondafm.jpg>
@@ -820,7 +819,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
-<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=233, 615.0177pt x 862.9038pt>
+<./figuras/3pdfantenadipolodemeiaondafm.jpg, id=230, 615.0177pt x 862.9038pt>
 File: ./figuras/3pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/3pdfantenadipolodemeiaondafm.jpg>
@@ -828,7 +827,7 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=234, 615.0177pt x 862.9038pt>
+<./figuras/4pdfantenadipolodemeiaondafm.jpg, id=231, 615.0177pt x 862.9038pt>
 File: ./figuras/4pdfantenadipolodemeiaondafm.jpg Graphic file (type jpg)
 
 <use ./figuras/4pdfantenadipolodemeiaondafm.jpg>
@@ -836,22 +835,22 @@ Overfull \hbox (6.01802pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-) [63
+) [62
 
-] [64 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [65 <./figuras/2pdfantenadi
-polodemeiaondafm.jpg>] [66 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
-[67 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
+] [63 <./figuras/1pdfantenadipolodemeiaondafm.jpg>] [64 <./figuras/2pdfantenadi
+polodemeiaondafm.jpg>] [65 <./figuras/3pdfantenadipolodemeiaondafm.jpg>]
+[66 <./figuras/4pdfantenadipolodemeiaondafm.jpg>]
 Anexo B.
 (./arquivos_para_alterar/a16-anexo.tex
-<./figuras/LCF158-50JFNL.pdf, id=251, 596.2275pt x 794.97pt>
+<./figuras/LCF158-50JFNL.pdf, id=248, 596.2275pt x 794.97pt>
 File: ./figuras/LCF158-50JFNL.pdf Graphic file (type pdf)
 
-<use ./figuras/LCF158-50JFNL.pdf>) [68
+<use ./figuras/LCF158-50JFNL.pdf>) [67
 
-] [69 <./figuras/LCF158-50JFNL.pdf>]
+] [68 <./figuras/LCF158-50JFNL.pdf>]
 Anexo C.
 (./arquivos_para_alterar/a17-anexo.tex
-<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=277, 1195.46625pt x 845.1575pt>
+<./figuras/1757_MAPA_MACROZONEAMENTO.pdf, id=274, 1195.46625pt x 845.1575pt>
 File: ./figuras/1757_MAPA_MACROZONEAMENTO.pdf Graphic file (type pdf)
 
 <use ./figuras/1757_MAPA_MACROZONEAMENTO.pdf>
@@ -862,70 +861,70 @@ Overfull \hbox (51.85431pt too wide) in paragraph at lines 7--8
 
 LaTeX Warning: Float too large for page by 23.19267pt on input line 8.
 
-) [70
+) [69
 
-] [71 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>]
+] [70 <./figuras/1757_MAPA_MACROZONEAMENTO.pdf, page is rotated 270 degrees>]
 Anexo D.
 (./arquivos_para_alterar/a18-anexo.tex
 File: ./figuras/nmt1_v2.pdf Graphic file (type pdf)
  <use ./figuras/nmt1_v2.pdf>
-<./figuras/nmt2_v2.pdf, id=288, 845.1575pt x 597.23125pt>
+<./figuras/nmt2_v2.pdf, id=285, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt2_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt2_v2.pdf>
-<./figuras/nmt3_v2.pdf, id=289, 845.1575pt x 597.23125pt>
+<./figuras/nmt3_v2.pdf, id=286, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt3_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt3_v2.pdf>
-<./figuras/nmt4_v2.pdf, id=290, 845.1575pt x 597.23125pt>
+<./figuras/nmt4_v2.pdf, id=287, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt4_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt4_v2.pdf>
-<./figuras/nmt5_v2.pdf, id=291, 845.1575pt x 597.23125pt>
+<./figuras/nmt5_v2.pdf, id=288, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt5_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt5_v2.pdf>
-<./figuras/nmt6_v2.pdf, id=292, 845.1575pt x 597.23125pt>
+<./figuras/nmt6_v2.pdf, id=289, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt6_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt6_v2.pdf>
-<./figuras/nmt7_v2.pdf, id=293, 845.1575pt x 597.23125pt>
+<./figuras/nmt7_v2.pdf, id=290, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt7_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt7_v2.pdf>
-<./figuras/nmt8_v2.pdf, id=294, 845.1575pt x 597.23125pt>
+<./figuras/nmt8_v2.pdf, id=291, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt8_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt8_v2.pdf>
-<./figuras/nmt9_v2.pdf, id=295, 845.1575pt x 597.23125pt>
+<./figuras/nmt9_v2.pdf, id=292, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt9_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt9_v2.pdf>
-<./figuras/nmt10_v2.pdf, id=296, 845.1575pt x 597.23125pt>
+<./figuras/nmt10_v2.pdf, id=293, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt10_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt10_v2.pdf>
-<./figuras/nmt11_v2.pdf, id=297, 845.1575pt x 597.23125pt>
+<./figuras/nmt11_v2.pdf, id=294, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt11_v2.pdf Graphic file (type pdf)
 
 <use ./figuras/nmt11_v2.pdf>
-<./figuras/nmt12_v2.pdf, id=298, 845.1575pt x 597.23125pt>
+<./figuras/nmt12_v2.pdf, id=295, 845.1575pt x 597.23125pt>
 File: ./figuras/nmt12_v2.pdf Graphic file (type pdf)
 
-<use ./figuras/nmt12_v2.pdf>) [72
+<use ./figuras/nmt12_v2.pdf>) [71
 
-] [73 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
-f, page is rotated 90 degrees>] [74 <./figuras/nmt4_v2.pdf, page is rotated 90 
-degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [75 <./figuras/nm
+] [72 <./figuras/nmt2_v2.pdf, page is rotated 90 degrees> <./figuras/nmt3_v2.pd
+f, page is rotated 90 degrees>] [73 <./figuras/nmt4_v2.pdf, page is rotated 90 
+degrees> <./figuras/nmt5_v2.pdf, page is rotated 90 degrees>] [74 <./figuras/nm
 t6_v2.pdf, page is rotated 90 degrees> <./figuras/nmt7_v2.pdf, page is rotated 
-90 degrees>] [76 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
+90 degrees>] [75 <./figuras/nmt8_v2.pdf, page is rotated 90 degrees> <./figuras
 /nmt9_v2.pdf, page is rotated 90 degrees>]
-[77 <./figuras/nmt10_v2.pdf, page is rotated 90 degrees> <./figuras/nmt11_v2.pd
-f, page is rotated 90 degrees>] [78 <./figuras/nmt12_v2.pdf, page is rotated 90
+[76 <./figuras/nmt10_v2.pdf, page is rotated 90 degrees> <./figuras/nmt11_v2.pd
+f, page is rotated 90 degrees>] [77 <./figuras/nmt12_v2.pdf, page is rotated 90
  degrees>]
 Anexo E.
 (./arquivos_para_alterar/a19-anexo.tex
-<./figuras/relatorio_siganatel.jpg, id=388, 596.9502pt x 844.8363pt>
+<./figuras/relatorio_siganatel.jpg, id=384, 596.9502pt x 844.8363pt>
 File: ./figuras/relatorio_siganatel.jpg Graphic file (type jpg)
 
 <use ./figuras/relatorio_siganatel.jpg>
@@ -938,17 +937,17 @@ Overfull \hbox (22.3167pt too wide) in paragraph at lines 4--5
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[79
+[78
 
 ]
 
-LaTeX Warning: Text page 80 contains only floats.
+LaTeX Warning: Text page 79 contains only floats.
 
 
 Overfull \vbox (6.77734pt too high) has occurred while \output is active []
 
 
-[80 <./figuras/relatorio_siganatel.jpg>] (./modeloTCC-2009.04.03.autordata.aux)
+[79 <./figuras/relatorio_siganatel.jpg>] (./modeloTCC-2009.04.03.autordata.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -959,7 +958,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3483 strings out of 495041
  51067 string characters out of 1181898
- 154878 words of memory out of 3000000
+ 154887 words of memory out of 3000000
  6447 multiletter control sequences out of 15000+50000
  67915 words of font info for 150 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
@@ -972,10 +971,10 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/symbol/usyr.pfb></usr/shar
 e/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/font
 s/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/u
 tmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (81 pages, 12959977 bytes)
+Output written on modeloTCC-2009.04.03.autordata.pdf (80 pages, 12959438 bytes)
 .
 PDF statistics:
- 428 PDF objects out of 1000 (max. 8388607)
+ 425 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
