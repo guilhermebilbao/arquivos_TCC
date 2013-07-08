@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.1)  30 JUN 2013 16:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.6)  7 JUL 2013 23:43
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -519,7 +519,7 @@ File: ./figuras/tabelaClassificacaoEmissoras.png Graphic file (type png)
 
 <use ./figuras/tabelaClassificacaoEmissoras.png>
 Overfull \hbox (1.50768pt too wide) in paragraph at lines 599--599
-[]\OT1/ptm/b/n/17.28 N[]IVEL ME-DIO DO TER-RENO E AL-TURA ACIMA DO
+[]\OT1/ptm/b/n/17.28 N[]IVEL M[]EDIO DO TER-RENO E AL-TURA ACIMA DO
  []
 
 [26 <./figuras/tabelaClassificacaoEmissoras.png>]
@@ -779,7 +779,7 @@ Cap\'{\i }tulo 9.
 (./arquivos_para_alterar/a11-conclusao.tex [58
 
 ]
-Overfull \hbox (0.23544pt too wide) in paragraph at lines 26--28
+Overfull \hbox (0.23544pt too wide) in paragraph at lines 26--30
 \OT1/ptm/m/n/12 apre-sen-ta-dos na Recomenda[][]ao UIT-R P.1546-1, im-ple-men-t
 a-dos em lin-gua-gem Matlab[] (THE
  []
@@ -788,12 +788,12 @@ a-dos em lin-gua-gem Matlab[] (THE
 (./modeloTCC-2009.04.03.autordata.bbl [59]
 
 LaTeX Font Warning: Font shape `OMS/ptm/bx/n' undefined
-(Font)              using `OMS/ptm/m/n' instead on input line 53.
+(Font)              using `OMS/ptm/m/n' instead on input line 63.
 
 LaTeX Font Info:    Font shape `OMS/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
 
-Underfull \hbox (badness 1077) in paragraph at lines 52--58
+Underfull \hbox (badness 1077) in paragraph at lines 62--68
 []\OT1/ptm/m/n/12 RADIO FRE-QUENCY SYS-TENS.: \OT1/ptm/b/n/12 1-5/8"CELLFLEX[] 
 Lite 
  []
@@ -956,13 +956,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3483 strings out of 495041
- 51067 string characters out of 1181898
- 154887 words of memory out of 3000000
- 6447 multiletter control sequences out of 15000+50000
+ 3491 strings out of 495041
+ 51177 string characters out of 1181898
+ 155085 words of memory out of 3000000
+ 6455 multiletter control sequences out of 15000+50000
  67915 words of font info for 150 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 32i,14n,41p,395b,319s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,14n,41p,395b,318s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
 ve/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
@@ -971,7 +971,7 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/symbol/usyr.pfb></usr/shar
 e/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/font
 s/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/u
 tmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (80 pages, 12959438 bytes)
+Output written on modeloTCC-2009.04.03.autordata.pdf (80 pages, 12960325 bytes)
 .
 PDF statistics:
  425 PDF objects out of 1000 (max. 8388607)

@@ -24,7 +24,7 @@ A classe C, definida para o caso de uso do canal 218 em São Pedro de Alcântara, 
 área urbana pequena (com uma área longitudinal máxima de aproximadamente $10km$).
 
 Como sugestão de trabalhos futuros, pode ser feita uma simulação computacional de estudo de viabilidade técnica, para este ou um novo cenário, implementando os modelos e métodos
-apresentados na Recomendação UIT-R P.1546-1, implementados em linguagem Matlab®.
+apresentados na Recomendação UIT-R P.1546-1, implementados em linguagem Matlab®~\cite{matlab}.
 
 \begin{comment}
 

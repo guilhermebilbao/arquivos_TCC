@@ -22,7 +22,7 @@ deve-se seguir e apresentar uma documentação técnica que esteja respeitando todo
 \section{OBJETIVO GERAL}
 
 Estudo e compreensão das normas técnicas, relacionadas à rádio FM e suas atualizações, juntamente com 
-a utilizanção de ferramentas livres oferecidas pela ANATEL.
+a utilização de ferramentas livres oferecidas pela ANATEL.
 
 \section{OBJETIVO ESPECÍFICO}
 
@@ -596,7 +596,7 @@ ferramentas computacionais.
 
 \end{quotation}
 
-\section{NÍVEL MEDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
+\section{NÍVEL MÉDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
 
 A seguir vamos apresentar o método usado para o reconhecimento geométrico do local onde será instalado a emissora.
 Estes dados são de extrema importância para o sucesso do projeto.
@@ -832,7 +832,7 @@ HCGSI = 55m + 4,244m = 59,244m
 \label{e_hcgsi}
 \end{equation}
 
-Agora já temos definidas todas as variáveis que compõem nossa equação, encontraremos o $HNMT$~\ref{e_hmnt2}, coforme resultado da equação~\ref{e_hmnt1}
+Agora já temos definidas todas as variáveis que compõem nossa equação, encontraremos o $HNMT$~\ref{e_hmnt2}, conforme resultado da equação~\ref{e_hmnt1}
 
 \begin{equation}
 HNMT = 285m + 59,244m - 288,33 m
