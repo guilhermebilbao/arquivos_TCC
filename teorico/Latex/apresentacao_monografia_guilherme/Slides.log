@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.6)  16 JUL 2013 01:14
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.6)  20 JUL 2013 16:59
 entering extended mode
  %&-line parsing enabled.
 **Slides.tex
@@ -1202,7 +1202,7 @@ File: figs/logo-ifsc.pdf Graphic file (type pdf)
 <use figs/logo-ifsc.pdf> [7
 
 ]
-<figs/tabelaClassificacaoEmissoras.png, id=96, 861.2175pt x 412.54124pt>
+<figs/tabelaClassificacaoEmissoras.png, id=97, 861.2175pt x 412.54124pt>
 File: figs/tabelaClassificacaoEmissoras.png Graphic file (type png)
 
 <use figs/tabelaClassificacaoEmissoras.png>
@@ -1214,34 +1214,284 @@ File: figs/logo-ifsc.pdf Graphic file (type pdf)
  <use figs/logo-ifsc.pdf> [9
 
 ]
-<figs/radiais_detalhado.png, id=109, 991.45406pt x 533.74406pt>
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+
+<use figs/logo-ifsc.pdf> [10
+
+]
+<figs/radiais_detalhado.png, id=115, 991.45406pt x 533.74406pt>
 File: figs/radiais_detalhado.png Graphic file (type png)
 
 <use figs/radiais_detalhado.png>
 File: figs/logo-ifsc.pdf Graphic file (type pdf)
- <use figs/logo-ifsc.pdf> [10
+ <use figs/logo-ifsc.pdf> [11
 
- <./figs/radiais_detalhado.png (PNG copy)>] <figs/nmt1_v2.jpg, id=115, 844.8363
+ <./figs/radiais_detalhado.png (PNG copy)>] <figs/nmt1_v2.jpg, id=121, 844.8363
 pt x 596.9502pt>
 File: figs/nmt1_v2.jpg Graphic file (type jpg)
 
 <use figs/nmt1_v2.jpg>
-File: figs/logo-ifsc.pdf Graphic file (type pdf)
- <use figs/logo-ifsc.pdf> [11
+Overfull \vbox (16.02579pt too high) detected at line 286
+ []
 
- <./figs/nmt1_v2.jpg>]
 File: figs/logo-ifsc.pdf Graphic file (type pdf)
-
 <use figs/logo-ifsc.pdf> [12
 
+ <./figs/nmt1_v2.jpg>]
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 302.
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 302.
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf>
+[13
+
+]
+LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10.95> not available
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 319.
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf> [14
+
 ]
 File: figs/logo-ifsc.pdf Graphic file (type pdf)
- <use figs/logo-ifsc.pdf> [13
+ <use figs/logo-ifsc.pdf> [15
 
 ]
 File: figs/logo-ifsc.pdf Graphic file (type pdf)
 
-<use figs/logo-ifsc.pdf> [14
+<use figs/logo-ifsc.pdf> [16
+
+]
+<figs/diagrama_de_irradiacao.jpg, id=152, 307.8702pt x 280.4076pt>
+File: figs/diagrama_de_irradiacao.jpg Graphic file (type jpg)
+
+<use figs/diagrama_de_irradiacao.jpg>
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf> [17
+
+ <./figs/diagrama_de_irradiacao.jpg>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 447.
+
+Missing character: There is no ° in font cmss10!
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+<use figs/logo-ifsc.pdf> [18
+
+]
+<figs/e5050_calc.jpg, id=164, 597.23125pt x 643.40375pt>
+File: figs/e5050_calc.jpg Graphic file (type jpg)
+
+<use figs/e5050_calc.jpg>
+Overfull \vbox (19.61267pt too high) detected at line 464
+ []
+
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+<use figs/logo-ifsc.pdf> [19
+
+ <./figs/e5050_calc.jpg>]
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+
+LaTeX Warning: Command \textdegree invalid in math mode on input line 507.
+
+Missing character: There is no ° in font cmss10!
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+<use figs/logo-ifsc.pdf> [20
+
+]
+<figs/todososcontornos.png, id=177, 983.17313pt x 536.0025pt>
+File: figs/todososcontornos.png Graphic file (type png)
+
+<use figs/todososcontornos.png>
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf> [21
+
+ <./figs/todososcontornos.png (PNG copy)>]
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf> [22
+
+]
+<figs/contornoAreaUrbana.png, id=187, 1032.10594pt x 535.2497pt>
+File: figs/contornoAreaUrbana.png Graphic file (type png)
+
+<use figs/contornoAreaUrbana.png>
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf> [23
+
+ <./figs/contornoAreaUrbana.png>]
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf> [24
+
+]
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf>
+[25
+
+]
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf> [26
+
+]
+File: figs/logo-ifsc.pdf Graphic file (type pdf)
+ <use figs/logo-ifsc.pdf> [27
 
 ]
 \tf@nav=\write6
@@ -1259,23 +1509,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18742 strings out of 495041
- 336534 string characters out of 1181898
- 403278 words of memory out of 3000000
- 21378 multiletter control sequences out of 15000+50000
- 33416 words of font info for 67 fonts, out of 3000000 for 9000
+ 18847 strings out of 495041
+ 338097 string characters out of 1181898
+ 411279 words of memory out of 3000000
+ 21448 multiletter control sequences out of 15000+50000
+ 41674 words of font info for 82 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  49i,14n,53p,395b,747s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/guilherme/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk> </ho
-me/guilherme/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/guil
+ </home/guilherme/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </ho
+me/guilherme/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk> </home/guil
 herme/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/share/texmf-t
-exlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmss8.pfb>
-Output written on Slides.pdf (14 pages, 2703363 bytes).
+exlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmss17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Slides.pdf (27 pages, 7383192 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 119 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -123,23 +123,25 @@
 
     \begin{frame}
 	    \frametitle{Proposta}
+      \begin{itemize}
 
-
-	    Projeto de uma emissora FM num cenário real,
+	    \item Projeto de uma emissora FM num cenário real,
 	    seguindo os procedimentos solicitados pela resolução
-	    e normas vigentes para esta finalidade.
-	    
+	    e normas vigentes para esta finalidade.   
 	    Para isto, é utilizado o canal 218 (91,5 Mhz),disponível no plano básico,
 	    no município de São Pedro de Alcântara.
-	    
+	\end{itemize}    
 	  
     \end{frame}
     
     \begin{frame}
     
       \frametitle{Proposta}
+      \begin{itemize}
       
-      Objetivos Principais:
+      \item Objetivos Principais:
+      
+      
       
       \begin{itemize}
 	  
@@ -152,7 +154,7 @@
 	    
 	    
       \end{itemize}
-    
+    \end{itemize} 
     
     \end{frame}
 
@@ -161,43 +163,49 @@
     \begin{frame}
     
       \frametitle{Desenvolvimento}
-      
-          Informações e ferramentas necessárias para o desenvolvimento:
+      \begin{itemize}
+          \item Informações e ferramentas necessárias para o desenvolvimento:
 	\begin{itemize}
  
-    
 	  \item PBFM;
 	  \item Resolução nº 67;
 	  \item Recomendação UIT-R P.1546;
 	  \item Ferramenta SIGAnatel.
       
       \end{itemize}
-  
+  \end{itemize} 
     \end{frame}
     
     \begin{frame}
     
       \frametitle{Desenvolvimento}
       
-          Canal proposto:
+      \begin{itemize}
+      
+         \item  Canal proposto:
+          
+       
+          
 	\begin{itemize}
 	
-
 	  \item Município de São Pedro de Alcântara;
 	  \item Canal 218 (91,5 MHz) no PBFM;
 	  \item Classe C;
 	  \item Contorno protegido de 7,5 Km.
       
       \end{itemize}
-  
+   \end{itemize}
     \end{frame}
     
         \begin{frame}
     
       \frametitle{Desenvolvimento}
       
-      
-	 Classificação da emissora:
+      \begin{itemize}
+	 \item Classificação da emissora:
+	 
+	 \end{itemize}
+	 
       \begin{center}
       
            \includegraphics[width=.8\linewidth]{figs/tabelaClassificacaoEmissoras.png}		  		
@@ -211,7 +219,10 @@
     
       \frametitle{Desenvolvimento}
       
-          Localização da base emissora:
+      \begin{itemize}
+      
+          \item Localização da base emissora:
+          
 	\begin{itemize}
 	
 
@@ -221,13 +232,38 @@
 	  \item Ponto mais próximo ao local informado no PBFM.
       
       \end{itemize}
-  
+   \end{itemize}
+    \end{frame}
+    
+        \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      
+      \begin{itemize}
+
+         \item  Sistema irradiante:
+          
+          
+	\begin{itemize}
+	
+
+	  \item Antena Dipolo 1/2 onda;
+	  \item Trasmissor de 150 Wrms;
+	  \item Cabo coaxial, atenuação = 0,680dB/100m;
+	  \item Altura da Torre = 55 m.
+      
+      \end{itemize}
+   \end{itemize}
     \end{frame}
     
     \begin{frame}
     
       \frametitle{Desenvolvimento}
-      NMR e NMT
+      \begin{itemize}
+	\item  Obtendo o NMR e o NMT:
+      \end{itemize}
+     
       \begin{center}
       
            \includegraphics[width=.8\linewidth]{figs/radiais_detalhado.png}		  		
@@ -238,16 +274,256 @@
      \begin{frame}
     
       \frametitle{Desenvolvimento}
-      NMR e NMT
+      
+      \begin{itemize}
+	\item Obtendo o NMR e o NMT:
+      \end{itemize}
       \begin{center}
       
-           \includegraphics[width=.8\linewidth]{figs/nmt1_v2.jpg}		  		
+           \includegraphics[width=.9\linewidth]{figs/nmt1_v2.jpg}		  		
         \end{center}
   
       \end{frame}
     
+    \begin{frame}
     
     
+      \frametitle{Desenvolvimento}
+      
+      \begin{itemize}
+     \item Potência Efetiva Irradiada Máxima:
+
+      \begin{itemize}
+       \item É composta de variáveis que correspondem aos equipamentos e suas características no sistema;
+       
+       \item $ERPmax = Pt \times Gtmax \times Ef$.
+      \end{itemize}
+    \end{itemize}
+    \end{frame}
+    
+       \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      \begin{itemize}
+      
+      \item Potência Efetiva Irradiada Máxima:
+      
+       \end{itemize}
+       
+       $$ERPmax = 0,15 kW \times 3 \times 0,569$$
+       $$ERPmax = 0,256 kW$$
+        $$ERPmax = -5,91 dBk$$
+   
+ 
+    \end{frame}
+    
+    \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      \begin{itemize}
+      
+         \item HNMT:
+         
+         
+	\begin{itemize}
+	
+	  %\item NMT=288,33 metros;
+	  %\item Referência para definir altura da antena;
+	  \item HCGSI = 55m + 4,244m
+	  \item HNMT = CBT + HCGSI - NMT
+	  \item 55,914 = 285m + 59,244 - 288,33m
+      
+      \end{itemize}
+   \end{itemize}
+    \end{frame}
+    
+        \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      \begin{itemize}
+      
+      \item Valores de HNMT para cada radial:
+      
+      
+       \end{itemize}
+      \begin{center}
+      
+          \def\tablename{Tabela}
+      \begin{table}
+	\vspace*{0.05cm}
+	\centering
+
+	\begin{tabular}{|c|c|c|} \hline
+
+	  Radial (graus) & NMR (m) & HNMT (m)\\ \hline
+	  0° & 158,38&185,86\\
+	  30° & 73,46 & 270,78\\
+	  60° & 169,14 & 175,10\\
+	  90° & 166,20 & 178,04\\
+	  120° & 250,46 & 93,78\\
+	  150° & 196,86 & 147,38\\
+	  180° & 151,58 & 192,66\\
+	  210° & 394,80 & -50,55\\
+	  240° & 502,10 & -157,85\\
+	  270° & 579,60 & -235,35\\
+	  300° & 412,10 & -67,85\\
+	  330°& 405,32 & -61,07\\ \hline
+
+	\end{tabular}
+      \end{table}		  		
+      \end{center}
+  
+  
+    \end{frame}
+    
+    
+    
+    
+    \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      \begin{itemize}
+            
+      \item Diagrama de irradiação de Antena:
+      
+      \end{itemize}
+	 
+      \begin{center}
+      
+           \includegraphics[width=.6\linewidth]{figs/diagrama_de_irradiacao.jpg}	
+           
+        \end{center}
+      
+      
+  
+  \end{frame}
+  
+      \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      \begin{itemize}
+      
+      \item Valores de ERPaz para cada radial:
+      
+       \end{itemize}
+	 
+      \begin{center}
+      
+     \def\tablename{Tabela}
+	  \begin{table}
+	  \vspace*{0.05cm}
+	  \centering
+
+	      \begin{tabular}{|c|c|c|c|} \hline
+
+	      Radial & E/Emax & ERPaz(kW) & ERPaz(dBk)\\\hline\hline
+	      $0°$  & 0,78 & 0,1560 & -8,07 \\\hline
+	      $30°$ & 0,69 & 0,1220 & -9,13 \\\hline
+	      $60°$ & 0,63 & 0,1017 & -9,92 \\\hline
+	      $90°$ & 0,62 & 0,0985 & -10,06 \\\hline
+	      $120°$& 0,63 & 0,1017 & -9,92 \\\hline
+	      $150°$& 0,69 & 0,1220 & -9,13 \\\hline
+	      $180°$& 0,78 & 0,1560 & -8,07 \\\hline
+	      $210°$& 0,88 & 0,1985 & -7,02 \\\hline
+	      $240°$& 0,95 & 0,2314 & -6,35 \\\hline
+	      $270°$& 1,00 & 0,2564 & -5,91 \\\hline
+	      $300°$& 0,95 & 0,2314 & -6,35 \\\hline
+	      $330°$& 0,88 & 0,1985 & -7,02 \\\hline
+
+	      \end{tabular}
+	
+	  \label{tabelaERPaz}
+	  \end{table}	
+           
+        \end{center}
+      
+      
+  
+  \end{frame}
+  
+      \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+       \begin{itemize}
+      
+      \item Definindo os contornos: 
+      
+       \end{itemize}
+      \begin{center}
+      
+           \includegraphics[width=.6\linewidth]{figs/e5050_calc.jpg}	
+           
+        \end{center}
+      
+  \end{frame}
+  
+  
+      \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      \begin{itemize}
+      
+      \item Distâncias do contorno protegido (66 dBm):
+      
+      \end{itemize}
+      
+      \begin{center}
+  
+	  \def\tablename{Tabela}
+	  \begin{table}
+	  \vspace*{0.05cm}
+	  \centering
+
+	  \begin{tabular}{|c|c|c|c|c|} \hline
+
+	  Radial& ERPaz(dBk) & HMNT (m) & 66 dBm & Contorno 2 (km)\\\hline\hline
+	  $0°$  & -8,07 &185,86 &74,07 &10,5\\\hline
+	  $30°$ & -9,13 &270,78 &75,13 &11  \\\hline
+	  $60°$ & -9,92 &175,10 &75,92 &9   \\\hline
+	  $90°$ & -10,06&178,04 &76,06 &9   \\\hline
+	  $120°$& -9,92 &96,78  &75,92 &7   \\\hline
+	  $150°$& -9,13 &147,38 &75,13 &9   \\\hline
+	  $180°$& -8,07 &192,66 &74,07 &11  \\\hline
+	  $210°$& -7,02 &-50,55 &73,02 &3,2 \\\hline
+	  $240°$& -6,35 &-157,85&72,35 &3,4 \\\hline
+	  $270°$& -5,91 &-235,35&71,91 &3,6 \\\hline
+	  $300°$& -6,35 &-67,85 &72,35 &3,4 \\\hline
+	  $330°$& -7,02 &-61,07 &73,02 &3,2 \\\hline
+
+	  \end{tabular}
+	  \label{tabelaContorno2}
+	  \end{table}
+	      
+    
+            \end{center}
+      
+  \end{frame}
+  
+          \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      \begin{itemize}
+
+      \item Áreas de cobertura:
+
+      \end{itemize}
+      
+      \begin{center}
+      
+           \includegraphics[width=.8\linewidth]{figs/todososcontornos.png}	
+           
+        \end{center}
+      
+  \end{frame}
+ 
    % \begin{center}
     %\begin{array}{ll}
     %\includegraphics[width=.5\linewidth]{figuras/fou.png}		  		
@@ -259,32 +535,87 @@
     
     
     \section{Resultados}
+    
+     \begin{frame}
+    
+      \frametitle{Resultados}
+      
+      \begin{itemize}
+      
+      \item Obediência aos requisitos máximos (classe C):
+     
+      
+	\begin{itemize}
+
+	  \item ERPmax = 0,256kW < 0,3kW;
+	  \item Altura de referência sobre o nível médio do terreno = 55,914m < 60m;
+	  \item Contorno protegido (66dBm) = 6,942km < 7,5km.
+      
+      \end{itemize}
+   \end{itemize}
+    \end{frame}
+    
+    
+        \begin{frame}
+    
+	\frametitle{Resultados}
+      \begin{itemize}
+      
+         \item Cobertura da área central e urbana do município:
+      \end{itemize}
+	  \begin{center}
+      
+           \includegraphics[width=.8\linewidth]{figs/contornoAreaUrbana.png}	
+           
+	  \end{center}
+      
+	\end{frame}
 
     \section{Conclusões}
     \begin{frame}
     \frametitle{Conclusões}
+    
     \begin{itemize}
-    \item A Transformada Wavelet mostrou muito eficaz para a análise de sinais de
-    voz;
-    \item Após a utilização de outros métodos de obtenção do período de pitch, a
-    Transformada Wavelet apresentou resultados similares aos valores do melhor
-    método no domínio do tempo;
-    \item Foi obtida uma taxa de acerto de 75\textdiscount para extração de pitch.
+    
+    \item Conclusões específicas do projeto:
+   
+    \begin{itemize}
+    \item Todos os requisitos técnicos relacionados à classe da emissora foram atendidos;
+    \item Comprovada a viabilidade técnica do canal para o município (relação área urbana/classe da emissora);
+    \item Similaridade com os resultados apresentados pela ferramenta SIGAnatel.
     \end{itemize}
-
+    \end{itemize}
+    \end{frame}
+    
+    \begin{frame}
+    \frametitle{Conclusões}
+    
+    \begin{itemize}
+    
+    \item Conclusões gerais:
+    
+      \begin{itemize}
+    \item A combinação de diversas configurações diferentes (elementos) pode apresentar os mesmos resultados (cobertura);
+    \item O relevo da região é o fator que mais gera influência na escolha dos elementos usados na configuração da emissora.
+      \end{itemize}
+    \end{itemize}
     \end{frame}
 
     \section{Trabalhos Futuros}
     \begin{frame}
     \frametitle{Trabalhos Futuros}
-      \begin{itemize}
-	    \item Seria interessante o uso de outras técnicas para a implementação
-    deste projeto como:
+    
 	    \begin{itemize}
-		  \item Predição Linear (LPC);
-		  \item O uso de filtros específicos;
-		  \item Análise espectral do sinal;
-		  \item Redes neurais Artificiais (RNA);
+     
+	    \item Sugestões:
+
+	    
+	    \begin{itemize}
+		  \item Simulação computacional de estudo de viabilidade técnica implementado no Matlab, baseado nos métodos apresentados na Recomendação UIT-R P.1546;
+
+		  \item Projeto de viabilidade técnica para alteração da classe da emissora, com a finalidade de aumento da àrea de cobertura;
+
+   
     \end{itemize}
     \end{itemize}
     \end{frame}
