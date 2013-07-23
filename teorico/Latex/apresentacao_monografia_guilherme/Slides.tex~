@@ -110,10 +110,11 @@
     \begin{frame}
     \frametitle{Motivação}
       \begin{itemize}
-      \item Adquirir maiores conhecimentos em radiotransmissão;
-      \item Estudo e compreensão das normas técnicas;
-	\item A norma técnica sofre adaptações;
-	\item Servir como referência para outros projetos/estudos.
+      
+      \item Estudar,compreender e desenvolver o projeto, seguindo a norma técnica que regulamenta o uso do canal pela emissora FM;
+	%\item A norma técnica sofre adaptações;
+	\item Servir como referência para outros projetos/estudos;
+	\item Adquirir maiores conhecimentos em radiotransmissão.
 	\end{itemize}
 
     \end{frame}
@@ -197,23 +198,7 @@
    \end{itemize}
     \end{frame}
     
-        \begin{frame}
-    
-      \frametitle{Desenvolvimento}
-      
-      \begin{itemize}
-	 \item Classificação da emissora:
-	 
-	 \end{itemize}
-	 
-      \begin{center}
-      
-           \includegraphics[width=.8\linewidth]{figs/tabelaClassificacaoEmissoras.png}		  		
-        \end{center}
-      
-        
   
-	\end{frame}
     
     \begin{frame}
     
@@ -229,39 +214,37 @@
 	  \item 27º34'02.72''S, 48º48'33.71''O;
 	  \item Área central do município;
 	  \item 285 metros de altitude;
-	  \item Ponto mais próximo ao local informado no PBFM.
+	 % \item Ponto mais próximo ao local informado no PBFM.
       
       \end{itemize}
    \end{itemize}
     \end{frame}
     
-        \begin{frame}
+          \begin{frame}
     
       \frametitle{Desenvolvimento}
       
-      
       \begin{itemize}
-
-         \item  Sistema irradiante:
-          
-          
-	\begin{itemize}
-	
-
-	  \item Antena Dipolo 1/2 onda;
-	  \item Trasmissor de 150 Wrms;
-	  \item Cabo coaxial, atenuação = 0,680dB/100m;
-	  \item Altura da Torre = 55 m.
+	 \item Requisitos de configuração da emissora:
+	 
+	 \end{itemize}
+	 
+      \begin{center}
       
-      \end{itemize}
-   \end{itemize}
-    \end{frame}
+           \includegraphics[width=.8\linewidth]{figs/requisitos_maximos_novo.jpg}		  		
+        \end{center}
+      
+        
+  
+	\end{frame}
+    
+       
     
     \begin{frame}
     
       \frametitle{Desenvolvimento}
       \begin{itemize}
-	\item  Obtendo o NMR e o NMT:
+	\item  Obtendo o NMT e o NMR:
       \end{itemize}
      
       \begin{center}
@@ -276,7 +259,7 @@
       \frametitle{Desenvolvimento}
       
       \begin{itemize}
-	\item Obtendo o NMR e o NMT:
+	\item Obtendo o NMT e o NMR:
       \end{itemize}
       \begin{center}
       
@@ -284,9 +267,31 @@
         \end{center}
   
       \end{frame}
+      
+       \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      
+      \begin{itemize}
+
+         \item  Sistema irradiante:
+          
+          
+	\begin{itemize}
+	
+
+	  \item Antena com 3 elementos, ganho de 3x;
+	  \item Trasmissor de 150 W;
+	  \item Cabo coaxial, atenuação = 0,680dB/100m;
+	  \item Altura da Torre = 55 m.
+      
+      \end{itemize}
+   \end{itemize}
+    \end{frame}
     
     \begin{frame}
-    
+       
     
       \frametitle{Desenvolvimento}
       
@@ -446,6 +451,32 @@
   
   \end{frame}
   
+  \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+       \begin{itemize}
+      
+      \item Ajuste para o uso das curvas de intensidade de campo: 
+      
+      
+      
+       \begin{itemize}
+      
+      \item As curvas são baseadas em uma potência efetiva de 1KW;
+      \item $66dBm - (-8,07dBk) = 74,07dBm$;
+      \item $HNMT = 185,86$.
+   
+       \end{itemize}
+      
+       \end{itemize}
+
+       
+	      
+       
+  \end{frame}
+  
+  
       \begin{frame}
     
       \frametitle{Desenvolvimento}
@@ -506,23 +537,7 @@
       
   \end{frame}
   
-          \begin{frame}
-    
-      \frametitle{Desenvolvimento}
-      
-      \begin{itemize}
-
-      \item Áreas de cobertura:
-
-      \end{itemize}
-      
-      \begin{center}
-      
-           \includegraphics[width=.8\linewidth]{figs/todososcontornos.png}	
-           
-        \end{center}
-      
-  \end{frame}
+       
  
    % \begin{center}
     %\begin{array}{ll}
@@ -536,7 +551,7 @@
     
     \section{Resultados}
     
-     \begin{frame}
+    \begin{frame}
     
       \frametitle{Resultados}
       
@@ -554,7 +569,25 @@
       \end{itemize}
    \end{itemize}
     \end{frame}
+     
     
+          \begin{frame}
+    
+      \frametitle{Resultados}
+      
+      \begin{itemize}
+
+      \item Áreas de cobertura:
+
+      \end{itemize}
+      
+      \begin{center}
+      
+           \includegraphics[width=.8\linewidth]{figs/todososcontornos.png}	
+           
+        \end{center}
+      
+  \end{frame}
     
         \begin{frame}
     
@@ -571,6 +604,8 @@
       
 	\end{frame}
 
+	
+	
     \section{Conclusões}
     \begin{frame}
     \frametitle{Conclusões}
@@ -582,7 +617,7 @@
     \begin{itemize}
     \item Todos os requisitos técnicos relacionados à classe da emissora foram atendidos;
     \item Comprovada a viabilidade técnica do canal para o município (relação área urbana/classe da emissora);
-    \item Similaridade com os resultados apresentados pela ferramenta SIGAnatel.
+    %\item Similaridade com os resultados apresentados pela ferramenta SIGAnatel.
     \end{itemize}
     \end{itemize}
     \end{frame}

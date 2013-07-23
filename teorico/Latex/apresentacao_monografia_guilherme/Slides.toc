@@ -4,5 +4,5 @@
 \beamer@sectionintoc {2}{Proposta}{4}{0}{2}
 \beamer@sectionintoc {3}{Desenvolvimento}{6}{0}{3}
 \beamer@sectionintoc {4}{Resultados}{22}{0}{4}
-\beamer@sectionintoc {5}{Conclus\IeC {\~o}es}{24}{0}{5}
-\beamer@sectionintoc {6}{Trabalhos Futuros}{26}{0}{6}
+\beamer@sectionintoc {5}{Conclus\IeC {\~o}es}{25}{0}{5}
+\beamer@sectionintoc {6}{Trabalhos Futuros}{27}{0}{6}

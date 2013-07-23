@@ -110,10 +110,11 @@
     \begin{frame}
     \frametitle{Motivação}
       \begin{itemize}
-      \item Adquirir maiores conhecimentos em radiotransmissão;
-      \item Estudo e compreensão das normas técnicas;
-	\item A norma técnica sofre adaptações;
-	\item Servir como referência para outros projetos/estudos.
+      
+      \item Estudar,compreender e desenvolver o projeto, seguindo a norma técnica que regulamenta o uso do canal pela emissora FM;
+	%\item A norma técnica sofre adaptações;
+	\item Servir como referência para outros projetos/estudos;
+	\item Adquirir maiores conhecimentos em radiotransmissão.
 	\end{itemize}
 
     \end{frame}
@@ -235,7 +236,37 @@
    \end{itemize}
     \end{frame}
     
-        \begin{frame}
+       
+    
+    \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      \begin{itemize}
+	\item  Obtendo o NMT e o NMR:
+      \end{itemize}
+     
+      \begin{center}
+      
+           \includegraphics[width=.8\linewidth]{figs/radiais_detalhado.png}		  		
+        \end{center}
+  
+      \end{frame}
+    
+     \begin{frame}
+    
+      \frametitle{Desenvolvimento}
+      
+      \begin{itemize}
+	\item Obtendo o NMT e o NMR:
+      \end{itemize}
+      \begin{center}
+      
+           \includegraphics[width=.9\linewidth]{figs/nmt1_v2.jpg}		  		
+        \end{center}
+  
+      \end{frame}
+      
+       \begin{frame}
     
       \frametitle{Desenvolvimento}
       
@@ -258,35 +289,7 @@
     \end{frame}
     
     \begin{frame}
-    
-      \frametitle{Desenvolvimento}
-      \begin{itemize}
-	\item  Obtendo o NMR e o NMT:
-      \end{itemize}
-     
-      \begin{center}
-      
-           \includegraphics[width=.8\linewidth]{figs/radiais_detalhado.png}		  		
-        \end{center}
-  
-      \end{frame}
-    
-     \begin{frame}
-    
-      \frametitle{Desenvolvimento}
-      
-      \begin{itemize}
-	\item Obtendo o NMR e o NMT:
-      \end{itemize}
-      \begin{center}
-      
-           \includegraphics[width=.9\linewidth]{figs/nmt1_v2.jpg}		  		
-        \end{center}
-  
-      \end{frame}
-    
-    \begin{frame}
-    
+       
     
       \frametitle{Desenvolvimento}
       
@@ -558,7 +561,7 @@
     
         \begin{frame}
     
-	\frametitle{Cobertura da emissora}
+	\frametitle{Resultados}
       \begin{itemize}
       
          \item Cobertura da área central e urbana do município:
@@ -571,6 +574,8 @@
       
 	\end{frame}
 
+	
+	
     \section{Conclusões}
     \begin{frame}
     \frametitle{Conclusões}
@@ -590,14 +595,13 @@
     \begin{frame}
     \frametitle{Conclusões}
     
-    s\begin{itemize}
+    \begin{itemize}
     
     \item Conclusões gerais:
     
       \begin{itemize}
-    \item A combinação de diversas configurações diferentes pode apresentar os mesmos resultados (cobertura);
-    \item ;
-    \item 
+    \item A combinação de diversas configurações diferentes (elementos) pode apresentar os mesmos resultados (cobertura);
+    \item O relevo da região é o fator que mais gera influência na escolha dos elementos usados na configuração da emissora.
       \end{itemize}
     \end{itemize}
     \end{frame}
@@ -610,13 +614,14 @@
      
 	    \item Sugestões:
 
-	    \end{itemize}
+	    
 	    \begin{itemize}
 		  \item Simulação computacional de estudo de viabilidade técnica implementado no Matlab, baseado nos métodos apresentados na Recomendação UIT-R P.1546;
 
 		  \item Projeto de viabilidade técnica para alteração da classe da emissora, com a finalidade de aumento da àrea de cobertura;
 
    
+    \end{itemize}
     \end{itemize}
     \end{frame}
 
