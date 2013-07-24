@@ -1,0 +1,7 @@
+\frametitle {Código em Shell Script}
+\begin{itemize}
+\item Lembre-se de colocar a opção \textbf{fragile} no frame.
+\end{itemize}
+\begin{lstlisting}
+ echo "ola mundo"
+\end{lstlisting}
