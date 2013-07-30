@@ -1,5 +1,5 @@
 Este é um estudo de viabilidade técnica, visando a homologação de uma emissora de radiodifusão sonora em frequência modulada, no
-município de São Pedro de Alcântara. O canal utilizado está disponível no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada.
+município de São Pedro de Alcântara. O canal utilizado está disponível no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada (PBFM).
 No decorrer deste projeto atendemos as exigências, dentro do escopo didático, cabíveis ao canal 218, classe C, que resultaria na aprovação e liberação do seu uso pela
  Agência Nacional de Telecomunicações, a ANATEL.
 
@@ -8,8 +8,7 @@ início a sua transmissão sonora no local, é necessário comprovar que as especifi
 estão respeitando a regulamentação apresentada na Resolução n° 67, de 12 de novembro de 1998, e suas atualizações.
 Esta resolução exige que, para liberar a ativação emissora, ela deva atender à vários requisitos técnicos, prezando pela qualidade 
 do sinal e evitando interferências entre os canais. Parte desses requisitos são diretamente relacionados ao canal e a qual classe 
-ela está inserida no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequencia Modulada, organizado e gerenciado também
-pela ANATEL.
+ela está inserida no PBFM, organizado e gerenciado também pela ANATEL.
 
 A Resolução apresenta, dentre outras informações que dão auxilio ao projetista, um roteiro para a elaboração de estudos técnicos. É este
 roteiro que foi seguido durante o desenvolvimento deste estudo, buscando os resultados utilizando também a Recomendação UIT-R p.1546-1, que traz

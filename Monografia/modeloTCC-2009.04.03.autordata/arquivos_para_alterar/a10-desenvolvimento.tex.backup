@@ -22,7 +22,7 @@ deve-se seguir e apresentar uma documentação técnica que esteja respeitando todo
 \section{OBJETIVO GERAL}
 
 Estudo e compreensão das normas técnicas, relacionadas à rádio FM e suas atualizações, juntamente com 
-a utilizanção de ferramentas livres oferecidas pela ANATEL.
+a utilização de ferramentas livres oferecidas pela ANATEL.
 
 \section{OBJETIVO ESPECÍFICO}
 
@@ -32,7 +32,7 @@ Realizar um estudo sobre as especificações técnicas necessárias para homologar u
 
 \section{MOTIVAÇÃO E JUSTIFICATIVA}
 
-Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em rádiotransmissão, é abordar as atualizações nas normas técnicas.
+Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em radiotransmissão, é abordar as atualizações nas normas técnicas.
  Também para servir como referência para estudantes e futuros projetistas, pois, apesar de ser um tipo de projeto já muitas vezes executados em diversos cenários e situações, 
 é grande a dificuldade para encontrar um modelo diponível para consulta. Este documento certamente pode servir de base para outros projetos de emissoras FM ou radiotransmissão em
 geral. 
@@ -67,7 +67,7 @@ Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da norma~\ci
 
 \begin{tabular}{|c|c|c|c|c|c|} \hline
 
-Frequência & CANAL & Frequência & CANAL & Frequência & CANAL\\
+Frequência & Canal & Frequência & Canal & Frequência & Canal\\
  (MHz)&  & (MHz) &  & (MHz) &  \\ \hline
 87,5 & 198 & 94,5 & 233 & 101,5 & 268\\
 87,7 & 199 & 94,7 & 234 & 101,7 & 269\\
@@ -112,7 +112,7 @@ Frequência & CANAL & Frequência & CANAL & Frequência & CANAL\\
 
 \chapter{RESOLUÇÃO N° 67, DE 12 DE NOVEMBRO DE 1998}
 
-A Resolução n°67 aprova o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada. 
+A Resolução n° 67 aprova o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada. 
 Tem por objetivo disciplinar a utilização da faixa de 87,8 MHz a 108 MHz, no serviço de Radiodifusão sonora em Frequência modulada
  e em serviços nela executados, para oferecer um serviço de boa qualidade, evitar interferências sobre outros serviços de
  telecomunicações regularmente autorizados e reduzir possibilidades de danos físicos à população. Para isto, estabelece requisitos
@@ -123,16 +123,16 @@ Este é o documento principal que será usado para a realização deste projeto, poi
 uma emissora de rádio FM possa ser instalada e liberada para iniciar seus serviços. Um fator importante é sempre ficar atento às novas resoluções 
 que atualizam este regulamento, para que o projeto possa atender às novas exigências.
 
-A última Resolução, que altera o regulamento aprovado na RESOLUÇÃO N° 67, foi a de n° 546. Esta altera alguns aspectos importantes para o 
+A última Resolução, que altera o regulamento aprovado na Resolução N° 67, é a de n° 546. Ela altera alguns aspectos importantes para o 
 desenvolvimento do projeto. Como exemplo,
-posso citar a classificação das emissoras em função de seus requisitos máximos e as curvas de intensidade de campo ( E (50,10) e E (50,10) ),
+posso citar a classificação das emissoras em função de seus requisitos máximos e as curvas de intensidade de campo ( E(50,10) e E(50,10) ),
 vindos da Recomendação UIT-R P.1546.
  
 As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
 
 \section{ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
 
-A Resolução contém um capítulo inteiro (indicar a referencia) que aborda um roteiro para elaboração de estudos técnicos, 
+A Resolução contém um capítulo inteiro~\cite{ref12} que aborda um roteiro para elaboração de estudos técnicos, 
 indicando diversos parâmetros técnicos que devem ser informados sobre a emissora para as diversas e possíveis situações.
 
 Neste capítulo vamos abordar apenas as informações solicitadas que, particularmente, são necessárias para a homologação da emissora proposta neste estudo,
@@ -492,10 +492,10 @@ esses valores.
 \subsubsection{Curvas E(L,T)}
 
 São gráficos que representam a intensidade de campo excedida em $L\%$ das
-localidades e $T\%$ do tempo. O método é válido apenas para distâncias de 1 a 1000km da
+localidades e $T\%$ do tempo. O método é válido apenas para distâncias de 1 a 1000 km da
 antena transmissora. Os valores tabulados pela recomendação foram obtidos com
-frequências de valores nominais iguais a 100, 600 e 2000MHz, $HNMT$ de 10, 20, 37,5, 75,
-150, 300, 600 e 1200m e porcentagem de tempo de 1, 10 e 50\%. Uma curva é tracejada para
+frequências de valores nominais iguais a 100, 600 e 2000 MHz, $HNMT$ de 10, 20, 37,5, 75,
+150, 300, 600 e 1200 m e porcentagem de tempo de 1, 10 e 50\%. Uma curva é tracejada para
 cada tipo de percurso e frequência. Os percursos considerados são: terrestre, sobre o mar
 morno e sobre o mar frio.
 
@@ -515,7 +515,7 @@ necessárias para este estudo são descritas nesta sessão.
 
 Para efeitos de cálculo, no Brasil o nível médio do terreno ($NMT$) é calculado
 obtendo-se a média aritmética dos valores de nível médio radial ($NMR$) de, no mínimo, 12 radiais.
- O NMR por sua vez é obtido calculando a média aritmética de pelo menos 50 cotas igualmente espaçadas,
+ O $NMR$ por sua vez é obtido calculando a média aritmética de pelo menos 50 cotas igualmente espaçadas,
 compreendidas entre as distâncias de 3 a 15 km da antena transmissora.
 
 As 12 radiais devem ser igualmente espaçada,s de 30 em 30 graus, e deve
@@ -569,7 +569,7 @@ e, para que o projeto respeite as especificações desta classe, deve ser observad
 figura~\ref{tabelaClassificacaoEmissoras}.
 
 Porém, a Resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas outras condições também informadas. 
-Segue estas observações, que foram publicadas na Resolução $N° 546$~\cite{ref9}:
+Segue estas observações, que foram publicadas na Resolução n° 546~\cite{ref9}:
 
 
 \begin{figure}[!htb]
@@ -596,7 +596,7 @@ ferramentas computacionais.
 
 \end{quotation}
 
-\section{NÍVEL MEDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
+\section{NÍVEL MÉDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
 
 A seguir vamos apresentar o método usado para o reconhecimento geométrico do local onde será instalado a emissora.
 Estes dados são de extrema importância para o sucesso do projeto.
@@ -648,7 +648,7 @@ Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejad
 inicial e final de cada radial (3 km e 15 km) e o passo, em metros, desejado para a construção da curva (12 km/quantidade de passos). 
 
 O gráfico Figura~\ref{nmt} apresenta um exemplo do retorno que a aplicação nos disponibiliza. Note que usei um passo de 240 metros para cada 
-medição, este é o valor mínimo exigido pela Resolução. A partir deste gráfico, retirei os valores para descobrir o NMR de cada radial (ANEXO~\ref{nmt1}).
+medição, este é o valor mínimo exigido pela Resolução. A partir deste gráfico, retirei os valores para descobrir o $NMR$ de cada radial (ANEXO~\ref{nmt1}).
 
 
 \begin{figure}[!htb]
@@ -764,7 +764,7 @@ NMR(m) & 158,38 & 73,46 & 169,14 & 166,2 & 250,46 & 196,86 & 151,58 & 394,8 & 50
 \label{tabelaNMT}
 \end{table}
 
-Os NMR's encontrados neste processo serão usados para obter todos os valores de intensidade de sinal para cada uma das radiais, como informaremos mais a
+Os $NMR's$ encontrados neste processo serão usados para obter todos os valores de intensidade de sinal para cada uma das radiais, como informaremos mais a
 frente.
 
 \subsection{Altura Acima do Nível Médio do Terreno}
@@ -778,15 +778,15 @@ Os valores de $HNMT$ serão aplicados posteriormente nas Curvas de Intensidade de
 O $HNMT$ é definido pela expressão~\ref{e_HNMT}.
 
 \begin{equation}
- HNMT=CBT+HCGSI-NMT
+ HNMT = CBT + HCGSI - NMT
 \label{e_HNMT} 
 \end{equation}
 
 Onde:
 
-$CBT$ = Altura da base da torre (Altura do terreno onde será instalada a base da emissora);
+$CBT$ = Cota da base da torre (Altura do terreno onde será instalada a base da emissora);
 
-$HCGSI$= Altura da torre, somado com o Centro de Fase do Sistema Irradiante;
+$HCGSI$= Altura do centro geométrico do sistema irradiante;
 
 $NMT$ = Nível Médio do Terreno.
 
@@ -814,7 +814,7 @@ além de um custo de manutenção
 muito superior ao da torre, alto gasto de energia elétrica, fazendo com que, normalmente, seja mais recomendável o aumento da altura da torre, em vez da 
 potência do transmissor.
 
-Sendo assim, sabendo que a emissora está localizada em uma área de relevo acidentado e com algumas radiais apresentado um NMR mais elevado que a base, ficará
+Sendo assim, sabendo que a emissora está localizada em uma área de relevo acidentado e com algumas radiais apresentado um $NMR$ mais elevado que a base, ficará
  definida a altura da torre em 55 metros. 
 
 %Esta altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. 
@@ -832,7 +832,7 @@ HCGSI = 55m + 4,244m = 59,244m
 \label{e_hcgsi}
 \end{equation}
 
-Agora já temos definidas todas as variáveis que compõem nossa equação, encontraremos o $HNMT$~\ref{e_hmnt2}, coforme resultado da equação~\ref{e_hmnt1}
+Agora já temos definidas todas as variáveis que compõem nossa equação, encontraremos o $HNMT$~\ref{e_hmnt2}, conforme resultado da equação~\ref{e_hmnt1}
 
 \begin{equation}
 HNMT = 285m + 59,244m - 288,33 m
@@ -1273,7 +1273,7 @@ Tais curvas baseiam-se em uma potência efetiva de 1 kW irradiado por um dipolo d
 Como já mencionado, a Área de Serviço Urbana é o contorno principal do projeto. 
 Para identificar se a emissora está respeitando o contorno de 7,5 km, temos que fazer uso das curvas de intensidade, 
 combinadas com as potências ERPaz. 
-Como as potências efetivas irradiadas, que encontramos anteriormente, são inferiores à 1 KW, deve ser feito
+Como as potências efetivas irradiadas, que encontramos anteriormente, são inferiores à 1 kW, deve ser feito
 um ajuste, subtraindo estes valores em dBk do valor para o contorno desejado. O resultado será o valor referência 
 do eixo das ordenadas. 
 O ponto de intersecção será o valor de $HMNT$ correspondente à radial desta potência, que deverá ser encontrado
@@ -1282,10 +1282,10 @@ entre as escalas apresentadas nas curvas de intensidade.
 Definido o ponto, busca-se o valor, em km, que está em escala logarítmica no eixo das abscissas. 
 A figura~\ref{curvaE5050Calc} mostra um exemplo deste procedimento para os valores referentes à radial 0°. 
 À esquerda está destacado o valor resultante da equação~\ref{e_curvas}, e através do valor de
- HMNT de 185,86 m na radial 0°, utilizando a curva correspondente obtem-se o valor de 10,5 km.
+ $HMNT$ de 185,86 m na radial 0°, utilizando a curva correspondente obtem-se o valor de 10,5 km.
 
 \begin{equation}
-66 dBm-8,07 dBk=74,07 dBm
+66 dBm -8,07 dBk=74,07 dBm
 \label{e_curvas} 
 \end{equation}
 
@@ -1332,9 +1332,6 @@ $330°$& -7,02 &-61,07 &73,02 &3,2 \\\hline
 \caption{Distâncias do contorno protegido (66 dBm).} 
 \label{tabelaContorno2}
 \end{table}
-
-A o valor médio deste contorno protegido é de aproximadamente 7km, então este fator
-está de acordo com a norma.
 
 \subsubsection{Cobertura da Área de Serviço Urbana} 
 
