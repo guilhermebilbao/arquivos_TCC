@@ -67,7 +67,7 @@
 \provideboolean{InserirEpigrafe}
 \provideboolean{InserirResumo}
 \provideboolean{InserirAbstract}
-\provideboolean{InserirListaSimbolos}
+%\provideboolean{InserirListaSimbolos}
 \provideboolean{InserirSumario}
 \provideboolean{InserirListaIlustracoes}
 \provideboolean{InserirIntroducao}
@@ -239,27 +239,76 @@
 \vspace*{0.05cm}
 \begin{tabular}{ll} 
 \textbf{ANATEL}&Agência Nacional de Telecomunicações\\
-&\\
+%&\\
+\textbf{Al}&atenuação em 100 metros\\
+%&\\
+\textbf{CBT}&Cota da base da torre \\
+%&\\
+\textbf{dB}&decibel\\
+%&\\
+\textbf{dBd}&ganho da antena, referido a uma antena dipolo\\
+%&\\
+\textbf{dBk}&unidade que exprime o valor de potência, em dB, referida a 1kW\\
+%&\\
+\textbf{dBm}&unidade que exprime o valor de potência, em dB, referida a 1mW\\
+%&\\
+\textbf{dB$\mu$}&unidade que exprime o valor de potência, em dB, referida a 1$\mu$W\\
+%&\\
 \textbf{E(L,T)}&Intensidade de campo excedido em L por cento das localidades e\\
 &T por cento do tempo\\
-&\\
+%&\\
+\textbf{E/Emax}&porcentagem irradiada, em relação à potência máxima\\
+%&\\
+\textbf{Ef}&eficiência de linha\\
+%&\\
 \textbf{EIA}&Eletronics Industries Association\\
-&\\
+%&\\
+\textbf{ERPaz}&potência efetiva máxima irradiada no azimute\\
+%&\\
+\textbf{ERPmax}&potência efetiva máxima irradiada\\
+%&\\
 \textbf{FM}&Modulação em Frequência (Frequency Modulation)\\
-&\\
-\textbf{NMR}&Nível médio da radial\\
-&\\
-\textbf{NMT}&Nível médio do terreno\\
-&\\
+%&\\
+\textbf{Gtmax}&ganho máximo do sistema irradiante\\
+%&\\
+\textbf{HCGSI}&Altura do centro geométrico do sistema irradiante\\
+%&\\
+\textbf{HNMT}&altura efetiva acima do nível médio\\
+%&\\
 \textbf{IBGE}&Instituto Brasileiro de Geografia e Estatística\\
-&\\
+%&\\
+\textbf{km}&quilômetros\\
+%&\\
+\textbf{L}&comprimento da linha\\
+%&\\
+\textbf{m}&metros\\
+%&\\
+\textbf{MHz}&megahertz\\
+%&\\
+\textbf{n°}&número\\
+%&\\
+\textbf{NMR}&Nível médio da radial\\
+%&\\
+\textbf{NMT}&Nível médio do terreno\\
+%&\\
 \textbf{PBFM}&Plano Básico de Distribuição de Canais de Radiodifusão Sonora em \\
 &Frequência Modulada\\
-&\\
+%&\\
+\textbf{Pc}&perdas acessórias\\
+%&\\
+\textbf{Pd}&perdas totais da linha em dB\\
+%&\\
+\textbf{Pl}&perdas da linha\\
+%&\\
+\textbf{Pt}&potência de saída do transmissor\\
+%&\\
+\textbf{Pv}&perdas totais da linha em vezes\\
+%&\\
 \textbf{SIGAnatel}&Sistema de Informações Geográficas da Anatel\\
-&\\
+%&\\
 \textbf{UIT-R}&União Internacional de Telecomunicações-Radiopropagação\\
-&\\
+%&\\
+\textbf{Wrms}&potência eficaz\\
 \end{tabular}
 \label{tabelaSiglas}
 \end{table}
@@ -268,49 +317,49 @@
 
 }{}
 
-\ifthenelse{\boolean{InserirListaSimbolos}}{
+%\ifthenelse{\boolean{InserirListaSimbolos}}{
 
-\pretextualchapter{Lista de Símbolos}
+%\pretextualchapter{Lista de Símbolos}
 %~\ref{tabelaSimbolos}
 
-\begin{table}[h!]
-\centering
-\hspace*{0.5cm}
-\begin{tabular}{ll} 
-\textbf{\%}&por cento\\
-\textbf{Al}&atenuação em 100 metros\\
-\textbf{CBT}&Cota da base da torre \\
-\textbf{dB}&decibel\\
-\textbf{dBd}&ganho da antena, referido a uma antena dipolo\\
-\textbf{dBk}&unidade que exprime o valor de potência, em dB, referida a 1kW\\
-\textbf{dBm}&unidade que exprime o valor de potência, em dB, referida a 1mW\\
-\textbf{dB$\mu$}&unidade que exprime o valor de potência, em dB, referida a 1$\mu$W\\
-\textbf{E/Emax}&porcentagem irradiada, em relação à potência máxima\\
-\textbf{Ef}&eficiência de linha\\
-\textbf{ERPaz}&potência efetiva máxima irradiada no azimute\\
-\textbf{ERPmax}&potência efetiva máxima irradiada\\
-\textbf{Gtmax}&ganho máximo do sistema irradiante\\
-\textbf{HCGSI}&Altura do centro geométrico do sistema irradiante\\
-\textbf{HNMT}&altura efetiva acima do nível médio\\
-\textbf{km}&quilômetros\\
-\textbf{L}&comprimento da linha\\
-\textbf{m}&metros\\
-\textbf{MHz}&megahertz\\
-\textbf{n°}&número\\
-\textbf{Pc}&perdas acessórias\\
-\textbf{Pd}&perdas totais da linha em dB\\
-\textbf{Pl}&perdas da linha\\
-\textbf{Pt}&potência de saída do transmissor\\
-\textbf{Pv}&perdas totais da linha em vezes\\
-\textbf{Wrms}&potência eficaz\\
+%\begin{table}[h!]
+%\centering
+%\hspace*{0.5cm}
+%\begin{tabular}{ll} 
+%\textbf{\%}&por cento\\
+%\textbf{Al}&atenuação em 100 metros\\
+%\textbf{CBT}&Cota da base da torre \\
+%\textbf{dB}&decibel\\
+%\textbf{dBd}&ganho da antena, referido a uma antena dipolo\\
+%\textbf{dBk}&unidade que exprime o valor de potência, em dB, referida a 1kW\\
+%\textbf{dBm}&unidade que exprime o valor de potência, em dB, referida a 1mW\\
+%\textbf{dB$\mu$}&unidade que exprime o valor de potência, em dB, referida a 1$\mu$W\\
+%\textbf{E/Emax}&porcentagem irradiada, em relação à potência máxima\\
+%\textbf{Ef}&eficiência de linha\\
+%\textbf{ERPaz}&potência efetiva máxima irradiada no azimute\\
+%\textbf{ERPmax}&potência efetiva máxima irradiada\\
+%\textbf{Gtmax}&ganho máximo do sistema irradiante\\
+%\textbf{HCGSI}&Altura do centro geométrico do sistema irradiante\\
+%\textbf{HNMT}&altura efetiva acima do nível médio\\
+%\textbf{km}&quilômetros\\
+%\textbf{L}&comprimento da linha\\
+%\textbf{m}&metros\\
+%\textbf{MHz}&megahertz\\
+%\textbf{n°}&número\\
+%\textbf{Pc}&perdas acessórias\\
+%\textbf{Pd}&perdas totais da linha em dB\\
+%\textbf{Pl}&perdas da linha\\
+%\textbf{Pt}&potência de saída do transmissor\\
+%\textbf{Pv}&perdas totais da linha em vezes\\
+%\textbf{Wrms}&potência eficaz\\
 
-\end{tabular}
-\label{tabelaSimbolos}
-\end{table}
+%\end{tabular}
+%\label{tabelaSimbolos}
+%\end{table}
 
 %\input{./arquivos_para_alterar/a09-introducao}
 
-}{}
+%}{}
 
 
 

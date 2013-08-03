@@ -21,6 +21,7 @@ deve-se seguir e apresentar uma documentação técnica que esteja respeitando todo
 
 \section{OBJETIVO GERAL}
 
+
 Estudo e compreensão das normas técnicas, relacionadas à rádio FM e suas atualizações, juntamente com 
 a utilização de ferramentas livres oferecidas pela ANATEL.
 
@@ -124,9 +125,8 @@ uma emissora de rádio FM possa ser instalada e liberada para iniciar seus serviç
 que atualizam este regulamento, para que o projeto possa atender às novas exigências.
 
 A última Resolução, que altera o regulamento aprovado na Resolução N° 67, é a de n° 546. Ela altera alguns aspectos importantes para o 
-desenvolvimento do projeto. Como exemplo,
-posso citar a classificação das emissoras em função de seus requisitos máximos e as curvas de intensidade de campo ( E(50,10) e E(50,10) ),
-vindos da Recomendação UIT-R P.1546.
+desenvolvimento do projeto. Como exemplo, pode ser citado a classificação das emissoras em função de seus requisitos máximos e as curvas 
+de intensidade de campo ( E(50,50) e E(50,10) ), essas últimas vindas da Recomendação UIT-R P.1546.
  
 As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
 
@@ -135,15 +135,15 @@ As resoluções podem ser consultadas através do portal da ANATEL, através do link
 A Resolução contém um capítulo inteiro~\cite{ref12} que aborda um roteiro para elaboração de estudos técnicos, 
 indicando diversos parâmetros técnicos que devem ser informados sobre a emissora para as diversas e possíveis situações.
 
-Neste capítulo vamos abordar apenas as informações solicitadas que, particularmente, são necessárias para a homologação da emissora proposta neste estudo,
- pois o roteiro, apresentado na íntegra na Resolução, apresenta diversas outras solicitações que cabem à cenários diferentes do nosso.
+Neste capítulo será abordado apenas as informações solicitadas que, particularmente, são necessárias para a homologação da emissora proposta neste estudo,
+ pois o roteiro, apresentado na íntegra na Resolução, apresenta diversas outras solicitações que cabem à cenários diferentes do estudado neste projeto.
 
 Existem também algumas documentações, anexos e outras informações, que em casos reais devem ser apresentados (como exemplo: croquis da casa de equipamentos e da torre,
- endereçamentos detalhados, e informações sobre o engenheiro responsável pelo projeto), mas que não foram necessários suas descrições aqui neste momento, por
-estarmos tratando de um estudo didático, com foco no desenvolvimento técnico do projeto.
+ endereçamentos detalhados, e informações sobre o engenheiro responsável pelo projeto), mas que não foram necessários suas descrições aqui neste momento, pois 
+trata-se de um estudo didático, com foco apenas no desenvolvimento técnico do projeto.
 
-Sendo assim, seguindo as orientações apresentadas no roteiro para a elaboração
-de estudos técnicos, vamos às informações que precisamos encontrar e definir no decorrer deste projeto.
+Sendo assim, seguindo as orientações do roteiro para a elaboração
+de estudos técnicos, apresentam-se as informações que devem ser encontradas e definidas no decorrer deste projeto.
 
 
 \subsection{ESTUDO DE VIABILIDADE TÉCNICA DE UMA EMISSORA}
@@ -161,7 +161,7 @@ O Estudo de Viabilidade Técnica de uma Emissora deverá conter, necessariamente, 
 
 \subsubsection{Informações básicas}
 
-Conforme apresentado na Resolução, as informações básicas para este estudo são respostas dos seguintes questionamentos:
+Conforme apresentado na Resolução, as informações básicas para este estudo são as definições que seguem:
 
 \begin{itemize}
 
@@ -255,7 +255,7 @@ A memória descritiva é um resumo das características da emissora, juntamente com
 
 \begin{enumerate}
 
-\item Tipo de antena (onidirecional ou diretiva);
+\item Tipo de antena (omnidirecional ou diretiva);
 
 \item Fabricante e modelo da antena;
 
@@ -351,7 +351,7 @@ Distâncias aos contornos das diversas áreas de serviço, segundo cada radial, de 
 
 \item Altura do centro geométrico da antena com relação ao nível médio de cada radial;
 
-\item Intensidade de campo (dBm);
+\item Intensidade de campo (dB$\mu$);
 
 \item Distância aos contornos 1, 2 e 3, em cada radial.
 
@@ -479,7 +479,7 @@ baseados nestes métodos.
 
 \subsection{Conceitos Básicos}
 
-A seguir serão descritos os parâmetros básicos muitos utilizados nos cálculos.~\cite{paulo}
+A seguir serão descritos os parâmetros básicos mais utilizados nos cálculos.~\cite{paulo}
 
 \subsubsection{Altura Acima do Nível Médio do Terreno}
 
@@ -495,7 +495,7 @@ São gráficos que representam a intensidade de campo excedida em $L\%$ das
 localidades e $T\%$ do tempo. O método é válido apenas para distâncias de 1 a 1000 km da
 antena transmissora. Os valores tabulados pela recomendação foram obtidos com
 frequências de valores nominais iguais a 100, 600 e 2000 MHz, $HNMT$ de 10, 20, 37,5, 75,
-150, 300, 600 e 1200 m e porcentagem de tempo de 1, 10 e 50\%. Uma curva é tracejada para
+150, 300, 600 e 1200 m e porcentagem de tempo de 1, 10 e 50\%. Uma curva é traçada para
 cada tipo de percurso e frequência. Os percursos considerados são: terrestre, sobre o mar
 morno e sobre o mar frio.
 
@@ -598,36 +598,36 @@ ferramentas computacionais.
 
 \section{NÍVEL MÉDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
 
-A seguir vamos apresentar o método usado para o reconhecimento geométrico do local onde será instalado a emissora.
+A seguir será apresentado o método usado para o reconhecimento geométrico do local onde será instalado a emissora.
 Estes dados são de extrema importância para o sucesso do projeto.
 
 \subsection{Nível Médio da Radial (NMR) e Nível Médio do Terreno (NMT)}
 
-A Resolução exige que sejam tracejadas no mínimo 12 radiais com espaçamento angular de 30° e com o mínimo de 50 cotas, igualmente
+A Resolução exige que sejam traçadas no mínimo 12 radiais com espaçamento angular de 30° e com o mínimo de 50 cotas, igualmente
  espaçadas.
 O ponto previamente definido, como sendo o local onde a antena será fixada, será a origem das radiais.
-Para tracejar estas radiais, usei os mapas disponíveis no site do IBGE~\cite{ref11}, na escala $1:50.000$.
-Através destas radiais vamos conseguir obter as altitudes do relevo ao redor da base da antena. 
+Para traçar estas radiais pode ser usados os mapas disponíveis no site do IBGE~\cite{ref11}, na escala $1:50.000$.
+Através destas radiais pode-se obter as altitudes do relevo ao redor da base da antena. 
 Esses valores servirão de base para definir todas as características do nosso sistema.
 As radiais foram tracejadas a partir das coordenadas $27°34'02.72''S$ com $48°48'33.71''O$ (ponto referente à base da torre da antena),
  e deve, obrigatoriamente, incluir a direção do Norte Verdadeiro. 
 
-Após os 12 raios tracejados, calcula-se o Nível Médio da Radial ($NMR$) para cada uma delas. O $NMR$ é definido pela média aritmética
+Após os 12 raios traçados, calcula-se o Nível Médio da Radial ($NMR$) para cada uma delas. O $NMR$ é definido pela média aritmética
  de todas as cotas da radial, que, de acordo com a norma, devem ser compreendidas no trecho entre 3 e 15 quilômetros.
 Para obter esses valores das cotas, no caso os 50 valores correspondentes as altitudes do terreno dentro da cada radial, existe uma ferramenta
- muito útil no auxílio aos estudos de viabilidade, disponível no portal online da ANATEL, o SIGAnatel~\cite{ref10}. 
-Usaremos dos seus recursos para a identificação de perfil de terreno (projeção geográfica), através de gráficos gerados por ele.
+ usada para o auxílio aos estudos de viabilidade, disponível no portal \textit{online} da ANATEL, o SIGAnatel~\cite{ref10}. 
+Neste projeto é usado seus recursos para a identificação de perfil de terreno (projeção geográfica), através de gráficos gerados por ele.
 Mas, para conseguir usar a ferramenta, é preciso obter as coordenadas das 12 radiais, nas distâncias de 3 km e 15 km e partindo da base da emissora. 
 
-Para buscar estes valores temos que usar como referência os valores informados no mapa (referencias de coordenadas) e sua escala.
+Para buscar estes valores deve ser usado como referência os valores informados no mapa (referencias de coordenadas) e sua escala.
 Numa escala de $1:50.000$ cada centímetro no mapa equivale à 500 m, então, as radiais devem ter 30 centímetros para atingir o ponto equivalente
 à 15 km. 
 
-Definidos os pontos de 3 km e 15 km em todas as radiais, agora devemos buscar as coordenadas de cada um desses 24 pontos no mapa.
-Utilizando a regra de três, podemos encontrar todas as coordenadas. Traçando uma linha horizontal e uma vertical, partindo dos pontos determinados antes, encontramos os valores
-de referência para as coordenadas que se busca, aplica-se a regra de três e defini-se todas as coordenadas que serão usadas na ferramenta SIGAnatel.
+Definidos os pontos de 3 km e 15 km em todas as radiais, deve ser buscado as coordenadas de cada um desses 24 pontos no mapa.
+Utilizando a regra de três, podem ser definidas todas as coordenadas necessárias. Traçando uma linha horizontal e uma vertical, partindo dos pontos determinados antes, 
+são encontrados os valores de referência para as coordenadas que se busca, aplica-se a regra de três e defini-se todas as coordenadas que serão usadas na ferramenta SIGAnatel.
 
-A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no mapa, a figura~\ref{radiaisSiganatel} mostra o layout da ferramenta SIGAnatel e a
+A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no mapa, a figura~\ref{radiaisSiganatel} mostra o \textit{layout} da ferramenta SIGAnatel e a
  figura~\ref{radiais_detalhado} detalha as 12 radiais traçadas, partindo da base da torre.
 
 \begin{figure}[!htb]
@@ -647,8 +647,8 @@ A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no m
 Esta é uma ferramenta que apresenta um gráfico com a projeção geográfica desejada. Para usar este recurso basta apenas inserir as coordenadas dos pontos 
 inicial e final de cada radial (3 km e 15 km) e o passo, em metros, desejado para a construção da curva (12 km/quantidade de passos). 
 
-O gráfico Figura~\ref{nmt} apresenta um exemplo do retorno que a aplicação nos disponibiliza. Note que usei um passo de 240 metros para cada 
-medição, este é o valor mínimo exigido pela Resolução. A partir deste gráfico, retirei os valores para descobrir o $NMR$ de cada radial (ANEXO~\ref{nmt1}).
+O gráfico Figura~\ref{nmt} apresenta um exemplo do retorno que a aplicação nos disponibiliza. Note é usado um passo de 240 metros para cada 
+medição, este é o valor mínimo exigido pela Resolução. A partir deste gráfico, é retirado os valores para descobrir o $NMR$ de cada radial (ANEXO~\ref{nmt1}).
 
 
 \begin{figure}[!htb]
@@ -659,7 +659,7 @@ medição, este é o valor mínimo exigido pela Resolução. A partir deste gráfico, r
 \end{figure}
 
 
-De posse dos resultados dos $NMR$, podemos agora encontrar o nível médio do terreno ($NMT$), que é a média aritmética das 12 $NMR$,
+De posse dos resultados dos $NMR$ pode-se encontrar o nível médio do terreno ($NMT$), que é a média aritmética das 12 $NMR$,
  tornando o terreno simbolicamente plano e de altura conhecida. 
 
 A tabela~\ref{tabelaNMT} apresenta os valores encontrados nas 12 radiais. Esta tabela indica as altitudes encontradas dos 50 pontos ao longo de cada radial,
@@ -793,7 +793,7 @@ $NMT$ = Nível Médio do Terreno.
 %Levando em consideração as observações apresentadas no enquadramento de classe, vamos começar a definir a nossa HNTM.
 
 Utilizando o SIGAnatel, informando as coordenadas $27°34'02.72''S$ e $48°48'33.71''O$, buscamos a altura do terreno da nossa base, que resultou em 285 m acima do nível do mar. 
-Assim, já temos nosso primeiro parâmetro definido, o $CTB$~\ref{e_CBT}.
+Assim, é definido o primeiro parâmetro, o $CTB$~\ref{e_CBT}.
 
 \begin{equation}
 CBT = 285m
@@ -801,13 +801,12 @@ CBT = 285m
 \end{equation}
 
 Mais um fato curioso, e compreensível, é que o $CBT$ tem um valor muito próximo do já encontrado $NMT$ (288,33 m), demostrando que o relevo, nas redondezas, 
-tende à manter a mesma altura do ponto escolhido como base, porém, devemos tomar cuidado com este valor, pois trata-se de uma média das 12 radiais.
+tende à manter a mesma altura do ponto escolhido como base, porém, deve-se ter cautela com este valor, pois trata-se de uma média das 12 radiais.
 
-Se analisarmos os valores de $NMR$ apresentados na tabela tal, notaremos que a região voltada ao
+Ao analisar os valores de $NMR$ apresentados na Tabela~\ref{tabelaNMT}, pode ser notado que a região voltada ao
  Oeste (Sudoeste - Noroeste) da base emissora, apresenta níveis de altura do terreno maiores que a base, enquanto as outras regiões são todas mais baixas.
- Os obstáculos atrapalham na propagação do sinal,
-então teremos que fazer um esforço maior nos locais onde os terrenos são mais elevados que a antena, e, ao mesmo tempo, cuidar para que o contorno protegido
- seja respeitado.
+ Os obstáculos atrapalham na propagação do sinal, então deverá ser feito um esforço maior nos locais onde os terrenos são mais elevados que a antena, e, 
+ao mesmo tempo, cuidar para que o contorno protegido seja respeitado.
 
 Embora a vida útil de uma torre de estrutura metálica (a mais utilizada) e a de um transmissor, sejam ambas de cerca de 20 anos, o transmissor apresenta, 
 além de um custo de manutenção
@@ -820,19 +819,19 @@ Sendo assim, sabendo que a emissora está localizada em uma área de relevo aciden
 %Esta altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. 
 %Usando este critério ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, á longo prazo.
 
-Para definir a HCGSI, precisamos ainda obter o valor da altura do Centro de Fase do Sistema Irradiante. Este valor é encontrado nas especificações da 
+Para definir a HCGSI, será preciso ainda obter o valor da altura do Centro de Fase do Sistema Irradiante. Este valor é encontrado nas especificações da 
 antena Dipolo $1/2$ Onda para FM do fabricante IDEAL, conforme ANEXO~\ref{especificacaoAntena}, que será usada no projeto e varia conforme o número de elementos usados na estrutura
  do sistema irradiante. 
 De acordo com a especificação da antena, usando três elementos para irradiar o sinal e usando como referência os dados referentes à sistemas com frequência de 
 88,1 MHz, que é a frequência que mais se aproxima da que será propagada pela emissora (91,5 MHz), o centro de fase do sistema fica em 4244,5 mm ou 4,244 m.
- Efetuando-se a soma entre a altura da torre e a altura do Centro de Fase do Sistema Irradiante, teremos o seguinte valor
+ Efetuando-se a soma entre a altura da torre e a altura do Centro de Fase do Sistema Irradiante, encontra-se o seguinte valor
 
 \begin{equation}
 HCGSI = 55m + 4,244m = 59,244m
 \label{e_hcgsi}
 \end{equation}
 
-Agora já temos definidas todas as variáveis que compõem nossa equação, encontraremos o $HNMT$~\ref{e_hmnt2}, conforme resultado da equação~\ref{e_hmnt1}
+Agora já estão definidas todas as variáveis que compõem a equação, deve ser buscado o $HNMT$~\ref{e_hmnt2}, conforme resultado da equação~\ref{e_hmnt1}
 
 \begin{equation}
 HNMT = 285m + 59,244m - 288,33 m
@@ -844,18 +843,18 @@ HNMT = 55,914m
 \label{e_hmnt2}
 \end{equation}
 
-Na verdade, este valor de $HNMT$ encontrado vai servir somente de referência. Através dele, podemos comprovar que a antena estará numa altura dentro do
+ Este primeiro valor de $HNMT$ encontrado servirá somente como referência. Através dele, será possível comprovar que a antena estará numa altura dentro do
  limite estabelecido pela Resolução (60 m), considerando a média de todas as radiais ($NMT$).
 
 Agora, esta equação deve ser usada trocando o valor do $NMT$ pelos valores de $NMR$ e, assim, encontrar o $HNMT$ de cada radial, isoladamente.
 
-A tabela~\ref{tabelaHSNMT} apresenta os valores de $HNMT$ obtidos. Esse valores informam a diferença entre a altura da antena e o $NMR$ da radial 
+A tabela~\ref{tabelaHNMT} apresenta os valores de $HNMT$ obtidos. Esse valores informam a diferença entre a altura da antena e o $NMR$ da radial 
 correspondente. 
 
-Os resultados negativados informam que, na direção das radiais correspondentes à estes valores, o nível do terreno é mais alto
-que a altura da antena (344,24 m). Então podemos concluir que, o sinal irradiado para estas direções encontraria obstáculos que iriam interferir na sua 
+Os resultados negativos informam que, na direção das radiais correspondentes à estes valores, o nível do terreno é mais alto
+que a altura da antena (344,24 m). Então, conclui-se que o sinal irradiado para estas direções encontram obstáculos que devem interferir na sua 
 propagação.
-Essa informação é muito importante para a otimização da área de cobertura da emissora, e será lembrada mais adiante.
+A importância desta informação está na otimização da área de cobertura da emissora, e será lembrada mais adiante.
 
 \def\tablename{Tabela}
 \begin{table}
@@ -864,7 +863,7 @@ Essa informação é muito importante para a otimização da área de cobertura da emi
 
 \begin{tabular}{|c|c|c|} \hline
 
-Radial & NMR & HSNMT \\ \hline
+Radial & NMR & HNMT \\ \hline
 0° & 158,38&185,86\\
 30° & 73,46 & 270,78\\
 60° & 169,14 & 175,10\\
@@ -879,17 +878,17 @@ Radial & NMR & HSNMT \\ \hline
 330°& 405,32 & -61,07\\ \hline
 
 \end{tabular}
-\caption{Valores de HSNMT para cada radial.} 
-\label{tabelaHSNMT}
+\caption{Valores de HNMT para cada radial.} 
+\label{tabelaHNMT}
 \end{table}
 
 \section{CONTORNO PROTEGIDO}
 
 O contorno protegido de uma estação de rádio FM corresponde ao lugar
-geométrico onde a intensidade de campo do sinal apresentar o valor de 66 dBm (2mV/m)(Contorno 2). 
+geométrico onde a intensidade de campo do sinal apresentar o valor de 66 dB$\mu$ (2mV/m)(Contorno 2). 
 Este contorno tem como finalidade atender a área de serviço urbana. Uma vez que a cobertura desta área estiver atendendo os padrões da Resolução,
-as demais áreas de serviços, a área de serviço primária (Contorno 1), limitada pelo contorno de 74 dBm (5mV/m) e a área de serviço rural (Contorno 3),
- compreendida entre o contorno 2 e o contorno de 54 dBm (0,5mV/m), também estará de acordo com a norma.
+as demais áreas de serviços, a área de serviço primária (Contorno 1), limitada pelo contorno de 74 dB$\mu$ (5mV/m) e a área de serviço rural (Contorno 3),
+ compreendida entre o contorno 2 e o contorno de 54 dB$\mu$ (0,5mV/m), também estara de acordo com a norma.
 
 O que vai determinar toda a extensão deste contorno será a escolha dos equipamentos e especificações usados no Sistema Irradiante, que devem ser definidos da maneira
 que melhor atenda a geografia da localidade, e que também respeite todas as regularidades expostas na Resolução determinada pela ANATEL, para a classe do canal proposto.  
@@ -909,22 +908,27 @@ indispensável, a menos que as coordenadas geográficas de seu sistema irradiante 
 
 \end{quotation}
 
-O caso do nosso sistema é exatamente este, ou seja, nosso sistema irradiante está fixado muito próximo das coordenadas definidas o canal no PBFM, 
+O caso do sistema proposto é exatamente este, ou seja, este sistema irradiante está fixado muito próximo das coordenadas definidas para o canal no PBFM, 
 conforme apresentado na Figura~\ref{proximidadePBMF}.
- Sendo assim, ficamos isentos da obrigação de buscar estas informações.
+ Sendo assim, o projeto está isento da obrigação de buscar e apresentar estas informações.
 
 \begin{figure}[!htb]
 \centering
 \large
-\includegraphics[scale=0.6]{./figuras/aproximidadePBMF.png} 
+\begin{sideways}
+
+\includegraphics[scale=1]{./figuras/aproximidadePBMF.png} 
+
+\end{sideways}
+
 \caption{Proximidade entre a base do sistema e a coordenada indicada no PBFM, para o canal proposto~\cite{google}.}
 \label{proximidadePBMF}
 \end{figure}
 
 \chapter{EQUIPAMENTOS BÁSICOS QUE COMPÕEM A EMISSORA}
 
-Agora que já conhecemos geograficamente a localidade onde será fixada a nossa emissora, e também já temos definidos os outros aspectos técnicos primários
- necessários, vamos para a construção do conjunto de equipamentos que formará a emissora.
+Agora que já é conhecida geograficamente a localidade onde será fixada a emissora, e que também já foram definidos os outros aspectos técnicos primários
+ necessários, a próxima etapa é a construção do conjunto de equipamentos que formará a emissora.
 
 
 \section{O SISTEMA IRRADIANTE}
@@ -933,14 +937,15 @@ Um sistema irradiante é composto basicamente de uma antena, um guia de onda, e u
 variando de fabricante. No levantamento das informações são apresentadas as características que influenciam diretamente nos cálculos.
 
 A seguir serão apresentadas as características do sistema irradiante, bem como os critérios usados para a utilização de cada um dos equipamentos. 
- Também apresentaremos os cálculos que serão usados para encontrar os valores das potências irradiadas pelo sistema.
+ Também serão apresentados os cálculos que usados para encontrar os valores das potências irradiadas pelo sistema.
 
 
 \subsection{Antena}
 
 A antena utilizada neste projeto é uma Dipolo $1/2$ onda e de polarização vertical.
 O diagrama de irradiação desta antena é útil para o relevo acidentado da região de São Pedro de Alcântara.
-Como podemos ver na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta um antena com uma irradiação levemente direcionada.
+Como pode ser visto na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta uma antena com uma irradiação levemente direcionada. 
+O ANEXO~\ref{especificacaoAntena} contém o documento do fabricante da antena na íntegra.
 
 \begin{figure}[!htb]
 \centering
@@ -949,22 +954,21 @@ Como podemos ver na Figura~\ref{diagramaDeIrradiacao}, o diagrama apresenta um a
 \caption{Diagrama de Irradiação da Antena Dipolo $1/2$ Onda para FM}
 \label{diagramaDeIrradiacao}
 \end{figure}
-
-O ANEXO~\ref{especificacaoAntena} contém o documento do fabricante na íntegra.
  
 \subsection{Linha de transmissão e conectores}
 
 Conforme a potência máxima irradiada e a antena escolhida, fica definido, para o guia de onda, o uso do padrão EIA 1-5/8''.
 Optou-se pelo 1-5/8" CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable, da fabricante RFS, que apresenta uma atenuação de apenas $0.663dB/100m$,
  operando numa frequênciancia de 88 MHz, conforme especificações em ANEXO~\ref{especificacaoGuia}.
- Como a frequência do canal que está sendo projetado é de 91,5 MHz, adotaremos o valor de $0.680dB/100m$.
+ Como a frequência do canal que está sendo projetado é de 91,5 MHz, é adotado o valor de $0.680dB/100m$ (valor encontrado usando como base
+os valores informados na especificação).
 
 Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 55 m. Sendo assim, o comprimento do guia de onda será de 65 m,
-visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada (casa do trasmissor). Portanto, a atenuação
+visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada (casa do transmissor). Portanto, a atenuação
  introduzida pelo cabo será de 0,442 dB. 
 
-Continuando com os elementos atenuantes, deve também ser considerado a perda causada pelos conectores. Para sistemas deste tipo, 
-é usualmente levado em consideração uma atenuação padronizada de 2 dB.
+Continuando com os elementos atenuantes, devem também ser consideradas as perdas causadas pelos conectores. Para sistemas deste tipo, 
+é usualmente levado em consideração uma atenuação padronizada de 2 dB. (INFORMAR FONTE DESTA INFORMAÇÃO)
 
 \subsection{Transmissor}
 
@@ -972,9 +976,9 @@ A única característica de um transmissor levada em consideração nos cálculos é a
 potência de saída. Essa potência é informada nas especificações técnicas, e dada geralmente
 em Wrms.
 
-Baseando-se em pesquisas nos sites de fabricantes de transmissores nacionais, foi encontrado transmissores com 
-potências nominais de 25, 100,150 e 300 Wrms. Visando atender a Resolução, que limita a potência da emissora de rádio
-em 300 Wrms para a classe C, usaremos nos cálculos um transmissor de 150 Wrms, que, combinado com o ganho da antena e com a 
+Baseando-se em pesquisas nos sites de fabricantes de transmissores nacionais, foram encontrado transmissores com 
+potências nominais de 25, 100, 150 e 300 Wrms. Visando atender a Resolução, que limita a potência da emissora de rádio
+em 300 Wrms para a classe C, é usado nos cálculos um transmissor de 150 Wrms, que, combinado com o ganho da antena e com a 
 eficiência da linha de transmissão, terá que resultar numa potência $P(erp) <= 300Wrms$ .
  
 
@@ -986,15 +990,17 @@ A seguir, serão mostrados os ajustes e cálculos necessários para obter o resulta
 eficiente e dentro da norma.
 
 \subsubsection{Potência Efetiva Irradiada Máxima (ERPmax)}
-A Potência Efetiva Irradiada Máxima é a máxima potência que a emissora poderá transmitir o seu sinal, que é o resultado da combinação das especificações dos elementos que à compõe.
-A equação~\ref{e_erpmax} é usada para encontrar a $ERPmax$. Ela é composta de variáveis que correspondem aos equipamentos e suas características no sistema(~\cite{paulo}). 
+A Potência Efetiva Irradiada Máxima é a máxima potência que a emissora poderá transmitir o seu sinal, que é o resultado da 
+combinação das especificações dos elementos que à compõe.
+A equação~\ref{e_erpmax} é usada para encontrar a $ERPmax$. Ela é composta de variáveis que correspondem aos equipamentos e 
+suas características no sistema(~\cite{paulo}). 
 
 \begin{equation}
 ERPmax = Pt \times Gtmax \times Ef
 \label{e_erpmax}
 \end{equation}
 
-A variável $Pt$ representa a potência de saída do transmissor em Wrms, a $Gtmax$ é o ganho máximo da antena representado em vezes, e
+A variável $Pt$ representa a potência de saída do transmissor em Wrms, a $Gtmax$ é o ganho máximo da antena, e
  $Ef$ a eficiência da linha de transmissão.
 
 Através das especificações do fabricante, podem ser obtidos a potência de saída do transmissor e o ganho máximo da antena. %, que neste caso
@@ -1007,7 +1013,7 @@ Gtmax = 10^{0,1 \times Gtmax(dBd)}
 \label{e_gtmax}
 \end{equation}
 
-A eficiência da linha de transmssão deriva das perdas do sistema. Para calcular as perdas na linha, usa-se a equação~\ref{e_pl}.
+A eficiência da linha de transmissão deriva das perdas do sistema. Para calcular as perdas na linha, usa-se a equação~\ref{e_pl}.
 
 \begin{equation}
 Pl = \frac{L \times Al}{100}
@@ -1060,8 +1066,8 @@ Ef = 1 / Pv
 \subsubsection{Potência Efetiva Irradiada por Azimute (ERPaz)}
 
 A $ERPmax$ representa a potência máxima, mas, conforme o diagrama de irradiação da antena, na prática essa potência será irradiada somente em uma direção.
-Então, a $ERPaz$ é usada e necessária para encontrar os valores de potência em cada radial. Com eses valores definidos, poderemos
-encontrar as distâncias e traçar os contornos do nosso sistema.
+Então, a $ERPaz$ é usada e necessária para encontrar os valores de potência em cada radial. Com esses valores definidos, é possível 
+encontrar as distâncias e traçar os contornos das áreas de serviço do sistema.
 
 A $ERPaz$ é simplismente a parcela do $ERPmax$ irradiada em um azimute determinado, e é calculada pela fórmula~\ref{e_erpaz}
 
@@ -1075,7 +1081,7 @@ especificações técnicas do fabricante.
 
 \subsubsection{Orientação da antena}
 
-Como pode ser visto na tabela~\ref{tabelaHSNMT}, existem valores de $HNMT$ negativos. Em locais onde o terreno é acidentado, o sinal transmitido apresentará
+Como pode ser visto na tabela~\ref{tabelaHNMT}, existem valores de $HNMT$ negativos. Em locais onde o terreno é acidentado, o sinal transmitido apresentará
 mais dificuldades em propagar-se nas direções onde o terreno é mais alto que a antena, atenuando-o conforme vai se distanciando da origem.
 
 Na região onde está sendo projetado a emissora, o azimute 270° é a direção onde o $NMR$ é o mais alto e, consequentemente, o $HMNT$ mais negativado. 
@@ -1086,14 +1092,14 @@ sendo irradiado com a maior potência possível para estas regiões.
 
 \chapter{DESENVOLVENDO A EMISSORA FM}
 
-Agora que já conhecemos detalhadamente o local em que vamos trabalhar, os equipamentos que vão compor a emissora, e também quais caminhos devemos
-seguir para desenvolver o projeto, tem-se o início do desenvolvimento.
+Agora que já é conhecido detalhadamente o local em que vamos trabalhar, os equipamentos que vão compor a emissora, e também quais caminhos devem 
+ser seguidos para desenvolver o projeto, tem-se o início do desenvolvimento.
 
 \section{ESPECIFICAÇÕES DEFINIDAS}
 
 Ao decorrer desta leitura, já foram mostrados alguns levantamentos que apresentam seus valores definitivos. 
-Vimos a tabela~\ref{tabelaHSNMT}, que apresenta o mapeamento geográfico da localidade com os valores de $NMR$ e $HSNMT$, e agora
-temos a tabela~\ref{tabelaResumoEspecificacoesTecnicas}, que agrupa as especificações técnicas já definidas até este momento.
+Já foi visto a Tabela~\ref{tabelaHNMT}, que apresenta o mapeamento geográfico da localidade com os valores de $NMR$ e $HNMT$, e agora
+também pode ser observada a Tabela~\ref{tabelaResumoEspecificacoesTecnicas}, que agrupa as especificações técnicas já definidas até este momento.
 
 \begin{table}
 \vspace*{0.05cm}
@@ -1104,7 +1110,7 @@ temos a tabela~\ref{tabelaResumoEspecificacoesTecnicas}, que agrupa as especific
 Canal & 218\\ \hline
 Frequência & 91,5 \\ \hline
 Classe & C\\ \hline
-Altura do centro geométrico do sistema irradiante (HSNMT) & 55,914 metros\\ \hline
+Altura do centro geométrico do sistema irradiante (HNMT) & 55,914 metros\\ \hline
 Orientação do Norte Verdadeiro & 90° no diagrama de irradiação\\ \hline
 Cota da base da torre & 285 metros\\ \hline
 Comprimento da linha de transmissão & 65 metros\\ \hline
@@ -1123,8 +1129,9 @@ está respeitando todos os requisitos máximos, principalmente o contorno protegid
 
 \section{DEFININDO AS POTÊNCIAS ERPmax e ERPaz}
 
-O limite máximo da potência que o nosso sistema pode usar para irradiar o sinal está fixado em 0,300 kW. 
-Já temos todos os fatores necessários para saber o valor de $ERPmax$ da emissora. Vamos aos cálculos, começando pela perda da linha
+O limite máximo da potência que o sistema pode usar para irradiar o sinal está fixado em 0,300 kW. 
+Já são conhecidos todos os fatores necessários para saber o valor de $ERPmax$ da emissora. Agora serão apresentados os cálculos, 
+começando pela perda da linha
 
 \begin{equation}
 Pl = \frac{65 \times 0,680}{100}
@@ -1148,7 +1155,7 @@ Pd = 2,442dB
 \label{d_pdr}
 \end{equation}
 
-Convertendo para perdas totais em vezes ($Pv$)
+Convertendo para perdas totais, em escala linear ($Pv$)
 
 \begin{equation}
 Pv = 10^{0,1 \times 2,442}
@@ -1187,12 +1194,12 @@ ERPmax = 0,256kW
 Se for usada a notação em dB
 
 \begin{equation}
-ERPmax -5,91dBk
+ERPmax = -5,91dBk
 \label{d_erpmaxrdbk} 
 \end{equation}
 
-Este resultado atende o estabelecido pela Resolução, é menor que 300 W, então podemos começar à
-calcular o ERPaz para cada um dos azimutes traçados. 
+Este resultado atende o estabelecido pela Resolução, é menor que 300 W, então já podem ser iniciados os
+cálculos de ERPaz para cada um dos azimutes traçados. 
 
 Como já mencionado anteriormente, a antena ficou posicionada apontando o seu 90° em direção ao norte verdadeiro, 
 assim ficando de frente para o azimute 270° da emissora. 
@@ -1222,7 +1229,8 @@ ERPaz(0°) = -8,07dBk
 \label{erpmax_g4}
 \end{equation}
 
-Repete-se este procedimento para todos os outros 11 ângulos. A tabela~\ref{tabelaERPaz} está completa, com todos os valores de $E/Emax$ e $ERPaz$ para todas as radiais.
+Repete-se este procedimento para todas as outras 11 radiais. A tabela~\ref{tabelaERPaz} está completa, com todos os valores 
+de $E/Emax$ e $ERPaz$ para todas as radiais.
 
 \def\tablename{Tabela}
 \begin{table}
@@ -1261,9 +1269,9 @@ A norma também solicita as definições das outras duas áreas de serviços, a Área 
 e a Área de Serviço Rural (54 dBm), Contornos 1 e 3, respectivamente. O conjunto desses 3 contornos
 compõem a área de serviço da emissora.
 
-Já temos o potencial de irradiação de cada uma das radiais do sistema, a próxima etapa é
+Conhecidas as potências de irradiação de cada uma das radiais do sistema, a próxima etapa é
 identificar cada uma das distâncias que formarão os contornos. As curvas de intensidade de campo 
-$E(50,50)$ serão usadas para esta finalidade. Através destas curvas obtemos as relações 
+$E(50,50)$ serão usadas para esta finalidade. Através destas curvas são obtidas as relações 
 entre potência e relevo, necessárias para determinar as distâncias dos contornos das áreas de serviços.
 Tais curvas baseiam-se em uma potência efetiva de 1 kW irradiado por um dipolo de 1/2 onda, em espaço livre,
  que produz uma intensidade de campo não atenuada, a 1 km, de aproximadamente 107 dB$\mu$.
@@ -1271,9 +1279,9 @@ Tais curvas baseiam-se em uma potência efetiva de 1 kW irradiado por um dipolo d
 \subsection{Área de Serviço Urbana (66 dBm)}
 
 Como já mencionado, a Área de Serviço Urbana é o contorno principal do projeto. 
-Para identificar se a emissora está respeitando o contorno de 7,5 km, temos que fazer uso das curvas de intensidade, 
+Para identificar se a emissora está respeitando o contorno de 7,5 km, deve-se fazer o uso das curvas de intensidade, 
 combinadas com as potências ERPaz. 
-Como as potências efetivas irradiadas, que encontramos anteriormente, são inferiores à 1 kW, deve ser feito
+Como as potências efetivas irradiadas, anteriormente encontradas, são inferiores à 1 kW, deve ser feito
 um ajuste, subtraindo estes valores em dBk do valor para o contorno desejado. O resultado será o valor referência 
 do eixo das ordenadas. 
 O ponto de intersecção será o valor de $HMNT$ correspondente à radial desta potência, que deverá ser encontrado
@@ -1285,11 +1293,11 @@ A figura~\ref{curvaE5050Calc} mostra um exemplo deste procedimento para os valor
  $HMNT$ de 185,86 m na radial 0°, utilizando a curva correspondente obtem-se o valor de 10,5 km.
 
 \begin{equation}
-66 dBm -8,07 dBk=74,07 dBm
+66 dBm -(-8,07 dBk)=74,07 dBm
 \label{e_curvas} 
 \end{equation}
 
-Agora sabemos que à 10,5 km da base da emissora, em direção ao norte verdadeiro, a intensidade do
+Então, à 10,5 km da base da emissora, em direção ao norte verdadeiro, a intensidade do
 sinal apresenta uma potência de 66 dbm. Nota-se que esta distância ultrapassa o valor de limite de 7,5 km, 
 porém, devido à irregularidade do terreno, é permitido que algumas distâncias ultrapassem o limite máximo, 
 desde que a média geral não à ultrapasse. Para que esta exclusividade seja permitida, a potência ERPmax e altura da antena
@@ -1335,8 +1343,8 @@ $330°$& -7,02 &-61,07 &73,02 &3,2 \\\hline
 
 \subsubsection{Cobertura da Área de Serviço Urbana} 
 
-Encontramos no site da Câmara Municipal de São Pedro de Alcântara~\cite{ref6} um mapa do macrozoneamento de São Pedro de Alcântara (ANEXO~\ref{mapaMacrozoneamento}), que delimita 
-as áreas conforme sua densidade populacional urbana ou rural (conforme pesquisa realizada em 2010~\cite{ref6}).
+Pode ser encontrado no site da Câmara Municipal de São Pedro de Alcântara~\cite{ref6} um mapa do macrozoneamento de São Pedro de Alcântara (ANEXO~\ref{mapaMacrozoneamento}), 
+que delimita as áreas conforme sua densidade populacional urbana ou rural (conforme pesquisa realizada em 2010~\cite{ref6}).
 
 A área em vermelho corresponde à área urbana atual, e a área um laranja é correspondente à área de expansão urbana. 
 O contorno de 66 dBm deve cobrir ao menos 90\% dessas áreas para, assim, comprovar a cobertura da área urbana do 
@@ -1393,7 +1401,7 @@ Contorno&54dBm&62,07&61,02&60,35&59,91&60,35&61,02\\\cline{2-8}
 
 \subsection{Os traçados dos contornos}
 
-Já sabemos todas as distâncias, em todas as radiais, para cada intensidade do sinal (área de serviço), que juntos formam os 3 contornos
+Já foram definidas todas as distâncias, em todas as radiais, para cada intensidade do sinal (área de serviço), que juntos formam os 3 contornos
 do sistema (tabela~\ref{tabelaGeral}). Utilizando a ferramenta SIGAnatel, podemos visualizar estes contornos, projetados no mapa da localidade, e assim analisar,
  num primeiro momento, se os efeitos destas coberturas estão dentro do esperado.
 
@@ -1410,11 +1418,12 @@ A figura~\ref{todososcontornos} apresenta as projeções das Áreas de Serviço da e
 
 \chapter{RESULTADOS OBTIDOS COM O PROJETO}
 
-Todas as informações que precisávamos saber sobre o sistema irradiante neste projeto de emissora FM já estão definidas.
+Todas as informações indispensáveis sobre o sistema irradiante neste projeto de emissora FM já estão definidas.
  Os equipamentos usados, dimensões estabelecidas e coportamento do sinal irradiado já estão mapeados.
 
-Agora devemos analisar estes resultados e verificar se está tudo conforme orienta a Resolução, tantas vezes mencionada no decorrer deste documento. 
-O objetivo é que o projeto apresente uma tendência em anular ou, ao menos, minimizar as chances de apresentar problemas na homologação junto à ANATEL.    
+Agora deve-se analisar estes resultados e verificar se está tudo conforme orienta a Resolução, tantas vezes mencionada no decorrer deste documento. 
+O objetivo é que o projeto apresente uma tendência em anular ou, ao menos, minimizar as chances de apresentar problemas na homologação junto à 
+ANATEL.    
 
 \section{CONSIDERAÇÕES SOBRE OS CONTORNOS ENCONTRADOS}
 
@@ -1422,13 +1431,13 @@ Uma verificação importante e indispensável é saber se as Áreas de Serviço, princ
  Para isto, buscamos como referência um mapeamento das zonas urbanas e rurais da cidade (ANEXO~\ref{mapaMacrozoneamento}), de 2010,
  publicado no portal da Câmara de São Pedro de Alcântara~\cite{ref6}.
 
-Cruzando as informações deste documento com os resultados do projeto, saberemos se as áreas de cobertura estão de acordo com o que
+Cruzando as informações deste documento com os resultados do projeto, será possível descobrir se as áreas de cobertura estão de acordo com o que
  estabelece a Resolução.
 
 \subsection{Analisando a cobertura da Área de Serviço Urbana em São Pedro de Alcântara}
 
-A Área de Serviço Urbana, correspondente ao contorno 2 ou contorno protegido (66 dBm), entre as três, é a área referência para a homologação das coberturas.
-É este contorno que vai indicar se o sistema está devidamente enquadrado na classe correspondente, no caso classe C. 
+A Área de Serviço Urbana, correspondente ao contorno 2 ou contorno protegido (66 dBm), entre as três, é a área referência para a homologação das 
+coberturas. É este contorno que vai indicar se o sistema está devidamente enquadrado na classe correspondente, no caso classe C. 
 
 Os requisitos mínimos apresentados pela Resolução para o contorno de 66 dBm são os seguintes:
 áreas de serviço
@@ -1442,8 +1451,9 @@ Os requisitos mínimos apresentados pela Resolução para o contorno de 66 dBm são 
 
 \end{itemize}
 
-Primeiramente verificaremos a média aritmética das distâncias do contorno protegido. Buscando os valores das distâncias, apresentados na tabela~\ref{tabelaGeral},
-podemos encontrar esta média do contorno e saber se a emissora está respeitando este requisito, como pode ser observado no cálculo~\ref{e_media}.
+Primeiramente será calculado a média aritmética das distâncias do contorno protegido. Buscando os valores das distâncias, 
+apresentados na tabela~\ref{tabelaGeral}, pode-se encontrar a média do contorno e saber se a emissora está respeitando este requisito, 
+como pode ser observado no cálculo~\ref{e_media}.
 
 \begin{equation}
 \frac{10,5 + 11 + 9 + 9 + 7 + 9 + 11 + 3,2 + 3,4 + 3,6 + 3,4 + 3,2}{12} = 6,942km
