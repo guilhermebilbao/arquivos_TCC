@@ -45,72 +45,6 @@ Seguindo, aborda-se sobre o canal proposto. Depois começam as definições para o 
 Após, são apresentados as especificações definidas para o projeto da emissora. % e a documentação que deve ser apresentada junto a ANATEL.
 Ao final, são apresentadas as conclusões e novas propostas de trabalhos.
 
-\chapter{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBFM)}
-
-O Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada é definido e gerenciado pela ANATEL, e nele constam os canais FM previstos para uso 
-em todo o território nacional. Os canais que ainda estão vagos podem ser consultados no portal da ANATEL~\cite{ref2}.
-
- A faixa de radiodifusão sonora em frequência modulada estende-se de 87,8 MHz a 107,9 MHz, e é
-dividida em 103 canais (os canais 198,199 e 200 são para uso exclusivo das estações de ROADCOM), cujas portadoras estão separadas de 200 KHz.
- Cada canal é identificado por sua frequência central,
- que é a frequência da portadora da estação de FM, e a cada canal é atribuído um número de 198 a 300, que será o seu identificador.
-
-\section{CANALIZAÇÃO}
-
-A tabela de Canalização da Faixa de FM atual foi publicada na RESOLUÇÃO N°46, DE 1° DE SETEMBRO DE 2010, que altera o Regulamento Técnico para Emissoras de Radiodifusão
-Sonora em Frequência
-Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da norma~\cite{ref1} e apresenta a faixa de Frequência para cada canal FM, definido pelo PBFM. 
-
-\def\tablename{Tabela}
-\begin{table}
-\vspace*{0.05cm}
-\centering
-
-\begin{tabular}{|c|c|c|c|c|c|} \hline
-
-Frequência & Canal & Frequência & Canal & Frequência & Canal\\
- (MHz)&  & (MHz) &  & (MHz) &  \\ \hline
-87,5 & 198 & 94,5 & 233 & 101,5 & 268\\
-87,7 & 199 & 94,7 & 234 & 101,7 & 269\\
-87,9 & 200 & 94,9 & 235 & 101,9 & 270\\
-88,1 & 201 & 95,1 & 236 & 102,1 & 271\\
-88,3 & 202 & 95,3 & 237 & 102,3 & 272\\
-88,5 & 203 & 95,5 & 238 & 102,5 & 273\\
-88,7 & 204 & 95,7 & 239 & 102,7 & 274\\
-88,9 & 205 & 95,9 & 240 & 102,9 & 275\\
-89,1 & 206 & 96,1 & 241 & 103,1 & 276\\
-89,3 & 207 & 96,3 & 242 & 103,3 & 277\\
-89,5 & 208 & 96,5 & 243 & 103,5 & 278\\
-89,7 & 209 & 96,7 & 244 & 103,7 & 279\\
-89,9 & 210 & 96,9 & 245 & 103,9 & 280\\
-90,1 & 211 & 97,1 & 246 & 104,1 & 281\\
-90,3 & 212 & 97,3 & 247 & 104,3 & 282\\
-90,5 & 213 & 97,5 & 248 & 104,5 & 283\\
-90,7 & 214 & 97,7 & 249 & 104,7 & 284\\
-90,9 & 215 & 97,9 & 250 & 104,9 & 285\\
-91,1 & 216 & 98,1 & 251 & 105,1 & 286\\
-91,3 & 217 & 98,3 & 252 & 105,3 & 287\\
-91,5 & 218 & 98,5 & 253 & 105,5 & 288\\
-91,7 & 219 & 98,7 & 254 & 105,7 & 289\\
-91,9 & 220 & 98,9 & 255 & 105,9 & 290\\
-92,1 & 221 & 99,1 & 256 & 106,1 & 291\\
-92,3 & 222 & 99,3 & 257 & 106,3 & 292\\
-92,5 & 223 & 99,5 & 258 & 106,5 & 293\\
-92,7 & 224 & 99,7 & 259 & 106,7 & 294\\
-92,9 & 225 & 99,9 & 260 & 106,9 & 295\\
-93,1 & 226 & 100,1 & 261 & 107,1 & 296\\
-93,3 & 227 & 100,3 & 262 & 107,3 & 297\\
-93,5 & 228 & 100,5 & 263 & 107,5 & 298\\
-93,7 & 229 & 100,7 & 264 & 107,7 & 299\\
-93,9 & 230 & 100,9 & 265 & 107,9 & 300\\
-94,1 & 231 & 101,1 & 266 & & \\
-94,3 & 232 & 101,3 & 267 & & \\ \hline
-
-\end{tabular}
-\caption{Canalização da faixa de FM.}
-\label{tabelaCanalizacao}
-\end{table}
-
 \chapter{RESOLUÇÃO N° 67, DE 12 DE NOVEMBRO DE 1998}
 
 A Resolução n° 67 aprova o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada. 
@@ -146,7 +80,7 @@ Sendo assim, seguindo as orientações do roteiro para a elaboração
 de estudos técnicos, apresentam-se as informações que devem ser encontradas e definidas no decorrer deste projeto.
 
 
-\subsection{ESTUDO DE VIABILIDADE TÉCNICA DE UMA EMISSORA}
+\subsection{Estudo de viabilidade técnica de uma emissora}
 
 A primeira lista de informações que é solicitada faz referência ao estudo de viabilidade técnica da emissora. 
 
@@ -227,7 +161,7 @@ Resumir os tópicos importantes do estudo e emitir parecer conclusivo sobre a via
 \end{comment}
 
 
-\subsection{PROJETO DE INSTALAÇÃO DE UMA EMISSORA}
+\subsection{Projeto de instalação de uma emissora}
 
 Neste momento é solicitado as informações técnicas sobre a instalação da emissora.
 
@@ -543,12 +477,78 @@ contorno protegido é de 7,5km, a partir da base da antena transmissora.
 
 \end{comment}
 
-\chapter{CANAL PROPOSTO}
+\chapter{A}
+
+\section{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBFM)}
+
+O Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada é definido e gerenciado pela ANATEL, e nele constam os canais FM previstos para uso 
+em todo o território nacional. Os canais que ainda estão vagos podem ser consultados no portal da ANATEL~\cite{ref2}.
+
+ A faixa de radiodifusão sonora em frequência modulada estende-se de 87,8 MHz a 107,9 MHz, e é
+dividida em 103 canais (os canais 198,199 e 200 são para uso exclusivo das estações de ROADCOM), cujas portadoras estão separadas de 200 KHz.
+ Cada canal é identificado por sua frequência central,
+ que é a frequência da portadora da estação de FM, e a cada canal é atribuído um número de 198 a 300, que será o seu identificador.
+
+\subsection{CANALIZAÇÃO}
+
+A tabela de Canalização da Faixa de FM atual foi publicada na RESOLUÇÃO N°46, DE 1° DE SETEMBRO DE 2010, que altera o Regulamento Técnico para Emissoras de Radiodifusão
+Sonora em Frequência
+Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da norma~\cite{ref1} e apresenta a faixa de Frequência para cada canal FM, definido pelo PBFM. 
+
+\def\tablename{Tabela}
+\begin{table}
+\vspace*{0.05cm}
+\centering
+
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+
+Frequência & Canal & Frequência & Canal & Frequência & Canal\\
+ (MHz)&  & (MHz) &  & (MHz) &  \\ \hline
+87,5 & 198 & 94,5 & 233 & 101,5 & 268\\
+87,7 & 199 & 94,7 & 234 & 101,7 & 269\\
+87,9 & 200 & 94,9 & 235 & 101,9 & 270\\
+88,1 & 201 & 95,1 & 236 & 102,1 & 271\\
+88,3 & 202 & 95,3 & 237 & 102,3 & 272\\
+88,5 & 203 & 95,5 & 238 & 102,5 & 273\\
+88,7 & 204 & 95,7 & 239 & 102,7 & 274\\
+88,9 & 205 & 95,9 & 240 & 102,9 & 275\\
+89,1 & 206 & 96,1 & 241 & 103,1 & 276\\
+89,3 & 207 & 96,3 & 242 & 103,3 & 277\\
+89,5 & 208 & 96,5 & 243 & 103,5 & 278\\
+89,7 & 209 & 96,7 & 244 & 103,7 & 279\\
+89,9 & 210 & 96,9 & 245 & 103,9 & 280\\
+90,1 & 211 & 97,1 & 246 & 104,1 & 281\\
+90,3 & 212 & 97,3 & 247 & 104,3 & 282\\
+90,5 & 213 & 97,5 & 248 & 104,5 & 283\\
+90,7 & 214 & 97,7 & 249 & 104,7 & 284\\
+90,9 & 215 & 97,9 & 250 & 104,9 & 285\\
+91,1 & 216 & 98,1 & 251 & 105,1 & 286\\
+91,3 & 217 & 98,3 & 252 & 105,3 & 287\\
+91,5 & 218 & 98,5 & 253 & 105,5 & 288\\
+91,7 & 219 & 98,7 & 254 & 105,7 & 289\\
+91,9 & 220 & 98,9 & 255 & 105,9 & 290\\
+92,1 & 221 & 99,1 & 256 & 106,1 & 291\\
+92,3 & 222 & 99,3 & 257 & 106,3 & 292\\
+92,5 & 223 & 99,5 & 258 & 106,5 & 293\\
+92,7 & 224 & 99,7 & 259 & 106,7 & 294\\
+92,9 & 225 & 99,9 & 260 & 106,9 & 295\\
+93,1 & 226 & 100,1 & 261 & 107,1 & 296\\
+93,3 & 227 & 100,3 & 262 & 107,3 & 297\\
+93,5 & 228 & 100,5 & 263 & 107,5 & 298\\
+93,7 & 229 & 100,7 & 264 & 107,7 & 299\\
+93,9 & 230 & 100,9 & 265 & 107,9 & 300\\
+94,1 & 231 & 101,1 & 266 & & \\
+94,3 & 232 & 101,3 & 267 & & \\ \hline
+
+\end{tabular}
+\caption{Canalização da faixa de FM.}
+\label{tabelaCanalizacao}
+\end{table}
+
+\subsection{CARACTERÍSTICAS BÁSICAS DO CANAL PROPOSTO}
 
 Para que possa ser autorizado pela ANATEL a utilização de um canal de rádio FM, além da documentação solicitada conforme a Resolução, deve ser considerada
- as características básicas do canal.
-
-\section{CARACTERÍSTICAS BÁSICAS}
+ as características básicas do canal, conforme os requisitos referentes à sua classe. A classe do canal disponibilizado também já é definida pelo PBMF.
 
 Ao analisar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada, observou-se a existência do canal 218,
  disponível na região do município de São Pedro de Alcântara.
@@ -562,7 +562,7 @@ O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos que car
 \label{imagemSistemaInterativoAnatel}
 \end{figure}
 
-\subsection{Enquadramento na classe}
+\subsubsection{Enquadramento na classe}
 
 Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no portal da ANATEL (Figura~\ref{imagemSistemaInterativoAnatel})
 e, para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
@@ -595,6 +595,8 @@ e servem como referência para elaboração de estudos sem o uso de
 ferramentas computacionais.
 
 \end{quotation}
+
+
 
 \section{NÍVEL MÉDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
 
@@ -1463,10 +1465,10 @@ como pode ser observado no cálculo~\ref{e_media}.
 Resultando aproximadamante em 7 km, a média aritmética das distâncias do contorno protegido é menor que 7,5 km e está dentro do primeiro requisito. O segundo requisito
 também pode ser considerado como alcançado, pois a classe C é a última dentro da hierarquia das classes, ou seja, não existe uma classe imediatamente inferior a esta.
 
-Para verificar o último requisito, vamos utilizar o mapa de Macrozoneamento (ANEXO ~\ref{mapaMacrozoneamento}) e comparar com a área de cobertura.	
-Comparando os valores das distâncias do contorno protegido e do contorno da área urbana, sempre partindo da base da emissora e considerando os mesmos ângulos que formam
-as 12 radiais, podemos comprovar que a área urbana está inserida, praticamente, 100\% dentro do contorno de 66 dBm, conforme representado na Figura~\ref{contornoAreaUrbana}. Os
-valores que foram comparados podem ser verificados na tabela~\ref{tabelaAreaUrbana}.
+Para verificar o último requisito, é utilizado o mapa de Macrozoneamento (ANEXO ~\ref{mapaMacrozoneamento}) e comparar com a área de cobertura.	
+Comparando os valores das distâncias do contorno protegido e do contorno da área urbana, sempre partindo da base da emissora e considerando os 
+mesmos ângulos que formam as 12 radiais, pode-se comprovar que a área urbana está inserida, praticamente, 100\% dentro do contorno de 66 dBm, 
+conforme representado na Figura~\ref{contornoAreaUrbana}. Os valores que foram comparados podem ser verificados na tabela~\ref{tabelaAreaUrbana}.
 
 \def\tablename{Tabela}
 \begin{table}
@@ -1502,7 +1504,7 @@ Radial& Contorno 66dBm(km) & Distâncias zona urbana  \\\hline\hline
 \label{contornoAreaUrbana}
 \end{figure}
 
-Assim, comprovamos que a Área de Serviço Urbana está devidamente coberta pelo contorno de 66 dBm, conforme exige a Resolução.
+Assim, está comprovado que a Área de Serviço Urbana está devidamente coberta pelo contorno de 66 dBm, conforme exige a Resolução.
 
 \subsubsection{As outras áreas de serviços}
 
@@ -1515,23 +1517,26 @@ citado no trecho da Resolução:
 \label{trecho_5112}
 \end{quotation}
 
-Podemos verificar através da figura~\ref{contornoAreaUrbana} que o contorno de 74 dBm (área na cor laranja escuro) cobre aproximadamente 50\% da zona urbana da cidade.
+Pode ser verificado, através da figura~\ref{contornoAreaUrbana}, que o contorno de 74 dBm (área na cor laranja escuro) cobre aproximadamente 50\% da zona urbana da cidade.
 Considerando que a base da antena está fixada no centro de São Pedro de Alcântara, podemos concluir que este contorno esta cobrindo por completo a zona central da cidade.
 
 A Área de Serviço Rural (54 dBm) não é tratada com tanto rigor pela Resolução quanto as outras áreas. Uma vez que a 
-Área de Serviço Urbana e Primario estão cobrindo o que é estabelecido na resolução, a Área de Serviço Rural também é aprovada.
+Área de Serviço Urbana e Primário estão cobrindo o que é estabelecido na resolução, a Área de Serviço Rural também é aprovada.
 
-Com base nessas informações, sabemos agora que estamos atendendo devidamente a cidade em relação às Áreas de Serviço. 
+Com base nessas informações, já pode-se afirmar que o sistema está atendendo devidamente a cidade em relação às Áreas de Serviço.
+
 
 \section{Comparando dos resultados finais com os valores calculados pela aplicação do SIGAnatel}
 
-A SIGNATEL é uma ferramenta que auxília os estudos e projetos de estações de radiocomunicação. Foi esta ferramenta que usamos para encontrar os gráficos de perfil do 
-terreno e também para a demostração da área de cobertura da emissora através da imagem de satélite. Além de disponibizar estes recursos, a ferramenta também pode ser usada 
-para comparar os resultados obtidos com o projeto. 
+A SIGNATEL é uma ferramenta que auxília os estudos e projetos de estações de radiocomunicação. Foi esta a ferramenta usada para encontrar os 
+gráficos de perfil do terreno e também para a demostração da área de cobertura da emissora através da imagem de satélite. Além de disponibizar 
+estes recursos, a ferramenta também pode ser usada para comparar os resultados obtidos com o projeto. 
 
-No momento que já temos definidas as especificações técnicas, obtidas no decorrer do projeto e que apresentaram os resultados desejados, podemos conferir, através da
-ferramenta, se os resultados do estudo correspondem com os resultados originados pela aplicação. A figura~\ref{resultados_SIGANATEL} mostra a interface da aplicação e os resultados obtidos com as
-mesmas especificações definidas neste projeto. A ferramenta também pode gerar um relatório com estas informações, como mostra o ANEXO~\ref{relatorio_siganatel}. 
+No momento que já estão definidas as especificações técnicas, obtidas no decorrer do projeto e que apresentaram os resultados desejados, 
+podem ser conferidos, através da ferramenta, se os resultados do estudo correspondem com os resultados originados pela aplicação. 
+A Figura~\ref{resultados_SIGANATEL} mostra a interface da aplicação e os resultados obtidos com as
+mesmas especificações definidas neste projeto. A ferramenta também pode gerar um relatório com estas informações, como mostra o 
+ANEXO~\ref{relatorio_siganatel}. 
 
 \begin{figure}[!htb]
 \centering
@@ -1542,19 +1547,23 @@ mesmas especificações definidas neste projeto. A ferramenta também pode gerar um
 \end{figure}
 
 Ao comparar os resultados da ferramenta com os resultados do estudo, pode-se considerar que as conclusões são semelhantes.
-As poucas diferenças são notas apenas nos valores que derivam do estudo do terreno, como $NMT$, $HNMT$ e os contornos. Isto acontece devido à precisão da aplicação 
-contra o método manual que foi praticado no estudo, onde buscamos os valores de $NMT$ através da observação dos gráficos de perfil de terreno e, no caso dos contornos,
- encontramos os valores utilizando as curvas de intensidade de campo, tornando o resultado um pouco impreciso, mas não o suficiente para compromenter o projeto.
+As poucas diferenças são notas apenas nos valores que derivam do estudo do terreno, como $NMT$, $HNMT$ e os contornos. Isto acontece devido 
+à precisão da aplicação contra o método manual que foi praticado no estudo, onde foi buscados os valores de $NMT$, através da observação dos 
+gráficos de perfil de terreno e, no caso dos contornos, foram encontrados os valores utilizando as curvas de intensidade de campo, tornando o 
+resultado um pouco impreciso, mas não o suficiente para compromenter o projeto.
 
 De maneira geral, os resultados dos contornos ficaram bem próximos, afirmando que os cálculos foram conduzidos da forma correta e bem-sucedidas.
 
+\begin{comment}
+
 \chapter{APRESENTANDO AS INFORMAÇÕES TÉCNICAS, CONFORME O ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
 
-Após desenvolver o projeto respeitando a Resolução, e também utilizando recursos da recomendação, apresentaremos agora as informações que são solicitadas
-no roteiro para elaboração de estudos técnicos.
+Após desenvolver o projeto respeitando a Resolução, e também utilizando recursos da recomendação, será apresentado agora as informações que 
+são solicitadas no roteiro para elaboração de estudos técnicos.
 
-Todas estas informações foram definidas e detalhadas no decorrer deste estudo e agora serão organizadas por tópicos, conforme é apresentado no roteiro.
-Seguem as informações técnicas necessárias para que a ANATEL autorize a utilização do canal 218, classe C, disponível no município de São Pedro de Alcântara.
+Todas estas informações foram definidas e detalhadas no decorrer deste estudo e agora serão organizadas por tópicos, conforme é apresentado no 
+roteiro. Seguem as informações técnicas necessárias para que a ANATEL autorize a utilização do canal 218, classe C, disponível no município 
+de São Pedro de Alcântara.
 
 \section{Informações Básicas}
 
@@ -1580,7 +1589,7 @@ Seguem as informações técnicas necessárias para que a ANATEL autorize a utilizaç
 
 \item  \textbf{Tipo de sistema irradiante:} Dipolo 1/2 onda, polarização vertical.
 
-\item  \textbf{Coordenadas geográficas de instalação:} 27° 34 02.72 S / 48° 48 33.71 O.
+\item  \textbf{Coordenadas geográficas de instalação:} 27° 34' 02.72'' S / 48° 48' 33.71'' O.
 
 \end{itemize}
 
@@ -1708,7 +1717,10 @@ Radial/NMT(m): 1/158,38; 2/73,46; 3/169,14; 4/166,2; 5/250,46; 6/196,86; 7/151,5
 \item \textbf{Nível médio do terreno:} 288,33m
 
 
+
 \end{enumerate}
+
+\end{comment}
 
 \begin{comment}
 
