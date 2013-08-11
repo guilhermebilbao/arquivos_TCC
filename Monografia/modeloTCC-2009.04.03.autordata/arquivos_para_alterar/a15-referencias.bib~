@@ -35,7 +35,7 @@ year={2013},
 urlaccessdate={27 mai. 2013}}
 
 @manual{ref4,
-organization={UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE RADIOCOMUNICAÇÕES.},
+organization={UNIÃO INTERNACIONAL DE TELECOMUNICA\-ÇÕES: SETOR DE RADIOCOMUNICAÇÕES.},
 title={Recomendação P.1546-4: Médoto de previsões ponto-área para serviços terrestres na
 faixa de frequências de 30 a 3000MHz.},
 url={http://www.itu.int/rec/R-REC-P.1546-4-200910-I/en},
@@ -92,7 +92,7 @@ year={2010},
 urlaccessdate={25 jun. 2013}}
 
 @manual{ref12,
-organization={Capiulo 9 - Roteiro para elaboração de estudos técnicos},
+organization={Capitulo 9 - Roteiro para elaboração de estudos técnicos},
 title={Resolução nº 67, de 12 de novembro de 1998 - ANATEL.(com alterações na redação dada pela Resolução nº 546, de 1º de setembro de 2010)},
 url={http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67},
 year={1998},

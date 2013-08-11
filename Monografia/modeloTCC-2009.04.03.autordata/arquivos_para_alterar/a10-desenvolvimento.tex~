@@ -1,13 +1,13 @@
 \chapter{INTRODUÇÃO}
 
-Visando aprofundar os conhecimentos em rádiotransmissão, através deste estudo é apresentado os aspectos e considerações técnicas necessárias para projetar uma
+Visando aprofundar os conhecimentos em radiotransmissão, através deste estudo é apresentado os aspectos e considerações técnicas necessárias para projetar uma
 emissora de rádio em frequência modulada.
 
 Comunicar-se, utilizando como meio ondas eletromagnéticas, já é um método bastante conhecido e difundido à muitos anos, consolidando-se
 historicamente como um dos meios de comunicação mais usados no mundo.
- Apesar da crescente e irreversível expansão da comunicação através da transmissão de dados, as emissoras de rádio ainda mantém seu 
+ Apesar da crescente e irreversível expansão da comunica\-ção através da transmissão de dados, as emissoras de rádio ainda mantém seu 
 espaço entre os usuários.
- Seja para ouvir músicas, notícias ou entretenimento em geral, este método de comunicação ainda mantém-se
+ Seja para ouvir músicas, notícias ou entretenimento em geral, este método de comunica\-ção ainda mantém-se
 ativo devido à simplicidade para o acesso dos ouvintes, que já são culturalmente habituados à ouvir o rádio durante as suas atividades 
 ou nos momentos de lazer.
 
@@ -33,10 +33,10 @@ Realizar um estudo sobre as especificações técnicas necessárias para homologar u
 
 \section{MOTIVAÇÃO E JUSTIFICATIVA}
 
-Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em radiotransmissão, é abordar as atualizações nas normas técnicas.
- Também para servir como referência para estudantes e futuros projetistas, pois, apesar de ser um tipo de projeto já muitas vezes executados em diversos cenários e situações, 
-é grande a dificuldade para encontrar um modelo diponível para consulta. Este documento certamente pode servir de base para outros projetos de emissoras FM ou radiotransmissão em
-geral. 
+Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em radiotrans\-missão, é abordar as atualizações nas normas técnicas.
+ Também para servir como referência para estudantes e futuros projetistas, pois, apesar de ser um tipo de projeto já muitas vezes executados em
+ diversos cenários e situações, é grande a dificuldade para encontrar um modelo diponível para consulta. Este documento certamente pode servir de
+ base para outros projetos de emissoras FM ou radiotransmissão em geral. 
 
 \section{ESTRUTURA DO TRABALHO}
 
@@ -64,7 +64,7 @@ de intensidade de campo ( E(50,50) e E(50,10) ), essas últimas vindas da Recomen
  
 As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
 
-\section{ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
+\section{ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉC\-NICOS}
 
 A Resolução contém um capítulo inteiro~\cite{ref12} que aborda um roteiro para elaboração de estudos técnicos, 
 indicando diversos parâmetros técnicos que devem ser informados sobre a emissora para as diversas e possíveis situações.
@@ -406,8 +406,8 @@ Documentos diversos:
 
 \section{RECOMENDAÇÃO UIT-R P.1546}
 
-A UIT-R (UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES - RADIOCOMUNICAÇÕES), através da Recomendação UIT-R P.1546~\cite{ref4},
- descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
+A UIT-R (UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES - RADIOCOMUNI\-CAÇÕES), através da Recomendação 
+UIT-R P.1546~\cite{ref4}, descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
 na faixa de 30 a 3000 MHz, e foi adotada no lugar das curvas de nível de campo anteriormente utilizadas.
  Os procedimentos que seguimos neste trabalho, principalmente para definir as áreas de serviços, foram
 baseados nestes métodos. 
@@ -567,7 +567,7 @@ O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos que car
 \subsection{Enquadramento na classe}
 
 Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no portal da ANATEL (Figura~\ref{imagemSistemaInterativoAnatel})
-e, para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
+e, para que o projeto respeite as especifica\-ções desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
 figura~\ref{tabelaClassificacaoEmissoras}.
 
 Porém, a Resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas outras condições também informadas. 
@@ -634,14 +634,14 @@ A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no m
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=.4]{./figuras/siganatel_radiais.png} 
+\includegraphics[scale=.38]{./figuras/siganatel_radiais.png} 
 \caption{Demonstração do layout do aplicativo da SIGAnatel.}
 \label{radiaisSiganatel}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=.48]{./figuras/radiais_detalhado.png} 
+\includegraphics[scale=.46]{./figuras/radiais_detalhado.png} 
 \caption{Traçado das 12 radiais partindo da base da emissora.}
 \label{radiais_detalhado}
 \end{figure}
@@ -961,9 +961,9 @@ O ANEXO~\ref{especificacaoAntena} contém o documento do fabricante da antena na 
 
 Conforme a potência máxima irradiada e a antena escolhida, fica definido, para o guia de onda, o uso do padrão EIA 1-5/8''.
 Optou-se pelo 1-5/8" CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable, da fabricante RFS, que apresenta uma atenuação de apenas $0.663dB/100m$,
- operando numa frequênciancia de 88 MHz, conforme especificações em ANEXO~\ref{especificacaoGuia}.
- Como a frequência do canal que está sendo projetado é de 91,5 MHz, é adotado o valor de $0.680dB/100m$ (valor encontrado usando como base
-os valores informados na especificação).
+ operando numa frequênciancia de 88 MHz, conforme especificações em ANE\-XO~\ref{especificacaoGuia}.
+ Como a frequência do canal que está sendo projetado é de 91,5 MHz, é adotado o valor de $0.680dB/100m$ (valor encontrado usando como base 
+a tebela de atenuação, presente na especificação técnica).
 
 Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 55 m. Sendo assim, o comprimento do guia de onda será de 65 m,
 visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada (casa do transmissor). Portanto, a atenuação
@@ -1126,7 +1126,7 @@ Potência do transmissor & 0,150kW\\ \hline
 \label{tabelaResumoEspecificacoesTecnicas}
 \end{table}
 
-Os próximos passos serão destinados à mostrar os valores que comprovarão que esta configuração do sistema 
+Os próximos passos serão destinados à mostrar os valores que comprovarão que esta configu\-ração do sistema 
 está respeitando todos os requisitos máximos, principalmente o contorno protegido de 66 dBm.
 
 \section{DEFININDO AS POTÊNCIAS ERPmax e ERPaz}
@@ -1260,7 +1260,7 @@ $330°$& 0,88 & 0,1985 & -7,02 \\\hline
 \label{tabelaERPaz}
 \end{table}
 
-\section{DEFININDO OS CONTORNOS DAS ÁREAS DE SERVIÇOS}
+\section{DEFININDO OS CONTORNOS DAS ÁREAS DE SERVI\-ÇOS}
 
 Definir a distância do contorno protegido, cobertura da Área de Serviço Urbana com potência mínima de 66 dBm, 
 é o principal objetivo deste estudo. 
@@ -1528,7 +1528,7 @@ Com base nessas informações, já pode-se afirmar que o sistema está atendendo dev
 
 \section{COMPARANDO OS RESULTADOS FINAIS COM OS VALORES CALCULADOS PELA APLICAÇÃO DO SIGAnatel}
 
-A SIGNATEL é uma ferramenta que auxília os estudos e projetos de estações de radiocomunicação. Foi esta a ferramenta usada para encontrar os 
+A SIGNATEL é uma ferramenta que auxília os estudos e projetos de estações de radiocomu\-nicação. Foi esta a ferramenta usada para encontrar os 
 gráficos de perfil do terreno e também para a demostração da área de cobertura da emissora através da imagem de satélite. Além de disponibizar 
 estes recursos, a ferramenta também pode ser usada para comparar os resultados obtidos com o projeto. 
 

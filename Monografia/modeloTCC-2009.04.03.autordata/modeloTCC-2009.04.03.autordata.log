@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.6)  6 AUG 2013 23:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.7.6)  11 AUG 2013 10:11
 entering extended mode
  %&-line parsing enabled.
 **modeloTCC-2009.04.03.autordata.tex
@@ -443,29 +443,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 
 ]
 Cap\'{\i }tulo 1.
-
-Overfull \hbox (8.672pt too wide) in paragraph at lines 6--13
-\OT1/ptm/m/n/12 comunica[][]ao mais usa-dos no mundo. Ape-sar da cres-cente e i
-r-re-vers[]^^Pvel ex-pans[]ao da comunica[][]ao
- []
-
-
-Overfull \hbox (19.45888pt too wide) in paragraph at lines 6--13
-\OT1/ptm/m/n/12 usu[]arios. Seja para ou-vir m[]usicas, not[]^^Pcias ou en-tre-
-te-ni-mento em ge-ral, este m[]etodo de comunica[][]ao
- []
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 22.
 [14
 
 ] [15]
 Cap\'{\i }tulo 2.
-
-Overfull \hbox (45.40059pt too wide) in paragraph at lines 67--67
-[]\OT1/ptm/b/n/17.28 ROTEIRO PARA ELABORA[][]AO DE ES-TU-DOS T[]ECNICOS 
- []
-
 [16
 
 ]
@@ -481,19 +464,8 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 102.
- [17] [18] [19]
-Overfull \hbox (45.79373pt too wide) in paragraph at lines 409--414
-[]\OT1/ptm/m/n/12 A UIT-R (UNI[]AO IN-TER-NA-CI-O-NAL DE TELECOMUNICA[][]OES - 
-RADIOCOMUNICA[][]OES),
- []
-
-
-Overfull \hbox (28.56613pt too wide) in paragraph at lines 409--414
-\OT1/ptm/m/n/12 atrav[]es da Recomenda[][]ao UIT-R P.1546 (UNI[]AO IN-TER-NA-CI
--O-NAL DE TELECOMUNICA[][]OES:
- []
-
-[20] [21] [22]
+ [17] [18] [19] [20]
+[21] [22]
 Cap\'{\i }tulo 3.
 
 Overfull \hbox (18.98096pt too wide) in paragraph at lines 553--553
@@ -506,11 +478,6 @@ Overfull \hbox (18.98096pt too wide) in paragraph at lines 553--553
 <./figuras/imagem_plano_basico_218_anatel.png, id=90, 618.81187pt x 355.3275pt>
 File: ./figuras/imagem_plano_basico_218_anatel.png Graphic file (type png)
 <use ./figuras/imagem_plano_basico_218_anatel.png>
-Overfull \hbox (19.20724pt too wide) in paragraph at lines 569--572
-\OT1/ptm/m/n/12 forme apre-sen-tado no por-tal da ANA-TEL (Fi-gura 3.1[]) e, pa
-ra que o pro-jeto res-peite as especifica[][]oes
- []
-
 <./figuras/tabelaClassificacaoEmissoras.png, id=91, 861.2175pt x 412.54124pt>
 File: ./figuras/tabelaClassificacaoEmissoras.png Graphic file (type png)
 
@@ -531,7 +498,7 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 614.
 File: ./figuras/siganatel_radiais.png Graphic file (type png)
 
 <use ./figuras/siganatel_radiais.png>
-Overfull \hbox (25.34288pt too wide) in paragraph at lines 637--638
+Overfull \hbox (1.32637pt too wide) in paragraph at lines 637--638
  [][] 
  []
 
@@ -539,7 +506,7 @@ Overfull \hbox (25.34288pt too wide) in paragraph at lines 637--638
 File: ./figuras/radiais_detalhado.png Graphic file (type png)
 
 <use ./figuras/radiais_detalhado.png>
-Overfull \hbox (20.64842pt too wide) in paragraph at lines 644--645
+Overfull \hbox (0.83029pt too wide) in paragraph at lines 644--645
  [][] 
  []
 
@@ -572,14 +539,7 @@ Cap\'{\i }tulo 4.
 <./figuras/diagrama_de_irradiacao.jpg, id=139, 307.8702pt x 280.4076pt>
 File: ./figuras/diagrama_de_irradiacao.jpg Graphic file (type jpg)
 
-<use ./figuras/diagrama_de_irradiacao.jpg>
-Overfull \hbox (22.28062pt too wide) in paragraph at lines 962--967
-\OT1/ztmcm/m/n/12 0\OML/ztmcm/m/it/12 :\OT1/ztmcm/m/n/12 663\OML/ztmcm/m/it/12 
-dB=\OT1/ztmcm/m/n/12 100\OML/ztmcm/m/it/12 m$\OT1/ptm/m/n/12 , ope-rando numa f
-requ[]enciancia de 88 MHz, con-forme especifica[][]oes em ANEXO B[].
- []
-
-[36
+<use ./figuras/diagrama_de_irradiacao.jpg> [36
 
 ] [37 <./figuras/diagrama_de_irradiacao.jpg>] [38]
 Overfull \hbox (2.56006pt too wide) in paragraph at lines 1026--1029
@@ -590,12 +550,6 @@ Overfull \hbox (2.56006pt too wide) in paragraph at lines 1026--1029
 
 [39] [40]
 Cap\'{\i }tulo 5.
-
-Overfull \hbox (25.4327pt too wide) in paragraph at lines 1129--1131
-[]\OT1/ptm/m/n/12 Os pr[]oximos pas-sos ser[]ao des-ti-na-dos []a mos-trar os v
-a-lo-res que com-pro-var[]ao que esta configura[][]ao
- []
-
 [41
 
 ] [42]
@@ -648,8 +602,8 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 1255.
 LaTeX Warning: Command \textdegree invalid in math mode on input line 1256.
 
 
-Overfull \hbox (40.21558pt too wide) in paragraph at lines 1263--1263
-[]\OT1/ptm/b/n/17.28 DEFININDO OS CON-TOR-NOS DAS []AREAS DE SERVI[]OS 
+Overfull \hbox (10.4424pt too wide) in paragraph at lines 1263--1263
+[]\OT1/ptm/b/n/17.28 DEFININDO OS CON-TOR-NOS DAS []AREAS DE SERVI-
  []
 
 
@@ -698,12 +652,12 @@ LaTeX Warning: Command \textdegree invalid in math mode on input line 1338.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 1339.
 
-[45 <./figuras/e5050_calc.jpg>]
+[45]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1369.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1369.
- [46] [47]
+ [46 <./figuras/e5050_calc.jpg>] [47]
 <./figuras/todososcontornos.png, id=179, 983.17313pt x 536.0025pt>
 File: ./figuras/todososcontornos.png Graphic file (type png)
 
@@ -738,12 +692,6 @@ Overfull \hbox (40.16112pt too wide) in paragraph at lines 1502--1503
 [50] [51 <./figuras/contornoAreaUrbana.png>]
 Overfull \hbox (0.92216pt too wide) in paragraph at lines 1529--1529
 \OT1/ptm/b/n/17.28 VA-LO-RES CAL-CU-LA-DOS PELA APLICA[][]AO DO SI-
- []
-
-
-Overfull \hbox (34.38306pt too wide) in paragraph at lines 1531--1534
-[]\OT1/ptm/m/n/12 A SIG-NA-TEL []e uma fer-ra-menta que aux[]^^Plia os es-tu-do
-s e pro-je-tos de esta[][]oes de radiocomunica[][]ao.
  []
 
 <./figuras/resultado_siganatel.png, id=195, 579.66562pt x 534.49687pt>
@@ -946,7 +894,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  3493 strings out of 495041
  51282 string characters out of 1181898
- 154079 words of memory out of 3000000
+ 154127 words of memory out of 3000000
  6454 multiletter control sequences out of 15000+50000
  67915 words of font info for 150 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
@@ -959,7 +907,7 @@ cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/urw/symbol/usyr.pfb></usr/shar
 e/texmf-texlive/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-texlive/font
 s/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/u
 tmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modeloTCC-2009.04.03.autordata.pdf (80 pages, 12944359 bytes)
+Output written on modeloTCC-2009.04.03.autordata.pdf (80 pages, 12944617 bytes)
 .
 PDF statistics:
  425 PDF objects out of 1000 (max. 8388607)
