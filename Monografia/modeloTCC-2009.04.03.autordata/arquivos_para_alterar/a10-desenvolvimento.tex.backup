@@ -1,13 +1,13 @@
-\chapter{INTRODUÇÃO}
+\chapter{Introdução}
 
-Visando aprofundar os conhecimentos em rádiotransmissão, através deste estudo é apresentado os aspectos e considerações técnicas necessárias para projetar uma
+Visando aprofundar os conhecimentos em radiotransmissão, através deste estudo é apresentado os aspectos e considerações técnicas necessárias para projetar uma
 emissora de rádio em frequência modulada.
 
 Comunicar-se, utilizando como meio ondas eletromagnéticas, já é um método bastante conhecido e difundido à muitos anos, consolidando-se
 historicamente como um dos meios de comunicação mais usados no mundo.
- Apesar da crescente e irreversível expansão da comunicação através da transmissão de dados, as emissoras de rádio ainda mantém seu 
+ Apesar da crescente e irreversível expansão da comunica\-ção através da transmissão de dados, as emissoras de rádio ainda mantém seu 
 espaço entre os usuários.
- Seja para ouvir músicas, notícias ou entretenimento em geral, este método de comunicação ainda mantém-se
+ Seja para ouvir músicas, notícias ou entretenimento em geral, este método de comunica\-ção ainda mantém-se
 ativo devido à simplicidade para o acesso dos ouvintes, que já são culturalmente habituados à ouvir o rádio durante as suas atividades 
 ou nos momentos de lazer.
 
@@ -16,36 +16,38 @@ estabelecer a comunicação e a interação entre as comunidades destas regiões, dev
 também o uso dos meios mais modernos.
 
 Para que a ANATEL autorize que uma emissora de rádio transmita seu sinal, fazendo uso de um dos canais disponibilizados e ainda vagos no plano básico, 
-deve-se seguir e apresentar uma documentação técnica que esteja respeitando todos os requisitos apresentado na norma técnica~\cite{ref1}, publicada no seu portal~\cite{ref3}. 
- Demostrar os procedimentos necessários para desenvolver um projeto que respeite esta norma é o principal objetivo do estudo apresentado neste trabalho.
+deve-se seguir e apresentar uma documentação técnica que esteja respeitando todos os requisitos apresentado na norma técnica\footnote{\url{http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67/}}
+\footnote{~\cite{ref1}},
+ publicada no seu portal\footnote{\url{http://www.anatel.gov.br/Portal/}}\footnote{~\cite{ref3}}. 
+Demostrar os procedimentos necessários para desenvolver um projeto que respeite esta norma é o principal objetivo do estudo apresentado neste trabalho.
 
-\section{OBJETIVO GERAL}
+\section{Objetivo geral}
 
 
 Estudo e compreensão das normas técnicas, relacionadas à rádio FM e suas atualizações, juntamente com 
 a utilização de ferramentas livres oferecidas pela ANATEL.
 
-\section{OBJETIVO ESPECÍFICO}
+\section{Objetivo específico}
 
 Realizar um estudo sobre as especificações técnicas necessárias para homologar um canal de rádio FM disponível no plano básico da ANATEL.
  Colocar em prática os procedimentos e conhecimentos obtidos das recomendações, aplicando em um cenário real.
  %Com os resultados definidos, será elaborado a documentação técnica solicitada pela ANATEL.
 
-\section{MOTIVAÇÃO E JUSTIFICATIVA}
+\section{Motivação e justificativa}
 
-Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em radiotransmissão, é abordar as atualizações nas normas técnicas.
- Também para servir como referência para estudantes e futuros projetistas, pois, apesar de ser um tipo de projeto já muitas vezes executados em diversos cenários e situações, 
-é grande a dificuldade para encontrar um modelo diponível para consulta. Este documento certamente pode servir de base para outros projetos de emissoras FM ou radiotransmissão em
-geral. 
+Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em radiotrans\-missão, é abordar as atualizações nas normas técnicas.
+ Também para servir como referência para estudantes e futuros projetistas, pois, apesar de ser um tipo de projeto já muitas vezes executados em
+ diversos cenários e situações, é grande a dificuldade para encontrar um modelo diponível para consulta. Este documento certamente pode servir de
+ base para outros projetos de emissoras FM ou radiotransmissão em geral. 
 
-\section{ESTRUTURA DO TRABALHO}
+\section{Estrutura do trabalho}
 
 Nos primeiros capítulos são estudados as resoluções e normas aprovados referentes aos cálculos de viabilidade de um canal de rádio FM. 
 Seguindo, aborda-se sobre o canal proposto. Depois começam as definições para o início dos cálculos do contorno protegido. 
 Após, são apresentados as especificações definidas para o projeto da emissora. % e a documentação que deve ser apresentada junto a ANATEL.
 Ao final, são apresentadas as conclusões e novas propostas de trabalhos.
 
-\chapter{RESOLUÇÃO N° 67, DE 12 DE NOVEMBRO DE 1998}
+\chapter{Resolução n° 67, de 12 de novembro de 1998}
 
 A Resolução n° 67 aprova o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada. 
 Tem por objetivo disciplinar a utilização da faixa de 87,8 MHz a 108 MHz, no serviço de Radiodifusão sonora em Frequência modulada
@@ -62,12 +64,12 @@ A última Resolução, que altera o regulamento aprovado na Resolução N° 67, é a de
 desenvolvimento do projeto. Como exemplo, pode ser citado a classificação das emissoras em função de seus requisitos máximos e as curvas 
 de intensidade de campo ( E(50,50) e E(50,10) ), essas últimas vindas da Recomendação UIT-R P.1546.
  
-As resoluções podem ser consultadas através do portal da ANATEL, através do link \url{http://legislacao.anatel.gov.br/resolucoes/}
+As resoluções podem ser consultadas através do portal da ANATEL, através do link\footnote{\url{http://legislacao.anatel.gov.br/resolucoes/}}.
 
-\section{ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
+\section{Roteiro para elaboração de estudos técnicos}
 
-A Resolução contém um capítulo inteiro~\cite{ref12} que aborda um roteiro para elaboração de estudos técnicos, 
-indicando diversos parâmetros técnicos que devem ser informados sobre a emissora para as diversas e possíveis situações.
+A Resolução n°67 contém um capítulo inteiro\footnote{Capitulo 9 - Roteiro para elaboração de estudos técnicos~\cite{ref12}}
+ que aborda um roteiro para elaboração de estudos técnicos, indicando diversos parâmetros técnicos que devem ser informados sobre a emissora para as diversas e possíveis situações.
 
 Neste capítulo será abordado apenas as informações solicitadas que, particularmente, são necessárias para a homologação da emissora proposta neste estudo,
  pois o roteiro, apresentado na íntegra na Resolução, apresenta diversas outras solicitações que cabem à cenários diferentes do estudado neste projeto.
@@ -404,9 +406,10 @@ Documentos diversos:
 \end{comment}
 
 
-\section{RECOMENDAÇÃO UIT-R P.1546}
-A UIT-R (UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES - RADIOCOMUNICAÇÕES), através da Recomendação UIT-R P.1546~\cite{ref4},
- descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
+\section{Recomendação UIT-R P.1546}
+
+A UIT-R (UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES - RADIOCOMUNI\-CAÇÕES), através da Recomendação 
+UIT-R P.1546~\cite{ref4}, descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
 na faixa de 30 a 3000 MHz, e foi adotada no lugar das curvas de nível de campo anteriormente utilizadas.
  Os procedimentos que seguimos neste trabalho, principalmente para definir as áreas de serviços, foram
 baseados nestes métodos. 
@@ -439,7 +442,7 @@ valores não forem exatamente iguais aos tabulados.
 As curvas utilizadas neste estudo são a $E(50,50)$ e $E(50,10)$ que podem ser
 encontradas na Resolução~\cite{ref1}.~\cite{paulo}
 
-\section{ADAPTAÇÕES DA RECOMENDAÇÃO}
+\section{Adaptações da recomendação}
 
 Apesar da recomendação descrever métodos para obter valores precisos, a
 Resolução introduz algumas adaptações, que facilitam os cálculos envolvidos. As adaptações
@@ -477,23 +480,29 @@ contorno protegido é de 7,5km, a partir da base da antena transmissora.
 
 \end{comment}
 
-\chapter{A}
+\chapter{Canal proposto}
 
-\section{PLANO BÁSICO DE DISTRIBUIÇÃO DE CANAIS DE RADIODIFUSÃO SONORA EM FREQUÊNCIA MODULADA (PBFM)}
+Para que possa ser autorizado pela ANATEL a utilização de um canal de rádio FM, além da documentação solicitada conforme a Resolução, deve ser considerada
+ as características básicas do canal, conforme os requisitos referentes à sua classe.
 
-O Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada é definido e gerenciado pela ANATEL, e nele constam os canais FM previstos para uso 
-em todo o território nacional. Os canais que ainda estão vagos podem ser consultados no portal da ANATEL~\cite{ref2}.
+\section{Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada}
+
+O Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada (PBFM) é definido e gerenciado pela ANATEL, e nele constam os canais FM previstos para uso 
+em todo o território nacional. A classes dos canais disponibilizados também são definidas pelo PBMF. 
+Os canais que ainda estão vagos podem ser consultados no portal da ANATEL\footnote{\url{sistemas.anatel.gov.br/srd/Telalistagem.asp?PagSRD=/SRD/Relatorios/PlanoBasico/RelCanaisVagos.asp&OP=5&SISQSmodulo=9900}}
+\footnote{~\cite{ref2}}.
+
+\subsection{Canalização}
 
  A faixa de radiodifusão sonora em frequência modulada estende-se de 87,8 MHz a 107,9 MHz, e é
-dividida em 103 canais (os canais 198,199 e 200 são para uso exclusivo das estações de ROADCOM), cujas portadoras estão separadas de 200 KHz.
- Cada canal é identificado por sua frequência central,
- que é a frequência da portadora da estação de FM, e a cada canal é atribuído um número de 198 a 300, que será o seu identificador.
+dividida em 103 canais (os canais 198,199 e 200 são para uso exclusivo das estações de ROADCOM\footnote{Serviço de Radiodifusão Comunitária}.
+), cujas portadoras estão separadas de 200 KHz. 
+Cada canal é identificado por sua frequência central, que é a frequência da portadora da estação de FM, e a cada canal é atribuído um número 
+de 198 a 300, que será o seu identificador.
 
-\subsection{CANALIZAÇÃO}
-
-A tabela de Canalização da Faixa de FM atual foi publicada na RESOLUÇÃO N°46, DE 1° DE SETEMBRO DE 2010, que altera o Regulamento Técnico para Emissoras de Radiodifusão
-Sonora em Frequência
-Modulada. A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada da norma~\cite{ref1} e apresenta a faixa de Frequência para cada canal FM, definido pelo PBFM. 
+A tabela de Canalização da Faixa de FM atual foi publicada na Resolução nº546, de 1º de setembro de 2010\footnote{~\cite{ref9}}, 
+que altera o Regulamento Técnico para Emissoras de Radiodifusão Sonora em Frequência Modulada. 
+A tabela~\ref{tabelaCanalizacao}, que segue, foi retirada desta resolução e apresenta a faixa de frequência para cada canal FM, definido pelo PBFM. 
 
 \def\tablename{Tabela}
 \begin{table}
@@ -545,10 +554,7 @@ Frequência & Canal & Frequência & Canal & Frequência & Canal\\
 \label{tabelaCanalizacao}
 \end{table}
 
-\subsection{CARACTERÍSTICAS BÁSICAS DO CANAL PROPOSTO}
-
-Para que possa ser autorizado pela ANATEL a utilização de um canal de rádio FM, além da documentação solicitada conforme a Resolução, deve ser considerada
- as características básicas do canal, conforme os requisitos referentes à sua classe. A classe do canal disponibilizado também já é definida pelo PBMF.
+\section{Características básicas do canal proposto}
 
 Ao analisar os canais disponíveis no Plano Básico de Distribuição de Canais de Radiodifusão Sonora em Frequência Modulada, observou-se a existência do canal 218,
  disponível na região do município de São Pedro de Alcântara.
@@ -562,10 +568,10 @@ O canal é enquadrado na classe C, sendo assim, deve seguir os requisitos que car
 \label{imagemSistemaInterativoAnatel}
 \end{figure}
 
-\subsubsection{Enquadramento na classe}
+\subsection{Enquadramento na classe}
 
 Como já mencionado, o canal usado para este projeto está enquadrado na classe C, conforme apresentado no portal da ANATEL (Figura~\ref{imagemSistemaInterativoAnatel})
-e, para que o projeto respeite as especificações desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
+e, para que o projeto respeite as especifica\-ções desta classe, deve ser observado seus requisitos máximos, que podem ser verificados na 
 figura~\ref{tabelaClassificacaoEmissoras}.
 
 Porém, a Resolução aceita algumas diferenças aos requisitos apresentados, desde que, ainda assim, respeite algumas outras condições também informadas. 
@@ -596,9 +602,7 @@ ferramentas computacionais.
 
 \end{quotation}
 
-
-
-\section{NÍVEL MÉDIO DO TERRENO E ALTURA ACIMA DO NÍVEL MÉDIO DO TERRENO}
+\section{Nível Médio do Terreno e Altura Acima do Nível Médio do Terreno}
 
 A seguir será apresentado o método usado para o reconhecimento geométrico do local onde será instalado a emissora.
 Estes dados são de extrema importância para o sucesso do projeto.
@@ -634,14 +638,14 @@ A tabela~\ref{tabelaCoordenadas} mostra as coordenadas dos pontos definidos no m
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=.4]{./figuras/siganatel_radiais.png} 
+\includegraphics[scale=.38]{./figuras/siganatel_radiais.png} 
 \caption{Demonstração do layout do aplicativo da SIGAnatel.}
 \label{radiaisSiganatel}
 \end{figure}
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[scale=.48]{./figuras/radiais_detalhado.png} 
+\includegraphics[scale=.46]{./figuras/radiais_detalhado.png} 
 \caption{Traçado das 12 radiais partindo da base da emissora.}
 \label{radiais_detalhado}
 \end{figure}
@@ -884,7 +888,7 @@ Radial & NMR & HNMT \\ \hline
 \label{tabelaHNMT}
 \end{table}
 
-\section{CONTORNO PROTEGIDO}
+\section{Contorno protegido}
 
 O contorno protegido de uma estação de rádio FM corresponde ao lugar
 geométrico onde a intensidade de campo do sinal apresentar o valor de 66 dB$\mu$ (2mV/m)(Contorno 2). 
@@ -927,13 +931,13 @@ conforme apresentado na Figura~\ref{proximidadePBMF}.
 \label{proximidadePBMF}
 \end{figure}
 
-\chapter{EQUIPAMENTOS BÁSICOS QUE COMPÕEM A EMISSORA}
+\chapter{Equipamentos básicos que compõe a emissora}
 
 Agora que já é conhecida geograficamente a localidade onde será fixada a emissora, e que também já foram definidos os outros aspectos técnicos primários
  necessários, a próxima etapa é a construção do conjunto de equipamentos que formará a emissora.
 
 
-\section{O SISTEMA IRRADIANTE}
+\section{O sistema irradiante}
 
 Um sistema irradiante é composto basicamente de uma antena, um guia de onda, e um transmissor. Cada um dos componentes apresenta características próprias, 
 variando de fabricante. No levantamento das informações são apresentadas as características que influenciam diretamente nos cálculos.
@@ -961,9 +965,9 @@ O ANEXO~\ref{especificacaoAntena} contém o documento do fabricante da antena na 
 
 Conforme a potência máxima irradiada e a antena escolhida, fica definido, para o guia de onda, o uso do padrão EIA 1-5/8''.
 Optou-se pelo 1-5/8" CELLFLEX® Lite Low-Loss Foam-Dielectric Coaxial Cable, da fabricante RFS, que apresenta uma atenuação de apenas $0.663dB/100m$,
- operando numa frequênciancia de 88 MHz, conforme especificações em ANEXO~\ref{especificacaoGuia}.
- Como a frequência do canal que está sendo projetado é de 91,5 MHz, é adotado o valor de $0.680dB/100m$ (valor encontrado usando como base
-os valores informados na especificação).
+ operando numa frequênciancia de 88 MHz, conforme especificações em ANE\-XO~\ref{especificacaoGuia}.
+ Como a frequência do canal que está sendo projetado é de 91,5 MHz, é adotado o valor de $0.680dB/100m$ (valor encontrado usando como base 
+a tebela de atenuação, presente na especificação técnica).
 
 Como já definido, a estrutura da torre onde será alocada a antena tem uma altura de 55 m. Sendo assim, o comprimento do guia de onda será de 65 m,
 visando que ele será conectado ao transmissor, que deverá estar abrigado dentro de uma estrutura adequada (casa do transmissor). Portanto, a atenuação
@@ -1092,12 +1096,12 @@ Afim de amenizar a atenuação do sinal neste cenário, a antena será direcionada p
 que conforme a especificação irradia o $ERPmax$ para esta direção, ficará apontado para o azimute 270° da base. Com esta atitude, o sinal está
 sendo irradiado com a maior potência possível para estas regiões.
 
-\chapter{DESENVOLVENDO A EMISSORA FM}
+\chapter{Desenvolvendo a emissora FM}
 
 Agora que já é conhecido detalhadamente o local em que vamos trabalhar, os equipamentos que vão compor a emissora, e também quais caminhos devem 
 ser seguidos para desenvolver o projeto, tem-se o início do desenvolvimento.
 
-\section{ESPECIFICAÇÕES DEFINIDAS}
+\section{Especificações definidas}
 
 Ao decorrer desta leitura, já foram mostrados alguns levantamentos que apresentam seus valores definitivos. 
 Já foi visto a Tabela~\ref{tabelaHNMT}, que apresenta o mapeamento geográfico da localidade com os valores de $NMR$ e $HNMT$, e agora
@@ -1126,10 +1130,10 @@ Potência do transmissor & 0,150kW\\ \hline
 \label{tabelaResumoEspecificacoesTecnicas}
 \end{table}
 
-Os próximos passos serão destinados à mostrar os valores que comprovarão que esta configuração do sistema 
+Os próximos passos serão destinados à mostrar os valores que comprovarão que esta configu\-ração do sistema 
 está respeitando todos os requisitos máximos, principalmente o contorno protegido de 66 dBm.
 
-\section{DEFININDO AS POTÊNCIAS ERPmax e ERPaz}
+\section{Definindo as potências ERPmax e ERPaz}
 
 O limite máximo da potência que o sistema pode usar para irradiar o sinal está fixado em 0,300 kW. 
 Já são conhecidos todos os fatores necessários para saber o valor de $ERPmax$ da emissora. Agora serão apresentados os cálculos, 
@@ -1260,7 +1264,7 @@ $330°$& 0,88 & 0,1985 & -7,02 \\\hline
 \label{tabelaERPaz}
 \end{table}
 
-\section{DEFININDO OS CONTORNOS DAS ÁREAS DE SERVIÇOS}
+\section{Definindo os contornos das áreas de serviços}
 
 Definir a distância do contorno protegido, cobertura da Área de Serviço Urbana com potência mínima de 66 dBm, 
 é o principal objetivo deste estudo. 
@@ -1412,13 +1416,13 @@ A figura~\ref{todososcontornos} apresenta as projeções das Áreas de Serviço da e
 \begin{figure}[!htb]
 \centering
 \large
-\includegraphics[scale=.48]{./figuras/todososcontornos.png} 
+\includegraphics[scale=.46]{./figuras/todososcontornos.png} 
 \caption{Projeção da cobertura das Áreas de Serviços utilizando a ferramenta SIGAnatel.}
 \label{todososcontornos}
 \end{figure}
 
 
-\chapter{RESULTADOS OBTIDOS COM O PROJETO}
+\chapter{Resultados obtidos com o projeto}
 
 Todas as informações indispensáveis sobre o sistema irradiante neste projeto de emissora FM já estão definidas.
  Os equipamentos usados, dimensões estabelecidas e coportamento do sinal irradiado já estão mapeados.
@@ -1427,7 +1431,7 @@ Agora deve-se analisar estes resultados e verificar se está tudo conforme orient
 O objetivo é que o projeto apresente uma tendência em anular ou, ao menos, minimizar as chances de apresentar problemas na homologação junto à 
 ANATEL.    
 
-\section{CONSIDERAÇÕES SOBRE OS CONTORNOS ENCONTRADOS}
+\section{Considerações sobre os contornos encontrados}
 
 Uma verificação importante e indispensável é saber se as Áreas de Serviço, principalmente o contorno protegido, cobrem as zonas à que se destinam.
  Para isto, buscamos como referência um mapeamento das zonas urbanas e rurais da cidade (ANEXO~\ref{mapaMacrozoneamento}), de 2010,
@@ -1499,7 +1503,7 @@ Radial& Contorno 66dBm(km) & Distâncias zona urbana  \\\hline\hline
 \begin{figure}[!htb]
 \centering
 \large
-\includegraphics[scale=.48]{./figuras/contornoAreaUrbana.png} 
+\includegraphics[scale=.44]{./figuras/contornoAreaUrbana.png} 
 \caption{Projeção da cobertura das Área de Serviço Urbana sobre a zona urbana do município.}
 \label{contornoAreaUrbana}
 \end{figure}
@@ -1526,9 +1530,9 @@ A Área de Serviço Rural (54 dBm) não é tratada com tanto rigor pela Resolução qu
 Com base nessas informações, já pode-se afirmar que o sistema está atendendo devidamente a cidade em relação às Áreas de Serviço.
 
 
-\section{Comparando dos resultados finais com os valores calculados pela aplicação do SIGAnatel}
+\section{Comparando os resultados finais com os valores calculados pela aplicação do SIGAnatel}
 
-A SIGNATEL é uma ferramenta que auxília os estudos e projetos de estações de radiocomunicação. Foi esta a ferramenta usada para encontrar os 
+A SIGNATEL é uma ferramenta que auxília os estudos e projetos de estações de radiocomu\-nicação. Foi esta a ferramenta usada para encontrar os 
 gráficos de perfil do terreno e também para a demostração da área de cobertura da emissora através da imagem de satélite. Além de disponibizar 
 estes recursos, a ferramenta também pode ser usada para comparar os resultados obtidos com o projeto. 
 

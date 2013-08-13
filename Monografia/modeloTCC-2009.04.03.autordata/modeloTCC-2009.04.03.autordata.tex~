@@ -1,5 +1,5 @@
-\documentclass[ruledheader]{abnt}
-%\documentclass[tocpage=plain]{abnt}
+%\documentclass[ruledheader]{abnt}
+\documentclass[tocpage=plain]{abnt}
 %Opções para docmentclass: chapter=TITLE
 %Todas as linhas iniciadas com o símbolo de porcentagem ( % ) são comentários.
 %Estes comentários, normalmente irão informar sobre o documento ou instruir para alterar algo, se necessário.
@@ -374,7 +374,7 @@
 %Conclusão
 \ifthenelse{\boolean{InserirConclusao}}{
 
-\chapter{CONCLUSÕES E TRABALHOS FUTUROS}
+\chapter{Conclusões e trabalhos futuros}
 
 \input{./arquivos_para_alterar/a11-conclusao}
 
@@ -468,9 +468,9 @@
 
 \annex
 
-\chapter{Informações técnicas da emissora, conforme o roteiro para elaboração de estudos técnicos}
+%\chapter{Informações técnicas da emissora, conforme o roteiro para elaboração de estudos técnicos}
 
-\input{./arquivos_para_alterar/a20-anexo}
+%\input{./arquivos_para_alterar/a20-anexo}
 
 \chapter{Especificações técnicas do fabricante da antena dipolo utilizada.}
 

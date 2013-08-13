@@ -1,7 +1,7 @@
-\chapter{APRESENTANDO AS INFORMAÇÕES TÉCNICAS, CONFORME O ROTEIRO PARA ELABORAÇÃO DE ESTUDOS TÉCNICOS}
+\chapter{Apresentando as informações técnicas, conforme o roteiro para elaboração de estudos técnicos}
 
-Após desenvolver o projeto respeitando a Resolução, e também utilizando recursos da recomendação, será apresentado agora as informações que 
-são solicitadas no roteiro para elaboração de estudos técnicos.
+Após desenvolver o projeto respeitando a Resolução, e também utilizando recursos da recomenda\-ção, será apresentado agora as informa\-ções que 
+são solicitadas no roteiro para elabora\-ção de estudos técnicos.
 
 Todas estas informações foram definidas e detalhadas no decorrer deste estudo e agora serão organizadas por tópicos, conforme é apresentado no 
 roteiro. Seguem as informações técnicas necessárias para que a ANATEL autorize a utilização do canal 218, classe C, disponível no município 
@@ -136,7 +136,8 @@ Azimute/Km: 0°/10,5; 30°/11; 60°/9; 90°/9; 120°/7; 150°/9; 180°/11; 210°/3,2; 24
 
 \item \textbf{Altura do centro geométrico da antena com relação ao nível médio de cada radial:}
 
-Azimute/HMNT(m): 0°/185,86; 30°/270,78; 60°/175,10; 90°/178,04; 120°/93,78; 150°/147,38; 180°/192,66; 210°/-50,55; 240°/-157,85; 270°/-235,35; 300°/-67,85; 330°/-61,07.
+Azimute/HMNT(m): 0°/185,86; 30°/270,78; 60°/175,10; 90°/178,04; 120°/93,78;\\150°/147,38; 180°/192,66; 210°/-50,55;
+ 240°/-157,85; 270°/-235,35; 300°/-67,85; 330°/-61,07.
 
 \item \textbf{Intensidade de campo (dBm):} informações disponibilizadas da tabela~\ref{tabelaGeral}
 

@@ -5,17 +5,78 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
-\bibitem[AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil) 2013]{ref3}
-\abntrefinfo{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (Brasil)}{AGÊNCIA NACIONAL DE
-  TELECOMUNICAÇÕES (BRASIL)}{2013}
-{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES (BRASIL). \emph{Portal ANATEL.}
+\bibitem[BRASIL - AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 1998]{ref12}
+\abntrefinfo{BRASIL - AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{BRASIL - AGÊNCIA
+  NACIONAL DE TELECOMUNICAÇÕES}{1998}
+{BRASIL - AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{\textbf{Capitulo 9 -
+  Roteiro para elaboração de estudos técnicos} (Resolução nº 67, de 12 de
+  novembro de 1998)}.
+[S.l.], 1998. Dispon{\'\i}vel em:
+  $<$http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67$>$.
+  Acesso em: 27 mai. 2013.}
+
+\bibitem[BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICA\-ÇÕES 2010]{ref9}
+\abntrefinfo{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICA\-ÇÕES}{BRASIL. AGÊNCIA
+  NACIONAL DE TELECOMUNICA\-ÇÕES}{2010}
+{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICA\-ÇÕES. \emph{\textbf{Resolução nº546,
+  de 1º de setembro de 2010.}}
+[S.l.], 2010. Dispon{\'\i}vel em:
+  $<$http://legislacao.anatel.gov.br/resolucoes/25-2010/14-resolucao-546$>$.
+  Acesso em: 27 mai. 2013.}
+
+\bibitem[BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 1998]{ref1}
+\abntrefinfo{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{BRASIL. AGÊNCIA
+  NACIONAL DE TELECOMUNICAÇÕES}{1998}
+{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{\textbf{Resolução nº 67,
+  de 12 de novembro de 1998.}}
+[S.l.], 1998. Dispon{\'\i}vel em:
+  $<$http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67$>$.
+  Acesso em: 27 mai. 2013.}
+
+\bibitem[BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 2013]{ref3}
+\abntrefinfo{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{BRASIL. AGÊNCIA
+  NACIONAL DE TELECOMUNICAÇÕES}{2013a}
+{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{\textbf{Portal ANATEL.}}
 [S.l.], 2013. Dispon{\'\i}vel em: $<$http://www.anatel.gov.br/Portal/$>$.
   Acesso em: 27 mai. 2013.}
 
+\bibitem[BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 2013]{ref2}
+\abntrefinfo{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{BRASIL. AGÊNCIA
+  NACIONAL DE TELECOMUNICAÇÕES}{2013b}
+{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{\textbf{Sistema de
+  Controle de Radiodifusão.}}
+[S.l.], 2013. Dispon{\'\i}vel em:
+  $<$http://sistemas.anatel.gov.br/srd/Telalistagem.asp?PagSRD=/SRD/Relatorios%
+/$>$. Acesso em: 27 mai. 2013.}
+
+\bibitem[BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 2013]{ref10}
+\abntrefinfo{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{BRASIL. AGÊNCIA
+  NACIONAL DE TELECOMUNICAÇÕES}{2013c}
+{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{\textbf{Sistema de
+  Informações Geográficas.}}
+[S.l.], 2013. Dispon{\'\i}vel em:
+  $<$http://sistemas.anatel.gov.br/siganatel/$>$. Acesso em: 27 mai. 2013.}
+
+\bibitem[BRASIL. INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. 2010]{ref11}
+\abntrefinfo{BRASIL. INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA.}{BRASIL.
+  INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA.}{2010}
+{BRASIL. INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. \emph{\textbf{Mapas
+  Estatisticos - SC - CENSO 2010.}}
+[S.l.], 2010. Dispon{\'\i}vel em:
+  $<$ftp://geoftp.ibge.gov.br/mapas_estatisticos/$>$. Acesso em: 25 jun. 2013.}
+
+\bibitem[CÂMARA MUNICIPAL DE SÃO PEDRO DE ALCÂNTARA. 2010]{ref6}
+\abntrefinfo{CÂMARA MUNICIPAL DE SÃO PEDRO DE ALCÂNTARA.}{CÂMARA MUNICIPAL DE
+  SÃO PEDRO DE ALCÂNTARA.}{2010}
+{CÂMARA MUNICIPAL DE SÃO PEDRO DE ALCÂNTARA. \emph{\textbf{Mapa de
+  Macrozoneamento de São Pedro de Alcântara}}.
+[S.l.], 2010. Dispon{\'\i}vel em: $<$http://camaraspa.sc.gov.br/$>$. Acesso em:
+  22 jun. 2013.}
+
 \bibitem[Google Maps. 2013]{google}
 \abntrefinfo{Google Maps.}{GOOGLE MAPS.}{2013}
-{GOOGLE MAPS. \emph{Localização da base do sistema irradiante. São Pedro de
-  Alcantara - 2013}.
+{GOOGLE MAPS. \emph{\textbf{Localização da base do sistema irradiante}. São
+  Pedro de Alcantara - 2013}.
 [S.l.], 2013. Dispon{\'\i}vel em: $<$https://maps.google.com.br/$>$. Acesso em:
   03 jun. 2013.}
 
@@ -27,25 +88,10 @@ Dispon{\'\i}vel em:
   $<$http://www.idealantenas.com.br/produtosport/fm/pdfantenadipolodemeiaondaf%
 m.pdf$>$. Acesso em: 22 jun. 2013.}
 
-\bibitem[Mapa de Macrozoneamento de São Pedro de Alcântara 2010]{ref6}
-\abntrefinfo{Mapa\ldots}{MAPA\ldots}{2010}
-{MAPA de Macrozoneamento de São Pedro de Alcântara.
-2010.
-Dispon{\'\i}vel em: $<$http://camaraspa.sc.gov.br/$>$. Acesso em: 22 jun.
-  2013.}
-
-\bibitem[Mapas Estatisticos - SC - CENSO 2010. 2010]{ref11}
-\abntrefinfo{Mapas Estatisticos - SC - CENSO 2010.}{MAPAS ESTATISTICOS - SC -
-  CENSO 2010.}{2010}
-{MAPAS ESTATISTICOS - SC - CENSO 2010. \emph{Instituto Brasileiro de Geografia
-  e Estatística - IBGE.}
-[S.l.], 2010. Dispon{\'\i}vel em: $<$ftp://geoftp.ibge.gov.br$>$. Acesso em: 25
-  jun. 2013.}
-
 \bibitem[Miyoshi e Sanches 2006]{sanches}
 \abntrefinfo{Miyoshi e Sanches}{MIYOSHI; SANCHES}{2006}
-{MIYOSHI, E.~M.; SANCHES, C. \emph{Projetos de Sistemas de Rádio}. 3. ed. São
-  Paulo: Érica, 2006.}
+{MIYOSHI, E.~M.; SANCHES, C. \emph{\textbf{Projetos de Sistemas de Rádio}}. 3.
+  ed. São Paulo: Érica, 2006.}
 
 \bibitem[RADIO FREQUENCY SYSTENS. 2013]{ref8}
 \abntrefinfo{RADIO\ldots}{RADIO\ldots}{2013}
@@ -56,68 +102,35 @@ Dispon{\'\i}vel em:
   $<$http://www.rfsworld.com/dataxpress/DataSheets/?q=LCF158-50JFNL$>$. Acesso
   em: 22 jun. 2013.}
 
-\bibitem[Resolução nº 67, de 12 de novembro de 1998. 1998]{ref1}
-\abntrefinfo{Resolução nº 67, de 12 de novembro de 1998.}{RESOLUçãO Nº 67, DE
-  12 DE NOVEMBRO DE 1998.}{1998}
-{RESOLUçãO Nº 67, DE 12 DE NOVEMBRO DE 1998. \emph{AGÊNCIA NACIONAL DE
-  TELECOMUNICAÇÕES (Brasil)}.
-[S.l.], 1998. Dispon{\'\i}vel em:
-  $<$http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67$>$.
-  Acesso em: 27 mai. 2013.}
-
-\bibitem[Resolução nº546, de 1º de setembro de 2010. 2010]{ref9}
-\abntrefinfo{Resolução nº546, de 1º de setembro de 2010.}{RESOLUçãO Nº546, DE
-  1º DE SETEMBRO DE 2010.}{2010}
-{RESOLUçãO Nº546, DE 1º DE SETEMBRO DE 2010. \emph{AGÊNCIA NACIONAL DE
-  TELECOMUNICAÇÕES (Brasil)}.
-[S.l.], 2010. Dispon{\'\i}vel em:
-  $<$http://legislacao.anatel.gov.br/resolucoes/25-2010/14-resolucao-546$>$.
-  Acesso em: 27 mai. 2013.}
-
 \bibitem[RÉGIS 2010]{paulo}
 \abntrefinfo{RÉGIS}{RÉGIS}{2010}
-{RÉGIS, P.~A. \emph{Cálculo de Viabilidade Técnica de um Canal de Televisão
-  Digital}. Blumenal: FURB, 2010.}
-
-\bibitem[SISTEMA DE INFORMAÇÕES GEOGRÁFICAS. 2013]{ref10}
-\abntrefinfo{SISTEMA DE INFORMAÇÕES GEOGRÁFICAS.}{SISTEMA DE INFORMAÇÕES
-  GEOGRÁFICAS.}{2013}
-{SISTEMA DE INFORMAÇÕES GEOGRÁFICAS. \emph{AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES
-  (Brasil).}
-[S.l.], 2013. Dispon{\'\i}vel em:
-  $<$http://sistemas.anatel.gov.br/siganatel/$>$. Acesso em: 27 mai. 2013.}
-
-\bibitem[SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO. 2013]{ref2}
-\abntrefinfo{SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO.}{SRD - SISTEMA DE
-  CONTROLE DE RADIODIFUSÃO.}{2013}
-{SRD - SISTEMA DE CONTROLE DE RADIODIFUSÃO. \emph{AGÊNCIA NACIONAL DE
-  TELECOMUNICAÇÕES (Brasil)}.
-[S.l.], 2013. Dispon{\'\i}vel em: $<$http://sistemas.anatel.gov.br/srd$>$.
-  Acesso em: 27 mai. 2013.}
+{RÉGIS, P.~A. \emph{\textbf{Cálculo de Viabilidade Técnica de um Canal de
+  Televisão Digital}}. Blumenal: FURB, 2010.}
 
 \bibitem[The MathWorks, Inc. 2004]{matlab}
 \abntrefinfo{The MathWorks, Inc.}{THE MATHWORKS, INC.}{2004}
-{THE MATHWORKS, INC. \emph{MATLAB, The Language of Technical Computing.}
+{THE MATHWORKS, INC. \emph{\textbf{MATLAB}, The Language of Technical
+  Computing.}
 [S.l.], 2004.}
 
-\bibitem[Transmissor de FM profissional 2013]{ref5}
-\abntrefinfo{Transmissor\ldots}{TRANSMISSOR\ldots}{2013}
-{TRANSMISSOR de FM profissional: Excitador Ágil 150 watts, certificado de
-  homologação nº 2510-09-2884.
+\bibitem[TRANSMISSOR DE FM PROFISSIONAL 2013]{ref5}
+\abntrefinfo{TRANSMISSOR\ldots}{TRANSMISSOR\ldots}{2013}
+{TRANSMISSOR DE FM PROFISSIONAL: \textbf{Excitador Ágil 150 watts, Certificado
+  de Homologação Nº 2510-09-2884.}
 2013.
 Dispon{\'\i}vel em: $<$http://www.videolinkpro.com.br/$>$. Acesso em: 22 jun.
   2013.}
 
-\bibitem[UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE RADIOCOMUNICAÇÕES.
+\bibitem[UNIÃO INTERNACIONAL DE TELECOMUNICA\-ÇÕES: SETOR DE RADIOCOMUNICAÇÕES.
   2009]{ref4}
-\abntrefinfo{UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE
-  RADIOCOMUNICAÇÕES.}{UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE
+\abntrefinfo{UNIÃO INTERNACIONAL DE TELECOMUNICA\-ÇÕES: SETOR DE
+  RADIOCOMUNICAÇÕES.}{UNIÃO INTERNACIONAL DE TELECOMUNICA\-ÇÕES: SETOR DE
   RADIOCOMUNICAÇÕES.}{2009}
-{UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES: SETOR DE RADIOCOMUNICAÇÕES.
-  \emph{Recomendação P.1546-4: Médoto de previsões ponto-área para serviços
-  terrestres na faixa de frequências de 30 a 3000MHz.}
+{UNIÃO INTERNACIONAL DE TELECOMUNICA\-ÇÕES: SETOR DE RADIOCOMUNICAÇÕES.
+  \emph{\textbf{Recomendação P.1546-4}: Médoto de previsões ponto-área para
+  serviços terrestres na faixa de frequências de 30 a 3000MHz.}
 [S.l.], 2009. Dispon{\'\i}vel em:
-  $<$http://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.1546-4-200910-I!!PDF-E.pdf$>$.
- Acesso em: 27 mai. 2013.}
+  $<$http://www.itu.int/rec/R-REC-P.1546-4-200910-I/en$>$. Acesso em: 27 mai.
+  2013.}
 
 \end{thebibliography}
