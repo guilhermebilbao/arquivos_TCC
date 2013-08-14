@@ -21,8 +21,8 @@ year={1998},
 urlaccessdate={27 mai. 2013}}
  
 @manual{ref2,
-title={\textbf{Sistema de Controle de Radiodifusão.}},
 organization={BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES},
+title={\textbf{Sistema de Controle de Radiodifusão.}},
 url={http://sistemas.anatel.gov.br/srd/Telalistagem.asp?PagSRD=/SRD/Relatorios/},
 year={2013},
 urlaccessdate={27 mai. 2013}}
@@ -64,9 +64,9 @@ url={http://www.videolinkpro.com.br/},
 year={2013},
 urlaccessdate={22 jun. 2013}}
 
-@manual{ref6,
-organization={CÂMARA MUNICIPAL DE SÃO PEDRO DE ALCÂNTARA.},
-title={\textbf{Mapa de Macrozoneamento de São Pedro de Alcântara}},
+@article{ref6,
+title={CÂMARA MUNICIPAL DE SÃO PEDRO DE ALCÂNTARA.},
+subtitle={\textbf{Mapa de Macrozoneamento de São Pedro de Alcântara}},
 url={http://camaraspa.sc.gov.br/cms/pagina/ver/codMapaItem/459},
 year={2010},
 urlaccessdate={22 jun. 2013}}
@@ -94,7 +94,7 @@ year={2010},
 urlaccessdate={25 jun. 2013}}
 
 @manual{ref12,
-organization={BRASIL - AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES},
+organization={BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES},
 title={\textbf{Capitulo 9 - Roteiro para elaboração de estudos técnicos} (Resolução nº 67, de 12 de novembro de 1998)},
 url={http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67},
 year={1998},

@@ -5,16 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.53 }
 
-\bibitem[BRASIL - AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 1998]{ref12}
-\abntrefinfo{BRASIL - AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{BRASIL - AGÊNCIA
-  NACIONAL DE TELECOMUNICAÇÕES}{1998}
-{BRASIL - AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{\textbf{Capitulo 9 -
-  Roteiro para elaboração de estudos técnicos} (Resolução nº 67, de 12 de
-  novembro de 1998)}.
-[S.l.], 1998. Dispon{\'\i}vel em:
-  $<$http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67$>$.
-  Acesso em: 27 mai. 2013.}
-
 \bibitem[BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICA\-ÇÕES 2010]{ref9}
 \abntrefinfo{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICA\-ÇÕES}{BRASIL. AGÊNCIA
   NACIONAL DE TELECOMUNICA\-ÇÕES}{2010}
@@ -24,9 +14,19 @@
   $<$http://legislacao.anatel.gov.br/resolucoes/25-2010/14-resolucao-546$>$.
   Acesso em: 27 mai. 2013.}
 
+\bibitem[BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 1998]{ref12}
+\abntrefinfo{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{BRASIL. AGÊNCIA
+  NACIONAL DE TELECOMUNICAÇÕES}{1998a}
+{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{\textbf{Capitulo 9 -
+  Roteiro para elaboração de estudos técnicos} (Resolução nº 67, de 12 de
+  novembro de 1998)}.
+[S.l.], 1998. Dispon{\'\i}vel em:
+  $<$http://legislacao.anatel.gov.br/resolucoes/13-1998/168-resolucao-67$>$.
+  Acesso em: 27 mai. 2013.}
+
 \bibitem[BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES 1998]{ref1}
 \abntrefinfo{BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES}{BRASIL. AGÊNCIA
-  NACIONAL DE TELECOMUNICAÇÕES}{1998}
+  NACIONAL DE TELECOMUNICAÇÕES}{1998b}
 {BRASIL. AGÊNCIA NACIONAL DE TELECOMUNICAÇÕES. \emph{\textbf{Resolução nº 67,
   de 12 de novembro de 1998.}}
 [S.l.], 1998. Dispon{\'\i}vel em:
