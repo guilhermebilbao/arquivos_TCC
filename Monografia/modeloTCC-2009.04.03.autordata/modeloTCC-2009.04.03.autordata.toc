@@ -45,9 +45,9 @@
 \contentsline {section}{\numberline {5.1}Especifica\c c\~oes definidas}{41}
 \contentsline {section}{\numberline {5.2}Definindo as pot\^encias ERPmax e ERPaz}{42}
 \contentsline {section}{\numberline {5.3}Definindo os contornos das \'areas de servi\c cos}{43}
-\contentsline {subsection}{\numberline {5.3.1}\'Area de Servi\c co Urbana (66 dBm)}{44}
+\contentsline {subsection}{\numberline {5.3.1}\'Area de Servi\c co Urbana (66dBm)}{44}
 \contentsline {subsubsection}{Cobertura da \'Area de Servi\c co Urbana}{46}
-\contentsline {subsection}{\numberline {5.3.2}\'Areas de Servi\c co Prim\'ario e Rural (74 dBm e 54 dBm)}{46}
+\contentsline {subsection}{\numberline {5.3.2}\'Areas de Servi\c co Prim\'ario e Rural (74dBm e 54dBm)}{46}
 \contentsline {subsection}{\numberline {5.3.3}Os tra\c cados dos contornos}{48}
 \contentsline {chapter}{\numberline {6}Resultados obtidos com o projeto}{49}
 \contentsline {section}{\numberline {6.1}Considera\c c\~oes sobre os contornos encontrados}{49}

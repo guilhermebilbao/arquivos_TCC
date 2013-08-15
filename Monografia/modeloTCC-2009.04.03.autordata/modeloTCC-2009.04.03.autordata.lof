@@ -1,10 +1,9 @@
 \select@language {brazil}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Consulta de canais dispon\IeC {\'\i }veis para uso - Portal da ANATEL}}{25}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Classifica\c c\~ao das emissoras em fun\c c\~ao de seus requisitos m\'aximos (tabela retirada da resolu\c c\~ao).}}{26}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Demonstra\c c\~ao do layout do aplicativo da SIGAnatel.}}{28}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Tra\c cado das 12 radiais partindo da base da emissora.}}{28}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Gr\'afico do NMR da Radial 1 usando o aplicativo da SIGAnatel}}{29}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Proximidade entre a base do sistema e a coordenada indicada no PBFM, para o canal proposto~\cite {google}.}}{35}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Demonstra\c c\~ao do layout do aplicativo da SIGAnatel.}}{28}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Tra\c cado das 12 radiais partindo da base da emissora.}}{28}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Gr\'afico do NMR da Radial 1 usando o aplicativo da SIGAnatel}}{29}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Proximidade entre a base do sistema e a coordenada indicada no PBFM, para o canal proposto~\cite {google}.}}{35}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Diagrama de Irradia\c c\~ao da Antena Dipolo $1/2$ Onda para FM}}{37}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Utilizando as curvas E(50,50) para encontrar as dist\^ancias do contorno protegido.}}{45}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Proje\c c\~ao da cobertura das \'Areas de Servi\c cos utilizando a ferramenta SIGAnatel.}}{48}
