@@ -1,5 +1,6 @@
 %\documentclass[ruledheader]{abnt}
-\documentclass[tocpage=plain]{abnt}
+%\documentclass[tocpage=plain]{abnt}
+\documentclass[11pt,a4paper]{article}
 %Opções para docmentclass: chapter=TITLE
 %Todas as linhas iniciadas com o símbolo de porcentagem ( % ) são comentários.
 %Estes comentários, normalmente irão informar sobre o documento ou instruir para alterar algo, se necessário.
@@ -55,6 +56,7 @@
 
 \usepackage{./arquivos_para_alterar/a00-personalizar}
 \usepackage{./arquivos_para_alterar/a01-folhaderosto}
+
 
 
 \renewcommand{\ABNTbibliographyname}{Referências}
