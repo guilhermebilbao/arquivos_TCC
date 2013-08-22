@@ -1,4 +1,5 @@
-\chapter{Introdução}
+
+\hspace{.5cm}\chapter{Introdução}
 
 Visando aprofundar os conhecimentos em radiotransmissão, através deste estudo é apresentado os aspectos e considerações técnicas necessárias para projetar uma
 emissora de rádio em frequência modulada.
@@ -42,11 +43,23 @@ Uma das razões para estudar o tema, além de adquirir maiores conhecimentos em ra
 
 \section{Estrutura do trabalho}
 
-Nos primeiros capítulos são estudados as resoluções e normas aprovados referentes aos cálculos de viabilidade de um canal\footnote{Um canal faz referência à uma frequência em FM,
- na faixa entre 87,4 e 108 MHz.} de rádio FM. 
-Seguindo, aborda-se sobre o canal proposto. Depois começam as definições para o início dos cálculos do contorno protegido. 
-Após, são apresentados as especificações definidas para o projeto da emissora. % e a documentação que deve ser apresentada junto a ANATEL.
-Ao final, são apresentadas as conclusões e novas propostas de trabalhos.
+Este trabalho está dividido em cinco capítulos, além da introdução e conclusão.
+ O capítulo 2 aborda sobre a resolução que regulariza o uso de um canal\footnote{Um canal faz referência à uma frequência em FM,
+ na faixa entre 87,4 e 108 MHz.} por uma emissora de FM, inclusive apresentando o roteiro 
+para elaboração de estudos técnicos seguido pelo projeto. Informa também sobre a recomenda\-ção utilizada pela norma, que pode ser usada pelo 
+projetista para os cálculos de viabilidade do canal.
+
+Em seguida, o capítulo 3 fala sobre o canal escolhido para desenvolver este projeto, suas características, oriundas da sua classe determinada
+ pelo plano básico, e informações necessárias para a definição das áreas de cobertura da emissora durante o desenvolvimento do projeto.
+
+Avançando ao capítulo 4, são apresentados os equipamentos básicos utilizados na composi\-ção de uma emissora FM e também os cálculos utilizados 
+para definir as especificações de cada um destes equipamentos, visando o atendimento aos requisitos máximos definidos pela classe da emissora.
+
+No capítulo 5 é apresentado de forma sequencial todo o desenvolvimento da emissora até a definição dos contornos das áreas de serviços. 
+Já no capítulo 6,  é feita a análise comparativa dos resultados obtidos com os requisitos impostos pela resolução para a classe da emissora 
+proposta neste projeto.
+
+Por fim, o último capítulo apresenta as conclusões encontradas após o desenvolvimento do projeto e sugestões de trabalhos futuros.
 
 \chapter{Resolução n° 67, de 12 de novembro de 1998}
 
@@ -410,7 +423,7 @@ Documentos diversos:
 
 \section{Recomendação UIT-R P.1546}
 
-A UIT-R (UNIÃO INTERNACIONAL DE TELECOMUNICAÇÕES - RADIOCOMUNI\-CAÇÕES), através da Recomendação 
+A União Internacional de Telecomunicações - Radiocomuni\-cações (UIT-R), através da Recomendação 
 UIT-R P.1546~\cite{ref4}, descreve um método prático para a previsão de cobertura ponto-área para serviços terrestres, 
 na faixa de 30 a 3000 MHz, e foi adotada no lugar das curvas de nível de campo anteriormente utilizadas.
  Os procedimentos que seguimos neste trabalho, principalmente para definir as áreas de serviços, foram
@@ -854,7 +867,8 @@ muito superior ao da torre, alto gasto de energia elétrica, fazendo com que, nor
 potência do transmissor.
 
 Sendo assim, sabendo que a emissora está localizada em uma área de relevo acidentado e com algumas radiais apresentado um $NMR$ mais elevado que a base, ficará
- definida a altura da torre em 55 metros. 
+ definida a altura da torre em 55 metros\footnote{Para definir este valor foi considerado que a altura máxima da antena não deve ultrapassar os 60 metros acima do $NMT$, conforme
+ definido na tabela de requisitos máximos. Com este valor de altura da torre, somado ao centro de fase do sistema (4,244 m), a altura da antena ($HCGSI$) fica em 59,244 metros}. 
 
 %Esta altura máxima que pode ser usada para a torre de um canal classe C, conforme mostra a tabela~\ref{tabelaClassificacaoEmissoras}. 
 %Usando este critério ao nosso favor, estamos proporcionado ao sistema um menor custo de manutenção, á longo prazo.
@@ -1068,10 +1082,9 @@ Pd = Pl + Pc
 
 Converte-se as perdas totais para escala linear ($Pv$)~\cite{paulo}: 
 
-\begin{equation}
-Pv = 10^{0,1 \times Pd}
-\label{e_pv}
-\end{equation}
+
+$$Pv = 10^{0,1 \times Pd}$$
+
 
 %$$Pv = 10^{0,1 \times 2,442}$$
 
